@@ -307,7 +307,7 @@ xxx
 </table>
 
 ## 1.3 Segmentos Objetivo
-### Dueños de mascotas (Segmento principal)
+### Segmento Objetivo 1: Dueños de mascotas
 
 Personas entre 18 y 30 años que poseen mascotas y buscan mejorar la gestión de su salud mediante herramientas digitales.
 
@@ -325,7 +325,7 @@ Comodidad en la gestión, control del historial clínico y acceso a recomendacio
 
 
 
-### Clínicas veterinarias y veterinarios (Segmento secundario)
+### Segmento Objetivo 2: Clínicas veterinarias y veterinarios
 
 Centros veterinarios y profesionales independientes que ofrecen servicios de atención médica para mascotas.
 
