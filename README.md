@@ -1,5 +1,5 @@
 <div align="center">
-<img src="Resources/UPC_logo_transparente.png"></img><br>
+<img src="resource/UPC_logo_transparente.png"></img><br>
 
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
@@ -347,10 +347,25 @@ need to learn first?  </b> </div><br> <br>
   </tr>
   <tr>
     <td colspan="2">Nombre y logo de competidor</td>
-    <td><b>PetCare</b><img src="assets/petcare.png" width="120" height="120" /></td>
-    <td><b>DIMU</b><img src="assets/dimu.png" width="120" height="120" /></td>
-    <td><b>RVM</b><img src="assets/rvm.png" width="120" height="120" /></td>
-    <td><b>Rover</b><img src="assets/rover.png" width="120" height="120" /></td>
+    <td align="center">
+  <b>PetCare</b><br>
+  <img src="resource/petcare.png" width="120" height="120" />
+</td>
+
+<td align="center">
+  <b>DIMU</b><br>
+  <img src="resource/DIMU.jpg" width="120" height="120" />
+</td>
+
+<td align="center">
+  <b>RVM</b><br>
+  <img src="resource/RVM.png" width="120" height="120" />
+</td>
+
+<td align="center">
+  <b>Rover</b><br>
+  <img src="resource/ROVER.png" width="120" height="120" />
+</td>
   </tr>
   <tr>
     <td rowspan="2"><b>Perfil</b></td>
