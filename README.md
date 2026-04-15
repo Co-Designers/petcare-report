@@ -453,7 +453,7 @@ Segmento 1:
 |2  | Nombre: <br>Apellido: <br>Edad: <br>Distrito: ||<img src="assets/seg1 - img2.jpg">
 |3  | Nombre:  <br>Apellido:   <br>Edad:  <br>Distrito:   | |<img src="assets/Entrevista-xx.png">
 
-Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+Segmento 2:
 
 
 | N | Datos |Descripción |Imagen referencial
