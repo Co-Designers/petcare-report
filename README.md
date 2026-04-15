@@ -307,41 +307,6 @@ xxx
 </table>
 
 ## 1.3 Segmentos Objetivo
-### Segmento Objetivo 1: Dueños de mascotas
-
-Personas entre 18 y 30 años que poseen mascotas y buscan mejorar la gestión de su salud mediante herramientas digitales.
-
-**Características:**
-- Interesados en vacunas, controles periódicos y prevención de enfermedades.
-- Buscan facilidad para agendar citas veterinarias.
-- Valoran el ahorro de tiempo y el acceso rápido a clínicas confiables.
-- Algunos requieren seguimiento constante (mascotas enfermas o de edad avanzada).
-
-**Necesidad:**
-Gestionar la salud de su mascota de forma rápida, organizada y accesible.
-
-**Valor que reciben:**
-Comodidad en la gestión, control del historial clínico y acceso a recomendaciones inteligentes personalizadas.
-
-
-
-### Segmento Objetivo 2: Clínicas veterinarias y veterinarios
-
-Centros veterinarios y profesionales independientes que ofrecen servicios de atención médica para mascotas.
-
-**Características:**
-- Necesitan mayor visibilidad en el mercado y captar nuevos clientes.
-- Buscan digitalizar y organizar historiales clínicos.
-- Quieren optimizar la gestión de citas y la atención al cliente.
-
-**Necesidad:**
-Digitalizar procesos operativos y aumentar su clientela.
-
-**Valor que reciben:**
-Mayor alcance, mejor organización interna y fidelización de clientes.
-
-
-
 # Capitulo II: Requirements Elicitation & Analysis
 ## 2.1 Competidores
 
