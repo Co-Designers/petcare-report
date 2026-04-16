@@ -477,7 +477,56 @@ Segmento 2:
 ## 3.3. Product Backlog
 # Capitulo IV: Product Design
 ## 4.1. Style Guidelines
+Definiremos los lineamientos de diseño del sistema para  mantener una presentación consistente y enfocada.
 ### 4.1.1. General Style Guidelines
+
+#### Branding: 
+Es una plataforma de gestión de salud para mascotas donde se integra historial clínico, búsqueda de veterinarias y agendamiento de citas. El objetivo principal del sistema es la prevención de la salud de las mascotas, centralizando la información médica y facilitando la toma de decisiones del usuario.
+#### Usuarios:
+- Dueños de mascotas que requieren un seguimiento de la salud de sus mascota o que buscan facilidades para cuidar la salud de sus mascotas
+- Clínicas veterinarias que ofrecen servicios de atención médica y buscan una plataforma que les facilite agendar citas, llevar un historial clínico y la comunicación con sus pacientes.
+
+#### Personalidad del sistema
+El sistema se define con una personalidad confiable, profesional y amable
+Ya que, el sistema maneja información delicada relacionada con la salud de las mascotas, por lo que es importante que transmita seguridad y confianza.
+
+#### Principios de diseño
+- Claridad: la información médica debe ser fácil de entender.
+- Confianza: el sistema debe transmitir seguridad en las recomendaciones.
+- Eficiencia: el tiempo para encontrar veterinarias o agendar citas debe ser el menor posible.
+- Accesibilidad: asegurar la comprensión para todo tipo de usuarios, creando así un sistema inclusivo.
+
+#### Typography:
+
+| Uso | Fuente | Ejemplo |
+|-----|--------|--------|
+| Encabezados (H1, H2) | Anton | TÍTULO PRINCIPAL |
+| Subtítulos / botones | Antonio | Subtítulo / Acción |
+| Texto general | Sans-serif del sistema | Párrafo estándar 
+
+Se utilizan tipografías sans-serif debido a su alta legibilidad en interfaces digitales. La diferencia entre fuentes permite establecer una jerarquía visual, facilitando la lectura de la información. 
+
+#### Colors
+
+| Color | Hex | Uso |
+|------|-----|-----|
+| Azul principal | #1A3458 | Botones principales, navegación, headers |
+| Azul claro | #F2F6FF | Fondos, secciones y cards |
+| Negro | #000000 | Texto principal sobre fondos claros |
+| Blanco | #FFFFFF | Texto sobre fondos oscuros, íconos |
+| Escala de grises | #333333 – #DDDDDD | Bordes, placeholders, elementos secundarios |
+
+La paleta se basa en tonos azules debido a su relación con la confianza y seguridad, aspectos fundamentales en un sistema relacionado con salud. Los grises se utilizan para mantener la jerarquía visual.
+
+#### Spacing
+
+- Sistema basado en una cuadrícula de 8px.
+- Márgenes y paddings consistentes en toda la interfaz.
+- Bordes redondeados de 8px en botones y tarjetas.
+- Sombras suaves para elementos elevados como cards y modales.
+
+El uso de un sistema de espaciado consistente reduce la carga cognitiva del usuario y mejora la coherencia visual en toda la interfaz.
+
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
