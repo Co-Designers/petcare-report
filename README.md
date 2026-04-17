@@ -431,7 +431,7 @@ xxx</td>
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
 
-Segmento objetivo: Dueños de mascotas entre 18 y 40 años.
+**Segmento objetivo**: Dueños de mascotas entre 18 y 40 años.
 
 El objetivo de estas entrevistas es comprender las necesidades y dificultades de los dueños de mascotas sobre el cuidado de sus mascotas.
 
@@ -463,7 +463,7 @@ El objetivo de estas entrevistas es comprender las necesidades y dificultades de
 ¿Qué funcionalidades te gustaría que tenga una aplicación web para el cuidado de mascotas? 
 ¿Qué opinas de usar una aplicación para gestionar citas, recordatorios y servicios veterinarios?
 
-Segmento objetivo: Centros veterinarios y profesionales independientes que ofrecen servicios de atención médica para mascotas.
+**Segmento objetivo**: Centros veterinarios y profesionales independientes que ofrecen servicios de atención médica para mascotas.
 
 El objetivo de estas entrevistas es comprender las necesidades, procesos y dificultades de las clínicas veterinarias en la gestión de sus servicios, citas y comunicación con sus clientes.
 
@@ -489,17 +489,6 @@ El objetivo de estas entrevistas es comprender las necesidades, procesos y dific
 ¿Qué funcionalidades le gustaría que tenga una aplicación para clínicas veterinarias?
 ¿Qué beneficios esperaría obtener de una herramienta digital como esta?
 
-
-##### Preguntas Generales
-
-
-
-##### Preguntas Específicas
-
-###### Segmento 1:
-###### Segmento 2: 
-
-
 ### 2.2.2. Registro de entrevistas 
 URL del video:
 
@@ -507,8 +496,8 @@ Segmento 1:
 
 | N | Datos |Descripción |Imagen referencial
 |--|--|--|--|
-|1  | Nombre:  <br>Edad: <br>Distrito: |<br>|<img src="assets/seg1 - img1.jpg">
-|2  | Nombre: <br>Apellido: <br>Edad: <br>Distrito: ||<img src="assets/seg1 - img2.jpg">
+|1  | Nombre: Keidy Maquera  <br>Edad: 21 <br>Distrito: Callao |Ella menciona que usa excel para organizarse, siendo el celular y la laptop los dispositivos que mas utiliza.<br>Las mascotas que tiene son 4 gatos y un perro, uno de sus gatos tiene 7 años y los demas gatos y el perro estan entre 3-4 años.<br>El cuidado de sus mascotas lo hace por medio de una alimentacion saludable y vacunas anuales.<br>La ultima vez que llevo a sus mascotas al veterinario fue hace  3 meses y ella desearia que las veterinarias cuenten con todos los implementos necesarios para atender la mayoria de casos que suelen presentarse.<br>Su veterinaria de confianza la escogio por que es la mas cercana a su casa, y busca que las veterinarias cuenten con todo lo necesario para atender a sus mascotas ante una emergencia.<br>Hubo una ocacion donde llevo a su gato de emergencia por la noche y su veterinaria de confianza no tenia los implementos para atenderlo y tubo que irse a buscar otra que atienda las 24 horas, sintio mucha desesperacion.<br>Ella suele frecuentar las veterinarias por vacunas para sus gatos, pero es mas por el corte y baño de su perro, agendando sus citas por whatsapp y aveces no le responden o tardan mucho en responder.<br>Para controlar el historial de sus mascotas lo hace por medio de tarjetas que le entregan al terminar una cita con fecha y el procedimiento que se realizo.<br>Lo que ella mejoraria de las veterinaria es que cuenten con todo los implementos para atender a sus mascotas y que sea 24  horas la atencion.<br>Le parece increible una plataforma para encontrar veterinarias segun sus nesecidades, asi se ahorraria el tiempo de ir preguntando una por una.<br> Ademas, le fascinaria que brinde informacion adicional, como los procedimientos que tienen disponibles. y menciona que la gestion de citas, recordatorios y servicios le ayudaria para una rapida comunicacion y una efectiva organizacion.|<img src="assets/Segm1-Keidy-PetCare.jpg">|
+|2  | Nombre: <br>Apellido: <br>Edad: <br>Distrito: ||<img src="assets/Segm1-xx-xxx.jpg">
 |3  | Nombre:  <br>Apellido:   <br>Edad:  <br>Distrito:   | |<img src="assets/Entrevista-xx.png">
 
 Segmento 2:
