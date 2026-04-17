@@ -552,6 +552,8 @@ El uso de un sistema de espaciado consistente reduce la carga cognitiva del usua
 <img src="assets/4.6.3. Software Architecture Container Diagrams..png" alt="Software Architecture Container Diagrams"><br>
 
 ### 4.6.4. Software Architecture Components Diagrams
+<img src="assets/4.6.4. Software Architecture Components Diagrams.png" alt="Software Architecture Components Diagrams"><br>
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 ## 4.8. Database Design
