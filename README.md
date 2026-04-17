@@ -546,6 +546,8 @@ El uso de un sistema de espaciado consistente reduce la carga cognitiva del usua
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
 ### 4.6.2. Software Architecture Context Diagram
+<img src="assets/4.6.2. Software Architecture Context Diagram.png" alt="Software Architecture Context Diagram"><br>
+
 ### 4.6.3. Software Architecture Container Diagrams
 ### 4.6.4. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
