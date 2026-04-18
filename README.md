@@ -318,114 +318,119 @@ xxx
   </tr>
   <tr>
     <td>¿Por qué llevar a cabo este análisis?</td>
-    <td colspan="5"> xx</td>
+    <td colspan="5">
+      El análisis competitivo se realiza para identificar a los principales competidores en el mercado de servicios veterinarios digitales, comprender sus fortalezas, debilidades y estrategias, y definir una propuesta de valor diferenciada para PetCare. Además, permite reconocer oportunidades de innovación como la integración de tecnología IoT en el cuidado de mascotas.
+    </td>
   </tr>
   <tr>
     <td colspan="2">Nombre y logo de competidor</td>
-    <td><b>xxx<img src="assets/xxx.jpeg"  width="120" height="120" /> </b></td>
-    <td><b>xxx</b> <img src="assets/xxx.png" width="120" height="120" /> </td>
-    <td><b>xxx</b> <img src="assets/xxx.png" width="120" height="120" /> </td>
-    <td><b>xx</b> <img src="assets/xxx.png" width="120" height="120" /> </td>
+    <td align="center">
+  <b>PetCare</b><br>
+  <img src="assets/petcare.png" width="120" height="120" />
+</td>
+
+<td align="center">
+  <b>DIMU</b><br>
+  <img src="assets/DIMU.jpg" width="120" height="120" />
+</td>
+
+<td align="center">
+  <b>RVM</b><br>
+  <img src="assets/RVM.png" width="120" height="120" />
+</td>
+
+<td align="center">
+  <b>Rover</b><br>
+  <img src="assets/ROVER.png" width="120" height="120" />
+</td>
   </tr>
   <tr>
     <td rowspan="2"><b>Perfil</b></td>
     <td><b>Overview</b></td>
-    <td> xxx </td>
-    <td> xxx</td>
-    <td>xxx</td>
-    <td>xxx</td>
+    <td>Plataforma web que conecta dueños de mascotas con veterinarios, integrando historial clínico, gestión de citas y monitoreo de salud mediante IoT.</td>
+    <td>Aplicación peruana que conecta usuarios con servicios para mascotas, permitiendo agendar citas y encontrar veterinarias.</td>
+    <td>Plataforma digital que permite el registro de mascotas, historial clínico y seguimiento de vacunas.</td>
+    <td>Plataforma internacional que conecta dueños con cuidadores de mascotas y servicios.</td>
   </tr>
   <tr>
     <td><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td>
-    <td> xxx </td>
-    <td> xxx</td>
-    <td> xxx</td>
-    <td>xxx</td>
+    <td>Integración de IoT, historial clínico y marketplace en una sola plataforma.</td>
+    <td>Facilidad de uso y posicionamiento en el mercado local.</td>
+    <td>Gestión organizada del historial y control de vacunas.</td>
+    <td>Amplia red de servicios y reconocimiento global.</td>
   </tr>
   <tr>
     <td rowspan="2"><b>Perfil de Marketing</b></td>
     <td><b>Mercado objetivo</b></td>
-    <td>xxx</td>
-    <td>xxx</td>
-    <td>xxx</td>
-    <td>xxx</td>
+    <td>Dueños de mascotas y veterinarias en Perú.</td>
+    <td>Dueños de mascotas en Perú.</td>
+    <td>Dueños de mascotas que buscan control de salud de sus animales.</td>
+    <td>Dueños de mascotas a nivel internacional.</td>
   </tr>
   <tr>
     <td><b>Estrategias de marketing</b></td>
-    <td>xxxx</td>
-    <td>xxx.</td>
-    <td>xxx</td>
-    <td>
-xxx</td>
+    <td>Marketing digital, suscripciones y posicionamiento de veterinarias.</td>
+    <td>Marketing digital y alianzas con veterinarias.</td>
+    <td>Promoción de control sanitario y registro digital.</td>
+    <td>Publicidad online, SEO y expansión global.</td>
   </tr>
   <tr>
     <td rowspan="3"><b>Perfil de Producto</b></td>
     <td><b>Productos y Servicios</b></td>
-    <td>xxx </td>
-    <td>xxx</td>
-    <td>xxx</td>
-    <td>xxx</td>
+    <td>Marketplace veterinario, historial clínico, monitoreo IoT, promociones.</td>
+    <td>Agenda de citas, listado de veterinarias.</td>
+    <td>Registro de mascotas, historial clínico, control de vacunas.</td>
+    <td>Servicios de cuidado, paseo y alojamiento de mascotas.</td>
   </tr>
   <tr>
     <td><b>Precios y Costos</b></td>
-    <td> xxx</td>
-    <td> xxx</td>
-    <td>xxx</td>
-    <td>xxx</td>
+    <td>Modelo con plan gratuito y plan de suscripción para funciones avanzadas.</td>
+    <td>Gratuito con posibles comisiones.</td>
+    <td>Gratuito o con servicios adicionales.</td>
+    <td>Pago por servicio con comisión.</td>
   </tr>
   <tr>
     <td><b>Canales de distribución (Web y/o móvil)</b></td>
-    <td>xxx</td>
-    <td>xxx</td>
-    <td>
-xxx</td>
-    <td>
-xxx</td>
+    <td>Web y app móvil.</td>
+    <td>App móvil.</td>
+    <td>Web.</td>
+    <td>Web y app móvil.</td>
   </tr>
   <tr>
     <td rowspan="5"><b>Análisis SWOT</b></td>
-    <td colspan="5">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
+    <td colspan="5">
+      Este análisis permite identificar fortalezas, debilidades, oportunidades y amenazas de PetCare frente a sus competidores para definir estrategias competitivas.
+    </td>
   </tr>
   <tr>
     <td><b>Fortalezas</b></td>
-    <td>xxx</td>
-    <td>xxxx</td>
-    <td>
-xxx</td>
-    <td>
-xxx</td>
+    <td>Uso de IoT y plataforma integral.</td>
+    <td>Posicionamiento local.</td>
+    <td>Especialización en historial clínico.</td>
+    <td>Reconocimiento internacional.</td>
   </tr>
   <tr>
     <td><b>Debilidades</b></td>
-    <td>xxx</td>
-    <td>xxx</td>
-    <td>
-xxx</td>
-    <td>
-xxx</td>
+    <td>Nueva en el mercado.</td>
+    <td>No incluye IoT.</td>
+    <td>No tiene marketplace de servicios.</td>
+    <td>No enfocado en salud veterinaria.</td>
   </tr>
   <tr>
     <td><b>Oportunidades</b></td>
-    <td>xxx</td>
-    <td>
-xxx</td>
-    <td>
-xxx</td>
-  <td>
-xxx</td>
+    <td>Crecimiento del mercado pet y tecnología.</td>
+    <td>Expansión digital en Perú.</td>
+    <td>Digitalización de registros veterinarios.</td>
+    <td>Expansión global.</td>
   </tr>
   <tr>
     <td><b>Amenazas</b></td>
-    <td>xxx</td>
-    <td>
-xxx</td>
-    <td>
--xxx</td>
-    <td>
-xxx</td>
+    <td>Competencia creciente.</td>
+    <td>Nuevas startups.</td>
+    <td>Limitaciones tecnológicas.</td>
+    <td>Competidores especializados.</td>
   </tr>
 </table>
-
 ### **2.1.2 Estrategias y tácticas frente a competidores**
 
 ## 2.2 Entrevistas
@@ -497,7 +502,7 @@ Segmento 1:
 | N | Datos |Descripción |Imagen referencial
 |--|--|--|--|
 |1  | Nombre: Keidy Maquera  <br>Edad: 21 <br>Distrito: Callao |Ella menciona que usa excel para organizarse, siendo el celular y la laptop los dispositivos que mas utiliza.<br>Las mascotas que tiene son 4 gatos y un perro, uno de sus gatos tiene 7 años y los demas gatos y el perro estan entre 3-4 años.<br>El cuidado de sus mascotas lo hace por medio de una alimentacion saludable y vacunas anuales.<br>La ultima vez que llevo a sus mascotas al veterinario fue hace  3 meses y ella desearia que las veterinarias cuenten con todos los implementos necesarios para atender la mayoria de casos que suelen presentarse.<br>Su veterinaria de confianza la escogio por que es la mas cercana a su casa, y busca que las veterinarias cuenten con todo lo necesario para atender a sus mascotas ante una emergencia.<br>Hubo una ocacion donde llevo a su gato de emergencia por la noche y su veterinaria de confianza no tenia los implementos para atenderlo y tubo que irse a buscar otra que atienda las 24 horas, sintio mucha desesperacion.<br>Ella suele frecuentar las veterinarias por vacunas para sus gatos, pero es mas por el corte y baño de su perro, agendando sus citas por whatsapp y aveces no le responden o tardan mucho en responder.<br>Para controlar el historial de sus mascotas lo hace por medio de tarjetas que le entregan al terminar una cita con fecha y el procedimiento que se realizo.<br>Lo que ella mejoraria de las veterinaria es que cuenten con todo los implementos para atender a sus mascotas y que sea 24  horas la atencion.<br>Le parece increible una plataforma para encontrar veterinarias segun sus nesecidades, asi se ahorraria el tiempo de ir preguntando una por una.<br> Ademas, le fascinaria que brinde informacion adicional, como los procedimientos que tienen disponibles. y menciona que la gestion de citas, recordatorios y servicios le ayudaria para una rapida comunicacion y una efectiva organizacion.|<img src="assets/Segm1-Keidy-PetCare.jpg">|
-|2  | Nombre: <br>Apellido: <br>Edad: <br>Distrito: ||<img src="assets/Segm1-xx-xxx.jpg">
+|2  | Nombre: <br>Johan Yonel: <br>Edad: 21 <br>Distrito: Santiago de Surco||<img src="assets/Segm1-xx-xxx.jpg">
 |3  | Nombre:  <br>Apellido:   <br>Edad:  <br>Distrito:   | |<img src="assets/Entrevista-xx.png">
 
 Segmento 2:
