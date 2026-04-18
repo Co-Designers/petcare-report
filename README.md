@@ -552,6 +552,10 @@ A través de esta técnica, se logró construir una visión más clara del compo
 
 <img src="assets/PetCare - Event Storming.jpg" alt="Design-Level Event Storming"><br>
 
+<a href="https://miro.com/app/board/uXjVGgIlPes=/?share_link_id=504466486725" target="_blank">
+  <img src="https://img.shields.io/badge/Miro-Design%20Level%20Event%20Storming-blue?style=for-the-badge&logo=miro&logoColor=white" alt="Miro Event Storming">
+</a>
+
 ### 4.6.2. Software Architecture Context Diagram
 <img src="assets/4.6.2. Software Architecture Context Diagram.png" alt="Software Architecture Context Diagram"><br>
 
