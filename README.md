@@ -544,7 +544,14 @@ El uso de un sistema de espaciado consistente reduce la carga cognitiva del usua
 ### 4.4.3. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
+
 ### 4.6.1. Design-Level Event Storming
+En esta sección se presenta el proceso de Design-Level Event Storming, el cual permitió identificar, analizar y organizar los eventos clave del dominio del sistema PetCare.
+
+A través de esta técnica, se logró construir una visión más clara del comportamiento del sistema, facilitando la comprensión de los flujos principales, las interacciones entre los actores y la definición de los límites del dominio. Esto sirvió como base para una aproximación más estructurada y refinada del diseño a nivel general de la arquitectura del sistema.
+
+<img src="assets/PetCare - Event Storming.jpg" alt="Design-Level Event Storming"><br>
+
 ### 4.6.2. Software Architecture Context Diagram
 <img src="assets/4.6.2. Software Architecture Context Diagram.png" alt="Software Architecture Context Diagram"><br>
 
