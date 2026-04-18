@@ -469,63 +469,97 @@ Establecer alianzas estratégicas con veterinarias locales en Perú para ampliar
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
 
-**Segmento objetivo**: Dueños de mascotas entre 18 y 40 años.
+## 2.2 Entrevistas
+### 2.2.1 Diseño de entrevistas
 
-El objetivo de estas entrevistas es comprender las necesidades y dificultades de los dueños de mascotas sobre el cuidado de sus mascotas.
+### Segmento Objetivo 1: Dueños de Mascotas (18-40 años)
 
-¿Qué edad tienes? 
-¿En qué distrito vives? 
-¿A qué te dedicas (estudias, trabajas, ambos)? 
-¿Qué dispositivo usas más (celular, laptop, tablet)? 
-¿Sueles usar aplicaciones o páginas web para organizar servicios en tu día a día?
+**Objetivo de la entrevista:**  
+Comprender las necesidades, hábitos, dificultades y expectativas de los dueños de mascotas respecto al cuidado, seguimiento médico y búsqueda de servicios veterinarios.
 
-¿Tienes mascotas actualmente? 
-¿Qué tipo y cuántas? 
-¿Desde hace cuánto tiempo tienes mascotas? 
-¿Cómo es la rutina de cuidado de tu mascota? 
-¿Con qué frecuencia llevas a tu mascota al veterinario? 
-¿Qué es lo más importante que buscas en una veterinaria? 
-¿Tienes actualmente una veterinaria de confianza? ¿Por qué? 
-¿Qué servicios sueles buscar en una veterinaria? 
-¿Has tenido dificultades para encontrar una veterinaria que cumpla con tus necesidades? 
-¿Cómo fue esa experiencia? 
-¿Cuánto tiempo te tomó encontrar una veterinaria de confianza? 
-¿Cómo sueles agendar citas para tu mascota? 
-¿Cuánto tiempo suele tardar para conseguir una cita? 
-¿Cómo organizas los documentos o historial médico de tu mascota? 
-¿Cómo haces el seguimiento de citas, vacunas o tratamientos? 
-¿Qué problemas has tenido al gestionar el cuidado de tu mascota? 
-¿Qué te gustaría mejorar en los servicios veterinarios actuales?
+#### 1. Datos Generales
 
-¿Te ayudaría una plataforma que te permita encontrar veterinarias según tus necesidades y las de tu mascota? ¿Por qué? 
-¿Qué funcionalidades te gustaría que tenga una aplicación web para el cuidado de mascotas? 
-¿Qué opinas de usar una aplicación para gestionar citas, recordatorios y servicios veterinarios?
+- ¿Qué edad tienes?
+- ¿En qué distrito vives?
+- ¿A qué te dedicas actualmente? (Estudias, trabajas o ambos)
+- ¿Qué dispositivo utilizas con mayor frecuencia? (Celular, laptop, tablet)
+- ¿Sueles utilizar aplicaciones o páginas web para organizar servicios en tu día a día? ¿Cuáles?
 
-**Segmento objetivo**: Centros veterinarios y profesionales independientes que ofrecen servicios de atención médica para mascotas.
+#### 2. Relación con la Mascota
 
-El objetivo de estas entrevistas es comprender las necesidades, procesos y dificultades de las clínicas veterinarias en la gestión de sus servicios, citas y comunicación con sus clientes.
+- ¿Tienes mascotas actualmente?
+- ¿Qué tipo de mascota tienes y cuántas?
+- ¿Desde hace cuánto tiempo tienes mascotas?
+- ¿Cómo es la rutina de cuidado de tu mascota?
 
-¿En qué distrito está ubicada su clínica?
-¿Cuántos trabajadores tiene actualmente?
-¿Qué tipo de clientes atienden con mayor frecuencia?
-¿Utilizan actualmente algún sistema digital o software para la gestión de su clínica? ¿Cuál?
+#### 3. Servicios Veterinarios
 
-¿Qué servicios ofrece actualmente su clínica veterinaria?
-¿Cuántos años lleva trabajando en este rubro?
-¿Cómo gestionan actualmente las citas para sus pacientes?
-¿Cómo realizan el seguimiento y recordatorio de citas?
-¿Qué dificultades enfrentan en la gestión de citas y servicios?
-¿Cómo manejan la información y el historial de sus pacientes?
-¿Qué canales utilizan sus clientes para comunicarse con la clínica (WhatsApp, llamadas, redes sociales, etc.)?
-¿Cómo gestionan la comunicación con los clientes sobre indicaciones o tratamientos?
-¿Qué tipo de problemas han tenido con la organización o atención de pacientes?
-¿Cómo evalúa el nivel de satisfacción de sus clientes?
-¿Qué estrategias de marketing utilizan actualmente para promocionar su clínica?
-¿Qué aspectos considera más importantes al usar una herramienta digital para su negocio?
+- ¿Con qué frecuencia llevas a tu mascota al veterinario?
+- ¿Qué es lo más importante que buscas en una veterinaria?
+- ¿Tienes actualmente una veterinaria de confianza? ¿Por qué?
+- ¿Qué servicios sueles buscar en una veterinaria?
+- ¿Has tenido dificultades para encontrar una veterinaria que cumpla con tus necesidades? ¿Cómo fue esa experiencia?
+- ¿Cuánto tiempo te tomó encontrar una veterinaria de confianza?
 
-¿Estaría dispuesto a utilizar una plataforma digital que le ayude a gestionar citas y pacientes? ¿Por qué?
-¿Qué funcionalidades le gustaría que tenga una aplicación para clínicas veterinarias?
-¿Qué beneficios esperaría obtener de una herramienta digital como esta?
+#### 4. Gestión y Seguimiento
+
+- ¿Cómo sueles agendar citas para tu mascota?
+- ¿Cuánto tiempo suele tardar conseguir una cita?
+- ¿Cómo organizas los documentos o historial médico de tu mascota?
+- ¿Cómo haces el seguimiento de citas, vacunas o tratamientos?
+- ¿Qué problemas has tenido al gestionar el cuidado de tu mascota?
+
+#### 5. Necesidades y Solución Digital
+
+- ¿Qué te gustaría mejorar en los servicios veterinarios actuales?
+- ¿Te ayudaría una plataforma que te permita encontrar veterinarias según tus necesidades y las de tu mascota? ¿Por qué?
+- ¿Qué funcionalidades te gustaría que tenga una aplicación web para el cuidado de mascotas?
+- ¿Qué opinas de usar una aplicación para gestionar citas, recordatorios y servicios veterinarios?
+
+---
+
+### Segmento Objetivo 2: Centros Veterinarios y Profesionales Independientes
+
+**Objetivo de la entrevista:**  
+Comprender las necesidades, procesos y dificultades de clínicas veterinarias y profesionales independientes en la gestión de citas, pacientes y comunicación con clientes.
+
+#### 1. Información General
+
+- ¿En qué distrito está ubicada su clínica o centro veterinario?
+- ¿Cuántos trabajadores tiene actualmente?
+- ¿Cuántos años lleva trabajando en este rubro?
+- ¿Qué tipo de clientes atienden con mayor frecuencia?
+
+#### 2. Digitalización Actual
+
+- ¿Utilizan actualmente algún sistema digital o software para la gestión de su clínica? ¿Cuál?
+- ¿Qué tan útil considera la herramienta que utilizan actualmente?
+
+#### 3. Operaciones y Servicios
+
+- ¿Qué servicios ofrece actualmente su clínica veterinaria?
+- ¿Cómo gestionan actualmente las citas para sus pacientes?
+- ¿Cómo realizan el seguimiento y recordatorio de citas?
+- ¿Cómo manejan la información y el historial de sus pacientes?
+
+#### 4. Comunicación con Clientes
+
+- ¿Qué canales utilizan sus clientes para comunicarse con la clínica? (WhatsApp, llamadas, redes sociales, etc.)
+- ¿Cómo gestionan la comunicación con los clientes sobre indicaciones o tratamientos?
+
+#### 5. Problemas y Oportunidades
+
+- ¿Qué dificultades enfrentan en la gestión de citas y servicios?
+- ¿Qué tipo de problemas han tenido con la organización o atención de pacientes?
+- ¿Cómo evalúa el nivel de satisfacción de sus clientes?
+- ¿Qué estrategias de marketing utilizan actualmente para promocionar su clínica?
+- ¿Qué aspectos considera más importantes al usar una herramienta digital para su negocio?
+
+#### 6. Solución Propuesta
+
+- ¿Estaría dispuesto a utilizar una plataforma digital que le ayude a gestionar citas y pacientes? ¿Por qué?
+- ¿Qué funcionalidades le gustaría que tenga una aplicación para clínicas veterinarias?
+- ¿Qué beneficios esperaría obtener de una herramienta digital como esta?
 
 ### 2.2.2. Registro de entrevistas 
 URL del video:
