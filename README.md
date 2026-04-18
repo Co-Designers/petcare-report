@@ -443,7 +443,8 @@ Rover es una plataforma internacional reconocida por conectar dueños de mascota
     <td>Competidores especializados.</td>
   </tr>
 </table>
-### **2.1.2 Estrategias y tácticas frente a competidores**
+
+### 2.1.2 Estrategias y tácticas frente a competidores <br> 
 En esta sección, se llevará a cabo el análisis de las estrategias y tácticas que serán usadas con el objetivo de buscar provecho a las debilidades de la competencia y afrontar sus fortalezas. Además, gracias al análisis FODA, se lograron identificar las oportunidades y amenazas de mercado presentes, debido a la evaluación de las fortalezas que ofrece nuestro software y las debilidades frente a empresas con mayor posicionamiento y trayectoria dentro del sector veterinario digital. De esa manera, este enfoque nos permite concebir estrategias adecuadas para nuestros segmentos objetivos dentro del mercado pet care.
 
 **Estrategia de Diferenciación:**
