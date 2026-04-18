@@ -466,8 +466,6 @@ Para ambos segmentos, la estrategia estará centrada en el concepto de "Mascotas
 **Tácticas:**
 
 Establecer alianzas estratégicas con veterinarias locales en Perú para ampliar la cobertura de servicios, lanzar promociones exclusivas dentro de la plataforma, implementar campañas SEO y publicidad digital para posicionar la marca, así como ofrecer periodos de prueba gratuitos para captar usuarios y negocios afiliados.
-## 2.2 Entrevistas
-### 2.2.1. Diseño de entrevistas
 
 ## 2.2 Entrevistas
 ### 2.2.1 Diseño de entrevistas
