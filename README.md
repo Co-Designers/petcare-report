@@ -560,7 +560,7 @@ A través de esta técnica, se logró construir una visión más clara del compo
 <img src="assets/4.6.2. Software Architecture Context Diagram.png" alt="Software Architecture Context Diagram"><br>
 
 ### 4.6.3. Software Architecture Container Diagrams
-<img src="assets/4.6.3. Software Architecture Container Diagrams..png" alt="Software Architecture Container Diagrams"><br>
+<img src="assets/4.6.3. Software Architecture Container Diagrams.png" alt="Software Architecture Container Diagrams"><br>
 
 ### 4.6.4. Software Architecture Components Diagrams
 <img src="assets/4.6.4. Software Architecture Components Diagrams.png" alt="Software Architecture Components Diagrams"><br>
