@@ -573,11 +573,11 @@ Segmento 1:
 Segmento 2:
 
 
-| N | Datos |Descripción |Imagen referencial
+| N | Datos |Descripción |Imagen referencial|
 |--|--|--|--|
-|1  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:  | |<img src="assets/xxx.png">
-|2  | Nombre: <br>Apellido: <br>Edad: <br>Distrito: ||<img src="assets/xxx.png">
-|3  | Nombre:  <br>Apellido:   <br>Edad:  <br>Distrito:   | | <img src="assets/xxx3.png">
+|1  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:  | |<img src="assets/xxx.png">|
+|2  | Nombre: <br>Apellido: <br>Edad: <br>Distrito: ||<img src="assets/xxx.png">|
+| 3 | Nombre: Diego <br>Apellido: Fernández Baca <br>Edad: 27 años <br>Distrito: Los Olivos <br>Profesión: Médico Veterinario <br>Experiencia: 4 años <br>Negocio: Veterinaria Patitas Sanas | Diego Fernández es un veterinario joven que ha iniciado su propio negocio, el cual se encuentra en una etapa temprana de crecimiento y presenta un flujo de atención bajo a moderado. Su veterinaria ofrece servicios básicos como consultas, vacunación y tratamientos generales, además de la venta de productos para mascotas. La gestión del negocio se realiza principalmente de forma manual. Utiliza WhatsApp para la comunicación con clientes y Excel para registrar información básica; sin embargo, no cuenta con un sistema digital integrado. Esto genera desorganización y dificulta el acceso rápido a la información, especialmente en el manejo del historial clínico, que aún se realiza en fichas físicas.<br><br>Asimismo, la gestión de citas es manual, lo que ocasiona inconvenientes como desorden en los horarios y falta de confirmación por parte de los clientes. La captación de nuevos clientes depende en gran medida de recomendaciones, lo que limita el crecimiento del negocio. A pesar de estas limitaciones, el nivel de satisfacción de los clientes es positivo. No obstante, el entrevistado reconoce que la implementación de herramientas digitales permitiría mejorar la organización, optimizar tiempos y brindar un mejor servicio.<br><br>Finalmente, muestra disposición a adoptar una plataforma digital que integre la gestión de citas, historiales clínicos y recordatorios automáticos, además de mejorar la visibilidad de su veterinaria para atraer nuevos clientes. | <img src="assets/xxx3.png"> |
 
 
 ### 2.2.3. Análisis de entrevistas 
