@@ -593,7 +593,7 @@ Segmento 2:
 
 En esta sección se presenta el análisis  de los hallazgos obtenidos mediante las entrevistas a profundidad realizadas a los dos segmentos objetivos. El análisis se sustenta con datos estadísticos.
 
-##Segmento 1: Dueños de Mascotas
+## Segmento 1: Dueños de Mascotas
 
 Este segmento está compuesto por usuarios entre 20 y 40 años, residentes en distritos de Lima y Callao. Se caracterizan por un alto uso de dispositivos móviles y una preocupación genuina por la salud preventiva de sus mascotas.
 
