@@ -1,34 +1,38 @@
 <div align="center">
-
 <img src="assets/UPC_logo_transparente.png"></img><br>
+
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 <h4>Facultad de Ingeniería</h4>
 <h4>Carrera de Ingeniería de Software</h4>
-<h4>Periodo 202610</h4>
+<h4>Ciclo 202610</h4>
 <h4>1ASI0729 Desarrollo de Aplicaciones Open Source</h4>
 <h4>NRC 11863</h4>
 <h4>Docente: Ivan Robles Fernández</h4>
 <h4>Informe del Trabajo Final</h4>
 <h4>Startup: Co-Designers</h4>
-<h4>Producto: </h4>
+<h4>Producto: PetCare </h4>
 
+#### Relación de integrantes 
 | **Código** | **Apellidos y Nombres**               |
 | :--------: | :------------------------------------ |
-| U20 | Mauricio Silva, Ghiou Justinn     |
-| U20241E107 | Tuncar Vila, Ghorghet Saul|
-| U20 |  Mejia Aliaga, Katherine Maryory     |
-| U20 | Huaman De La Cruz, Jean Pool   |
 | U202414313 | Campoblanco Guzman, Diego Roberto |
+| U20201E781 | Huaman De La Cruz, Jean Pool   |
+| U20241E242 | Mauricio Silva, Ghiou Justinn     |
+| U20221A118 | Mejia Aliaga, Katherine Maryory     |
+| U20241E107 | Tuncar Vila, Ghorghet Saul|
 
-
-### Abril 2026
 </div>
-<div style="page-break-after: always;"></div>
 
+<br><div align="center"><h3>Abril 2026</h3></div><br>
+<div style="text-align: justify;">
+
+<br><br>
 
 ## Registro de Versiones del Informe
 
+<div align="justify">
+  
 | Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
 | :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
 |   TB1   | 22/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
@@ -39,30 +43,10 @@
 <div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
-A continuación, se detallan los repositorios utilizados a lo largo del proyecto:
+URL de Organización de GITHUB del equipo Co-Designers: https://github.com/Co-Designers  
+URL de Repositorio del Project Report: https://github.com/Co-Designers/PetCare
 
-#### Link del repositorio del Reporte:
-
-- https://github.com/Co-Designers/petcare-report
-
-#### Link del repositorio de la Landing Page:
-
-- 
-
-#### Link del repositorio del Frontend:
-
-- 
-
-#### Link del repositorio del Backend:
-
-- 
-
-### **Entrega TB1:**
-[text]
-
-##### Participación por integrante:
-
-- 
+<strong>*Entrega TB1:*</strong> 
 
 # Contenido
 
