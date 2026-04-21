@@ -577,7 +577,7 @@ Segmento 1:
 |--|--|--|--|
 |1  | Nombre: Keidy Maquera  <br>Edad: 21 <br>Distrito: Callao |Ella menciona que usa excel para organizarse, siendo el celular y la laptop los dispositivos que mas utiliza.<br>Las mascotas que tiene son 4 gatos y un perro, uno de sus gatos tiene 7 años y los demas gatos y el perro estan entre 3-4 años.<br>El cuidado de sus mascotas lo hace por medio de una alimentacion saludable y vacunas anuales.<br>La ultima vez que llevo a sus mascotas al veterinario fue hace  3 meses y ella desearia que las veterinarias cuenten con todos los implementos necesarios para atender la mayoria de casos que suelen presentarse.<br>Su veterinaria de confianza la escogio por que es la mas cercana a su casa, y busca que las veterinarias cuenten con todo lo necesario para atender a sus mascotas ante una emergencia.<br>Hubo una ocacion donde llevo a su gato de emergencia por la noche y su veterinaria de confianza no tenia los implementos para atenderlo y tubo que irse a buscar otra que atienda las 24 horas, sintio mucha desesperacion.<br>Ella suele frecuentar las veterinarias por vacunas para sus gatos, pero es mas por el corte y baño de su perro, agendando sus citas por whatsapp y aveces no le responden o tardan mucho en responder.<br>Para controlar el historial de sus mascotas lo hace por medio de tarjetas que le entregan al terminar una cita con fecha y el procedimiento que se realizo.<br>Lo que ella mejoraria de las veterinaria es que cuenten con todo los implementos para atender a sus mascotas y que sea 24  horas la atencion.<br>Le parece increible una plataforma para encontrar veterinarias segun sus nesecidades, asi se ahorraria el tiempo de ir preguntando una por una.<br> Ademas, le fascinaria que brinde informacion adicional, como los procedimientos que tienen disponibles. y menciona que la gestion de citas, recordatorios y servicios le ayudaria para una rapida comunicacion y una efectiva organizacion.|<img src="assets/Segm1-Keidy-PetCare.jpg">|
 |2  | Nombre: <br>Johan Yonel: <br>Edad: 20 <br>Distrito: Santiago de Surco|El con mayor frecuencia el celular y la laptop, además de aplicaciones web como Trello, Notion y Google Calendar para organizar sus actividades diarias. Actualmente tiene dos mascotas: un perro desde hace dos años y un gato desde hace tres meses. Su rutina de cuidado incluye baños mensuales, cepillado constante, limpieza y supervisión cuando salen a la calle. Suele llevar a sus mascotas al veterinario aproximadamente una vez al mes, principalmente para baños, chequeos médicos y revisiones rápidas cuando presentan algún malestar. Considera importante que el veterinario brinde atención rápida, confianza y buen trato hacia los animales. Cuenta con una veterinaria de confianza y normalmente agenda citas por WhatsApp o llamadas. Sin embargo, a veces demora entre dos y tres días en conseguir una cita debido a la disponibilidad del profesional y sus propios horarios como estudiante. El historial médico de sus mascotas lo organiza en formato físico, mediante hojas o folletos donde registra vacunas, tratamientos y chequeos realizados. Entre las mejoras que propone para los servicios veterinarios actuales destaca una mayor adaptación a la virtualidad, permitiendo citas rápidas en línea, seguimiento digital de la mascota y acceso al historial médico. Finalmente, considera útil una plataforma web que permita encontrar veterinarios según necesidad, ubicación, calidad y opiniones de otros usuarios. También le gustaría que la aplicación incluya registro de vacunas, historial clínico compartido y acceso a distintas veterinarias en caso de cambio o emergencia.|<img src="assets/SEG1-Entrevista.jpg">
-|3  | Nombre:  <br>Apellido:   <br>Edad:  <br>Distrito:   | |<img src="assets/Entrevista-xx.png">
+|3  | Nombre: Carolina Guzman  <br>Edad:40 Años  <br>Distrito: Jesus Maria  | Carolina menciona que usa más su celular y no suele usar servicios web para organizarse, además cuenta con 4 gatas desde hace 4 años cuya rutina es la limpieza de su espacio y brindarle comida y agua fres al igual que su revisión al veterinario una vez al año buscando experiencia como su veterinaria de confianza en donde ya atendió previamente a sus gatas como en el proceso de esterilización. En una veterinaria suele buscar explicaciones sobre los tratamientos que le darán a su mascota y nunca a tenido dificultades para buscar una veterinaria que cumpla con sus requisitos, genera citas por previa llamada y organiza el historial médico de su mascota por una carpeta física,  por otro lado ella piensa que en caso de tener que buscar a otro veterinario ella cree que el aspecto más importante que debería tener una aplicación que la ayude a resolver ese problema es una sección de reseñas para ver qué piensa la gente. |<img src="assets/Seg1-Carolina-Guzman.png">
 
 Segmento 2:
 
@@ -589,13 +589,50 @@ Segmento 2:
 | 3 | Nombre: Diego <br>Apellido: Fernández Baca <br>Edad: 27 años <br>Distrito: Los Olivos <br>Profesión: Médico Veterinario <br>Experiencia: 4 años <br>Negocio: Veterinaria Patitas Sanas | Diego Fernández es un veterinario joven que ha iniciado su propio negocio, el cual se encuentra en una etapa temprana de crecimiento y presenta un flujo de atención bajo a moderado. Su veterinaria ofrece servicios básicos como consultas, vacunación y tratamientos generales, además de la venta de productos para mascotas. La gestión del negocio se realiza principalmente de forma manual. Utiliza WhatsApp para la comunicación con clientes y Excel para registrar información básica; sin embargo, no cuenta con un sistema digital integrado. Esto genera desorganización y dificulta el acceso rápido a la información, especialmente en el manejo del historial clínico, que aún se realiza en fichas físicas.<br><br>Asimismo, la gestión de citas es manual, lo que ocasiona inconvenientes como desorden en los horarios y falta de confirmación por parte de los clientes. La captación de nuevos clientes depende en gran medida de recomendaciones, lo que limita el crecimiento del negocio. A pesar de estas limitaciones, el nivel de satisfacción de los clientes es positivo. No obstante, el entrevistado reconoce que la implementación de herramientas digitales permitiría mejorar la organización, optimizar tiempos y brindar un mejor servicio.<br><br>Finalmente, muestra disposición a adoptar una plataforma digital que integre la gestión de citas, historiales clínicos y recordatorios automáticos, además de mejorar la visibilidad de su veterinaria para atraer nuevos clientes. | <img src="assets/xxx3.png"> |
 
 
-### 2.2.3. Análisis de entrevistas 
+## 2.2.3. Análisis de entrevistas 
 ## 2.3. Needfinding
-### 2.3.1. User Personas 
-### 2.3.2. User Task Matrix 
-### 2.3.3. User Journey Mapping 
-### 2.3.4. Empathy Mapping
+
+Para identificar las necesidades específicas de los segmentos objetivos, realizamos entrevistas con representantes de nuestros dos perfiles clave. Los dueños de mascotas expresaron frustración por la desorganización de los historiales médicos físicos y la desesperación al no encontrar clínicas adecuadamente equipadas durante emergencias, mostrando un gran interés en una plataforma de búsqueda inteligente que incluya reseñas y recordatorios. Por su parte, los médicos veterinarios manifestaron que la gestión manual de citas mediante WhatsApp y el uso de fichas de papel generan desorden y limitan el crecimiento de sus negocios, respondiendo muy positivamente a la adopción de una herramienta digital que centralice agendas y expedientes. Estos hallazgos confirman la necesidad de modernizar e integrar el ecosistema de salud animal para mejorar la eficiencia operativa y la experiencia de todos los usuarios.
+
+## 2.3.1. User Personas 
+### User Persona - Dueño de mascota
+<img src="assets/User-Persona-Dueño-De-Mascotas.png">
+
+### User Persona - Veterinario
+<img src="assets/User-Persona-Veterinario.png">
+
+## 2.3.2. User Task Matrix 
+
+| Tareas Principales (Task Matrix) | Dueños de Mascotas (Lucia Mendoza) | | Médicos Veterinarios (Diego Fernandez) | |
+| :--- | :--- | :--- | :--- | :--- |
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| Registrar y configurar cuenta en la plataforma. | Baja | Alta | Baja | Alta |
+| Registrar / Actualizar el historial clínico de la mascota. | A veces | Alta | Seguido | Alta |
+| Buscar clínicas y especialistas usando Inteligencia Artificial. | A veces | Alta | Baja | Baja |
+| Agendar, confirmar o reprogramar citas médicas. | A veces | Alta | Seguido | Alta |
+| Monitorear métricas de salud en tiempo real (Dispositivo IoT). | A veces | Alta | A veces | Alta |
+| Gestionar notificaciones y recordatorios (vacunas, controles). | A veces | Alta | Seguido | Alta |
+| Procesar pagos o cobros por consultas y servicios. | A veces | Alta | Seguido | Alta |
+| Leer, escribir o responder reseñas de atención veterinaria. | A veces | Media | Seguido | Alta |
+
+## 2.3.3. User Journey Mapping 
+
+### User Journey Map - Dueño de Mascota
+<img src="assets/User-Journey-Map-Dueño-De-Macotas.png">
+
+### User Journey Map - Veterinario
+<img src="assets/User-Journey-Map-Veterinario.png">
+
+## 2.3.4. Empathy Mapping
+
+### Empathy Map -  Dueño de mascota
+<img src="assets/Empathy-Map-Dueño-De-Mascotas.png">
+
+### Empathy Map - Veterinario
+<img src="assets/Empathy-Map-Veterinario.png">
+
 ## 2.4. Big Picture Event Storming
+
 ## 2.5. Ubiquitous Language
 El Ubiquitous Language es un elemento fundamental dentro del enfoque Domain-Driven Design (DDD), el cual se basa en la creación de un lenguaje común que sea compartido por todos los involucrados en el proyecto. Su finalidad es reducir confusiones y garantizar que tanto el equipo de desarrollo como los stakeholders tengan una interpretación clara y uniforme de los conceptos relacionados al dominio del negocio.
 
