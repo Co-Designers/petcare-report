@@ -202,33 +202,23 @@ Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efe
 # Capitulo I: Introducción
 
 ## 1.1. StartUp Profile
-
+  
 ### 1.1.1. Descripción de la StartUp
 
+La startup CO-Designers es un equipo conformado por estudiantes de la carrera de Ingeniería de Software. Tenemos como objetivo principal desarrollar una solución tecnológica escalable que transforme el cuidado de la salud animal. Mediante la plataforma PetCare, se busca integrar IA para mejorar el sistema de búsqueda, analizar historiales clínicos y recomendaciones personalizadas, junto con dispositivos IoT para el monitoreo preventivo de signos vitales. Esta Integración permite a los dueños detectar anomalías a tiempo y gestionar servicios veterinarios de manera eficiente, promoviendo una cultura de prevención y bienestar animal. 
 
----
+### Misión
 
-## Misión
+Optimizar el cuidado de las mascotas mediante una plataforma integral que combiene IA e IoT para facilitar el acceso a servicios veterinarios y permitir el monitoreo preventivo de la salud animal.
 
+### Visión
 
----
-
-## Visión
-
-
+Ser la plataforma referente en el ámbito de la salud veterinaria digital en el Perú, destacando por la innovación en medicina preventiva y el uso de tecnologías de código abierto para mejorar la calidad de vida de las mascotas.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 | **Nombre Completo del integrante**    |	**Descripcion de la carrera** | **Fotografia** | **Conocimientos y habilidades**
 | :------------------------------------ |:------------------------------------ |:------------------------------------ |:------------------------------------ |
 | Mejia Aliaga, Katherine Mejia |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/xxxx.jpg"> | Mi nombre es Katherine Mejia, tengo 21 años, curso el sexto ciclo de la carrera de ingeniería de software, Tengo conocimientos en C++, Phyton y HTML. Me gusta trabajar en equipo y a la vez sacar lo mejor de mis compañeros para hacer un buen trabajo. Además, tengo capacidad y aptitud para generar nuevas e innovadoras ideas y siempre estoy dispuesta a adquirir nuevas habilidades y conocimientos.
-| Tuncar Vila, Ghorghet Saul|Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/Ghorghet.png"> | Soy Ghorghet Saul Tuncar Vila, tengo 20 años de edad, estudio ingeniería de software en la UPC y estoy comprometido a seguir aprendiendo tecnologías que me ayuden en mi crecimiento como profesional. Me considero una persona empática, responsable, organizada y perfeccionista. Me apasiona aprender cada tema a profundidad y disfruto ayudando a los demás mientras doy lo mejor de mi en cada actividad.
-| xxxx   |xxxx| <img src="assets/xxxx.jpg"> | xxxxxxx
-| Cuarto Integrante |xxxxx| <img src="assets/<Nombre>.jpg"> | xxxxxxxx
-
-### 1.1.2. Perfiles de integrantes del equipo
-| **Nombre Completo del integrante**    |	**Descripcion de la carrera** | **Fotografia** | **Conocimientos y habilidades**
-| :------------------------------------ |:------------------------------------ |:------------------------------------ |:------------------------------------ |
-| xxx |xxxxx| <img src="assets/xxxx.jpg"> | xx
 | Tuncar Vila, Ghorghet Saul|Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/Ghorghet.png"> | Soy Ghorghet Saul Tuncar Vila, tengo 20 años de edad, estudio ingeniería de software en la UPC y estoy comprometido a seguir aprendiendo tecnologías que me ayuden en mi crecimiento como profesional. Me considero una persona empática, responsable, organizada y perfeccionista. Me apasiona aprender cada tema a profundidad y disfruto ayudando a los demás mientras doy lo mejor de mi en cada actividad.
 | xxxx   |xxxx| <img src="assets/xxxx.jpg"> | xxxxxxx
 | Cuarto Integrante |xxxxx| <img src="assets/<Nombre>.jpg"> | xxxxxxxx
