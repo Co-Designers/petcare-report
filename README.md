@@ -528,6 +528,56 @@ La paleta se basa en tonos azules debido a su relación con la confianza y segur
 El uso de un sistema de espaciado consistente reduce la carga cognitiva del usuario y mejora la coherencia visual en toda la interfaz.
 
 ### 4.1.2. Web Style Guidelines
+
+### Layout
+
+La interfaz web sigue una estructura tipo dashboard, orientada a la gestión de información de salud de mascotas. Se prioriza el acceso rápido a funcionalidades clave como búsqueda de veterinarias, historial clínico y agendamiento de citas.
+
+Se utiliza una navegación persistente (navbar superior o sidebar) que permite al usuario acceder a las principales secciones sin perder el contexto de la vista actual.
+
+El contenido principal se organiza mediante cards y secciones claramente delimitadas, facilitando la lectura y comprensión de la información.
+
+### Components
+
+Los componentes principales del sistema incluyen:
+
+- **Cards:** utilizadas para mostrar veterinarias, mascotas, citas y resúmenes de información relevante.  
+- **Formularios:** empleados para registro de usuarios, mascotas, agendamiento de citas y actualización de datos clínicos.  
+- **Listas estructuradas:** para la visualización del historial clínico (vacunas, enfermedades, tratamientos).  
+Estos componentes permiten organizar la información de manera jerárquica y mantener consistencia en toda la interfaz.
+
+### Navigation
+
+La navegación está diseñada para ser clara y accesible en todo momento. Se prioriza el acceso directo a las siguientes secciones:
+
+- Perfil de usuario y mascota  
+- Historial clínico  
+- Búsqueda de veterinarias  
+- Agenda de citas  
+
+Se reduce la cantidad de pasos necesarios para completar acciones clave, mejorando la eficiencia del usuario dentro del sistema.
+
+### Interactions
+
+El sistema proporciona retroalimentación visual constante para mejorar la experiencia del usuario:
+
+- Estados de carga durante procesos como búsqueda con IA o envío de formularios  
+- Indicadores visuales en botones (hover, activo, deshabilitado)  
+- Confirmaciones después de acciones importantes (registro, agendamiento, actualización de datos)  
+- Mensajes informativos en caso de errores o ausencia de resultados  
+
+Esto permite al usuario comprender el estado del sistema en todo momento.
+
+### Responsive Design
+
+El sistema está diseñado bajo un enfoque responsive para adaptarse a distintos dispositivos:
+
+- **Mobile:** estructura de una sola columna, priorizando acciones principales y navegación simplificada.  
+- **Tablet:** distribución en dos columnas para mejorar el uso del espacio sin saturar la interfaz.  
+- **Desktop:** layout completo tipo dashboard, permitiendo visualizar mayor cantidad de información de forma organizada.  
+
+Se mantiene la consistencia visual y funcional en todos los tamaños de pantalla.
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 
