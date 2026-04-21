@@ -177,10 +177,11 @@ URL de Repositorio del Project Report: https://github.com/Co-Designers/PetCare
 ## Student Outcome
 
 Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
-| Criterio Especifico | Acciones realizadas | Conclusiones |
-|--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Justinn Mauricio <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Ghorghet Tuncar <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Katherine Mejia <br> TB1: <br> TP1: <br> TB2: <br>  TF1: <br><br> Jean Huaman <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br> <br>Diego Campoblanco <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br>|	 |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Justinn Mauricio <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Ghorghet Tuncar <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Katherine Mejia<br> TB1: <br> TP1: <br> TB2: <br> TF1: <br><br> Jean Huaman <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br> <br>Diego Campoblanco <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br>|
+
+| Criterio Específico | Acciones realizadas | Conclusiones |
+|---|---|---|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Diego Roberto <br>TB1:<br>TP1:<br>TB2:<br>TF1:<br><br>Jean Pool <br>TB1:<br>TP1:<br>TB2:<br>TF1:<br><br>Ghiou Justinn <br>TB1:<br>TP1:<br>TB2:<br>TF1:<br><br>Katherine Maryory <br>TB1:<br>TP1:<br>TB2:<br>TF1:<br><br>Ghorghet Saul <br>TB1:<br>TP1:<br>TB2:<br>TF1: | |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Diego Roberto <br>TB1:<br>TP1:<br>TB2:<br>TF1:<br><br>Jean Pool <br>TB1:<br>TP1:<br>TB2:<br>TF1:<br><br>Ghiou Justinn <br>TB1:<br>TP1:<br>TB2:<br>TF1:<br><br>Katherine Maryory <br>TB1:<br>TP1:<br>TB2:<br>TF1:<br><br>Ghorghet Saul <br>TB1:<br>TP1:<br>TB2:<br>TF1: | |
 
 
 # Capitulo I: Introducción
