@@ -506,9 +506,63 @@ Segmento 2:
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+**Project Management y Requirements Management:**
+  * **Miro:** Plataforma en línea que permite la colaboración en tiempo real a través de pizarras digitales. Ofrece herramientas para la creación de diagramas, mapas mentales y flujos.
+
+**Product UX/UI Design:**
+  * **Figma:** Herramienta de diseño de interfaces de usuario (UI) y prototipado colaborativo basada en la nube. En este caso, utilizamos Figma para la elaboración del prototipo interactivo de la aplicación móvil para los dueños de mascotas y el panel administrativo web para las clínicas veterinarias.
+
+**Software Development:**
+  * **IntelliJ IDEA:** Entorno de desarrollo integrado (IDE) profesional diseñado para maximizar la productividad del desarrollador. En este caso, lo utilizamos para el desarrollo robusto de toda la lógica de negocio y el backend del proyecto empleando Java y el framework Spring Boot.
+  * **GitHub:** Plataforma de desarrollo colaborativo basada en la nube que utiliza el sistema de control de versiones Git. Permite a los desarrolladores alojar, revisar y colaborar en proyectos de software. En este caso, utilizamos GitHub como un repositorio remoto para almacenar, unificar y gestionar el código fuente de todo nuestro proyecto.
+
+**Software Deployment y Bases de Datos:**
+  * **SQL Server:** Sistema de gestión de bases de datos relacionales (RDBMS) desarrollado por Microsoft que utiliza el lenguaje SQL para la manipulación y consulta de datos. En este caso, utilizamos SQL Server como el motor principal para garantizar la integridad referencial de la plataforma, permitiendo estructurar los perfiles de usuarios, historiales médicos fijos y la gestión de citas mediante relaciones complejas y transacciones seguras
+
 ### 5.1.2. Source Code Management
+Durante todo el desarrollo del proyecto, nuestro equipo hará uso de versiones de Git en la cual toda la evidencia podrá ser visualizada para posteriormente ser subida a la plataforma de github de la organización, en donde se podrán observar todas las modificaciones que se le harán realizando al proyecto a lo largo del desarrollo por cada uno de los miembros del equipo.
+
+GitHub URL: https://github.com/Co-Designers/PetCare
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Para asegurar la escalabilidad, legibilidad y el mantenimiento del código de PetCare, el equipo adoptará como regla general que toda la nomenclatura (variables, clases, métodos, archivos y bases de datos) se escribirá estrictamente en idioma inglés. Además, nos apegaremos a las siguientes convenciones estándar según cada tecnología:
+
+#### **HTML:**
+Para el lenguaje HTML utilizaremos las siguientes convenciones:
+* Usar nombres de elementos y etiquetas siempre en minúsculas.
+* Cerrar obligatoriamente todos los elementos HTML.
+* Usar nombres de atributos en minúsculas y encerrar sus valores entre comillas dobles.
+* Evitar líneas de código demasiado largas para facilitar la lectura en el editor.
+
+#### **CSS:**
+Para el lenguaje CSS, utilizaremos las siguientes prácticas para alcanzar un código coherente y ordenado:
+* Utilizar `camelCase` (capitalizar la primera letra de cada palabra excepto la primera) para los nombres de clases e IDs.
+* Utilizar nombres de clases que sean descriptivos en inglés y que reflejen la función estructural del elemento, no su apariencia visual.
+
+#### **JavaScript / TypeScript (Angular):**
+Para la lógica del frontend, seguiremos las siguientes convenciones:
+* Utilizar `camelCase` para nombrar variables, propiedades y métodos (ejemplo: `getPetHistory`).
+* Utilizar `PascalCase` para nombrar Clases e Interfaces (ejemplo: `PetProfileComponent`).
+* Utilizar `UPPER_SNAKE_CASE` para constantes inmutables (ejemplo: `MAX_UPLOAD_SIZE`).
+* En Angular, nombrar los archivos separando las palabras con guiones y especificando su tipo (ejemplo: `vet-list.component.ts`, `auth.service.ts`).
+
+#### **Java (Spring Boot):**
+Para el desarrollo del backend, nos guiaremos de las siguientes convenciones:
+* Utilizar `PascalCase` para el nombre de las Clases y `camelCase` para los métodos y atributos.
+* Mantener la regla de escribir una sola clase por archivo.
+* Usar `UPPER_SNAKE_CASE` para las constantes (`static final`).
+* Utilizar las anotaciones semánticas de Spring Boot para definir claramente la capa lógica de cada clase (`@RestController` para controladores, `@Service` para lógica de negocio, `@Repository` para acceso a datos).
+* Agrupar las clases en paquetes lógicos según su dominio (ejemplo: `com.petcare.users`, `com.petcare.appointments`).
+
 ### 5.1.4. Software Deployment Configuration
+Para realizar el despliegue de nuestro landing page haremos uso de la herramienta GitHub. En donde el equipo deberá contar con una organización y repositorio donde ubicamos los documentos. En este mismo observaremos los siguientes elementos:
+
+  * Una carpeta “html” con el “index.html” en donde almacenaremos el código de nuestra landing page. 
+  * Una carpeta “js” la cual contiene los scripts con la lógica para el landing page en un archivo “index.js”
+  * Una carpeta “css” la cual contiene los estilos que usaremos en un archivo “style.css” 
+  * Una carpeta “images” la cual contiene las imágenes empleadas en el landing page
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.X. Sprint n 
 #### 5.2.X.1. Sprint Planning n
