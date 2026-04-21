@@ -43,7 +43,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte:
 
-- 
+- https://github.com/Co-Designers/petcare-report
 
 #### Link del repositorio de la Landing Page:
 
@@ -220,7 +220,7 @@ Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efe
 ### 1.1.2. Perfiles de integrantes del equipo
 | **Nombre Completo del integrante**    |	**Descripcion de la carrera** | **Fotografia** | **Conocimientos y habilidades**
 | :------------------------------------ |:------------------------------------ |:------------------------------------ |:------------------------------------ |
-| xxx |xxxxx| <img src="assets/xxxx.jpg"> | xx
+| Mejia Aliaga, Katherine Mejia |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/xxxx.jpg"> | Mi nombre es Katherine Mejia, tengo 21 años, curso el sexto ciclo de la carrera de ingeniería de software, Tengo conocimientos en C++, Phyton y HTML. Me gusta trabajar en equipo y a la vez sacar lo mejor de mis compañeros para hacer un buen trabajo. Además, tengo capacidad y aptitud para generar nuevas e innovadoras ideas y siempre estoy dispuesta a adquirir nuevas habilidades y conocimientos.
 | Tuncar Vila, Ghorghet Saul|Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/Ghorghet.png"> | Soy Ghorghet Saul Tuncar Vila, tengo 20 años de edad, estudio ingeniería de software en la UPC y estoy comprometido a seguir aprendiendo tecnologías que me ayuden en mi crecimiento como profesional. Me considero una persona empática, responsable, organizada y perfeccionista. Me apasiona aprender cada tema a profundidad y disfruto ayudando a los demás mientras doy lo mejor de mi en cada actividad.
 | xxxx   |xxxx| <img src="assets/xxxx.jpg"> | xxxxxxx
 | Cuarto Integrante |xxxxx| <img src="assets/<Nombre>.jpg"> | xxxxxxxx
