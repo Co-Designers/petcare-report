@@ -588,9 +588,12 @@ Para identificar las necesidades específicas de los segmentos objetivos, realiz
 ## 2.3.1. User Personas 
 ### User Persona - Dueño de mascota
 <img src="assets/User-Persona-Dueño-De-Mascotas.png">
+
 ### User Persona - Veterinario
 <img src="assets/User-Persona-Veterinario.png">
+
 ## 2.3.2. User Task Matrix 
+
 | Tareas Principales (Task Matrix) | Dueños de Mascotas (Lucia Mendoza) | | Médicos Veterinarios (Diego Fernandez) | |
 | :--- | :--- | :--- | :--- | :--- |
 | | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
@@ -602,17 +605,25 @@ Para identificar las necesidades específicas de los segmentos objetivos, realiz
 | Gestionar notificaciones y recordatorios (vacunas, controles). | A veces | Alta | Seguido | Alta |
 | Procesar pagos o cobros por consultas y servicios. | A veces | Alta | Seguido | Alta |
 | Leer, escribir o responder reseñas de atención veterinaria. | A veces | Media | Seguido | Alta |
+
 ## 2.3.3. User Journey Mapping 
+
 ### User Journey Map - Dueño de Mascota
 <img src="assets/User-Journey-Map-Dueño-De-Macotas.png">
+
 ### User Journey Map - Veterinario
 <img src="assets/User-Journey-Map-Veterinario.png">
+
 ## 2.3.4. Empathy Mapping
+
 ### Empathy Map -  Dueño de mascota
 <img src="assets/Empathy-Map-Dueño-De-Mascotas.png">
+
 ### Empathy Map - Veterinario
 <img src="assets/Empathy-Map-Veterinario.png">
+
 ## 2.4. Big Picture Event Storming
+
 ## 2.5. Ubiquitous Language
 El Ubiquitous Language es un elemento fundamental dentro del enfoque Domain-Driven Design (DDD), el cual se basa en la creación de un lenguaje común que sea compartido por todos los involucrados en el proyecto. Su finalidad es reducir confusiones y garantizar que tanto el equipo de desarrollo como los stakeholders tengan una interpretación clara y uniforme de los conceptos relacionados al dominio del negocio.
 
