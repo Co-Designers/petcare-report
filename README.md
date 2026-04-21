@@ -591,6 +591,47 @@ Segmento 2:
 
 ## 2.2.3. Análisis de entrevistas 
 
+En esta sección se presenta el análisis  de los hallazgos obtenidos mediante las entrevistas a profundidad realizadas a los dos segmentos objetivos. El análisis se sustenta con datos estadísticos.
+
+##Segmento 1: Dueños de Mascotas
+
+Este segmento está compuesto por usuarios entre 20 y 40 años, residentes en distritos de Lima y Callao. Se caracterizan por un alto uso de dispositivos móviles y una preocupación genuina por la salud preventiva de sus mascotas.
+
+### Cuadro 1: Comportamiento y Gestión del Dueño
+| Característica | Detalle Estadístico | Sustento en Entrevistas |
+| :--- | :---: | :--- |
+| **Uso de Herramientas Digitales** | **67%** | Keidy y Johan utilizan laptops y apps (Notion, Trello, Excel) para su organización personal. |
+| **Gestión de Historial Médico** | **100% Físico** | El 100% de los entrevistados depende de tarjetas, folders o folletos físicos entregados por la clínica. |
+| **Canal de Reserva de Citas** | **100% Tradicional** | La totalidad de la muestra utiliza WhatsApp o llamadas telefónicas directas para agendar. |
+| **Frecuencia de Visita** | **67% Mensual/Trimestral** | La mayoría acude con frecuencia para baños y chequeos; solo un 33% acude anualmente. |
+
+* **Frustración por Comunicación:** El 67% reporta malestar por la lentitud de respuesta en WhatsApp o la dificultad para encontrar citas inmediatas.
+* **Inseguridad en Emergencias:** Existe una necesidad latente de conocer qué servicios y equipos tiene una veterinaria antes de asistir, para evitar desplazamientos en vano durante emergencias.
+* **Valor de la Reputación:** El acceso a reseñas y opiniones es considerado un factor determinante para elegir un nuevo especialista.
+
+## Segmento 2: Especialistas y Centros Veterinarios
+
+Este segmento incluye médicos veterinarios y administradores de clínicas con distintos niveles de experiencia, desde emprendimientos jóvenes hasta centros de atención 24 horas.
+
+### Madurez Digital y Operaciones
+| Característica | Detalle Estadístico | Sustento en Entrevistas |
+| :--- | :---: | :--- |
+| **Método de Gestión Actual** | **67% Manual/Mixto** | Mariana y Diego dependen de Excel y agendas de papel. Ricardo usa software pero con limitaciones de acceso móvil. |
+| **Saturación de Canales** | **100%** | Todos los especialistas coinciden en que la gestión por WhatsApp/Redes Sociales es caótica y consume tiempo excesivo. |
+| **Disposición a la Adopción Digital** | **100% Alta** | El 100% de los entrevistados está dispuesto a implementar una plataforma que centralice sus procesos. |
+| **Problemas de Ausentismo** | **67%** | El ausentismo y la falta de confirmación de citas afectan la rentabilidad de las clínicas con mayor flujo. |
+
+### Necesidades según el Perfil del Negocio
+| Arquetipo de Negocio | Necesidad Primordial | Factor Crítico |
+| :--- | :--- | :--- |
+| **Clínica Consolidada (Mariana)** | Automatización de recordatorios | Ordenar el flujo de clientes antiguos. |
+| **Centro 24 Horas (Ricardo)** | Integración y Movilidad | Acceder a datos desde cualquier dispositivo. |
+| **Emprendimiento Joven (Diego)** | Visibilidad y Crecimiento | Atraer nuevos clientes y crear historiales digitales. |
+
+1.  **Brecha de Comunicación:** Existe un desfase entre la inmediatez que busca el dueño de la mascota y la capacidad de respuesta manual de la veterinaria. WhatsApp, aunque es el canal preferido, actúa como un cuello de botella operativo.
+2.  **El Problema del "Papel":** El historial clínico físico es el punto de dolor compartido. El dueño teme perderlo y el veterinario admite que buscar fichas físicas o folders ralentiza la atención.
+3.  **Oportunidad de Mercado:** El 100% de los especialistas reconoce que una herramienta digital mejoraría la satisfacción del cliente y la eficiencia del negocio, lo que valida la viabilidad de la solución propuesta.
+   
 ## 2.3. Needfinding
 
 Para identificar las necesidades específicas de los segmentos objetivos, realizamos entrevistas con representantes de nuestros dos perfiles clave. Los dueños de mascotas expresaron frustración por la desorganización de los historiales médicos físicos y la desesperación al no encontrar clínicas adecuadamente equipadas durante emergencias, mostrando un gran interés en una plataforma de búsqueda inteligente que incluya reseñas y recordatorios. Por su parte, los médicos veterinarios manifestaron que la gestión manual de citas mediante WhatsApp y el uso de fichas de papel generan desorden y limitan el crecimiento de sus negocios, respondiendo muy positivamente a la adopción de una herramienta digital que centralice agendas y expedientes. Estos hallazgos confirman la necesidad de modernizar e integrar el ecosistema de salud animal para mejorar la eficiencia operativa y la experiencia de todos los usuarios.
