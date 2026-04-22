@@ -553,6 +553,23 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 | EPIC-T03 | Gestión de citas y disponibilidad        | Controla la lógica de reservas, horarios y estado de citas.                 |
 | EPIC-T04 | Gestión de datos clínicos y notificaciones | Maneja almacenamiento de información médica y envío de alertas automáticas. |
 
+### Technical Story
+
+| Technical Story ID | Título                              | Descripción                                               | Criterios de aceptación                                                                 | EPIC      |
+|-------------------|-------------------------------------|-----------------------------------------------------------|------------------------------------------------------------------------------------------|-----------|
+| TS01              | Validación de disponibilidad        | Evitar conflictos de horarios en citas.                   | Dado horario ocupado, cuando se intenta reservar, entonces el sistema rechaza la operación. | EPIC-T03 |
+| TS02             | Sistema de notificaciones           | Implementar envío de alertas automáticas.                 | Dado evento programado, cuando se cumple la condición, entonces el sistema envía notificación. | EPIC-T04 |
+| TS03              | Autenticación de usuarios           | Implementar registro e inicio de sesión seguro.           | Dado credenciales válidas, cuando el usuario inicia sesión, entonces el sistema autentica correctamente. | EPIC-T01 |
+| TS04             | Control de acceso por roles         | Implementar autorización según tipo de usuario.           | Dado un usuario autenticado, cuando accede a un recurso, entonces el sistema valida permisos según rol. | EPIC-T01 |
+| TS05              | Gestión de historial clínico        | Implementar almacenamiento de datos médicos.              | Dado registros clínicos, cuando se consultan, entonces el sistema los muestra correctamente. | EPIC-T04 |
+| TS06              | Gestión de usuarios                 | Implementar operaciones CRUD de usuarios.                 | Dado datos válidos, cuando se registra o edita, entonces el sistema guarda correctamente. | EPIC-T02 |
+| TS07              | Gestión de mascotas                 | Implementar operaciones CRUD de mascotas.                 | Dado datos de mascota, cuando se registra, entonces el sistema almacena información. | EPIC-T02 |
+| TS08              | Gestión de citas                    | Implementar lógica de reservas y estados de citas.        | Dado disponibilidad, cuando se agenda una cita, entonces el sistema la registra correctamente. | EPIC-T03 |
+| TS09              | Motor de búsqueda y filtrado        | Implementar búsqueda de veterinarias por filtros.         | Dado filtros aplicados, cuando se consulta, entonces el sistema retorna resultados correctos. | EPIC-T03 |
+| TS10             | Gestión de veterinarias             | Implementar registro y administración de veterinarias.    | Dado datos válidos, cuando se procesa, entonces el sistema persiste la información. | EPIC-T02 |
+| TS11              | Generación de documentos PDF        | Implementar exportación de recetas e historial.           | Dado solicitud, cuando se genera, entonces el sistema produce archivo válido. | EPIC-T04 |
+| TS12             | Recuperación de contraseña          | Implementar recuperación segura mediante correo.          | Dado solicitud válida, cuando el usuario confirma, entonces puede cambiar su contraseña. | EPIC-T01 |
+
 ## 3.2. Impact Mapping
 
 #### Segmento 1: Dueños de Mascotas
