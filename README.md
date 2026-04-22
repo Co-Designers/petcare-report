@@ -473,6 +473,28 @@ Segmento 2:
 ## 2.5. Ubiquitous Language
 # Capitulo III: Requirements Specification
 ## 3.1. User Stories
+En esta sección, profundizaremos en la definición y elaboración de las User Stories relacionadas con nuestro proyecto. Las User Stories son una herramienta fundamental en el desarrollo de software y proyectos de diseño centrados en el usuario.
+
+**EPICS**
+
+| **Epic ID** | **Título** | **Descripción** | **Criterio de aceptación** |
+| - | - | - | - |
+| EPIC-01 |  |  |  |
+| EPIC-02 |  |  |  |
+
+
+**USER STORIES**
+| Epic/User Story ID | Título | Descripción | Criterio de aceptación | Relación (EPIC ID) |
+|---|---|---|---|---|
+| US01 | Buscar veterinarias con filtros | Como dueño de mascota, quiero buscar veterinarias mediante filtros por distrito, horario y especialidad, para encontrar una opción adecuada rápidamente. | **Escenario 1: Búsqueda con filtros exitosos**<br>Dado que el usuario se encuentra en la sección de búsqueda,<br>Cuando selecciona distrito, horario o especialidad,<br>Entonces el sistema muestra veterinarias relacionadas con los filtros elegidos.<br><br>**Escenario 2: Sin resultados disponibles**<br>Dado que no existen coincidencias registradas,<br>Cuando el usuario realiza la búsqueda,<br>Entonces el sistema informa que no se encontraron resultados. |  |
+| US02 | Visualizar reseñas de veterinarias | Como dueño de mascota, quiero visualizar reseñas y calificaciones de otros usuarios, para elegir una veterinaria confiable. | **Escenario 1: Visualización de reseñas**<br>Dado que la veterinaria posee valoraciones registradas,<br>Cuando el usuario accede al perfil de la veterinaria,<br>Entonces el sistema muestra reseñas y calificaciones disponibles.<br><br>**Escenario 2: Sin reseñas registradas**<br>Dado que la veterinaria no posee reseñas,<br>Cuando el usuario visualiza su perfil,<br>Entonces el sistema informa que aún no existen valoraciones. |  |
+| US03 | Consultar historial clínico digital | Como dueño de mascota, quiero acceder al historial clínico digital de mis mascotas, para consultar tratamientos y antecedentes médicos. | **Escenario 1: Consulta de historial disponible**<br>Dado que la mascota posee registros médicos,<br>Cuando el usuario accede al historial clínico,<br>Entonces el sistema muestra la información almacenada.<br><br>**Escenario 2: Sin historial registrado**<br>Dado que la mascota no posee registros previos,<br>Cuando el usuario accede al historial clínico,<br>Entonces el sistema informa que no existen datos registrados. |  |
+| US04 | Registrar vacunas y controles médicos | Como dueño de mascota, quiero registrar vacunas y controles médicos, para mantener actualizado el seguimiento preventivo de mis mascotas. | **Escenario 1: Registro exitoso**<br>Dado que el usuario ingresa la información requerida,<br>Cuando registra una vacuna o control,<br>Entonces el sistema guarda los datos correctamente.<br><br>**Escenario 2: Datos incompletos**<br>Dado que faltan campos obligatorios,<br>Cuando el usuario intenta registrar la información,<br>Entonces el sistema solicita completar los datos faltantes. |  |
+| US05 | Reservar citas veterinarias online | Como dueño de mascota, quiero reservar citas veterinarias en línea, para ahorrar tiempo y evitar llamadas. | **Escenario 1: Reserva confirmada**<br>Dado que existen horarios disponibles,<br>Cuando el usuario selecciona fecha y hora,<br>Entonces el sistema registra la cita correctamente.<br><br>**Escenario 2: Horario ocupado**<br>Dado que el horario ya no se encuentra disponible,<br>Cuando el usuario intenta reservarlo,<br>Entonces el sistema informa que debe elegir otro horario. |  |
+| US06 | Reprogramar o cancelar citas | Como dueño de mascota, quiero modificar o cancelar citas programadas, para adaptarme a cambios de horario. | **Escenario 1: Reprogramación exitosa**<br>Dado que la cita se encuentra vigente,<br>Cuando el usuario selecciona una nueva fecha disponible,<br>Entonces el sistema actualiza la cita correctamente.<br><br>**Escenario 2: Cancelación exitosa**<br>Dado que existe una cita programada,<br>Cuando el usuario solicita cancelarla,<br>Entonces el sistema elimina la reserva y confirma la acción. |  |
+| US07 | Recibir recordatorios automáticos | Como dueño de mascota, quiero recibir notificaciones automáticas, para recordar vacunas y controles médicos pendientes. | **Escenario 1: Envío de recordatorio**<br>Dado que existe una vacuna próxima a vencer,<br>Cuando llega la fecha programada,<br>Entonces el sistema envía una notificación al usuario.<br><br>**Escenario 2: Recordatorio de control médico**<br>Dado que existe una cita próxima,<br>Cuando se acerca la fecha establecida,<br>Entonces el sistema envía una alerta preventiva. |  |
+| US08 | Visualizar calendario de citas y controles | Como dueño de mascota, quiero visualizar un calendario con citas y controles, para organizar mejor el cuidado de mis mascotas. | **Escenario 1: Calendario con eventos registrados**<br>Dado que existen citas o controles agendados,<br>Cuando el usuario accede al calendario,<br>Entonces el sistema muestra los eventos programados.<br><br>**Escenario 2: Calendario vacío**<br>Dado que no existen eventos registrados,<br>Cuando el usuario visualiza el calendario,<br>Entonces el sistema informa que no hay actividades pendientes. |  |
+
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
 # Capitulo IV: Product Design
