@@ -544,7 +544,7 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 #### Segmento 1: Dueños de Mascotas
 <img src="assets/impact-mapping-pet-owners.png" />
 
-### Segmento 2: Veterinarios / Profesionales independientes
+#### Segmento 2: Veterinarios / Profesionales independientes
 <img src="assets/impact-mapping-veterinarians.png" />
 
 ## 3.3. Product Backlog
