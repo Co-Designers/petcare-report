@@ -545,7 +545,13 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 | US49 | Alerta de mascotas perdidas | Como dueño de mascota, quiero emitir una alerta de extravío, para que la comunidad ayude en la búsqueda. | **Escenario 1: Modo "Perdido"**<br>**Dado** que la mascota se extravió,<br>**Cuando** el dueño activa la alerta,<br>**Entonces** el sistema notifica a usuarios en un radio cercano. | EP08 |
 | US50 | Evaluación del servicio técnico | Como usuario, quiero calificar la atención del soporte, para ayudar a mejorar la calidad de la plataforma. | **Escenario 1: Calificación de ticket**<br>**Dado** que se cerró un ticket,<br>**Cuando** el usuario valora con estrellas,<br>**Entonces** el sistema registra el feedback. | EP10 |
 
-
+### Technical Epic
+| Epic ID  | Título                                   | Descripción                                                                 |
+|----------|------------------------------------------|-----------------------------------------------------------------------------|
+| EPIC-T01 | Autenticación y control de acceso        | Gestiona registro, inicio de sesión y autorización de usuarios mediante mecanismos seguros. |
+| EPIC-T02 | Gestión de entidades del sistema         | Administra usuarios, mascotas y veterinarias mediante operaciones CRUD.     |
+| EPIC-T03 | Gestión de citas y disponibilidad        | Controla la lógica de reservas, horarios y estado de citas.                 |
+| EPIC-T04 | Gestión de datos clínicos y notificaciones | Maneja almacenamiento de información médica y envío de alertas automáticas. |
 
 ## 3.2. Impact Mapping
 
