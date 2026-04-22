@@ -252,13 +252,20 @@ Objetivos Específicos
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
+-Los dueños de mascotas tienen dificultades para poder organizar y dar seguimiento al historial medico de sus mascotas, especialmente en procedimientos frecuentes como  baños, vacunas y controles, debido a la gran cantidad de informacion que deben gestionar. Ademas, al presentarse un emergencia con sus mascotas no saben a que veterinaria acudir por que no tiene informacion previa de que procedimientos ofrecen ni de los precios y el horario de atencion, perdiendo tiempo valioso. Por otro lado, los dueños de mascotas no conocen que metodo de pago manejan cada veterinaria, ni los tiempos de respuesta para agendar una cita, los cuales en su mayoria de casos son de varios dias, provocando demora en la atencion.
 
+-La mayoria de veterinarias cuentan con una gestion de datos de sus usuarios muy poco eficiente, basados en registros fisicos como tarjetas o historial medico en papel, difucultando identificar a sus clientes mas frecuentes, saber que procedimientos que se realizan con mayor frecuencia y mas datos valioso para el negocio. Asimismo, cuentan con dificultad para captar nuevos clientes, debido a la falta de visibilidad de su informacion sobre los servicios que ofrecen, años de experiencia, reseñas de sus usuarios, horarios de atencion y ubicaciones. Ademas, tienen limitaciones para hacer un seguimiento personalizado de cada mascota, lo que puede afectar en la calidad de atención, especialmente en situaciones de emergencia o en la deteccion de patrones para determinar la causa de algunas enermedades. Por otro lado, no tienen control suficiente de la gestion de vacunas, medicamentos o productos que utilizen, perjudicando a la veterinaria y a los usuarios. Finalmente, no cuentan con un registro organizado de los pagos realizados por consultas o procedimientos, teniendo problemas en su gestion administrativa.<br><br>El dominio de este proyecto se centra en el sector salud y cuidado de mascotas, especificamente en la gestion de los servicios veterinarios y el buen manejo de informacion clinica de las mascotas.<br>Los segmentos identificados son los dueños de mascotas que buscan un seguimiento y buen cuidado de las salud de sus mascotas y las veterinarias que nesecitan optimizar la gestion de sus recursos, servicios y tener mayor rango de visibilidad del publico.<br>Actualemnte no existe una plataforma que este centrada en la gestion del historial medico de las mascotas con informacion detallada de las veterinarias, incluyendo servicios, horarios, precios, metodos de pago y la opcion de agendar citas.<br>La vision del proyecto es desarrollar una plataforma digital que conecte a dueños de mascotas con veterinarias, logrando optimizar la gestion de informacion, mejorando la toma de decisiones y garantizando el facil el acceso a un buen servicio de salud de forma rapida, eficiente y confiable.
 
 #### 1.2.2.1 Lean UX Assumptions
-
+Para los dueños de mascotas:<br>
+-Se interesan por la salud y el buen cuidado de sus mascotas.<br>
+-Prefieren obtener informacion de las veterinarias de forma digital sin acudir presencialmente.<br>
+-Nesecitan una forma digitalizada de organizar y dar seguimiento del historial medico de sus mascotas.<br>
+-Quieren una atencion rapida y que cumpla con las fechas y horas establecidas.<br><br>Para las veterinarias:<br>-Buscan mejorar la gestion de la informacion de sus clientes y de las mascotas.<br>-Prefieren digtilizar sus procesos para optimizar tiempo y reducir errores.<br>-Nesecitan una manera rapida y organizada de registrar y dar seguimiento al historial clinico de las mascotas.<br>-Buscan ampliar su rango de visibilidad para atraer nuevos clientes.<br>-Quieren mostrar informacion de sus servicios, precios, horarios y ubicacion sin tener que enviar la informacion manualmente a cada cliente.<br>-Nesecitan herramientas que les permitan gestionar citas, pagos y la atencion al cliente.<br>-Buscan mejorar la calidad de atencion mediante un seguimiento mucho mas personalizado de cada mascota.
 
 #### 1.2.2.1 Lean UX Hypothesis Statements
-
+-Creemos que con nuestra aplicación los dueños de mascotas podrán organizar y dar seguimiento al historial médico de sus mascotas de manera más eficiente. Sabremos que hemos tenido éxito cuando veamos que al menos el 70% de los usuarios registrados utilizan la función de historial médico de forma recurrente. Mediremos esto mediante las estadísticas de uso dentro de la plataforma.<br><br>
+-Creemos que con nuestra aplicación los usuarios podrán encontrar veterinarias de forma más rápida y eficiente. Sabremos que hemos tenido éxito cuando al menos el 60% de los usuarios seleccionen una veterinaria desde la plataforma. Mediremos esto mediante las estadísticas de búsqueda y selección registradas en la base de datos.<br><br>-Creemos que con nuestra aplicación se reducirá el tiempo para agendar citas veterinarias. Sabremos que hemos tenido éxito cuando el tiempo promedio de agendamiento disminuya en al menos un 40% en comparación con métodos tradicionales. Mediremos esto mediante los tiempos registrados en el sistema de agendamiento<br><br>-Creemos que con nuestra aplicación las veterinarias podrán mejorar la gestión de sus clientes y servicios. Sabremos que hemos tenido éxito cuando al menos el 70% de las veterinarias registradas utilicen activamente la plataforma. Mediremos esto mediante las estadísticas de uso dentro del sistema.<br><br>-Creemos que con nuestra aplicación las veterinarias aumentarán su visibilidad y captación de clientes. Sabremos que hemos tenido éxito cuando las citas agendadas a través de la plataforma aumenten en un 50%. Mediremos esto mediante los registros de citas en la base de datos.
 
 #### 1.2.2.1 Lean UX Canvas
 
@@ -267,40 +274,40 @@ Objetivos Específicos
 <tr>  
 <td>  
 <h2>Business Problem</h2>  
-xxxx
+-Las Veterinarias y los dueños de mascotas tienen dificultades para gestionar la informacion de los procesos y actividades relacionadas con el cuidado de las mascotas. Actualmente no existe una plataforma intermediaria que facilite la conexion entre los dueños de mascotas y las veterinarias, lo que genera desorganizacion, perdida de tiempo y limita el acceso a los servicios veterinarios.
 </td>  
 <td>  
 <h2>Solutions</h2>  
-xxx
+-Plataforma centrada en conectar a dueños de mascotas con las veterinarias <br><br>-Sistema de registro y gestion del historial medico de las mascotas.<br><br>-Busqueda de veterinarias y que contengan informacion detallada de servicios, precios, horarios y ubicacion.<br><br>-Sistema de agendamiento de citas en linea.<br><br>-Apartado de gestion para veterinaria de clientes, mascotas, productos y servicos que brindan.<br><br>-Sistema de recordatorio para las citas, vacunas, controles y tratamientos. 
 </td>  
 <td>  
 <h2>Business Outcomes</h2>  
-xxx
+-la cantidad de usuarios registrados en la plataforma aumentara en un 30% durante los primero 5 meses despues del lanzamiento.<br>KPI: Porcentaje de crecimiento mensual de usuarios registrados.<br>Metodo de medicion: Analisis de la base de datos de usuarios registrados en la plataforma.<br><br>-El numero de citas en la veterinaria agendadas por medio de la plataforma aumentara en un 40% en los proximos 7 meses.<br>KPI: Numero de citas agendadas por mes.<br>Metodos de medicion: Comparacion del resgistro de citas actuales con las anteriores, dentro del sistema.<br><br>-La cantidad de veterinarias registradas aumentara en un 25% durante el primer año.<br>KPI: Numero de veterinarias activas a la actualidad.<br>Metodo de medicion: Comparacion en la base de datos de la cantidad de veterinarias actuales con las antiguas.<br><br>- El uso de la plataforma por parte de los usuarios aumentara un 35% en los primeros 6 meses.<br>KPI: Cantidad de usuarios navegando en la plataforma.<br>Metodo de medicion: Registro de los usuarios activos mediante herramientas de analitica, que monitorean la actividad dentro de la plataforma.
 </td>  
 </tr>  
 <tr>  
 <td>  
 <h2>Users</h2>  
-xxx
+-Dueños de mascotas<br>Personas que tienen una o varias mascotas y buscan mejorar su cuidado mediante un seguimiento mas preciso de su salud.<br><br>-veterinarias: Centros de atencion que buscan captar mas clientes, optimizar la gestion de su negocio y brindar una mejor experiencia a sus clientes.
 </td>  
 <td></td>  
 <td>  
 <h2>User Outcomes & Benefits</h2>  
-xxx
+-Dueños de las mascotas: Podran organizar y dar seguimiento al historial medico de sus mascotas de manera mas eficiente.<br>Podran acceder rapidamente a informacion de veterinarias, ayudando a tomar una mejor desicion.<br>Recibira una atencion mas rapida, organizada y personalizada.<br><br>-Veterinarias: Mejoraran la gestion de sus clientes, los servicios que brindan, productos que ofrecen y los pagos realizados.<br>Aumentaran su visibilidad y captacion de nuevos clientes.
 </td>  
 </tr>  
 <tr>  
 <td>  
 <h2>Hypotheses</h2>  
-xxx
+-Los dueños de mascotas nesecitan llevar un registro del historial medico de sus mascotas.<br>Los usuarios consideran util revisar el historial medico de forma frecuente.<br>-Los usuarios utilizaran la funcion de historial medico frecuentemente si es facil de acceder.<br>-La gestion digital del historial medico es mas eficiente que metodos manuales como papel o memorizar.<br>-Los usuarios tienen dificultades para encontrar veterinarias que cumplan con sus nesecidades.<br>-Los usuarios prefieren buscar las veterinarias dentro de la plataforma por que esta enfocada en ello.<br>-Los usuarios confiaran en la informacion de las veterinarias mostradas en la paltaforma.<br>-El proceso actual que se usa para agendar citas es lento o poco eficiente.<br>-Los usuarios prefieren agendar citas desde una plataforma digital en lugar de realizar llamadas o ir presencialmente.<br>-Un sistema digital reduce el tiempo que se tardan en agendar una cita.<br>-Los usuarios completaran el proceso de agendamiento sin abandonar la plataforma por que sera intuitiva, facil de realizar y sin muchos clicks.<br>-Las veterinarias estan dispuestas a adoptar plataformas digitales para la mejora de su negocio.<br>-El uso de una plataforma mejora la organizacion interna de las veterinarias.<br>-Las veterinarias usaran de forma continua la plataforma si ven beneficios notables.<br>-Las veterinarias buscan aumentar su visibilidad frente a nuevos clientes.<br>-Los usuarios confiaran en las veterianrias que esten en la plataforma.
 </td>  
 <td>  
 <h2>What’s the most important thing we need to learn first?</h2>  
-xxx
+-Lo mas importante que nesecitamos aprender primero es si los dueños de mascotas estaran dispuestos a utilizar una plataforma digital para gestionar el historial medico de sus mascotas. Tambien si las veterinarias estan dispuestas a colocar informacion en la plataforma, como ubicacion y reseña de usarios. Por ultimo, en que meses del año es donde las veterinarias concentran una mayor demanda de servicios.
 </td>  
 <td>  
 <h2>What’s the least amount of work we need to do to learn the next most important thing?</h2>  
-xxx
+-Realizar encuestas para obtener los datos más importantes que debemos saber de nuestros usuarios y así mejorar la forma en la que interactúan con la plataforma.<br>
 </td>  
 </tr>  
 </table>
