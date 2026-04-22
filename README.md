@@ -500,7 +500,42 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 | US-12 | Historial clínico digital | Como veterinario, quiero registrar el historial clínico de cada mascota para acceder rápidamente a su información médica. | **Escenario 1: Registro médico exitoso**<br>Dado que el veterinario se encuentra en la ficha de una mascota,<br>Cuando agrega vacunas, diagnósticos o tratamientos,<br>Entonces el sistema guarda la información en el historial clínico.<br><br>**Escenario 2: Consulta de historial**<br>Dado que la mascota cuenta con registros previos,<br>Cuando el veterinario accede a su perfil,<br>Entonces el sistema muestra el historial médico completo. |
 | US-13 | Plan premium de posicionamiento | Como administrador de veterinaria, quiero contratar un plan premium para destacar mi negocio dentro de la plataforma. | **Escenario 1: Contratación del plan premium**<br>Dado que el administrador visualiza los planes disponibles,<br>Cuando selecciona el plan premium y confirma el pago,<br>Entonces el sistema activa los beneficios correspondientes.<br><br>**Escenario 2: Mayor visibilidad**<br>Dado que la veterinaria tiene plan premium activo,<br>Cuando los usuarios realizan búsquedas relacionadas,<br>Entonces el perfil aparece en posiciones destacadas. |
 | US-14 | Recordatorios automáticos de citas | Como veterinario, quiero enviar recordatorios automáticos a mis clientes para reducir ausencias y cancelaciones. | **Escenario 1: Envío de recordatorio**<br>Dado que existe una cita próxima programada,<br>Cuando faltan 24 horas para la atención,<br>Entonces el sistema envía un recordatorio automático al cliente.<br><br>**Escenario 2: Confirmación de asistencia**<br>Dado que el cliente recibe el recordatorio,<br>Cuando confirma o solicita reprogramación,<br>Entonces el sistema actualiza el estado de la cita. |
-
+| US-15 |  |  |  |
+| US-16 |  |  |  |
+| US-17 |  |  |  |
+| US-18 |  |  |  |
+| US-19 |  |  |  |
+| US-20 |  |  |  |
+| US-21 |  |  |  |
+| US-22 |  |  |  |
+| US-23 |  |  |  |
+| US-24 |  |  |  |
+| US-25 |  |  |  |
+| US-26 |  |  |  |
+| US-27 |  |  |  |
+| US-28 |  |  |  |
+| US-29 |  |  |  |
+| US-30 |  |  |  |
+| US-31 |  |  |  |
+| US-32 |  |  |  |
+| US-33 |  |  |  |
+| US-34 |  |  |  |
+| US-35 |  |  |  |
+| US-36 |  |  |  |
+| US-37 |  |  |  |
+| US-38 |  |  |  |
+| US-39 |  |  |  |
+| US-40 |  |  |  |
+| US-41 |  |  |  |
+| US-42 |  |  |  |
+| US-43 |  |  |  |
+| US-44 |  |  |  |
+| US-45 |  |  |  |
+| US-46 |  |  |  |
+| US-47 |  |  |  |
+| US-48 |  |  |  |
+| US-49 |  |  |  |
+| US-50 |  |  |  |
 
 
 
