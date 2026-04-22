@@ -556,6 +556,59 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 <img src="assets/impact-mapping-veterinarians.png" />
 
 ## 3.3. Product Backlog
+| # Orden | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
+| 1 | US15 | Registro de perfil de mascota | Como dueño de mascota, quiero crear un perfil individual para mis mascotas, para centralizar su información y fotos. | 3 |
+| 2 | US01 | Buscar veterinarias con filtros | Como dueño de mascota, quiero buscar veterinarias mediante filtros por distrito, horario y especialidad, para encontrar una opción adecuada rápidamente. | 5 |
+| 3 | US05 | Reservar citas veterinarias online | Como dueño de mascota, quiero reservar citas veterinarias en línea, para ahorrar tiempo y evitar llamadas. | 5 |
+| 4 | US03 | Consultar historial clínico digital | Como dueño de mascota, quiero acceder al historial clínico digital de mis mascotas, para consultar tratamientos y antecedentes médicos. | 5 |
+| 5 | US04 | Registrar vacunas y controles médicos | Como dueño de mascota, quiero registrar vacunas y controles médicos, para mantener actualizado el seguimiento preventivo de mis mascotas. | 3 |
+| 6 | US08 | Visualizar calendario de citas y controles | Como dueño de mascota, quiero visualizar un calendario con citas y controles, para organizar mejor el cuidado de mis mascotas. | 3 |
+| 7 | US22 | Guardar veterinarias favoritas | Como dueño de mascota, quiero marcar veterinarias como favoritas, para acceder a sus perfiles de forma recurrente. | 2 |
+| 8 | US02 | Visualizar reseñas de veterinarias | Como dueño de mascota, quiero visualizar reseñas y calificaciones de otros usuarios, para elegir una veterinaria confiable. | 2 |
+| 9 | US23 | Filtro de veterinarias 24 horas | Como dueño de mascota, quiero filtrar solo veterinarias con atención de emergencia, para actuar rápido ante accidentes nocturnos. | 2 |
+| 10 | US37 | Visualizar mapa de veterinarias | Como dueño de mascota, quiero ver las veterinarias en un mapa interactivo, para identificar la más cercana a mi ubicación. | 5 |
+| 11 | US07 | Recibir recordatorios automáticos | Como dueño de mascota, quiero recibir notificaciones automáticas, para recordar vacunas y controles médicos pendientes. | 3 |
+| 12 | US06 | Reprogramar o cancelar citas | Como dueño de mascota, quiero modificar o cancelar citas programadas, para adaptarme a cambios de horario. | 3 |
+| 13 | US41 | Notificación de cita en curso | Como dueño de mascota, quiero saber cuándo mi mascota ingresó a consulta, para estar informado mientras espero fuera. | 2 |
+| 14 | US19 | Chat de consultas post-cita | Como dueño de mascota, quiero chatear con el veterinario que atendió a mi mascota, para resolver dudas sobre el tratamiento. | 5 |
+| 15 | US20 | Adjuntar archivos en el chat | Como usuario, quiero enviar fotos de los síntomas de mi mascota, para que el veterinario tenga una referencia visual rápida. | 2 |
+| 16 | US18 | Pago de reserva en línea | Como dueño de mascota, quiero pagar la cita mediante la app, para asegurar mi cupo y agilizar el proceso presencial. | 5 |
+| 17 | US24 | Descarga de recetas digitales | Como dueño de mascota, quiero descargar las recetas médicas en PDF, para comprarlas en cualquier establecimiento. | 2 |
+| 18 | US35 | Exportar historial médico | Como dueño de mascota, quiero exportar el historial a PDF, para presentarlo en otras clínicas si fuera necesario. | 3 |
+| 19 | US29 | Historial de pagos realizados | Como dueño de mascota, quiero ver el detalle de mis gastos, para llevar un control financiero de los cuidados de mi mascota. | 2 |
+| 20 | US40 | Sistema de puntos y recompensas | Como dueño de mascota, quiero acumular puntos por citas pagadas, para canjearlos por descuentos futuros. | 5 |
+| 21 | US38 | Perfiles de médicos veterinarios | Como dueño de mascota, quiero ver el perfil del médico que atenderá a mi mascota, para conocer su especialidad. | 2 |
+| 22 | US17 | Registro de alergias y cuidados | Como dueño de mascota, quiero anotar alergias o condiciones especiales, para prevenir negligencias en las consultas. | 2 |
+| 23 | US36 | Registro de peso y medidas | Como dueño de mascota, quiero registrar el peso periódicamente, para monitorear el crecimiento de mi mascota. | 3 |
+| 24 | US46 | Registro de dieta y alimentación | Como dueño de mascota, quiero anotar el tipo de alimento, para que el veterinario lo considere en su diagnóstico. | 3 |
+| 25 | US34 | Recordatorio de desparasitación | Como dueño de mascota, quiero alertas de cuándo toca la próxima desparasitación, para mantener la salud preventiva. | 2 |
+| 26 | US30 | Notificación de “Mascota lista” | Como dueño de mascota, quiero recibir una alerta cuando termine el servicio de grooming, para pasar a recoger a mi mascota. | 2 |
+| 27 | US49 | Alerta de mascotas perdidas | Como dueño de mascota, quiero emitir una alerta de extravío, para que la comunidad ayude en la búsqueda. | 5 |
+| 28 | US44 | Filtro por urgencia inmediata | Como dueño de mascota, quiero ver qué veterinarias tienen menor tiempo de espera, para una emergencia médica. | 2 |
+| 29 | US45 | Configuración de notificaciones | Como usuario, quiero elegir qué alertas recibir, para no saturar mi teléfono con mensajes innecesarios. | 2 |
+| 30 | US42 | Soporte técnico por tickets | Como usuario, quiero enviar reportes de errores en la app, para que el equipo técnico los solucione. | 3 |
+| 31 | US50 | Evaluación del servicio técnico | Como usuario, quiero calificar la atención del soporte, para ayudar a mejorar la calidad de la plataforma. | 2 |
+| 32 | US43 | Vinculación de múltiples dueños | Como dueño de mascota, quiero compartir el perfil con otro familiar, para que ambos gestionemos sus citas. | 3 |
+| 33 | US16 | Edición de datos del dueño | Como dueño de mascota, quiero actualizar mi contacto y dirección, para que las veterinarias tengan mis datos vigentes. | 1 |
+| 34 | US31 | Recuperación de contraseña | Como usuario, quiero restablecer mi contraseña mediante mi correo, para recuperar el acceso si la olvido. | 2 |
+| 35 | US32 | Autenticación de dos factores | Como administrador, quiero activar la verificación en dos pasos, para proteger los datos médicos de mi negocio. | 3 |
+| 36 | US09 | Registro de veterinaria | Como administrador de veterinaria, quiero registrar mi negocio en la plataforma para aumentar mi visibilidad y captar nuevos clientes. | 5 |
+| 37 | US10 | Gestión de perfil comercial | Como administrador de veterinaria, quiero actualizar horarios, promociones y datos comerciales para mantener informados a los clientes. | 3 |
+| 38 | US25 | Gestión de servicios y precios | Como administrador de veterinaria, quiero configurar mi catálogo de servicios, para que los clientes conozcan los costos. | 3 |
+| 39 | US26 | Bloqueo de fechas por feriados | Como administrador de veterinaria, quiero bloquear días específicos del calendario, para evitar citas en fechas no laborables. | 2 |
+| 40 | US27 | Dashboard de citas mensuales | Como administrador de veterinaria, quiero ver estadísticas de citas realizadas, para medir el rendimiento del negocio. | 5 |
+| 41 | US47 | Reporte de ingresos financieros | Como administrador de veterinaria, quiero generar reportes de ganancias, para llevar la contabilidad del negocio. | 5 |
+| 42 | US28 | Registro de personal (Staff) | Como administrador de veterinaria, quiero crear cuentas para mis veterinarios, para que gestionen sus propios pacientes. | 5 |
+| 43 | US13 | Plan premium de posicionamiento | Como administrador de veterinaria, quiero contratar un plan premium para destacar mi negocio dentro de la plataforma. | 5 |
+| 44 | US39 | Gestión de stock de vacunas | Como administrador de veterinaria, quiero registrar el stock de vacunas, para evitar agendar citas sin suministros. | 3 |
+| 45 | US48 | Galería de fotos del tratamiento | Como veterinario, quiero subir fotos de la evolución de una lesión, para documentar el progreso visualmente. | 3 |
+| 46 | US33 | Carga de resultados de laboratorio | Como veterinario, quiero subir informes de exámenes externos, para que el historial clínico esté completo. | 3 |
+| 47 | US21 | Reportar reseña inapropiada | Como administrador de veterinaria, quiero reportar reseñas falsas, para proteger la reputación de mi negocio. | 2 |
+| 48 | US11 | Sistema de citas online | Como veterinario, quiero gestionar citas digitales para organizar mejor la atención de mis pacientes. | 5 |
+| 49 | US12 | Historial clínico veterinario | Como veterinario, quiero registrar el historial clínico de cada mascota para acceder rápidamente a su información médica. | 5 |
+| 50 | US14 | Recordatorios automáticos de citas | Como veterinario, quiero enviar recordatorios automáticos a mis clientes para reducir ausencias y cancelaciones. | 3 |
+
 # Capitulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
