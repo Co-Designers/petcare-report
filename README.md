@@ -660,7 +660,7 @@ Para identificar las necesidades específicas de los segmentos objetivos, realiz
 ## 2.3.3. User Journey Mapping 
 
 ### User Journey Map - Dueño de Mascota
-<img src="assets/User-Journey-Map-Dueño-De-Macotas.png">
+<img src="assets/User-Journey-Map-Dueño-De-Mascotas.png">
 
 ### User Journey Map - Veterinario
 <img src="assets/User-Journey-Map-Veterinario.png">
