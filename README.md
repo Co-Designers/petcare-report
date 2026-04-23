@@ -614,6 +614,23 @@ En esta sección se presenta la documentación relacionada con los servicios web
 
 Los servicios web de PetCare están diseñados para centralizar la información de salud de las mascotas y optimizar la interacción entre los distintos actores del sistema (dueños de mascotas y clínicas veterinarias). A través de estos servicios, se busca garantizar una experiencia integrada, segura y eficiente, permitiendo el acceso a información relevante en tiempo real y mejorando la toma de decisiones en el cuidado de las mascotas.
 
+A continuación, se describen los principales servicios que serán implementados en la plataforma:
+
+- **Servicios de Autenticación y Autorización:** Registro de usuarios, inicio de sesión, gestión de sesiones mediante tokens (JWT) y control de acceso según el tipo de usuario (dueño de mascota o clínica veterinaria).
+
+- **Servicios de Gestión de Usuarios:** Creación, edición y consulta de perfiles de usuarios, almacenamiento de información personal y configuración de preferencias dentro de la plataforma.
+
+- **Servicios de Gestión de Mascotas:** Registro de mascotas, actualización de datos (edad, raza, historial), asociación con su propietario y acceso a información clínica centralizada.
+
+- **Servicios de Historial Clínico:** Registro, almacenamiento y consulta del historial médico de cada mascota, incluyendo vacunas, tratamientos, cirugías y diagnósticos.
+
+- **Servicios de Recordatorios y Seguimiento:** Generación automática de recordatorios para vacunas, controles médicos y desparasitaciones, así como notificaciones programadas para el usuario.
+
+- **Servicios de Búsqueda de Veterinarias:** Consulta de clínicas veterinarias cercanas, filtrado por tipo de atención, disponibilidad y ubicación.
+
+- **Servicios de Suscripciones:** Gestión de planes (Premium y Salud), control de beneficios asociados y administración del estado de suscripción de cada usuario.
+
+- **Servicios de Contacto y Comunicación:** Recepción de datos desde formularios de contacto, gestión de solicitudes de usuarios y futura integración de canales de comunicación con veterinarias.
 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
