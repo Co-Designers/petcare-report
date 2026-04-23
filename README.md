@@ -571,6 +571,15 @@ En el presente Sprint se prioriza el desarrollo del Landing Page de la plataform
 
 El Sprint se enfoca en el diseño e implementación de la interfaz del Landing Page, abarcando la estructura visual, la organización de contenidos y la navegación del usuario, garantizando una experiencia intuitiva, accesible y responsive. Para optimizar la distribución del trabajo, se define una Leadership and Collaboration Matrix (LACX) que establece los roles de Leader y Collaborator por cada aspecto técnico, facilitando la coordinación del equipo y la ejecución eficiente de las tareas del Sprint. A continuación, se presenta un cuadro a detalle.
 
+**Leadership and Collaboration Matrix (LACX)**
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page HTML (L/C) | Landing Page CSS (L/C) | Landing Page JS (L/C) | UI/UX Design (L/C) |
+|------------------------------------|-----------------|--------------------------|--------------------------|------------------------|---------------------|
+| Mejia Aliaga, Katherine Maryory | KathMJ     | L                        | L                        | L                      | C                   |
+| Tuncar Vila, Ghorghet Saul   | Ghorghet     | C                        | C                        | C                      | C       |
+
+
+
 
 
 #### 5.2.X.3. Sprint Backlog n. 
