@@ -658,8 +658,8 @@ Para evitar que los usuarios de PetCare se sientan abrumados por el volumen de i
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 <img src="assets/wireframe1.png"></img><br>
-<img src="assets/wireframe2.png"></img><br>
 <img src="assets/wireframe3.png"></img><br>
+<img src="assets/wireframe2.png"></img><br>
 ### 4.3.2. Landing Page Mock-up
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
