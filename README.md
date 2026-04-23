@@ -682,6 +682,16 @@ Para evitar que los usuarios de PetCare se sientan abrumados por el volumen de i
 ### 4.4.2. Web Applications Wireflow Diagrams
 <img src="assets/wireflow diagrams.png"></img><br>
 ### 4.4.2. Web Applications Mock-ups
+<img src="assets/mockupapp1.png"></img><br>
+<img src="assets/mockupapp2.png"></img><br>
+<img src="assets/mockupapp3.png"></img><br>
+<img src="assets/mockupapp4.png"></img><br>
+<img src="assets/mockupapp5.png"></img><br>
+<img src="assets/mockupapp6.png"></img><br>
+<img src="assets/mockupapp7.png"></img><br>
+<img src="assets/mockupapp8.png"></img><br>
+<img src="assets/mockupapp9.png"></img><br>
+<img src="assets/mockupapp10.png"></img><br>
 ### 4.4.3. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
