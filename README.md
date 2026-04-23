@@ -564,8 +564,8 @@ Para realizar el despliegue de nuestro landing page haremos uso de la herramient
   * Una carpeta “images” la cual contiene las imágenes empleadas en el landing page
 
 ## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.X. Sprint n 
-#### 5.2.X.1. Sprint Planning n
+### 5.2.1. Sprint 1 
+#### 5.2.1.1. Sprint Planning 1
 #### 5.2.1.2. Aspect Leaders and Collaborators
 En el presente Sprint se prioriza el desarrollo del Landing Page de la plataforma PetCare, el cual constituye el principal punto de entrada para los usuarios del sistema. Este componente cumple un rol estratégico, ya que permite comunicar de manera clara, estructurada y visualmente atractiva la propuesta de valor del producto, orientada a optimizar la gestión de la salud veterinaria mediante el uso de tecnologías digitales.
 
@@ -591,12 +591,13 @@ El Sprint se enfoca en el diseño e implementación de la interfaz del Landing P
 
 
 
-#### 5.2.X.3. Sprint Backlog n. 
-#### 5.2.X.4. Development Evidence for Sprint Review
-#### 5.2.X.5. Execution Evidence for Sprint Review
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
-#### 5.2.X.8. Team Collaboration Insights during Sprint.
+#### 5.2.1.3. Sprint Backlog 1. 
+#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
 
 # Conclusiones
 # Bibliografía 
