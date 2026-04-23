@@ -680,6 +680,7 @@ Para evitar que los usuarios de PetCare se sientan abrumados por el volumen de i
 <img src="assets/webapplicationswireframes9.png"></img><br>
 <img src="assets/webapplicationswireframes10.png"></img><br>
 ### 4.4.2. Web Applications Wireflow Diagrams
+<img src="assets/wireflow diagrams.png"></img><br>
 ### 4.4.2. Web Applications Mock-ups
 ### 4.4.3. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
