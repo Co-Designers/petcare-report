@@ -669,6 +669,16 @@ Para evitar que los usuarios de PetCare se sientan abrumados por el volumen de i
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+<img src="assets/webapplicationswireframes1.png"></img><br>
+<img src="assets/webapplicationswireframes2.png"></img><br>
+<img src="assets/webapplicationswireframes3.png"></img><br>
+<img src="assets/webapplicationswireframes4.png"></img><br>
+<img src="assets/webapplicationswireframes5.png"></img><br>
+<img src="assets/webapplicationswireframes6.png"></img><br>
+<img src="assets/webapplicationswireframes7.png"></img><br>
+<img src="assets/webapplicationswireframes8.png"></img><br>
+<img src="assets/webapplicationswireframes9.png"></img><br>
+<img src="assets/webapplicationswireframes10.png"></img><br>
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.2. Web Applications Mock-ups
 ### 4.4.3. Web Applications User Flow Diagrams
