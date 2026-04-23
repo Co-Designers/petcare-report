@@ -599,6 +599,10 @@ En esta sección se presenta la evidencia del progreso alcanzado durante el desa
 
 A continuación, se muestra la tabla que documenta los commits más relevantes asociados al repositorio del proyecto, permitiendo evidenciar el avance técnico y la contribución del equipo durante el Sprint.
 
+| Repository                   | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|----------------------------|--------|----------|----------------|---------------------|----------------------|
+|petcare-landingpage /KathMJ| main   | cc6ebf3  | chore: initial landing page setup | Initial commit of the landing page structure and base files | 22/04/2026 |
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
