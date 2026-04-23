@@ -725,6 +725,7 @@ A través de esta técnica, se logró construir una visión más clara del compo
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+<img src="assets/Diagrama-Petcard.drawio.png" alt="Diagrama de Clases - PetCard"><br>
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams.
 # Capitulo V: Product Implementation, Validation & Deployment
