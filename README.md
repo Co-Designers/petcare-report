@@ -592,7 +592,13 @@ El Sprint se enfoca en el diseño e implementación de la interfaz del Landing P
 
 
 #### 5.2.1.3. Sprint Backlog 1. 
+
+
 #### 5.2.1.4. Development Evidence for Sprint Review
+En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 1, específicamente en la implementación del Landing Page de la plataforma PetCare. Se destacan los avances realizados en la estructura, diseño y despliegue inicial de la interfaz, alineados con los objetivos definidos en el Sprint Planning.
+
+A continuación, se muestra la tabla que documenta los commits más relevantes asociados al repositorio del proyecto, permitiendo evidenciar el avance técnico y la contribución del equipo durante el Sprint.
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
