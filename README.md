@@ -666,11 +666,13 @@ Al realizar un desplazamiento (Scroll), el usuario encuentra la seccion "Quienes
 <img src="assets/FrameBeneficios.png"></img><br><br>La seccion de suscripciones se organiza en los bloques horizontales, permitiendo una comparacion clara. Cada uno incluye un boton de "saber mas" para acceder a informacion detallada<br><br><img src="assets/FrameSuscripcion.png"></img><br><br> Finalmente, se incluye un bloque donde se le invita al usuario a registrarse, con un titulo grande. Es un formulario de ingreso de datos, facilitando el registro de manera directa. <br><br><img src="assets/FrameRegistrarFooter.jpeg"><br><br><br>-Mobile Web Browser:<br><br>En la version mobile, en este apartado el contenido se organiza de forma vertical, priorizando el nombre de la aplicacion y su proposito. Los botones principales son intuitivos, facilitando la navegacion y siendo esta fluida. Ademas, se simplifico la navegacion mediante una navegacion de tipo hamburguesa, optimizando el espacio en pantalla y permitiendo acceder a las opciones de forma ordenada.<br><br><img src="assets/ImagenesWireframeMobile/Bienvenido.png" height = 700px><img src="assets/ImagenesWireframeMobile/BienvenidoHamburguesa.png" height = 700px><br><br>En esta seccion se presenta en formato vertical, maneteniendo una jerarquia clara para facilitar la lectura y comprension del contenido.<br><br><img src="assets/ImagenesWireframeMobile/QuienesSomos.png" height = 700px> <br><br> En este bloque, que describe cuales son los beneficios, se organizo de igual forma, en vertical, permitiendo una visualizacion clara y secuencial en pantallas reducidas.<br><br><img src="assets/ImagenesWireframeMobile/BeneficiosUno.png" height = 700px><img src="assets/ImagenesWireframeMobile/BeneficiosDos.png" height = 700px><img src="assets/ImagenesWireframeMobile/BeneficiosTres.png" height = 700px><br><br>En la seccion de suscripciones tambien se organizo de forma vertical, facilitando la comparacion y acceso a informacion adicional mediante botones.<br><br><img src="assets/ImagenesWireframeMobile/SuscripcionUno.png" height = 700px><img src="assets/ImagenesWireframeMobile/SuscripcionDos.png" height = 700px><br><br>En la seccion de registro se agrego un bloque donde esta el formulario, pensado para que el usuario pueda registrarse de forma rapida y sencilla desde el celular.<br><br><img src="assets/ImagenesWireframeMobile/RegistrarFooter.png" height = 700px>
 
 ### 4.3.2. Landing Page Mock-up
-<img src="assets/mockup1.png"></img><br>
-<img src="assets/mockup2.png"></img><br>
-<img src="assets/mockup3.png"></img><br>
-<img src="assets/mockup4.png"></img><br>
-<img src="assets/mockup5.png"></img><br>
+-Desktop Web Browser:<br><br>
+<img src="assets/mockup1.png"></img><br><br>
+<img src="assets/mockup2.png"></img><br><br>
+<img src="assets/mockup3.png"></img><br><br>
+<img src="assets/mockup4.png"></img><br><br>
+<img src="assets/mockup5.png"></img><br><br>
+-Mobile Web Browser:<br><br><img src = "assets/ImagenesMock-UpDesktop/Bienvenido.png" height = 700px><img src = "assets/ImagenesMock-UpDesktop/BienvenidoHamburguesa.png" height = 700px><br><br><img src = "assets/ImagenesMock-UpDesktop/QuienesSomos.png" height = 700px><br><br><img src = "assets/ImagenesMock-UpDesktop/BeneficioUno.png" height = 700px><img src = "assets/ImagenesMock-UpDesktop/BeneficioDos.png" height = 700px><img src = "assets/ImagenesMock-UpDesktop/BeneficioTres.png" height = 700px><br><br><img src = "assets/ImagenesMock-UpDesktop/SuscripcionUno.png" height = 700px><img src = "assets/ImagenesMock-UpDesktop/SuscripcionDos.png" height = 700px><br><br><img src = "assets/ImagenesMock-UpDesktop/RegistrarseFooter.png" height = 700px><br><br>
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
