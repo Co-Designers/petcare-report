@@ -661,6 +661,12 @@ Para evitar que los usuarios de PetCare se sientan abrumados por el volumen de i
 <img src="assets/wireframe3.png"></img><br>
 <img src="assets/wireframe2.png"></img><br>
 ### 4.3.2. Landing Page Mock-up
+<img src="assets/mockup1.png"></img><br>
+<img src="assets/mockup2.png"></img><br>
+<img src="assets/mockup3.png"></img><br>
+<img src="assets/mockup4.png"></img><br>
+<img src="assets/mockup5.png"></img><br>
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
