@@ -603,8 +603,19 @@ A continuación, se muestra la tabla que documenta los commits más relevantes a
 |----------------------------|--------|----------|----------------|---------------------|----------------------|
 |petcare-landingpage /KathMJ| main   | cc6ebf3  | chore: initial landing page setup | Initial commit of the landing page structure and base files | 22/04/2026 |
 
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se presenta la documentación relacionada con los servicios web que formarán parte de la plataforma PetCare. Estos servicios estarán orientados a gestionar de manera eficiente la información de usuarios, mascotas y clínicas veterinarias, así como a facilitar el acceso a funcionalidades clave como recordatorios, historial clínico digital y comunicación entre usuarios y profesionales veterinarios.
+
+Los servicios web de PetCare están diseñados para centralizar la información de salud de las mascotas y optimizar la interacción entre los distintos actores del sistema (dueños de mascotas y clínicas veterinarias). A través de estos servicios, se busca garantizar una experiencia integrada, segura y eficiente, permitiendo el acceso a información relevante en tiempo real y mejorando la toma de decisiones en el cuidado de las mascotas.
+
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
