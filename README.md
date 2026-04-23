@@ -578,6 +578,15 @@ El Sprint se enfoca en el diseño e implementación de la interfaz del Landing P
 | Mejia Aliaga, Katherine Maryory | KathMJ     | L                        | L                        | L                      | C                   |
 | Tuncar Vila, Ghorghet Saul   | Ghorghet     | C                        | C                        | C                      | C       |
 
+ **Aspecto: Desarrollo del Landing Page de PetCare**
+
+| Aspecto | Descripción |
+|--------|------------|
+| **Feature** | Diseño, desarrollo e implementación del Landing Page de la plataforma PetCare. |
+| **Objetivo Principal** | Desarrollar una landing page informativa, moderna y altamente usable que comunique de manera efectiva la propuesta de valor de PetCare, destacando sus funcionalidades principales como la gestión de historial clínico digital, recordatorios automatizados y búsqueda de servicios veterinarios, con el objetivo de incentivar la interacción y el registro de nuevos usuarios. |
+| **Elementos incluidos** | • Diseño de layout principal adaptable (responsive design)<br>• Barra de navegación con acceso a secciones clave (Inicio, Quiénes somos, Beneficios, Suscripción, Contacto)<br>• Sección Hero con mensaje principal y llamada a la acción (CTA)<br>• Sección “Quiénes somos” con descripción institucional<br>• Sección de Beneficios estructurada en tarjetas informativas<br>• Sección de Planes de suscripción (Plan Premium y Plan Salud)<br>• Formulario de contacto para captación de usuarios<br>• Footer con información general del sistema<br>• Botones de acción: “Saber más”, “Registrarse”, “Elegir plan”<br>• Implementación de internacionalización básica (idiomas ES/EN) |
+| **Criterios de aceptación** | • Navegación fluida entre secciones mediante enlaces internos (anclas)<br>• Correcta visualización en distintos dispositivos (mobile, tablet y desktop)<br>• Coherencia visual con la identidad de marca (paleta de colores, tipografía y estilos)<br>• Contenido claro, legible y estructurado<br>• Correcta carga de recursos (imágenes, estilos, scripts)<br>• Funcionamiento adecuado de botones y enlaces interactivos<br>• Formulario de contacto operativo<br>• Implementación funcional del cambio de idioma<br>• Uso adecuado del framework Materialize CSS para componentes UI |
+| **Resultado esperado** | Un Landing Page completamente funcional, accesible y visualmente consistente que represente de manera adecuada la propuesta de valor de PetCare, facilitando la comprensión del sistema por parte de los usuarios, generando confianza y promoviendo la conversión de visitantes en usuarios registrados. |
 
 
 
