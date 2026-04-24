@@ -648,6 +648,9 @@ El despliegue del Landing Page representa un hito importante dentro del desarrol
 
 <img src="assets/deployment-evidence/img1-petcare-landingpage.png" alt="Repositorio Landing Page PetCare" width="100%">
 
+2. Se trabajó sobre la rama principal *main*, donde se integraron los cambios finales del Landing Page, asegurando una versión estable y lista para su publicación.
+
+<img src="assets/deployment-evidence/img2-petcare-landingpage.png" alt="Rama main del repositorio PetCare" width="100%">
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
