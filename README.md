@@ -642,7 +642,11 @@ El despliegue del Landing Page representa un hito importante dentro del desarrol
 
 [![Landing Page](https://img.shields.io/badge/Visit-Landing%20Page-blue?style=for-the-badge&logo=githubpages&logoColor=white)](https://co-designers.github.io/petcare-landingpage/)
 
+**Landing Page Desplegado**
 
+1. Para el despliegue del Landing Page, el equipo utilizó el repositorio del proyecto *petcare-landingpage*, en el cual se gestionaron todos los archivos correspondientes a la estructura HTML, estilos CSS y funcionalidades JavaScript desarrolladas durante el Sprint.
+
+<img src="assets/deployment-evidence/img1-petcare-landingpage.png" alt="Repositorio Landing Page PetCare" width="100%">
 
 
 
