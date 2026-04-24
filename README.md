@@ -665,6 +665,9 @@ El resultado de este proceso es un Landing Page desplegado y accesible en línea
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
+En esta sección se presenta una visión general de la colaboración del equipo durante el Sprint 1 del proyecto PetCare. Se abordan la organización de las actividades, la distribución de tareas y la interacción entre los integrantes, lo que contribuyó a una gestión eficiente de responsabilidades y al correcto desarrollo del Sprint.
+
+Asimismo, se incluye evidencia del avance del equipo en GitHub, donde se reflejan los commits realizados por cada integrante, tal como se muestra en la imagen a continuación, evidenciando su participación activa en el desarrollo del proyecto.
 
 # Conclusiones
 # Bibliografía 
