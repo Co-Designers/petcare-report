@@ -634,6 +634,18 @@ A continuación, se describen los principales servicios que serán implementados
 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+En esta sección se describe el proceso de despliegue del Landing Page de la plataforma PetCare en un entorno accesible para los usuarios. Este proceso permite validar la correcta implementación de la interfaz desarrollada durante el Sprint 1, asegurando su disponibilidad, visualización y funcionamiento en línea.
+
+El despliegue del Landing Page representa un hito importante dentro del desarrollo del proyecto, ya que permite contar con una versión funcional del sistema accesible mediante un enlace público, facilitando la validación del producto por parte del equipo y de los usuarios objetivo.
+
+**URL de despliegue del Landing Page:**
+
+[![Landing Page](https://img.shields.io/badge/Visit-Landing%20Page-blue?style=for-the-badge&logo=githubpages&logoColor=white)](https://co-designers.github.io/petcare-landingpage/)
+
+
+
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 
