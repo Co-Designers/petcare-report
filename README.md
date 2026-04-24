@@ -932,26 +932,219 @@ Para el diseño del sistema de la base de datos se uso un diagrama entidad-relac
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+**Project Management y Requirements Management:**
+  * **Miro:** Plataforma en línea que permite la colaboración en tiempo real a través de pizarras digitales. Ofrece herramientas para la creación de diagramas, mapas mentales y flujos.
+
+**Product UX/UI Design:**
+  * **Figma:** Herramienta de diseño de interfaces de usuario (UI) y prototipado colaborativo basada en la nube. En este caso, utilizamos Figma para la elaboración del prototipo interactivo de la aplicación móvil para los dueños de mascotas y el panel administrativo web para las clínicas veterinarias.
+
+**Software Development:**
+  * **IntelliJ IDEA:** Entorno de desarrollo integrado (IDE) profesional diseñado para maximizar la productividad del desarrollador. En este caso, lo utilizamos para el desarrollo robusto de toda la lógica de negocio y el backend del proyecto empleando Java y el framework Spring Boot.
+  * **GitHub:** Plataforma de desarrollo colaborativo basada en la nube que utiliza el sistema de control de versiones Git. Permite a los desarrolladores alojar, revisar y colaborar en proyectos de software. En este caso, utilizamos GitHub como un repositorio remoto para almacenar, unificar y gestionar el código fuente de todo nuestro proyecto.
+
+**Software Deployment y Bases de Datos:**
+  * **SQL Server:** Sistema de gestión de bases de datos relacionales (RDBMS) desarrollado por Microsoft que utiliza el lenguaje SQL para la manipulación y consulta de datos. En este caso, utilizamos SQL Server como el motor principal para garantizar la integridad referencial de la plataforma, permitiendo estructurar los perfiles de usuarios, historiales médicos fijos y la gestión de citas mediante relaciones complejas y transacciones seguras
+
 ### 5.1.2. Source Code Management
+Durante todo el desarrollo del proyecto, nuestro equipo hará uso de versiones de Git en la cual toda la evidencia podrá ser visualizada para posteriormente ser subida a la plataforma de github de la organización, en donde se podrán observar todas las modificaciones que se le harán realizando al proyecto a lo largo del desarrollo por cada uno de los miembros del equipo.
+
+GitHub URL: https://github.com/Co-Designers/PetCare
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Para asegurar la escalabilidad, legibilidad y el mantenimiento del código de PetCare, el equipo adoptará como regla general que toda la nomenclatura (variables, clases, métodos, archivos y bases de datos) se escribirá estrictamente en idioma inglés. Además, nos apegaremos a las siguientes convenciones estándar según cada tecnología:
+
+#### **HTML:**
+Para el lenguaje HTML utilizaremos las siguientes convenciones:
+* Usar nombres de elementos y etiquetas siempre en minúsculas.
+* Cerrar obligatoriamente todos los elementos HTML.
+* Usar nombres de atributos en minúsculas y encerrar sus valores entre comillas dobles.
+* Evitar líneas de código demasiado largas para facilitar la lectura en el editor.
+
+#### **CSS:**
+Para el lenguaje CSS, utilizaremos las siguientes prácticas para alcanzar un código coherente y ordenado:
+* Utilizar `camelCase` (capitalizar la primera letra de cada palabra excepto la primera) para los nombres de clases e IDs.
+* Utilizar nombres de clases que sean descriptivos en inglés y que reflejen la función estructural del elemento, no su apariencia visual.
+
+#### **JavaScript / TypeScript (Angular):**
+Para la lógica del frontend, seguiremos las siguientes convenciones:
+* Utilizar `camelCase` para nombrar variables, propiedades y métodos (ejemplo: `getPetHistory`).
+* Utilizar `PascalCase` para nombrar Clases e Interfaces (ejemplo: `PetProfileComponent`).
+* Utilizar `UPPER_SNAKE_CASE` para constantes inmutables (ejemplo: `MAX_UPLOAD_SIZE`).
+* En Angular, nombrar los archivos separando las palabras con guiones y especificando su tipo (ejemplo: `vet-list.component.ts`, `auth.service.ts`).
+
+#### **Java (Spring Boot):**
+Para el desarrollo del backend, nos guiaremos de las siguientes convenciones:
+* Utilizar `PascalCase` para el nombre de las Clases y `camelCase` para los métodos y atributos.
+* Mantener la regla de escribir una sola clase por archivo.
+* Usar `UPPER_SNAKE_CASE` para las constantes (`static final`).
+* Utilizar las anotaciones semánticas de Spring Boot para definir claramente la capa lógica de cada clase (`@RestController` para controladores, `@Service` para lógica de negocio, `@Repository` para acceso a datos).
+* Agrupar las clases en paquetes lógicos según su dominio (ejemplo: `com.petcare.users`, `com.petcare.appointments`).
+
 ### 5.1.4. Software Deployment Configuration
+Para realizar el despliegue de nuestro landing page haremos uso de la herramienta GitHub. En donde el equipo deberá contar con una organización y repositorio donde ubicamos los documentos. En este mismo observaremos los siguientes elementos:
+
+  * Una carpeta “html” con el “index.html” en donde almacenaremos el código de nuestra landing page. 
+  * Una carpeta “js” la cual contiene los scripts con la lógica para el landing page en un archivo “index.js”
+  * Una carpeta “css” la cual contiene los estilos que usaremos en un archivo “style.css” 
+  * Una carpeta “images” la cual contiene las imágenes empleadas en el landing page
+
 ## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.X. Sprint n 
-#### 5.2.X.1. Sprint Planning n
-#### 5.2.X.2. Aspect Leaders and Collaborators
-#### 5.2.X.3. Sprint Backlog n. 
-#### 5.2.X.4. Development Evidence for Sprint Review
-#### 5.2.X.5. Execution Evidence for Sprint Review
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
-#### 5.2.X.8. Team Collaboration Insights during Sprint.
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
-## 5.4. Video About-the-Product.
+### 5.2.1. Sprint 1 
+#### 5.2.1.1. Sprint Planning 1
+| Categoría | Detalle |
+| :--- | :--- |
+| **Sprint#** | Sprint 1 |
+| **Sprint Planning Background** | |
+| Date | 2026-04-22 |
+| Time | 8:00PM-12PM |
+| Location | Discord |
+| Prepared By | Mejia Aliaga, Katherine Maryory |
+| Attendees (to planning meeting) | Katherine Maryory Mejia Aliaga<br>Mauricio Silva, Ghiou Justinn<br>Ghorghet Saul Tuncar Vila<br>Diego Roberto Campoblanco Guzman<br>Jean Pool Huaman de la Cruz |
+| Sprint 0 Review Summary | Diseño de landing page |
+| Sprint 0 Retrospective Summary | Se logró planear el diseño y estructura que tendrá el landing page en coordinación con el equipo tomando las historias de usuario 1, 23, 13, 7, 19 y 10 previamente definidas. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Our focus is on offering a friendly landing page to the users that adjust to their needs while starting to use PetCare.<br>We believe it helps the user for their first time using the app in a way that can be easy to understand.<br>This will be confirmed when the landing page is fully deployed in production, is fully responsive on mobile devices, and all Call-to-Action (CTA) buttons successfully redirect visitors to the PetCare Web App registration portal without errors. |
+| Sprint 1 Velocity | 15 |
+| Sum of Story Points | 15 |
+#### 5.2.1.2. Aspect Leaders and Collaborators
+En el presente Sprint se prioriza el desarrollo del Landing Page de la plataforma PetCare, el cual constituye el principal punto de entrada para los usuarios del sistema. Este componente cumple un rol estratégico, ya que permite comunicar de manera clara, estructurada y visualmente atractiva la propuesta de valor del producto, orientada a optimizar la gestión de la salud veterinaria mediante el uso de tecnologías digitales.
+
+El Sprint se enfoca en el diseño e implementación de la interfaz del Landing Page, abarcando la estructura visual, la organización de contenidos y la navegación del usuario, garantizando una experiencia intuitiva, accesible y responsive. Para optimizar la distribución del trabajo, se define una Leadership and Collaboration Matrix (LACX) que establece los roles de Leader y Collaborator por cada aspecto técnico, facilitando la coordinación del equipo y la ejecución eficiente de las tareas del Sprint. A continuación, se presenta un cuadro a detalle.
+
+**Leadership and Collaboration Matrix (LACX)**
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page HTML (L/C) | Landing Page CSS (L/C) | Landing Page JS (L/C) | UI/UX Design (L/C) |
+|------------------------------------|-----------------|--------------------------|--------------------------|------------------------|---------------------|
+| Mejia Aliaga, Katherine Maryory | KathMJ     | L                        | L                        | L                      | C                   |
+| Tuncar Vila, Ghorghet Saul   | Ghorghet     | C                        | C                        | C                      | C       |
+
+ **Aspecto: Desarrollo del Landing Page de PetCare**
+
+| Aspecto | Descripción |
+|--------|------------|
+| **Feature** | Diseño, desarrollo e implementación del Landing Page de la plataforma PetCare. |
+| **Objetivo Principal** | Desarrollar una landing page informativa, moderna y altamente usable que comunique de manera efectiva la propuesta de valor de PetCare, destacando sus funcionalidades principales como la gestión de historial clínico digital, recordatorios automatizados y búsqueda de servicios veterinarios, con el objetivo de incentivar la interacción y el registro de nuevos usuarios. |
+| **Elementos incluidos** | • Diseño de layout principal adaptable (responsive design)<br>• Barra de navegación con acceso a secciones clave (Inicio, Quiénes somos, Beneficios, Suscripción, Contacto)<br>• Sección Hero con mensaje principal y llamada a la acción (CTA)<br>• Sección “Quiénes somos” con descripción institucional<br>• Sección de Beneficios estructurada en tarjetas informativas<br>• Sección de Planes de suscripción (Plan Premium y Plan Salud)<br>• Formulario de contacto para captación de usuarios<br>• Footer con información general del sistema<br>• Botones de acción: “Saber más”, “Registrarse”, “Elegir plan”<br>• Implementación de internacionalización básica (idiomas ES/EN) |
+| **Criterios de aceptación** | • Navegación fluida entre secciones mediante enlaces internos (anclas)<br>• Correcta visualización en distintos dispositivos (mobile, tablet y desktop)<br>• Coherencia visual con la identidad de marca (paleta de colores, tipografía y estilos)<br>• Contenido claro, legible y estructurado<br>• Correcta carga de recursos (imágenes, estilos, scripts)<br>• Funcionamiento adecuado de botones y enlaces interactivos<br>• Formulario de contacto operativo<br>• Implementación funcional del cambio de idioma<br>• Uso adecuado del framework Materialize CSS para componentes UI |
+| **Resultado esperado** | Un Landing Page completamente funcional, accesible y visualmente consistente que represente de manera adecuada la propuesta de valor de PetCare, facilitando la comprensión del sistema por parte de los usuarios, generando confianza y promoviendo la conversión de visitantes en usuarios registrados. |
+
+
+
+
+#### 5.2.1.3. Sprint Backlog 1. 
+| US ID | User Story Title | Task ID | Task Title | Description | Estimation | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| US01 | Buscar veterinarias con filtros | W-1 | Buscar Resultados | Como dueño de mascotas, quiero buscar veterinarias mediante filtros por distrito, horario y especialidad, para encontrar una opción adecuada rápidamente. | 1 hora | Mejia Aliaga, Katherine Maryory | In-Process |
+| US23 | Filtro de veterinarias 24 horas | W-2 | Filtro de Búsqueda | Como dueño de mascota, quiero filtrar solo veterinarias con atención de emergencia, para actuar rápido ante accidentes nocturnos. | 30 minutos | Mejia Aliaga, Katherine Maryory | In-Process |
+| US13 | Plan premium de posicionamiento | W-3 | Plan de Pago | Como administrador de veterinaria, quiero contratar un plan premium para destacar mi negocio dentro de la plataforma. | 30 minutos | Mejia Aliaga, Katherine Maryory | Done |
+| US07 | Recibir recordatorios automáticos | W-4 | Automatización de Recordatorios | Como dueño de mascota, quiero recibir notificaciones automáticas, para recordar vacunas y controles médicos pendientes. | 1 hora | Mejia Aliaga, Katherine Maryory | In-Process |
+| US19 | Chat de consultas post-cita | W-5 | Chat de consultas post-cita | Como dueño de mascota, quiero chatear con el veterinario que atendió a mi mascota, para resolver dudas sobre el tratamiento. | 30 minutos | Mejia Aliaga, Katherine Maryory | In-Process |
+| US10 | Gestión de perfil comercial | W-6 | Gestión de perfiles | Como administrador de veterinaria, quiero actualizar horarios, promociones y datos comerciales para mantener informados a los clientes. | 30 minutos | Mejia Aliaga, Katherine Maryory | In-Process |
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 1, específicamente en la implementación del Landing Page de la plataforma PetCare. Se destacan los avances realizados en la estructura, diseño y despliegue inicial de la interfaz, alineados con los objetivos definidos en el Sprint Planning.
+
+A continuación, se muestra la tabla que documenta los commits más relevantes asociados al repositorio del proyecto, permitiendo evidenciar el avance técnico y la contribución del equipo durante el Sprint.
+
+| Repository                   | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|----------------------------|--------|----------|----------------|---------------------|----------------------|
+|petcare-landingpage /KathMJ| main   | cc6ebf3  | chore: initial landing page setup | Initial commit of the landing page structure and base files | 22/04/2026 |
+
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+**Sprint 1:**
+
+Durante el desarrollo del Sprint 1 se realizaron las siguientes implementaciones:
+
+**1.- Barra de navegación:** En esta se puede observar cómo el usuario puede acceder con un simple click a información esencial como Quienes somos, beneficios de la app, Suscripción y contacto.
+
+<img src="assets/Barra-De-Navegacion.png">
+
+**2.- Seccion del héroe:** Se implemento la seccion hero la cual incluye un mensaje atractivo y puntual para los clientes
+
+<img src="assets/Seccion-Del-Heroe.png">
+
+**3.- Sección quienes somos:** Añadimos la sección con información esencial sobre el grupo y la Petcare para brindar una rapida introduccion a los usuarios
+
+<img src="assets/Seccion-Del-Quienes-Somos.png">
+
+**4.- Sección Beneficios:** Añadimos las sección de beneficios  en la cual se explica de manera concisa al usuario los beneficios por usar la aplicación para el cuidado clínico de su mascota
+
+<img src="assets/Seccion-Beneficios.png">
+
+**5.- Sección de suscripciones:** En este apartado mostramos los planes disponibles a los usuarios para que pueda ver la opción que mejor se acomode a sus necesidades 
+
+<img src="assets/Seccion-Suscripciones.png">
+
+**6.- Sección de Registro:** Se añadió el apartado de registro donde si el posible usuario esta interesado puede registrarse en la aplicación añadiendo sus nombres, apellidos, correo y teléfono.
+
+<img src="assets/Seccion-de-Registro.png">
+
+**Link del video de demostración:** https://drive.google.com/file/d/1ThG-uKVHmkH3e956boju7AyqltXSUESM/view?usp=sharing 
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se presenta la documentación relacionada con los servicios web que formarán parte de la plataforma PetCare. Estos servicios estarán orientados a gestionar de manera eficiente la información de usuarios, mascotas y clínicas veterinarias, así como a facilitar el acceso a funcionalidades clave como recordatorios, historial clínico digital y comunicación entre usuarios y profesionales veterinarios.
+
+Los servicios web de PetCare están diseñados para centralizar la información de salud de las mascotas y optimizar la interacción entre los distintos actores del sistema (dueños de mascotas y clínicas veterinarias). A través de estos servicios, se busca garantizar una experiencia integrada, segura y eficiente, permitiendo el acceso a información relevante en tiempo real y mejorando la toma de decisiones en el cuidado de las mascotas.
+
+A continuación, se describen los principales servicios que serán implementados en la plataforma:
+
+- **Servicios de Autenticación y Autorización:** Registro de usuarios, inicio de sesión, gestión de sesiones mediante tokens (JWT) y control de acceso según el tipo de usuario (dueño de mascota o clínica veterinaria).
+
+- **Servicios de Gestión de Usuarios:** Creación, edición y consulta de perfiles de usuarios, almacenamiento de información personal y configuración de preferencias dentro de la plataforma.
+
+- **Servicios de Gestión de Mascotas:** Registro de mascotas, actualización de datos (edad, raza, historial), asociación con su propietario y acceso a información clínica centralizada.
+
+- **Servicios de Historial Clínico:** Registro, almacenamiento y consulta del historial médico de cada mascota, incluyendo vacunas, tratamientos, cirugías y diagnósticos.
+
+- **Servicios de Recordatorios y Seguimiento:** Generación automática de recordatorios para vacunas, controles médicos y desparasitaciones, así como notificaciones programadas para el usuario.
+
+- **Servicios de Búsqueda de Veterinarias:** Consulta de clínicas veterinarias cercanas, filtrado por tipo de atención, disponibilidad y ubicación.
+
+- **Servicios de Suscripciones:** Gestión de planes (Premium y Salud), control de beneficios asociados y administración del estado de suscripción de cada usuario.
+
+- **Servicios de Contacto y Comunicación:** Recepción de datos desde formularios de contacto, gestión de solicitudes de usuarios y futura integración de canales de comunicación con veterinarias.
+
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+En esta sección se describe el proceso de despliegue del Landing Page de la plataforma PetCare en un entorno accesible para los usuarios. Este proceso permite validar la correcta implementación de la interfaz desarrollada durante el Sprint 1, asegurando su disponibilidad, visualización y funcionamiento en línea.
+
+El despliegue del Landing Page representa un hito importante dentro del desarrollo del proyecto, ya que permite contar con una versión funcional del sistema accesible mediante un enlace público, facilitando la validación del producto por parte del equipo y de los usuarios objetivo.
+
+**URL de despliegue del Landing Page:**
+
+[![Landing Page](https://img.shields.io/badge/Visit-Landing%20Page-blue?style=for-the-badge&logo=githubpages&logoColor=white)](https://co-designers.github.io/petcare-landingpage/)
+
+**Landing Page Desplegado**
+
+1. Para el despliegue del Landing Page, el equipo utilizó el repositorio del proyecto *petcare-landingpage*, en el cual se gestionaron todos los archivos correspondientes a la estructura HTML, estilos CSS y funcionalidades JavaScript desarrolladas durante el Sprint.
+
+<img src="assets/deployment-evidence/img1-petcare-landingpage.png" alt="Repositorio Landing Page PetCare" width="100%">
+
+2. Se trabajó sobre la rama principal *main*, donde se integraron los cambios finales del Landing Page, asegurando una versión estable y lista para su publicación.
+
+<img src="assets/deployment-evidence/img2-petcare-landingpage.png" alt="Rama main del repositorio PetCare" width="100%">
+
+3. Posteriormente, se configuró el servicio GitHub Pages, el cual permite el alojamiento de sitios web estáticos directamente desde el repositorio. A través de esta herramienta, se seleccionó la rama *main* como fuente de despliegue.
+
+<img src="assets/deployment-evidence/img3-petcare-landingpage.png" alt="Configuración GitHub Pages PetCare" width="100%">
+
+4. Finalmente, se generó el enlace público del sitio, permitiendo acceder al Landing Page de PetCare desde cualquier navegador web, validando su correcto funcionamiento, diseño responsive y experiencia de usuario.
+
+<img src="assets/deployment-evidence/img4-petcare-landingpage.png" alt="Landing Page desplegado PetCare" width="100%">
+
+El resultado de este proceso es un Landing Page desplegado y accesible en línea, que representa de manera efectiva la propuesta de valor de PetCare y sirve como punto de entrada para los usuarios del sistema.
+
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+En esta sección se presenta una visión general de la colaboración del equipo durante el Sprint 1 del proyecto PetCare. Se abordan la organización de las actividades, la distribución de tareas y la interacción entre los integrantes, lo que contribuyó a una gestión eficiente de responsabilidades y al correcto desarrollo del Sprint.
+
+Asimismo, se incluye evidencia del avance del equipo en GitHub, donde se reflejan los commits realizados por cada integrante, tal como se muestra en la imagen a continuación, evidenciando su participación activa en el desarrollo del proyecto.
+
 # Conclusiones
-## Conclusiones y recomendaciones
-## Video About-the-Team.
 # Bibliografía 
 # Anexos
