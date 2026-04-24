@@ -672,31 +672,262 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 
 # Capitulo IV: Product Design
 ## 4.1. Style Guidelines
+Definiremos los lineamientos de diseño del sistema para  mantener una presentación consistente y enfocada.
 ### 4.1.1. General Style Guidelines
+
+#### Branding: 
+Es una plataforma de gestión de salud para mascotas donde se integra historial clínico, búsqueda de veterinarias y agendamiento de citas. El objetivo principal del sistema es la prevención de la salud de las mascotas, centralizando la información médica y facilitando la toma de decisiones del usuario.
+#### Usuarios:
+- Dueños de mascotas que requieren un seguimiento de la salud de sus mascota o que buscan facilidades para cuidar la salud de sus mascotas
+- Clínicas veterinarias que ofrecen servicios de atención médica y buscan una plataforma que les facilite agendar citas, llevar un historial clínico y la comunicación con sus pacientes.
+
+#### Personalidad del sistema
+El sistema se define con una personalidad confiable, profesional y amable
+Ya que, el sistema maneja información delicada relacionada con la salud de las mascotas, por lo que es importante que transmita seguridad y confianza.
+
+#### Principios de diseño
+- Claridad: la información médica debe ser fácil de entender.
+- Confianza: el sistema debe transmitir seguridad en las recomendaciones.
+- Eficiencia: el tiempo para encontrar veterinarias o agendar citas debe ser el menor posible.
+- Accesibilidad: asegurar la comprensión para todo tipo de usuarios, creando así un sistema inclusivo.
+
+#### Typography:
+
+| Uso | Fuente | Ejemplo |
+|-----|--------|--------|
+| Encabezados (H1, H2) | Anton | TÍTULO PRINCIPAL |
+| Subtítulos / botones | Antonio | Subtítulo / Acción |
+| Texto general | Sans-serif del sistema | Párrafo estándar 
+
+Se utilizan tipografías sans-serif debido a su alta legibilidad en interfaces digitales. La diferencia entre fuentes permite establecer una jerarquía visual, facilitando la lectura de la información. 
+
+#### Colors
+
+| Color | Hex | Uso |
+|------|-----|-----|
+| Azul principal | #1A3458 | Botones principales, navegación, headers |
+| Azul claro | #F2F6FF | Fondos, secciones y cards |
+| Negro | #000000 | Texto principal sobre fondos claros |
+| Blanco | #FFFFFF | Texto sobre fondos oscuros, íconos |
+| Escala de grises | #333333 – #DDDDDD | Bordes, placeholders, elementos secundarios |
+
+La paleta se basa en tonos azules debido a su relación con la confianza y seguridad, aspectos fundamentales en un sistema relacionado con salud. Los grises se utilizan para mantener la jerarquía visual.
+
+#### Spacing
+
+- Sistema basado en una cuadrícula de 8px.
+- Márgenes y paddings consistentes en toda la interfaz.
+- Bordes redondeados de 8px en botones y tarjetas.
+- Sombras suaves para elementos elevados como cards y modales.
+
+El uso de un sistema de espaciado consistente reduce la carga cognitiva del usuario y mejora la coherencia visual en toda la interfaz.
+
 ### 4.1.2. Web Style Guidelines
+
+### Layout
+
+La interfaz web sigue una estructura tipo dashboard, orientada a la gestión de información de salud de mascotas. Se prioriza el acceso rápido a funcionalidades clave como búsqueda de veterinarias, historial clínico y agendamiento de citas.
+
+Se utiliza una navegación persistente (navbar superior o sidebar) que permite al usuario acceder a las principales secciones sin perder el contexto de la vista actual.
+
+El contenido principal se organiza mediante cards y secciones claramente delimitadas, facilitando la lectura y comprensión de la información.
+
+### Components
+
+Los componentes principales del sistema incluyen:
+
+- **Cards:** utilizadas para mostrar veterinarias, mascotas, citas y resúmenes de información relevante.  
+- **Formularios:** empleados para registro de usuarios, mascotas, agendamiento de citas y actualización de datos clínicos.  
+- **Listas estructuradas:** para la visualización del historial clínico (vacunas, enfermedades, tratamientos).  
+Estos componentes permiten organizar la información de manera jerárquica y mantener consistencia en toda la interfaz.
+
+### Navigation
+
+La navegación está diseñada para ser clara y accesible en todo momento. Se prioriza el acceso directo a las siguientes secciones:
+
+- Perfil de usuario y mascota  
+- Historial clínico  
+- Búsqueda de veterinarias  
+- Agenda de citas  
+
+Se reduce la cantidad de pasos necesarios para completar acciones clave, mejorando la eficiencia del usuario dentro del sistema.
+
+### Interactions
+
+El sistema proporciona retroalimentación visual constante para mejorar la experiencia del usuario:
+
+- Estados de carga durante procesos como búsqueda con IA o envío de formularios  
+- Indicadores visuales en botones (hover, activo, deshabilitado)  
+- Confirmaciones después de acciones importantes (registro, agendamiento, actualización de datos)  
+- Mensajes informativos en caso de errores o ausencia de resultados  
+
+Esto permite al usuario comprender el estado del sistema en todo momento.
+
+### Responsive Design
+
+El sistema está diseñado bajo un enfoque responsive para adaptarse a distintos dispositivos:
+
+- **Mobile:** estructura de una sola columna, priorizando acciones principales y navegación simplificada.  
+- **Tablet:** distribución en dos columnas para mejorar el uso del espacio sin saturar la interfaz.  
+- **Desktop:** layout completo tipo dashboard, permitiendo visualizar mayor cantidad de información de forma organizada.  
+
+Se mantiene la consistencia visual y funcional en todos los tamaños de pantalla.
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
+
+### 1. Organización Visual del Contenido
+
+* **Organización Secuencial (Step-by-Step to Accomplish):** Se usará en el proceso de agendamiento de citas veterinarias y en la vinculación del collar IoT. Esto guiará a los usuarios paso a paso (selección de clínica -> selección de mascota -> selección de horario -> confirmación/pago) para completar la reserva o configuración de manera eficiente, asegurando que se realice mediante una serie de pasos consecuentes y ordenados sin abrumar al usuario.
+* **Organización Jerárquica (Visual Hierarchy):** Se aplicará en los paneles principales (Dashboards) de ambos usuarios. Para el dueño de la mascota, la información más crítica (alertas de salud del IoT y citas próximas) se mostrará en la parte superior con mayor peso visual, desglosándose hacia abajo hacia información secundaria (consejos de salud o configuración de cuenta). Para el veterinario, la jerarquía priorizará las emergencias y la agenda del día sobre el inventario.
+* **Organización Matricial (Matrix):** Se utilizará en el sistema inteligente de búsqueda de clínicas. Dado que los usuarios tienen múltiples necesidades, este sistema les permitirá cruzar y organizar los resultados bajo dos o más dimensiones simultáneamente (por ejemplo, ordenar por "Precio" y filtrar por "Distancia" o "Especialidad"), dándole al usuario el control de cómo visualizar las opciones.
+
+### 2. Esquemas de Categorización de Contenido
+
+* **Según Audiencia (Grupos de Usuarios):** Será el esquema principal de división estructural de la plataforma. El contenido y las interfaces estarán estrictamente separados en dos grandes grupos: el Portal para Dueños de Mascotas (enfocado en búsqueda, prevención y agendamiento) y el Portal para Veterinarios/Clínicas (enfocado en gestión de pacientes, historias clínicas y agenda de trabajo).
+* **Cronológico:** Se aplicará fundamentalmente en el Historial Clínico de la mascota y en el Registro de Datos IoT. Los veterinarios y dueños verán las vacunas, cirugías, enfermedades y ritmo cardíaco/temperatura ordenadas desde el evento más reciente hasta el más antiguo, facilitando el seguimiento temporal de la salud del animal.
+* **Por Tópicos (Topical):** Se utilizará para organizar el catálogo de Servicios Veterinarios. La información de las clínicas estará agrupada por especialidades temáticas claras (Ej. Odontología, Oncología, Baño y Corte, Emergencias 24h), lo que facilitará al motor de Inteligencia Artificial recomendar la clínica adecuada según el síntoma de la mascota.
+* **Alfabético:** Se empleará en listas de referencia estáticas dentro de la aplicación, como el menú de selección de Razas de animales, el listado de especies al registrar una nueva mascota, o un glosario de términos médicos básicos en los resultados de sus exámenes.
+
 ### 4.2.2. Labeling Systems
+Mis Mascotas: En esta sección se mostrarán los perfiles individuales de cada animal registrado por el usuario, consolidando su información básica, raza, edad y características principales.
+
+Veterinarias: En esta sección se mostrará el directorio inteligente de clínicas y especialistas disponibles, detallando sus servicios, equipos (ej. rayos X, emergencias 24h) y ubicación.
+
+Historial Clínico: En esta sección se mostrará el registro médico completo y centralizado de la mascota (vacunas, cirugías, tratamientos previos) para una consulta rápida tanto por el dueño como por el especialista.
+
+Citas: En esta sección se mostrarán los turnos médicos agendados, el historial de visitas pasadas y el calendario de disponibilidad para organizar la atención de forma ordenada.
+
+Monitoreo IoT: En esta sección se mostrarán en tiempo real los signos vitales recolectados por el collar inteligente (temperatura, frecuencia cardíaca) y las alertas tempranas de prevención de enfermedades.
+
+Reseñas: En esta sección se mostrarán las calificaciones y comentarios de otros usuarios sobre las clínicas veterinarias, ayudando al dueño a tomar decisiones basadas en experiencias previas.
+
+Perfil: En esta sección el usuario (ya sea el dueño de la mascota o el médico veterinario) podrá gestionar su información personal, los datos de su clínica, métodos de pago y configuraciones de la cuenta.
+
 ### 4.2.3. SEO Tags and Meta Tags 
+### SEO Tags and Meta Tags
+
+A continuación se mostrarán las etiquetas que representarán el contenido de la Landing Page y de la aplicación web para que los buscadores las indexen correctamente y los usuarios las encuentren con mayor facilidad.
+
+#### **Landing Page:**
+* **Meta Tags de Título:** PetCare - Prevención y Salud para tu Mascota.
+* **Meta Tags de Descripción:** Landing Page oficial de PetCare. Descubre la plataforma que conecta dueños de mascotas con los mejores especialistas mediante Inteligencia Artificial e IoT.
+* **Meta Tags de Palabras Clave:** Cuidado de mascotas, collares IoT, prevención veterinaria, veterinarias especializadas, bienestar animal.
+* **Meta Tag de Autor:** Equipo PetCare.
+
+#### **Aplicación Web:**
+* **Meta Tags de Título:** PetCare App - Gestión Veterinaria Inteligente.
+* **Meta Tags de Descripción:** Aplicación web oficial de PetCare. Centraliza el historial clínico de tu mascota, recibe alertas tempranas de salud y agenda citas veterinarias en segundos.
+* **Meta Tags de Palabras Clave:** Plataforma veterinaria, historial clínico digital, inteligencia artificial veterinaria, agendar cita veterinaria, veterinarias 24 horas Lima, monitoreo IoT para mascotas, gestión de clínicas.
+* **Meta Tag de Autor:** Equipo PetCare.
+
 ### 4.2.4. Searching Systems
+### Searching Systems
+
+Para evitar que los usuarios de PetCare se sientan abrumados por el volumen de información de las clínicas, historiales, citas y datos biométricos, la plataforma ofrecerá herramientas de búsqueda adaptadas a las necesidades específicas de cada segmento de usuario, tanto para dueños de mascotas como para veterinarios.
+
+#### **Filtros de Búsqueda:**
+
+**Para el Dueño de Mascota en búsqueda de clínicas:**
+* **Ubicación y Distancia:** Rango de las veterinarias disponibles en kilómetros o "Usar mi ubicación actual".
+* **Especialidad y Servicios:** Oncología, Traumatología, Baño/Corte, Rayos X, Ecografía.
+* **Disponibilidad:** Atención 24/7, Emergencias, Abierto ahora.
+* **Presupuesto:** Rango de precios para consultas generales ($ - $$$).
+* **Calificación:** Filtrar por clínicas con 4 o más estrellas basadas en reseñas.
+
+**Para el Médico Veterinario durante búsqueda interna:**
+* **Estado de la Cita:** Pendiente, Confirmada, Completada, Cancelada.
+* **Rango de Fechas:** Selector de calendario para buscar atenciones pasadas o futuras.
+
 ### 4.2.5. Navigation Systems
+
+**Landing Page:**
+* **Barra de navegación global:** Ubicada en la parte superior, contendrá enlaces directos (Inicio, Beneficios, Cómo Funciona, Planes) que desplazarán al usuario hacia la sección correspondiente dentro de la misma página.
+* **Botones de Llamado a la Acción (CTA):** Botones llamativos y estratégicamente ubicados con textos como "Regístrate ahora" o "Iniciar Sesión", que servirán como puente para llevar al visitante hacia la aplicación principal.
+
+**En la Aplicación Web/Móvil:**
+* **Menú de navegación principal:** Para los **dueños de mascotas**, se implementará una barra de navegación inferior con iconos rápidos hacia las funciones más usadas: Inicio, Buscar Clínicas, Mis Mascotas y Citas.
+* Para los **veterinarios**, se utilizará un menú lateral fijo que facilite la gestión administrativa: Dashboard, Agenda, Pacientes y Configuraciones.
+* **Navegación contextual:** Se usarán enlaces internos dentro de los elementos visuales. Por ejemplo, si un usuario está viendo su próxima cita, podrá hacer clic en el nombre de la clínica para navegar directamente al perfil de la veterinaria o ver su ubicación en el mapa.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+-Desktop Web Browser:<br>
+<br>
+En este primer Frame se presenta la seccion de bienvenida al usuario, donde se incluye el nombre de la aplicacion, para que el usuario reconozca de inmediato que ingreso al sitio web correcto. Asimismo, se comunica de forma clara que la plataforma esta orientada al cuidado del bienestar de su mascota. Por otro lado, la barra de navegacion se ubica en la parte superior ya que la mayoria de paginas estan hechas con esta estructura, y el usuario ya esta mas familiarizado. Tambien, colocamos los botones de iniciar sesion y registrarse en la barra de navegacion para un facil acceso a la plataforma.<br><br><img src="assets/FrameBienvenido.png">
+
+Al realizar un desplazamiento (Scroll), el usuario encuentra la seccion "Quienes Somos", la cual presenta informacion importante sobre la plataforma. Utilizamos un titulo de letras grandes para captar la atencion del usuario e incentivar la lectura dle contenido.<br><br><img src ="assets/FrameQuienesSomos.png">
+<br></br>La seccion de beneficios se organiza en tres bloques horizontales, permitiendo una presentacion clara y ordenada. El uso de un titulo de tamaño grande, facilita su identificacion y ayuda al usuario a comprender rapido las ventajas de la plataforma.<br><br>
+<img src="assets/FrameBeneficios.png"></img><br><br>La seccion de suscripciones se organiza en los bloques horizontales, permitiendo una comparacion clara. Cada uno incluye un boton de "saber mas" para acceder a informacion detallada<br><br><img src="assets/FrameSuscripcion.png"></img><br><br> Finalmente, se incluye un bloque donde se le invita al usuario a registrarse, con un titulo grande. Es un formulario de ingreso de datos, facilitando el registro de manera directa. <br><br><img src="assets/FrameRegistrarFooter.jpeg"><br><br><br>-Mobile Web Browser:<br><br>En la version mobile, en este apartado el contenido se organiza de forma vertical, priorizando el nombre de la aplicacion y su proposito. Los botones principales son intuitivos, facilitando la navegacion y siendo esta fluida. Ademas, se simplifico la navegacion mediante una navegacion de tipo hamburguesa, optimizando el espacio en pantalla y permitiendo acceder a las opciones de forma ordenada.<br><br><img src="assets/ImagenesWireframeMobile/Bienvenido.png" height = 700px><img src="assets/ImagenesWireframeMobile/BienvenidoHamburguesa.png" height = 700px><br><br>En esta seccion se presenta en formato vertical, maneteniendo una jerarquia clara para facilitar la lectura y comprension del contenido.<br><br><img src="assets/ImagenesWireframeMobile/QuienesSomos.png" height = 700px> <br><br> En este bloque, que describe cuales son los beneficios, se organizo de igual forma, en vertical, permitiendo una visualizacion clara y secuencial en pantallas reducidas.<br><br><img src="assets/ImagenesWireframeMobile/BeneficiosUno.png" height = 700px><img src="assets/ImagenesWireframeMobile/BeneficiosDos.png" height = 700px><img src="assets/ImagenesWireframeMobile/BeneficiosTres.png" height = 700px><br><br>En la seccion de suscripciones tambien se organizo de forma vertical, facilitando la comparacion y acceso a informacion adicional mediante botones.<br><br><img src="assets/ImagenesWireframeMobile/SuscripcionUno.png" height = 700px><img src="assets/ImagenesWireframeMobile/SuscripcionDos.png" height = 700px><br><br>En la seccion de registro se agrego un bloque donde esta el formulario, pensado para que el usuario pueda registrarse de forma rapida y sencilla desde el celular.<br><br><img src="assets/ImagenesWireframeMobile/RegistrarFooter.png" height = 700px>
+
 ### 4.3.2. Landing Page Mock-up
+-Desktop Web Browser:<br><br>
+<img src="assets/mockup1.png"></img><br><br>
+<img src="assets/mockup2.png"></img><br><br>
+<img src="assets/mockup3.png"></img><br><br>
+<img src="assets/mockup4.png"></img><br><br>
+<img src="assets/mockup5.png"></img><br><br>
+-Mobile Web Browser:<br><br><img src = "assets/ImagenesMock-UpDesktop/Bienvenido.png" height = 700px><img src = "assets/ImagenesMock-UpDesktop/BienvenidoHamburguesa.png" height = 700px><br><br><img src = "assets/ImagenesMock-UpDesktop/QuienesSomos.png" height = 700px><br><br><img src = "assets/ImagenesMock-UpDesktop/BeneficioUno.png" height = 700px><img src = "assets/ImagenesMock-UpDesktop/BeneficioDos.png" height = 700px><img src = "assets/ImagenesMock-UpDesktop/BeneficioTres.png" height = 700px><br><br><img src = "assets/ImagenesMock-UpDesktop/SuscripcionUno.png" height = 700px><img src = "assets/ImagenesMock-UpDesktop/SuscripcionDos.png" height = 700px><br><br><img src = "assets/ImagenesMock-UpDesktop/RegistrarseFooter.png" height = 700px><br><br>
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+<img src="assets/webapplicationswireframes1.png"></img><br>
+<img src="assets/webapplicationswireframes2.png"></img><br>
+<img src="assets/webapplicationswireframes3.png"></img><br>
+<img src="assets/webapplicationswireframes4.png"></img><br>
+<img src="assets/webapplicationswireframes5.png"></img><br>
+<img src="assets/webapplicationswireframes6.png"></img><br>
+<img src="assets/webapplicationswireframes7.png"></img><br>
+<img src="assets/webapplicationswireframes8.png"></img><br>
+<img src="assets/webapplicationswireframes9.png"></img><br>
+<img src="assets/webapplicationswireframes10.png"></img><br>
 ### 4.4.2. Web Applications Wireflow Diagrams
+<img src="assets/wireflow diagrams.png"></img><br>
 ### 4.4.2. Web Applications Mock-ups
+<img src="assets/mockupapp1.png"></img><br>
+<img src="assets/mockupapp2.png"></img><br>
+<img src="assets/mockupapp3.png"></img><br>
+<img src="assets/mockupapp4.png"></img><br>
+<img src="assets/mockupapp5.png"></img><br>
+<img src="assets/mockupapp6.png"></img><br>
+<img src="assets/mockupapp7.png"></img><br>
+<img src="assets/mockupapp8.png"></img><br>
+<img src="assets/mockupapp9.png"></img><br>
+<img src="assets/mockupapp10.png"></img><br>
+
 ### 4.4.3. Web Applications User Flow Diagrams
+-User Goal : El usuario desea registrarse en la plataforma para gestionar la informacion de su mascota<br><br>-Happy path:<br><img src= "assets/ImagenesUserFlowDiagrams/UserGoalRegistroHappyPath.png" height= 1000px><br><br>-UnHappy Path: <br><img src="assets/ImagenesUserFlowDiagrams/UserGoalRegistroUnHappyPath.png" height= 1100px><br><br>
+-User Goal : El usuario desea encontrar veterinarias confiables para atender a su mascota rapidamente.<br><br>-Happy Path<img src="assets/ImagenesUserFlowDiagrams/UserGoalBuscarVeterinariasHappyPath.png" ><br><br>-UnHappy Path:<img src="assets/ImagenesUserFlowDiagrams/UserGoalBuscarVeterinariasUnHappyPath.png" height= 1000px><br><br>-User Goal : El usuario desea registrar y consultar el historial medico de su mascota.<br><br>-Happy Path:<br><img src="assets/ImagenesUserFlowDiagrams/UseGoalHistorialMedicoHappyPath.png"><br><br>-UnHappy Path 1:<br><img src="assets/ImagenesUserFlowDiagrams/UseGoalHistorialMedicoUnHappyPathUno.png"><br><br>-UnHappy Path 2:<br><img src="assets/ImagenesUserFlowDiagrams/UseGoalHistorialMedicoUnHappyPathDos.png"><br><br>-UnHappy Path 3:<br><img src="assets/ImagenesUserFlowDiagrams/UseGoalHistorialMedicoUnHappyPathTres.png"><br><br>-User Goal: El usuario desea recibir recordatorios de vacunas para cuidar la salud preventiva de su mascota.<br><br>-Happy Path: <br><img src="assets/ImagenesUserFlowDiagrams/UserGoalRecordatorioshappy.png"><br><br>-User Goal: El usuario desea registrar diagnosticos y citas medicas de forma digital para reducir el uso de papeleo.<br><br>-Happy Path:<br><img src="assets/ImagenesUserFlowDiagrams/UserGoalCitasServiciosHappyPath.png"><br><br>-UnHappy Path:<br><img src="assets/ImagenesUserFlowDiagrams/UserGoalCitasServiciosUnHappyPath.png"><br>
 ## 4.5. Web Applications Prototyping
+En esta sección se presenta el flujo de cada frame. Se utilizaron los User Goals como base para construir los diagramas y posteriormente se conectaron en el User Flow. A continuación, se adjuntan imágenes como evidencia:<br><br><img src="assets/ImagenesUserFlowDiagrams/UserFlowDiagramDesktopPrototype.png"><br><br>[Link del video donde se explican los User Flow Diagrams](https://1drv.ms/v/c/6f853fb278bb6268/IQBpn0BRBk22RJm7W5r_gqs5AVBObmjJoZsgVpKlszwqLBA?e=qGSUQC)
 ## 4.6. Domain-Driven Software Architecture
+
 ### 4.6.1. Design-Level Event Storming
+En esta sección se presenta el proceso de Design-Level Event Storming, el cual permitió identificar, analizar y organizar los eventos clave del dominio del sistema PetCare.
+
+A través de esta técnica, se logró construir una visión más clara del comportamiento del sistema, facilitando la comprensión de los flujos principales, las interacciones entre los actores y la definición de los límites del dominio. Esto sirvió como base para una aproximación más estructurada y refinada del diseño a nivel general de la arquitectura del sistema.
+
+<img src="assets/PetCare - Event Storming.jpg" alt="Design-Level Event Storming"><br>
+
+<a href="https://miro.com/app/board/uXjVGgIlPes=/?share_link_id=504466486725" target="_blank">
+  <img src="https://img.shields.io/badge/Miro-Design%20Level%20Event%20Storming-blue?style=for-the-badge&logo=miro&logoColor=white" alt="Miro Event Storming">
+</a>
+
 ### 4.6.2. Software Architecture Context Diagram
+<img src="assets/4.6.2. Software Architecture Context Diagram.png" alt="Software Architecture Context Diagram"><br>
+
 ### 4.6.3. Software Architecture Container Diagrams
+<img src="assets/4.6.3. Software Architecture Container Diagrams.png" alt="Software Architecture Container Diagrams"><br>
+
 ### 4.6.4. Software Architecture Components Diagrams
+<img src="assets/4.6.4. Software Architecture Components Diagrams.png" alt="Software Architecture Components Diagrams"><br>
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+<img src="assets/Diagrama-Petcard.drawio.png" alt="Diagrama de Clases - PetCard"><br>
+
 ## 4.8. Database Design
+Para el diseño del sistema de la base de datos se uso un diagrama entidad-relacion (ERD). En él se modela cómo un Usuario puede tener múltiples Mascotas, y cómo cada mascota puede estar asociada a citas veterinarias, historial clínico, vacunas, dispositivos IoT y alertas. También se incluye un Perfil con información adicional del usuario y una entidad de Veterinarias para gestionar las clínicas. Además, el sistema incorpora el monitoreo en tiempo real mediante dispositivos IoT, que generan datos almacenados en Datos IoT, permitiendo registrar información y alertas sobre el estado de las mascotas.<br><br><img src="assets/DiagramaDBPetCareERD.png">
 ### 4.8.1. Database Diagrams.
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
