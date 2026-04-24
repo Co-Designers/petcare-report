@@ -566,6 +566,21 @@ Para realizar el despliegue de nuestro landing page haremos uso de la herramient
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1 
 #### 5.2.1.1. Sprint Planning 1
+| Categoría | Detalle |
+| :--- | :--- |
+| **Sprint#** | Sprint 1 |
+| **Sprint Planning Background** | |
+| Date | 2026-04-22 |
+| Time | 8:00PM-12PM |
+| Location | Discord |
+| Prepared By | Mejia Aliaga, Katherine Maryory |
+| Attendees (to planning meeting) | Katherine Maryory Mejia Aliaga<br>Mauricio Silva, Ghiou Justinn<br>Ghorghet Saul Tuncar Vila<br>Diego Roberto Campoblanco Guzman<br>Jean Pool Huaman de la Cruz |
+| Sprint 0 Review Summary | Diseño de landing page |
+| Sprint 0 Retrospective Summary | Se logró planear el diseño y estructura que tendrá el landing page en coordinación con el equipo tomando las historias de usuario 1, 23, 13, 7, 19 y 10 previamente definidas. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Our focus is on offering a friendly landing page to the users that adjust to their needs while starting to use PetCare.<br>We believe it helps the user for their first time using the app in a way that can be easy to understand.<br>This will be confirmed when the landing page is fully deployed in production, is fully responsive on mobile devices, and all Call-to-Action (CTA) buttons successfully redirect visitors to the PetCare Web App registration portal without errors. |
+| Sprint 1 Velocity | 15 |
+| Sum of Story Points | 15 |
 #### 5.2.1.2. Aspect Leaders and Collaborators
 En el presente Sprint se prioriza el desarrollo del Landing Page de la plataforma PetCare, el cual constituye el principal punto de entrada para los usuarios del sistema. Este componente cumple un rol estratégico, ya que permite comunicar de manera clara, estructurada y visualmente atractiva la propuesta de valor del producto, orientada a optimizar la gestión de la salud veterinaria mediante el uso de tecnologías digitales.
 
@@ -592,7 +607,14 @@ El Sprint se enfoca en el diseño e implementación de la interfaz del Landing P
 
 
 #### 5.2.1.3. Sprint Backlog 1. 
-
+| US ID | User Story Title | Task ID | Task Title | Description | Estimation | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| US01 | Buscar veterinarias con filtros | W-1 | Buscar Resultados | Como dueño de mascotas, quiero buscar veterinarias mediante filtros por distrito, horario y especialidad, para encontrar una opción adecuada rápidamente. | 1 hora | Mejia Aliaga, Katherine Maryory | In-Process |
+| US23 | Filtro de veterinarias 24 horas | W-2 | Filtro de Búsqueda | Como dueño de mascota, quiero filtrar solo veterinarias con atención de emergencia, para actuar rápido ante accidentes nocturnos. | 30 minutos | Mejia Aliaga, Katherine Maryory | In-Process |
+| US13 | Plan premium de posicionamiento | W-3 | Plan de Pago | Como administrador de veterinaria, quiero contratar un plan premium para destacar mi negocio dentro de la plataforma. | 30 minutos | Mejia Aliaga, Katherine Maryory | Done |
+| US07 | Recibir recordatorios automáticos | W-4 | Automatización de Recordatorios | Como dueño de mascota, quiero recibir notificaciones automáticas, para recordar vacunas y controles médicos pendientes. | 1 hora | Mejia Aliaga, Katherine Maryory | In-Process |
+| US19 | Chat de consultas post-cita | W-5 | Chat de consultas post-cita | Como dueño de mascota, quiero chatear con el veterinario que atendió a mi mascota, para resolver dudas sobre el tratamiento. | 30 minutos | Mejia Aliaga, Katherine Maryory | In-Process |
+| US10 | Gestión de perfil comercial | W-6 | Gestión de perfiles | Como administrador de veterinaria, quiero actualizar horarios, promociones y datos comerciales para mantener informados a los clientes. | 30 minutos | Mejia Aliaga, Katherine Maryory | In-Process |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 1, específicamente en la implementación del Landing Page de la plataforma PetCare. Se destacan los avances realizados en la estructura, diseño y despliegue inicial de la interfaz, alineados con los objetivos definidos en el Sprint Planning.
@@ -606,7 +628,35 @@ A continuación, se muestra la tabla que documenta los commits más relevantes a
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+**Sprint 1:**
 
+Durante el desarrollo del Sprint 1 se realizaron las siguientes implementaciones:
+
+**1.- Barra de navegación:** En esta se puede observar cómo el usuario puede acceder con un simple click a información esencial como Quienes somos, beneficios de la app, Suscripción y contacto.
+
+<img src="assets/Barra-De-Navegacion.png">
+
+**2.- Seccion del héroe:** Se implemento la seccion hero la cual incluye un mensaje atractivo y puntual para los clientes
+
+<img src="assets/Seccion-Del-Heroe.png">
+
+**3.- Sección quienes somos:** Añadimos la sección con información esencial sobre el grupo y la Petcare para brindar una rapida introduccion a los usuarios
+
+<img src="assets/Seccion-Del-Quienes-Somos.png">
+
+**4.- Sección Beneficios:** Añadimos las sección de beneficios  en la cual se explica de manera concisa al usuario los beneficios por usar la aplicación para el cuidado clínico de su mascota
+
+<img src="assets/Seccion-Beneficios.png">
+
+**5.- Sección de suscripciones:** En este apartado mostramos los planes disponibles a los usuarios para que pueda ver la opción que mejor se acomode a sus necesidades 
+
+<img src="assets/Seccion-Suscripciones.png">
+
+**6.- Sección de Registro:** Se añadió el apartado de registro donde si el posible usuario esta interesado puede registrarse en la aplicación añadiendo sus nombres, apellidos, correo y teléfono.
+
+<img src="assets/Seccion-de-Registro.png">
+
+**Link del video de demostración:** https://drive.google.com/file/d/1ThG-uKVHmkH3e956boju7AyqltXSUESM/view?usp=sharing 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
