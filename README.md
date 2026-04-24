@@ -699,7 +699,10 @@ Al realizar un desplazamiento (Scroll), el usuario encuentra la seccion "Quienes
 <img src="assets/mockupapp8.png"></img><br>
 <img src="assets/mockupapp9.png"></img><br>
 <img src="assets/mockupapp10.png"></img><br>
+
 ### 4.4.3. Web Applications User Flow Diagrams
+-User Goal : El usuario desea registrarse en la plataforma para gestionar la informacion de su mascota<br><br>-Happy path:<br><img src= "assets/ImagenesUserFlowDiagrams/UserGoalRegistroHappyPath.png" height= 1000px><br><br>-UnHappy Path: <br><img src="assets/ImagenesUserFlowDiagrams/UserGoalRegistroUnHappyPath.png" height= 1100px><br><br>
+-User Goal : El usuario desea encontrar veterinarias confiables para atender a su mascota rapidamente.<br><br>-Happy Path<img src="assets/ImagenesUserFlowDiagrams/UserGoalBuscarVeterinariasHappyPath.png" ><br><br>-UnHappy Path:<img src="assets/ImagenesUserFlowDiagrams/UserGoalBuscarVeterinariasUnHappyPath.png" height= 1000px><br><br>-User Goal : El usuario desea registrar y consultar el historial medico de su mascota.<br><br>-Happy Path:<br><img src="assets/ImagenesUserFlowDiagrams/UseGoalHistorialMedicoHappyPath.png"><br><br>-UnHappy Path 1:<br><img src="assets/ImagenesUserFlowDiagrams/UseGoalHistorialMedicoUnHappyPathUno.png"><br><br>-UnHappy Path 2:<br><img src="assets/ImagenesUserFlowDiagrams/UseGoalHistorialMedicoUnHappyPathDos.png"><br><br>-UnHappy Path 3:<br><img src="assets/ImagenesUserFlowDiagrams/UseGoalHistorialMedicoUnHappyPathTres.png"><br><br>-User Goal: El usuario desea recibir recordatorios de vacunas para cuidar la salud preventiva de su mascota.<br><br>-Happy Path: <br><img src="assets/ImagenesUserFlowDiagrams/UserGoalRecordatorioshappy.png"><br><br>-User Goal: El usuario desea registrar diagnosticos y citas medicas de forma digital para reducir el uso de papeleo.<br><br>-Happy Path:<br><img src="assets/ImagenesUserFlowDiagrams/UserGoalCitasServiciosHappyPath.png"><br><br>-UnHappy Path:<br><img src="assets/ImagenesUserFlowDiagrams/UserGoalCitasServiciosUnHappyPath.png"><br>
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 
