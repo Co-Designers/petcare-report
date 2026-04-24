@@ -656,6 +656,13 @@ El despliegue del Landing Page representa un hito importante dentro del desarrol
 
 <img src="assets/deployment-evidence/img3-petcare-landingpage.png" alt="Configuración GitHub Pages PetCare" width="100%">
 
+4. Finalmente, se generó el enlace público del sitio, permitiendo acceder al Landing Page de PetCare desde cualquier navegador web, validando su correcto funcionamiento, diseño responsive y experiencia de usuario.
+
+<img src="assets/deployment-evidence/img4-petcare-landingpage.png" alt="Landing Page desplegado PetCare" width="100%">
+
+El resultado de este proceso es un Landing Page desplegado y accesible en línea, que representa de manera efectiva la propuesta de valor de PetCare y sirve como punto de entrada para los usuarios del sistema.
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 
