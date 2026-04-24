@@ -652,6 +652,9 @@ El despliegue del Landing Page representa un hito importante dentro del desarrol
 
 <img src="assets/deployment-evidence/img2-petcare-landingpage.png" alt="Rama main del repositorio PetCare" width="100%">
 
+3. Posteriormente, se configuró el servicio GitHub Pages, el cual permite el alojamiento de sitios web estáticos directamente desde el repositorio. A través de esta herramienta, se seleccionó la rama *main* como fuente de despliegue.
+
+<img src="assets/deployment-evidence/img3-petcare-landingpage.png" alt="Configuración GitHub Pages PetCare" width="100%">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
