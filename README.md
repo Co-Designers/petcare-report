@@ -733,7 +733,7 @@ En el contexto del proyecto PetCare, orientado a la gestión integral de la salu
 | Emergency (Emergencia) | Situación crítica que requiere atención veterinaria inmediata para preservar la vida o bienestar de la mascota. |
 | Follow-up (Seguimiento) | Proceso de control posterior a una atención médica para evaluar la evolución del estado de salud de la mascota. |
 
-# Capitulo III: Requirements Specification
+# Capítulo III: Requirements Specification
 ## 3.1. User Stories
 En esta sección, profundizaremos en la definición y elaboración de las User Stories relacionadas con nuestro proyecto. Las User Stories son una herramienta fundamental en el desarrollo de software y proyectos de diseño centrados en el usuario.
 
@@ -741,7 +741,7 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 
 | **Epic ID** | **Título** | **Descripción** | **Criterio de aceptación** |
 |---|---|---|---|
-| EPIC-01 | Gestión de Mascotas | Como dueño de mascota, quiero administrar el perfil, salud y dieta de mis mascotas, para centralizar su cuidado preventivo. | **Dado** que el usuario accede al módulo de mascotas. <br> **Cuando** registra datos, fotos, vacunas, peso o dietas. <br> **Entonces** el sistema actualiza la ficha individual y resalta alertas de alergias o condiciones médicas. |
+| EPIC-01 | Gestión de Mascotas | Como dueño de mascotas, quiero administrar el perfil, salud y dieta de mis mascotas, para centralizar su cuidado preventivo. | **Dado** que el usuario accede al módulo de mascotas. <br> **Cuando** registra datos, fotos, vacunas, peso o dietas. <br> **Entonces** el sistema actualiza la ficha individual y resalta alertas de alergias o condiciones médicas. |
 | EPIC-02 | Gestión de Citas Veterinarias | Como dueño y veterinario, queremos gestionar el agendamiento de citas, para organizar la atención y evitar cruces de horarios. | **Dado** que existe disponibilidad en el calendario. <br> **Cuando** se reserva, reprograma o cancela una cita. <br> **Entonces** el sistema actualiza el estado en tiempo real, notifica a ambas partes y sincroniza el calendario. |
 | EPIC-03 | Búsqueda y Descubrimiento | Como dueño de mascota, quiero localizar veterinarias por filtros y ubicación, para encontrar la atención más cercana y confiable. | **Dado** que el usuario utiliza filtros de distrito, especialidad o mapa. <br> **Cuando** realiza la búsqueda. <br> **Entonces** el sistema muestra los locales disponibles, sus perfiles profesionales, calificaciones y tiempos de espera. |
 | EPIC-04 | Comunicación y Soporte | Como usuario, quiero disponer de canales de comunicación directa y soporte, para resolver dudas técnicas o médicas rápidamente. | **Dado** que el usuario requiere asistencia o seguimiento. <br> **Cuando** envía mensajes por chat, adjunta archivos o genera un ticket de soporte. <br> **Entonces** el sistema canaliza la solicitud y notifica la respuesta. |
@@ -819,18 +819,18 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 
 | Technical Story ID | Título                              | Descripción                                               | Criterios de aceptación                                                                 | EPIC      |
 |-------------------|-------------------------------------|-----------------------------------------------------------|------------------------------------------------------------------------------------------|-----------|
-| TS01              | Validación de disponibilidad        | Evitar conflictos de horarios en citas.                   | Dado horario ocupado, cuando se intenta reservar, entonces el sistema rechaza la operación. | EPIC-T03 |
+| TS01              | Validación de disponibilidad        | Evitar conflictos de horarios en citas.                   | Dado el horario ocupado, cuando se intenta reservar, entonces el sistema rechaza la operación. | EPIC-T03 |
 | TS02             | Sistema de notificaciones           | Implementar envío de alertas automáticas.                 | Dado evento programado, cuando se cumple la condición, entonces el sistema envía notificación. | EPIC-T04 |
 | TS03              | Autenticación de usuarios           | Implementar registro e inicio de sesión seguro.           | Dado credenciales válidas, cuando el usuario inicia sesión, entonces el sistema autentica correctamente. | EPIC-T01 |
 | TS04             | Control de acceso por roles         | Implementar autorización según tipo de usuario.           | Dado un usuario autenticado, cuando accede a un recurso, entonces el sistema valida permisos según rol. | EPIC-T01 |
 | TS05              | Gestión de historial clínico        | Implementar almacenamiento de datos médicos.              | Dado registros clínicos, cuando se consultan, entonces el sistema los muestra correctamente. | EPIC-T04 |
-| TS06              | Gestión de usuarios                 | Implementar operaciones CRUD de usuarios.                 | Dado datos válidos, cuando se registra o edita, entonces el sistema guarda correctamente. | EPIC-T02 |
+| TS06              | Gestión de usuarios                 | Implementar operaciones CRUD de usuarios.                 | Dado que los datos son válidos, cuando se registra o edita, entonces el sistema los guarda correctamente. | EPIC-T02 |
 | TS07              | Gestión de mascotas                 | Implementar operaciones CRUD de mascotas.                 | Dado datos de mascota, cuando se registra, entonces el sistema almacena información. | EPIC-T02 |
 | TS08              | Gestión de citas                    | Implementar lógica de reservas y estados de citas.        | Dado disponibilidad, cuando se agenda una cita, entonces el sistema la registra correctamente. | EPIC-T03 |
 | TS09              | Motor de búsqueda y filtrado        | Implementar búsqueda de veterinarias por filtros.         | Dado filtros aplicados, cuando se consulta, entonces el sistema retorna resultados correctos. | EPIC-T03 |
 | TS10             | Gestión de veterinarias             | Implementar registro y administración de veterinarias.    | Dado datos válidos, cuando se procesa, entonces el sistema persiste la información. | EPIC-T02 |
 | TS11              | Generación de documentos PDF        | Implementar exportación de recetas e historial.           | Dado solicitud, cuando se genera, entonces el sistema produce archivo válido. | EPIC-T04 |
-| TS12             | Recuperación de contraseña          | Implementar recuperación segura mediante correo.          | Dado solicitud válida, cuando el usuario confirma, entonces puede cambiar su contraseña. | EPIC-T01 |
+| TS12             | Recuperación de contraseña          | Implementar recuperación segura mediante correo.          | Dado que la solicitud es válida, cuando el usuario confirma, entonces puede cambiar su contraseña. | EPIC-T01 |
 
 ## 3.2. Impact Mapping
 
