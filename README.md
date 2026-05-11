@@ -1152,7 +1152,7 @@ A través de esta técnica, se logró construir una visión más clara del compo
 ## 4.8. Database Design
 Para el diseño del sistema de la base de datos se usó un diagrama entidad-relación (ERD). En él se modela cómo un Usuario puede tener múltiples Mascotas, y cómo cada mascota puede estar asociada a citas veterinarias, historial clínico, vacunas, dispositivos IoT y alertas. También se incluye un Perfil con información adicional del usuario y una entidad de veterinarias para gestionar las clínicas. Además, el sistema incorpora el monitoreo en tiempo real mediante dispositivos IoT, que generan datos almacenados en Datos IoT, permitiendo registrar información y alertas sobre el estado de las mascotas.<br><br><img src="assets/DiagramaDBPetCareERD.png">
 ### 4.8.1. Database Diagrams.
-# Capitulo V: Product Implementation, Validation & Deployment
+# Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
 **Project Management y Requirements Management:**
@@ -1285,7 +1285,7 @@ Durante el desarrollo del Sprint 1 se realizaron las siguientes implementaciones
 
 <img src="assets/Barra-De-Navegacion.png">
 
-**2.- Seccion del héroe:** Se implemento la seccion hero la cual incluye un mensaje atractivo y puntual para los clientes
+**2.- Sección del héroe:** Se implementó la sección hero la cual incluye un mensaje atractivo y puntual para los clientes
 
 <img src="assets/Seccion-Del-Heroe.png">
 
@@ -1301,7 +1301,7 @@ Durante el desarrollo del Sprint 1 se realizaron las siguientes implementaciones
 
 <img src="assets/Seccion-Suscripciones.png">
 
-**6.- Sección de Registro:** Se añadió el apartado de registro donde si el posible usuario esta interesado puede registrarse en la aplicación añadiendo sus nombres, apellidos, correo y teléfono.
+**6.- Sección de Registro:** Se añadió el apartado de registro donde si el posible usuario está interesado puede registrarse en la aplicación añadiendo sus nombres, apellidos, correo y teléfono.
 
 <img src="assets/Seccion-de-Registro.png">
 
