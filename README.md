@@ -240,16 +240,6 @@ Esta falta de integración tecnológica afecta tanto el bienestar de las mascota
 | ("How") Cómo | ¿Cómo se originó el problema? | El problema se originó debido al rápido aumento en la tenencia responsable y la "humanización" de las mascotas, lo cual generó una alta demanda de servicios especializados. Sin embargo, el sector veterinario no acompañó este crecimiento con una modernización tecnológica, manteniendo historiales en papel o sistemas cerrados, y retrasando la implementación de la Inteligencia Artificial y el IoT en el seguimiento clínico. |
 | ("How much") Cuánto | ¿Cuánto costaría solucionarlo? | Se estima que el desarrollo del MVP (Producto Mínimo Viable) que incluye la plataforma web/móvil con IA y la creación de los primeros prototipos de biosensores IoT requerirá una inversión inicial de S/.36,500. |
 
-## Objetivos
-Objetivo General:
-
-
-Objetivos Específicos
-
-
-## Restricciones
-
-
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
 -Los dueños de mascotas tienen dificultades para poder organizar y dar seguimiento al historial médico de sus mascotas, especialmente en procedimientos frecuentes como  baños, vacunas y controles, debido a la gran cantidad de información que deben gestionar. Además, al presentarse un emergencia con sus mascotas no saben a que veterinaria acudir por que no tiene información previa de que procedimientos ofrecen ni de los precios y el horario de atención, perdiendo tiempo valioso. Por otro lado, los dueños de mascotas no conocen que método de pago manejan cada veterinaria, ni los tiempos de respuesta para agendar una cita, los cuales en su mayoría de casos son de varios días, provocando demora en la atención.
@@ -1150,8 +1140,9 @@ A través de esta técnica, se logró construir una visión más clara del compo
 <img src="assets/Diagrama-Petcard.drawio.png" alt="Diagrama de Clases - PetCard"><br>
 
 ## 4.8. Database Design
-Para el diseño del sistema de la base de datos se usó un diagrama entidad-relación (ERD). En él se modela cómo un Usuario puede tener múltiples Mascotas, y cómo cada mascota puede estar asociada a citas veterinarias, historial clínico, vacunas, dispositivos IoT y alertas. También se incluye un Perfil con información adicional del usuario y una entidad de veterinarias para gestionar las clínicas. Además, el sistema incorpora el monitoreo en tiempo real mediante dispositivos IoT, que generan datos almacenados en Datos IoT, permitiendo registrar información y alertas sobre el estado de las mascotas.<br><br><img src="assets/DiagramaDBPetCareERD.png">
+Para el diseño del sistema de la base de datos se usó un diagrama entidad-relación (ERD). En él se modela cómo un Usuario puede tener múltiples Mascotas, y cómo cada mascota puede estar asociada a citas veterinarias, historial clínico, vacunas, dispositivos IoT y alertas. También se incluye un Perfil con información adicional del usuario y una entidad de veterinarias para gestionar las clínicas. Además, el sistema incorpora el monitoreo en tiempo real mediante dispositivos IoT, que generan datos almacenados en Datos IoT, permitiendo registrar información y alertas sobre el estado de las mascotas.<br>
 ### 4.8.1. Database Diagrams.
+<br><img src="assets/DiagramaDBPetCareERD.png">
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
