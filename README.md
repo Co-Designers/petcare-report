@@ -1416,11 +1416,16 @@ El despliegue del Landing Page representa un hito importante dentro del desarrol
 El resultado de este proceso es un Landing Page desplegado y accesible en línea, que representa de manera efectiva la propuesta de valor de PetCare y sirve como punto de entrada para los usuarios del sistema.
 
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-En esta sección se presenta una visión general de la colaboración del equipo durante el Sprint 1 del proyecto PetCare. Se abordan la organización de las actividades, la distribución de tareas y la interacción entre los integrantes, lo que contribuyó a una gestión eficiente de responsabilidades y al correcto desarrollo del Sprint.
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Asimismo, se incluye evidencia del avance del equipo en GitHub, donde se reflejan los commits realizados por cada integrante, tal como se muestra en la imagen a continuación, evidenciando su participación activa en el desarrollo del proyecto.
+En esta sección se presenta una visión general de la colaboración del equipo durante el Sprint 1 del proyecto PetCare. Durante esta iteración, el trabajo se enfocó en el desarrollo del Landing Page, por lo que las actividades principales estuvieron relacionadas con la organización del contenido, diseño visual, maquetación, estilos, navegación interna, cambio de idioma y documentación de evidencias.
+
+La implementación técnica del Landing Page fue registrada principalmente mediante commits realizados por Katherine Maryory, Mejía Aliaga en el repositorio del proyecto. Asimismo, los demás integrantes del equipo colaboraron en actividades complementarias como revisión del contenido, validación visual del Landing Page, recopilación de capturas, documentación del Sprint y verificación de la navegación implementada.
+
+La colaboración del Sprint se evidencia mediante capturas de GitHub, donde se muestran los commits realizados en el repositorio del Landing Page, así como el avance técnico correspondiente a la implementación y consolidación del producto. Esta evidencia permite relacionar las tareas planificadas en el Sprint Backlog con el entregable presentado para la revisión del Sprint.
+
+<img src="assets/deployment-evidence/evidencia.jpg" alt="Evidencia de despliegue de PetCare" width="100%">
 
 # Conclusiones
 # Bibliografía 
