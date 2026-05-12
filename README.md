@@ -251,11 +251,21 @@ La visión del proyecto es desarrollar una plataforma digital que conecta a due�
 
 
 #### 1.2.2.1 Lean UX Assumptions
+Los siguientes Assumptions fueron definidos a partir de entrevistas y encuestas realizadas a dueños de mascotas y representantes o dueños de veterinarias, con el objetivo de identificar sus principales necesidades y problemas.<br><br>
 Para los dueños de mascotas:<br>
--Se interesan por la salud y el buen cuidado de sus mascotas.<br>
--Prefieren obtener información de las veterinarias de forma digital sin acudir presencialmente.<br>
--Necesitan una forma digitalizada de organizar y dar seguimiento del historial médico de sus mascotas.<br>
--Quieren una atención rápida y que cumpla con las fechas y horas establecidas.<br><br>Para las veterinarias:<br>-Buscan mejorar la gestión de la información de sus clientes y de las mascotas.<br>-Prefieren digitalizar sus procesos para optimizar tiempo y reducir errores.<br>-Necesitan una manera rápida y organizada de registrar y dar seguimiento al historial clínico de las mascotas.<br>-Buscan ampliar su rango de visibilidad para atraer nuevos clientes.<br>-Quieren mostrar información de sus servicios, precios, horarios y ubicación sin tener que enviar la información manualmente a cada cliente.<br>-Necesitan herramientas que les permitan gestionar citas, pagos y la atención al cliente.<br>-Buscan mejorar la calidad de atención mediante un seguimiento mucho más personalizado de cada mascota.
+-Se preocupan por la salud y el bienestar de sus mascotas, buscando mantener un adecuado control de su atención médica.<br>
+-Prefieren obtener información de veterinarias de manera digital, evitando la necesidad de acudir presencialmente solo para realizar consultas básicas.<br>
+-Necesitan una forma digital y organizada de almacenar y dar seguimiento al historial médico de sus mascotas.<br>
+-Buscan una atención rápida y organizada que respete las fechas y horarios programados para sus citas veterinarias.<br><br>
+Para las veterinarias:<br>
+-Buscan mejorar la gestión de la información de sus clientes y de las mascotas mediante herramientas más organizadas y centralizadas.<br>
+-Prefieren digitalizar sus procesos internos para optimizar tiempo, reducir errores y facilitar la administración de información.<br>
+-Necesitan una manera rápida y organizada de registrar y dar seguimiento al historial clínico de las mascotas.<br>
+-Buscan aumentar su visibilidad digital para atraer nuevos clientes y ampliar su alcance.<br>
+-Desean mostrar información de sus servicios, precios, horarios y ubicación de forma accesible, sin necesidad de enviarla manualmente a cada cliente.<br>
+-Necesitan herramientas que les permitan gestionar citas y la atención al cliente de manera más eficiente.<br>
+-Buscan mejorar la calidad de atención mediante un seguimiento mucho más personalizado, relacionado a la salud de cada mascota.<br>
+
 
 #### 1.2.2.1 Lean UX Hypothesis Statements
 -Creemos que con nuestra aplicación los dueños de mascotas podrán organizar y dar seguimiento al historial médico de sus mascotas de manera más eficiente. Sabremos que hemos tenido éxito cuando veamos que al menos el 70% de los usuarios registrados utilizan la función de historial médico de forma recurrente. Mediremos esto mediante las estadísticas de uso dentro de la plataforma.<br><br>
