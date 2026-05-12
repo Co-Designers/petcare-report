@@ -685,7 +685,6 @@ Al realizar un desplazamiento (Scroll), el usuario encuentra la seccion "Quienes
 <img src="assets/webapplicationswireframes7.png"></img><br>
 <img src="assets/webapplicationswireframes8.png"></img><br>
 <img src="assets/webapplicationswireframes9.png"></img><br>
-<img src="assets/webapplicationswireframes10.png"></img><br>
 ### 4.4.2. Web Applications Wireflow Diagrams
 <img src="assets/wireflow diagrams.png"></img><br>
 ### 4.4.2. Web Applications Mock-ups
