@@ -1188,23 +1188,84 @@ Para realizar el despliegue de nuestro landing page haremos uso de la herramient
   * Una carpeta “images” la cual contiene las imágenes empleadas en el landing page
 
 ## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.1. Sprint 1 
+
+En esta sección se presenta el avance de implementación, documentación, pruebas y despliegue de los productos digitales de PetCare. Para cada Sprint se describe la planificación, distribución de responsabilidades, Sprint Backlog, evidencias de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo.
+
+### 5.2.1. Sprint 1
+
+El Sprint 1 tuvo como objetivo implementar la primera versión funcional del Landing Page de PetCare. Este Sprint se enfocó en las User Stories relacionadas con la experiencia inicial del visitante, permitiendo presentar la propuesta de valor, explicar el propósito de la plataforma, mostrar beneficios, comparar planes de suscripción, facilitar la navegación entre secciones, habilitar el cambio de idioma y registrar datos de contacto de usuarios interesados.
+
 #### 5.2.1.1. Sprint Planning 1
-| Categoría | Detalle |
-| :--- | :--- |
-| **Sprint#** | Sprint 1 |
-| **Sprint Planning Background** | |
-| Date | 2026-04-22 |
-| Time | 8:00PM-12PM |
-| Location | Discord |
-| Prepared By | Mejia Aliaga, Katherine Maryory |
-| Attendees (to planning meeting) | Katherine Maryory Mejia Aliaga<br>Mauricio Silva, Ghiou Justinn<br>Ghorghet Saul Tuncar Vila<br>Diego Roberto Campoblanco Guzman<br>Jean Pool Huaman de la Cruz |
-| Sprint 0 Review Summary | Diseño de landing page |
-| Sprint 0 Retrospective Summary | Se logró planear el diseño y estructura que tendrá el landing page en coordinación con el equipo tomando las historias de usuario 1, 23, 13, 7, 19 y 10 previamente definidas. |
-| **Sprint Goal & User Stories** | |
-| Sprint 1 Goal | Our focus is on offering a friendly landing page to the users that adjust to their needs while starting to use PetCare.<br>We believe it helps the user for their first time using the app in a way that can be easy to understand.<br>This will be confirmed when the landing page is fully deployed in production, is fully responsive on mobile devices, and all Call-to-Action (CTA) buttons successfully redirect visitors to the PetCare Web App registration portal without errors. |
-| Sprint 1 Velocity | 15 |
-| Sum of Story Points | 15 |
+
+En esta sección se presenta la planificación del Sprint 1, indicando el alcance definido, los participantes, el objetivo del Sprint, las User Stories seleccionadas y la suma de Story Points considerada para esta iteración.
+
+<table>
+  <tr>
+    <th>Categoría</th>
+    <th>Detalle</th>
+  </tr>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td>Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Date</strong></td>
+    <td>2026-04-22</td>
+  </tr>
+  <tr>
+    <td><strong>Time</strong></td>
+    <td>8:00 PM - 12:00 AM</td>
+  </tr>
+  <tr>
+    <td><strong>Location</strong></td>
+    <td>Discord</td>
+  </tr>
+  <tr>
+    <td><strong>Prepared By</strong></td>
+    <td>Katherine Maryory, Mejía Aliaga</td>
+  </tr>
+  <tr>
+    <td><strong>Attendees (to planning meeting)</strong></td>
+    <td>
+      Diego Roberto, Campoblanco Guzman<br>
+      Ghiou Justinn, Mauricio Silva<br>
+      Ghorget Saul, Tuncar Vila<br>
+      Jean Pool, Huaman de la Cruz<br>
+      Katherine Maryory, Mejía Aliaga
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 0 Review Summary</strong></td>
+    <td>Se definió el enfoque inicial del producto PetCare y se organizaron las primeras historias relacionadas con el Landing Page, priorizando la presentación de la propuesta de valor y la captación inicial de usuarios interesados.</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 0 Retrospective Summary</strong></td>
+    <td>El equipo identificó la necesidad de mejorar la trazabilidad entre User Stories, tareas y entregables del Sprint, por lo que se acordó enfocar el Sprint 1 únicamente en las funcionalidades visibles y alcanzables del Landing Page.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 1 Goal</strong></td>
+    <td>
+      Nuestro enfoque es entregar un Landing Page informativo y responsive para PetCare.<br><br>
+      Creemos que esto permite a los visitantes comprender claramente la propuesta de valor de PetCare e identificar los beneficios, planes de suscripción y opciones de registro de la plataforma.<br><br>
+      Esto se confirmará cuando los visitantes puedan navegar por las secciones principales del Landing Page, revisar beneficios y planes, cambiar el idioma entre español e inglés y enviar sus datos de contacto desde la sección de registro.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 1 Velocity</strong></td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td><strong>Sum of Story Points</strong></td>
+    <td>9</td>
+  </tr>
+</table>
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
 En el presente Sprint se prioriza el desarrollo del Landing Page de la plataforma PetCare, el cual constituye el principal punto de entrada para los usuarios del sistema. Este componente cumple un rol estratégico, ya que permite comunicar de manera clara, estructurada y visualmente atractiva la propuesta de valor del producto, orientada a optimizar la gestión de la salud veterinaria mediante el uso de tecnologías digitales.
 
