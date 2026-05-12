@@ -1308,70 +1308,82 @@ El Sprint Backlog 1 se organizó a partir de las User Stories seleccionadas para
 | Sprint 1 | US08 | Navegar por información del Landing Page | W-07 | Implementar navegación interna | Configurar la barra de navegación y los enlaces internos hacia las secciones Inicio, Quiénes somos, Beneficios, Suscripción y Contacto. | 1 hora | Katherine Maryory, Mejía Aliaga | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 1, específicamente en la implementación del Landing Page de la plataforma PetCare. Se destacan los avances realizados en la estructura, diseño y despliegue inicial de la interfaz, alineados con los objetivos definidos en el Sprint Planning.
 
-A continuación, se muestra la tabla que documenta los commits más relevantes asociados al repositorio del proyecto, permitiendo evidenciar el avance técnico y la contribución del equipo durante el Sprint.
+En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 1, específicamente en la implementación del Landing Page de la plataforma PetCare. Si bien la planificación inicial del Sprint se realizó previamente, el entregable fue consolidado mediante ajustes y mejoras sobre la estructura, diseño, organización de archivos e internacionalización básica del Landing Page.
 
-| Repository                   | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|----------------------------|--------|----------|----------------|---------------------|----------------------|
-|petcare-landingpage /KathMJ| main   | cc6ebf3  | chore: initial landing page setup | Initial commit of the landing page structure and base files | 22/04/2026 |
+Los commits registrados evidencian la consolidación del Landing Page y la preparación de una versión funcional para la revisión del Sprint. A continuación, se muestra la tabla con los commits más relevantes asociados al repositorio del proyecto.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| KathMJ/petcare-landingpage | main | ce8de6c | refactor: landing page overhaul | Refactor and improvement of the Landing Page structure, layout and visual presentation. | 09/05/2026 |
+| KathMJ/petcare-landingpage | main | a62e0a6 | feat: added i18n | Added basic internationalization support for Spanish and English content. | 10/05/2026 |
+| KathMJ/petcare-landingpage | main | 477b2a | feat: created translation.js | Created translation file for multilingual Landing Page content. | 10/05/2026 |
+| KathMJ/petcare-landingpage | main | a853e0 | feat: deleted translation.js | Removed previous translation file as part of file reorganization. | 10/05/2026 |
+| KathMJ/petcare-landingpage | main | 19aff4 | feat: rename translation.js to translations.js | Renamed translation file to improve naming consistency. | 10/05/2026 |
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 **Sprint 1:**
 
-Durante el desarrollo del Sprint 1 se realizaron las siguientes implementaciones:
+Durante el desarrollo del Sprint 1 se implementó la primera versión funcional del Landing Page de PetCare, cumpliendo con las User Stories priorizadas para la experiencia inicial del visitante. Las evidencias muestran las secciones principales desarrolladas, la navegación interna, la presentación de beneficios, los planes de suscripción, el formulario de registro y el cambio de idioma del contenido.
 
-**1.- Barra de navegación:** En esta se puede observar cómo el usuario puede acceder con un simple click a información esencial como Quienes somos, beneficios de la app, Suscripción y contacto.
+1. **Barra de navegación:**  
+Se implementó una barra de navegación que permite al visitante acceder de forma rápida a las secciones principales del Landing Page: Inicio, Quiénes somos, Beneficios, Suscripción y Contacto. Esta funcionalidad facilita el desplazamiento interno y mejora la experiencia de navegación.
 
 <img src="assets/Barra-De-Navegacion.png">
 
-**2.- Sección del héroe:** Se implementó la sección hero la cual incluye un mensaje atractivo y puntual para los clientes
+2. **Sección Hero:**  
+Se desarrolló la sección principal del Landing Page, la cual incluye un mensaje introductorio y una llamada a la acción orientada a comunicar la propuesta de valor de PetCare desde el primer contacto con el visitante.
 
 <img src="assets/Seccion-Del-Heroe.png">
 
-**3.- Sección quienes somos:** Añadimos la sección con información esencial sobre el grupo y la Petcare para brindar una rapida introduccion a los usuarios
+3. **Sección Quiénes somos:**  
+Se añadió una sección institucional con información sobre PetCare, su propósito y su enfoque en el cuidado veterinario preventivo, permitiendo que los visitantes comprendan mejor la finalidad de la plataforma.
 
 <img src="assets/Seccion-Del-Quienes-Somos.png">
 
-**4.- Sección Beneficios:** Añadimos las sección de beneficios  en la cual se explica de manera concisa al usuario los beneficios por usar la aplicación para el cuidado clínico de su mascota
+4. **Sección Beneficios:**  
+Se implementó una sección de beneficios mediante tarjetas informativas, donde se explican las principales ventajas de PetCare para el cuidado de las mascotas, como recomendaciones de salud, monitoreo en vivo e historial clínico digital.
 
 <img src="assets/Seccion-Beneficios.png">
 
-**5.- Sección de suscripciones:** En este apartado mostramos los planes disponibles a los usuarios para que pueda ver la opción que mejor se acomode a sus necesidades 
+5. **Sección de Suscripciones:**  
+Se incorporó una sección de planes de suscripción, donde se presentan las alternativas disponibles para que el visitante pueda comparar beneficios y elegir la opción que mejor se ajuste a las necesidades de cuidado de su mascota.
 
 <img src="assets/Seccion-Suscripciones.png">
 
-**6.- Sección de Registro:** Se añadió el apartado de registro donde si el posible usuario está interesado puede registrarse en la aplicación añadiendo sus nombres, apellidos, correo y teléfono.
+6. **Sección de Registro:**  
+Se implementó un formulario de registro de contacto, donde el visitante interesado puede ingresar nombres, apellidos, correo electrónico y celular para iniciar el proceso de creación de cuenta en PetCare.
 
 <img src="assets/Seccion-de-Registro.png">
+
+7. **Cambio de idioma:**  
+Se habilitaron las opciones de idioma ES/EN, permitiendo que el visitante pueda visualizar el contenido principal del Landing Page en español o inglés según su preferencia.
+
+<img src="assets/Barra-De-Navegacion.png">
+
 
 **Link del video de demostración:** https://drive.google.com/file/d/1ThG-uKVHmkH3e956boju7AyqltXSUESM/view?usp=sharing 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-En esta sección se presenta la documentación relacionada con los servicios web que formarán parte de la plataforma PetCare. Estos servicios estarán orientados a gestionar de manera eficiente la información de usuarios, mascotas y clínicas veterinarias, así como a facilitar el acceso a funcionalidades clave como recordatorios, historial clínico digital y comunicación entre usuarios y profesionales veterinarios.
+Durante el Sprint 1, el alcance principal estuvo enfocado en el diseño, implementación y despliegue inicial del Landing Page de PetCare. Por ello, en esta iteración no se implementaron endpoints del RESTful API ni se generó documentación OpenAPI asociada a Web Services.
 
-Los servicios web de PetCare están diseñados para centralizar la información de salud de las mascotas y optimizar la interacción entre los distintos actores del sistema (dueños de mascotas y clínicas veterinarias). A través de estos servicios, se busca garantizar una experiencia integrada, segura y eficiente, permitiendo el acceso a información relevante en tiempo real y mejorando la toma de decisiones en el cuidado de las mascotas.
+Sin embargo, como parte de la planificación técnica del producto, se identificaron los servicios que serán necesarios para los siguientes Sprints, considerando las User Stories funcionales de la Web Application y las Technical Stories definidas para el RESTful API.
 
-A continuación, se describen los principales servicios que serán implementados en la plataforma:
+Los servicios identificados para futuras iteraciones son los siguientes:
 
-- **Servicios de Autenticación y Autorización:** Registro de usuarios, inicio de sesión, gestión de sesiones mediante tokens (JWT) y control de acceso según el tipo de usuario (dueño de mascota o clínica veterinaria).
+- **Servicios de Autenticación y Autorización:** registro de usuarios, inicio de sesión, gestión de sesiones y control de acceso según el tipo de cuenta.
+- **Servicios de Gestión de Usuarios:** creación y consulta de perfiles de dueños de mascotas y representantes de veterinarias.
+- **Servicios de Gestión de Mascotas:** registro, consulta y actualización de perfiles clínicos de mascotas, considerando restricciones según el plan de suscripción.
+- **Servicios de Historial Clínico:** consulta autorizada, registro de evolución médica, recetas, vacunas y exportación del historial clínico.
+- **Servicios de Búsqueda de Veterinarias:** consulta de veterinarias por ubicación, especialidad, horario, tipo de servicio y disponibilidad.
+- **Servicios de Reserva :** creación de reservas, validación de disponibilidad real, reprogramación y cancelación.
+- **Servicios de Recordatorios Preventivos:** generación automática de recordatorios de vacunas, controles médicos y citas programadas.
+- **Servicios de Monitoreo IoT:** procesamiento de lecturas biométricas y generación de alertas críticas asociadas a la salud de la mascota.
 
-- **Servicios de Gestión de Usuarios:** Creación, edición y consulta de perfiles de usuarios, almacenamiento de información personal y configuración de preferencias dentro de la plataforma.
-
-- **Servicios de Gestión de Mascotas:** Registro de mascotas, actualización de datos (edad, raza, historial), asociación con su propietario y acceso a información clínica centralizada.
-
-- **Servicios de Historial Clínico:** Registro, almacenamiento y consulta del historial médico de cada mascota, incluyendo vacunas, tratamientos, cirugías y diagnósticos.
-
-- **Servicios de Recordatorios y Seguimiento:** Generación automática de recordatorios para vacunas, controles médicos y desparasitaciones, así como notificaciones programadas para el usuario.
-
-- **Servicios de Búsqueda de Veterinarias:** Consulta de clínicas veterinarias cercanas, filtrado por tipo de atención, disponibilidad y ubicación.
-
-- **Servicios de Suscripciones:** Gestión de planes (Premium y Salud), control de beneficios asociados y administración del estado de suscripción de cada usuario.
-
-- **Servicios de Contacto y Comunicación:** Recepción de datos desde formularios de contacto, gestión de solicitudes de usuarios y futura integración de canales de comunicación con veterinarias.
+Debido a que estos servicios no formaron parte del alcance implementado en el Sprint 1, no se adjuntan endpoints documentados, URL de OpenAPI ni commits relacionados con documentación de Web Services para esta iteración. La documentación técnica de estos servicios será incorporada en los Sprints donde se implemente el RESTful API correspondiente.
 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
