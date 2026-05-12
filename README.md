@@ -1267,39 +1267,45 @@ En esta sección se presenta la planificación del Sprint 1, indicando el alcanc
 </table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
-En el presente Sprint se prioriza el desarrollo del Landing Page de la plataforma PetCare, el cual constituye el principal punto de entrada para los usuarios del sistema. Este componente cumple un rol estratégico, ya que permite comunicar de manera clara, estructurada y visualmente atractiva la propuesta de valor del producto, orientada a optimizar la gestión de la salud veterinaria mediante el uso de tecnologías digitales.
 
-El Sprint se enfoca en el diseño e implementación de la interfaz del Landing Page, abarcando la estructura visual, la organización de contenidos y la navegación del usuario, garantizando una experiencia intuitiva, accesible y responsive. Para optimizar la distribución del trabajo, se define una Leadership and Collaboration Matrix (LACX) que establece los roles de Leader y Collaborator por cada aspecto técnico, facilitando la coordinación del equipo y la ejecución eficiente de las tareas del Sprint. A continuación, se presenta un cuadro a detalle.
+En el presente Sprint se priorizó el desarrollo del Landing Page de la plataforma PetCare, el cual constituye el principal punto de entrada para los visitantes interesados en conocer el producto. Este componente cumple un rol estratégico, ya que permite comunicar de manera clara y visualmente atractiva la propuesta de valor, los beneficios, los planes de suscripción y los medios de contacto inicial de la plataforma.
+
+El Sprint se enfocó en el diseño e implementación de la interfaz del Landing Page, abarcando la estructura visual, la organización del contenido, la navegación interna, el cambio de idioma y el formulario de registro de contacto. Para optimizar la distribución del trabajo, se definió una Leadership and Collaboration Matrix (LACX), donde se establecen los roles de Leader y Collaborator por cada aspecto técnico trabajado durante el Sprint.
+
+A continuación, se presenta la matriz de liderazgo y colaboración del Sprint 1.
 
 **Leadership and Collaboration Matrix (LACX)**
 
 | Team Member (Last Name, First Name) | GitHub Username | Landing Page HTML (L/C) | Landing Page CSS (L/C) | Landing Page JS (L/C) | UI/UX Design (L/C) |
-|------------------------------------|-----------------|--------------------------|--------------------------|------------------------|---------------------|
-| Mejia Aliaga, Katherine Maryory | KathMJ     | L                        | L                        | L                      | C                   |
-| Tuncar Vila, Ghorghet Saul   | Ghorghet     | C                        | C                        | C                      | C       |
+|---|---|---|---|---|---|
+| Mejía Aliaga, Katherine Maryory | KathMJ | L | L | L | C |
+| Tuncar Vila, Ghorghet Saul | Ghorghet | C | C | C | C |
 
- **Aspecto: Desarrollo del Landing Page de PetCare**
+**Aspecto: Desarrollo del Landing Page de PetCare**
 
 | Aspecto | Descripción |
-|--------|------------|
-| **Feature** | Diseño, desarrollo e implementación del Landing Page de la plataforma PetCare. |
-| **Objetivo Principal** | Desarrollar una landing page informativa, moderna y altamente usable que comunique de manera efectiva la propuesta de valor de PetCare, destacando sus funcionalidades principales como la gestión de historial clínico digital, recordatorios automatizados y búsqueda de servicios veterinarios, con el objetivo de incentivar la interacción y el registro de nuevos usuarios. |
-| **Elementos incluidos** | • Diseño de layout principal adaptable (responsive design)<br>• Barra de navegación con acceso a secciones clave (Inicio, Quiénes somos, Beneficios, Suscripción, Contacto)<br>• Sección Hero con mensaje principal y llamada a la acción (CTA)<br>• Sección “Quiénes somos” con descripción institucional<br>• Sección de Beneficios estructurada en tarjetas informativas<br>• Sección de Planes de suscripción (Plan Premium y Plan Salud)<br>• Formulario de contacto para captación de usuarios<br>• Footer con información general del sistema<br>• Botones de acción: “Saber más”, “Registrarse”, “Elegir plan”<br>• Implementación de internacionalización básica (idiomas ES/EN) |
-| **Criterios de aceptación** | • Navegación fluida entre secciones mediante enlaces internos (anclas)<br>• Correcta visualización en distintos dispositivos (mobile, tablet y desktop)<br>• Coherencia visual con la identidad de marca (paleta de colores, tipografía y estilos)<br>• Contenido claro, legible y estructurado<br>• Correcta carga de recursos (imágenes, estilos, scripts)<br>• Funcionamiento adecuado de botones y enlaces interactivos<br>• Formulario de contacto operativo<br>• Implementación funcional del cambio de idioma<br>• Uso adecuado del framework Materialize CSS para componentes UI |
-| **Resultado esperado** | Un Landing Page completamente funcional, accesible y visualmente consistente que represente de manera adecuada la propuesta de valor de PetCare, facilitando la comprensión del sistema por parte de los usuarios, generando confianza y promoviendo la conversión de visitantes en usuarios registrados. |
-
+|---|---|
+| Feature | Diseño, desarrollo e implementación del Landing Page de la plataforma PetCare. |
+| Objetivo Principal | Desarrollar una landing page informativa, responsive y visualmente consistente que comunique la propuesta de valor de PetCare, presente sus beneficios principales, muestre los planes de suscripción y facilite la captación inicial de visitantes interesados mediante un formulario de registro de contacto. |
+| Elementos incluidos | • Diseño de layout principal adaptable.<br>• Barra de navegación con acceso a secciones clave: Inicio, Quiénes somos, Beneficios, Suscripción y Contacto.<br>• Sección Hero con mensaje principal y llamada a la acción.<br>• Sección “Quiénes somos” con descripción institucional de PetCare.<br>• Sección de Beneficios estructurada en tarjetas informativas.<br>• Sección de Planes de suscripción: “Esencial”, “Cuidado Activo” y “Monitoreo Vital”.<br>• Formulario de contacto para captación de usuarios interesados.<br>• Footer con información general del sistema.<br>• Botones de acción como “Saber más”, “Registrarse” y “Elegir plan”.<br>• Implementación de internacionalización básica mediante opciones ES/EN. |
+| Criterios de aceptación | • Navegación fluida entre secciones mediante enlaces internos.<br>• Correcta visualización en distintos dispositivos.<br>• Coherencia visual con la identidad de marca de PetCare.<br>• Contenido claro, legible y estructurado.<br>• Correcta carga de recursos visuales, estilos y scripts.<br>• Funcionamiento adecuado de botones y enlaces interactivos del Landing Page.<br>• Formulario de contacto visible y estructurado para el registro inicial de visitantes interesados.<br>• Implementación funcional del cambio de idioma ES/EN. |
+| Resultado esperado | Un Landing Page funcional, accesible y visualmente consistente que represente la propuesta de valor de PetCare, facilite la comprensión del producto por parte de los visitantes y promueva el registro inicial de usuarios interesados. |
 
 
 
 #### 5.2.1.3. Sprint Backlog 1. 
-| US ID | User Story Title | Task ID | Task Title | Description | Estimation | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| US01 | Buscar veterinarias con filtros | W-1 | Buscar Resultados | Como dueño de mascotas, quiero buscar veterinarias mediante filtros por distrito, horario y especialidad, para encontrar una opción adecuada rápidamente. | 1 hora | Mejia Aliaga, Katherine Maryory | In-Process |
-| US23 | Filtro de veterinarias 24 horas | W-2 | Filtro de Búsqueda | Como dueño de mascota, quiero filtrar solo veterinarias con atención de emergencia, para actuar rápido ante accidentes nocturnos. | 30 minutos | Mejia Aliaga, Katherine Maryory | In-Process |
-| US13 | Plan premium de posicionamiento | W-3 | Plan de Pago | Como administrador de veterinaria, quiero contratar un plan premium para destacar mi negocio dentro de la plataforma. | 30 minutos | Mejia Aliaga, Katherine Maryory | Done |
-| US07 | Recibir recordatorios automáticos | W-4 | Automatización de Recordatorios | Como dueño de mascota, quiero recibir notificaciones automáticas, para recordar vacunas y controles médicos pendientes. | 1 hora | Mejia Aliaga, Katherine Maryory | In-Process |
-| US19 | Chat de consultas post-cita | W-5 | Chat de consultas post-cita | Como dueño de mascota, quiero chatear con el veterinario que atendió a mi mascota, para resolver dudas sobre el tratamiento. | 30 minutos | Mejia Aliaga, Katherine Maryory | In-Process |
-| US10 | Gestión de perfil comercial | W-6 | Gestión de perfiles | Como administrador de veterinaria, quiero actualizar horarios, promociones y datos comerciales para mantener informados a los clientes. | 30 minutos | Mejia Aliaga, Katherine Maryory | In-Process |
+
+El Sprint Backlog 1 se organizó a partir de las User Stories seleccionadas para el desarrollo inicial del Landing Page de PetCare. Las tareas se enfocaron en implementar las secciones informativas principales, la navegación interna, los planes de suscripción, el formulario de contacto y el cambio de idioma, manteniendo trazabilidad con el Sprint Goal definido.
+
+| Sprint # | US ID | User Story Title | Task ID | Task Title | Description | Estimation | Assigned To | Status |
+|---|---|---|---|---|---|---|---|---|
+| Sprint 1 | US01 | Conocer propuesta de valor | W-01 | Implementar sección hero | Desarrollar la sección principal del Landing Page con mensaje de bienvenida, propuesta de valor de PetCare y llamada a la acción para que el visitante conozca más sobre la plataforma. | 1 hora | Katherine Maryory, Mejía Aliaga | Done |
+| Sprint 1 | US02 | Conocer propósito de PetCare | W-02 | Implementar sección “Quiénes somos” | Añadir una sección institucional que explique el propósito de PetCare y su enfoque en el cuidado veterinario preventivo. | 1 hora | Katherine Maryory, Mejía Aliaga | Done |
+| Sprint 1 | US03 | Revisar beneficios de salud preventiva | W-03 | Implementar sección de beneficios | Diseñar tarjetas informativas que presenten beneficios como recomendaciones de salud, monitoreo en vivo e historial clínico digital. | 1 hora | Katherine Maryory, Mejía Aliaga | Done |
+| Sprint 1 | US04 | Comparar planes de suscripción | W-04 | Implementar sección de suscripciones | Mostrar los planes “Esencial”, “Cuidado Activo” y “Monitoreo Vital” con sus precios, beneficios y opción para elegir un plan. | 1 hora | Katherine Maryory, Mejía Aliaga | Done |
+| Sprint 1 | US05 | Solicitar registro desde el Landing Page | W-05 | Implementar formulario de registro | Añadir un formulario de contacto con campos para nombres, apellidos, correo electrónico y celular, permitiendo iniciar el proceso de creación de cuenta. | 1 hora | Katherine Maryory, Mejía Aliaga | Done |
+| Sprint 1 | US07 | Cambiar idioma del contenido | W-06 | Implementar cambio de idioma ES/EN | Habilitar las opciones de idioma español e inglés para permitir que el visitante visualice el contenido principal según su preferencia. | 1 hora | Katherine Maryory, Mejía Aliaga | Done |
+| Sprint 1 | US08 | Navegar por información del Landing Page | W-07 | Implementar navegación interna | Configurar la barra de navegación y los enlaces internos hacia las secciones Inicio, Quiénes somos, Beneficios, Suscripción y Contacto. | 1 hora | Katherine Maryory, Mejía Aliaga | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 1, específicamente en la implementación del Landing Page de la plataforma PetCare. Se destacan los avances realizados en la estructura, diseño y despliegue inicial de la interfaz, alineados con los objetivos definidos en el Sprint Planning.
