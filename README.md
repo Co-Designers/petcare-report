@@ -700,11 +700,11 @@ Los hallazgos obtenidos permitieron identificar una necesidad común en ambos se
 | | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
 | Registrar y configurar cuenta en la plataforma. | Baja | Alta | Baja | Alta |
 | Registrar / Actualizar el historial clínico de la mascota. | A veces | Alta | Seguido | Alta |
-| Buscar clínicas y especialistas usando Inteligencia Artificial. | A veces | Alta | Baja | Baja |
+| Buscar clínicas y especialistas mediante filtros (ubicación, especialidad, disponibilidad y valoración). | A veces | Alta | Baja | Baja |
 | Agendar, confirmar o reprogramar citas médicas. | A veces | Alta | Seguido | Alta |
-| Monitorear métricas de salud en tiempo real (Dispositivo IoT). | A veces | Alta | A veces | Alta |
+| Consultar información del historial clínico de la mascota | A veces | Alta | A veces | Alta |
 | Gestionar notificaciones y recordatorios (vacunas, controles). | A veces | Alta | Seguido | Alta |
-| Procesar pagos o cobros por consultas y servicios. | A veces | Alta | Seguido | Alta |
+| Gestionar el estado de los servicios brindados en consultas (pendiente, atendido, cancelado). | A veces | Alta | Seguido | Alta |
 | Leer, escribir o responder reseñas de atención veterinaria. | A veces | Media | Seguido | Alta |
 
 ## 2.3.3. User Journey Mapping 
