@@ -314,7 +314,8 @@ Para las veterinarias:<br>
 </td>  
 <td>  
 <h2>What’s the least amount of work we need to do to learn the next most important thing?</h2>  
--Realizar encuestas para obtener los datos más importantes que debemos saber de nuestros usuarios y así mejorar la forma en la que interactúan con la plataforma.<br>
+-Realizar encuestas y entrevistas a dueños de mascotas y representantes de veterinarias para identificar sus principales necesidades, problemas y expectativas respecto al uso de la plataforma. Además, se realizarán pruebas de usabilidad con un prototipo inicial para evaluar la interacción de los usuarios y detectar posibles mejoras.
+<br>
 </td>  
 </tr>  
 </table>
