@@ -1124,13 +1124,14 @@ En esta sección se presenta el flujo de cada frame. Se utilizaron los User Goal
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
-En esta sección se presenta el proceso de Design-Level Event Storming, el cual permitió identificar, analizar y organizar los eventos clave del dominio del sistema PetCare.
-
+En esta sección se presenta el proceso de Design-Level Event Storming, el cual permitió identificar, analizar y organizar los eventos clave del dominio del sistema PetCare.<br><br>
 A través de esta técnica, se logró construir una visión más clara del comportamiento del sistema, facilitando la comprensión de los flujos principales, las interacciones entre los actores y la definición de los límites del dominio. Esto sirvió como base para una aproximación más estructurada y refinada del diseño a nivel general de la arquitectura del sistema.
+Además, se incorporaron eventos del sistema y sistemas externos, como IoT, APIs e inteligencia artificial (IA), los cuales se representaron en el modelo para evidenciar futuras integraciones. Estos elementos fueron incluidos en el Event Storming en color negro, con el objetivo de diferenciar componentes externos del dominio principal, considerando 
+
 
 <img src="assets/PetCare - Event Storming.jpg" alt="Design-Level Event Storming"><br>
 
-<a href="https://miro.com/app/board/uXjVGgIlPes=/?share_link_id=504466486725" target="_blank">
+<a href="https://miro.com/app/board/uXjVHe7toes=/?share_link_id=220216776831" target="_blank">
   <img src="https://img.shields.io/badge/Miro-Design%20Level%20Event%20Storming-blue?style=for-the-badge&logo=miro&logoColor=white" alt="Miro Event Storming">
 </a>
 
