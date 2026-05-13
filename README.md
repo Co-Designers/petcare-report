@@ -1585,6 +1585,19 @@ El Sprint Backlog 2 se organizó a partir de las User Stories seleccionadas para
 | Sprint 2 | TS07 | Filtrar veterinarias disponibles | W-22 | Preparar estructura de servicios veterinarios | Implementar la vista base para servicios o veterinarias, dejando pendiente el filtrado completo mediante API. | 1 hora | Jean Pool, Huaman de la Cruz | In-Process |
 | Sprint 2 | TS12 | Procesar monitoreo IoT y alertas críticas | W-23 | Implementar vista inicial de monitoreo IoT | Crear una vista visual inicial para monitoreo IoT dentro del panel veterinario, utilizando información simulada. | 2 horas | Jean Pool, Huaman de la Cruz | In-Process |
 
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 2, específicamente en la implementación inicial de la Web Application Frontend de PetCare. Los avances realizados se enfocaron en la construcción de vistas internas para dueños de mascotas y veterinarias, la mejora de estilos visuales, la corrección de recursos gráficos, la integración de rutas principales y la preparación del frontend para su despliegue.
+
+Los commits registrados evidencian la consolidación de la Web Application, incluyendo ajustes en la interfaz de registro, mejoras visuales de componentes, cambios locales del frontend y actualización de recursos utilizados por el usuario veterinario. A continuación, se muestra la tabla con los commits más relevantes asociados al repositorio del proyecto.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Co-Designers/PetCare-Frontend | main | 8aa6fd8 | feat: local petcare frontend changes | Local frontend changes for the initial Web Application structure and navigation. | 12/05/2026 |
+| Co-Designers/PetCare-Frontend | main | 7e8d253 | Enhance CSS styles for layout and components | Improved visual styles, layout structure and frontend components for the Web Application. | 12/05/2026 |
+| Co-Designers/PetCare-Frontend | main | 5a57cf8 | Fix image source path in register-view.html | Fixed image source path used in the register view of the Web Application. | 12/05/2026 |
+| Co-Designers/PetCare-Frontend | main | bfde882 | Update avatar URL for vet user Pedro Gonzales | Updated avatar resource for the veterinary user profile used in the Web Application. | 12/05/2026 |
+
 # Conclusiones
 # Bibliografía 
 # Anexos
