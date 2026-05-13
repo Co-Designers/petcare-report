@@ -1456,6 +1456,78 @@ La colaboración del Sprint se evidencia mediante capturas de GitHub, donde se m
 
 El Sprint 2 tuvo como objetivo implementar una primera versión funcional de la Web Application de PetCare, permitiendo validar el acceso de usuarios mediante vistas de inicio de sesión y registro, así como la navegación diferenciada según el tipo de cuenta. Este Sprint incorporó interfaces iniciales para el dueño de mascota y para la veterinaria, mostrando funcionalidades relacionadas con mascotas registradas, próximas citas, alertas de salud, servicios veterinarios, búsqueda de veterinarias, historial médico, agenda médica, pacientes, monitoreo IoT y configuración del perfil veterinario.
 
+#### 5.2.2.1. Sprint Planning 2
+
+En esta sección se presenta la planificación del Sprint 2, indicando el alcance definido, los participantes, el objetivo del Sprint, las User Stories seleccionadas y la suma de Story Points considerada para esta iteración.
+
+<table>
+  <tr>
+    <th>Categoría</th>
+    <th>Detalle</th>
+  </tr>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td>Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Date</strong></td>
+    <td>2026-05-12</td>
+  </tr>
+  <tr>
+    <td><strong>Time</strong></td>
+    <td>8:00 PM - 12:00 AM</td>
+  </tr>
+  <tr>
+    <td><strong>Location</strong></td>
+    <td>Discord</td>
+  </tr>
+  <tr>
+    <td><strong>Prepared By</strong></td>
+    <td>Ghiou Justinn, Mauricio Silva</td>
+  </tr>
+  <tr>
+    <td><strong>Attendees (to planning meeting)</strong></td>
+    <td>
+      Diego Roberto, Campoblanco Guzman<br>
+      Ghiou Justinn, Mauricio Silva<br>
+      Ghorget Saul, Tuncar Vila<br>
+      Jean Pool, Huaman de la Cruz<br>
+      Katherine Maryory, Mejía Aliaga
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 1 Review Summary</strong></td>
+    <td>Durante el Sprint 1 se implementó y consolidó la primera versión funcional del Landing Page de PetCare. Se desarrollaron las secciones principales del sitio, incluyendo propuesta de valor, información institucional, beneficios, planes de suscripción, formulario de registro, navegación interna y cambio de idioma ES/EN.</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 1 Retrospective Summary</strong></td>
+    <td>El equipo identificó la necesidad de continuar con la conexión entre el Landing Page y la Web Application, especialmente en el acceso al inicio de sesión, registro de usuarios y diferenciación de vistas según tipo de cuenta. Además, se acordó trabajar con datos de prueba para validar la navegación inicial de los paneles de dueño de mascota y veterinaria.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 2 Goal</strong></td>
+    <td>
+      Nuestro enfoque es implementar una primera versión funcional de la Web Application de PetCare con acceso diferenciado para dueños de mascotas y veterinarias.<br><br>
+      Creemos que esto permite validar la experiencia interna de la plataforma, facilitando que los dueños de mascotas accedan a información inicial sobre mascotas, citas, alertas, servicios veterinarios e historial médico, mientras que las veterinarias puedan visualizar secciones de gestión como dashboard, agenda médica, pacientes, monitoreo IoT y configuración.<br><br>
+      Esto se confirmará cuando los usuarios puedan iniciar sesión con cuentas de prueba, acceder a una interfaz diferenciada según su tipo de cuenta y navegar por las principales secciones implementadas de la Web Application.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 2 Velocity</strong></td>
+    <td>42</td>
+  </tr>
+  <tr>
+    <td><strong>Sum of Story Points</strong></td>
+    <td>42</td>
+  </tr>
+</table>
+
+
 
 # Conclusiones
 # Bibliografía 
