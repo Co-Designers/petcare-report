@@ -1703,6 +1703,21 @@ https://co-designers.github.io/PetCare-Frontend/
 
 El resultado de este proceso es una primera versión desplegada de la Web Application Frontend de PetCare, accesible mediante un enlace público y preparada para validar la navegación inicial de usuarios, vistas diferenciadas por tipo de cuenta y secciones principales desarrolladas durante el Sprint 2.
 
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+En esta sección se presenta una visión general de la colaboración del equipo durante el Sprint 2 del proyecto PetCare. Durante esta iteración, el trabajo se enfocó en la implementación inicial de la Web Application Frontend, por lo que las actividades principales estuvieron relacionadas con el desarrollo de vistas internas, configuración de rutas, validación de datos de prueba, mejora de estilos, despliegue en GitHub Pages y documentación de evidencias.
+
+La implementación técnica del frontend fue registrada principalmente mediante commits realizados por Jean Pool, Huaman de la Cruz en el repositorio `PetCare-Frontend`. Asimismo, los demás integrantes del equipo colaboraron en actividades complementarias como revisión de pantallas, validación de flujos, organización de evidencias, documentación del Sprint y verificación del despliegue de la Web Application.
+
+La colaboración del Sprint se evidencia mediante capturas de GitHub, donde se muestran los commits realizados en el repositorio del frontend, así como el avance técnico correspondiente a la implementación y consolidación de la Web Application. Esta evidencia permite relacionar las tareas planificadas en el Sprint Backlog con el entregable presentado para la revisión del Sprint.
+
+<img src="Resources/Images/Sprint2/sprint2-github-commits-evidence.jpg" alt="Evidencia de commits realizados en el repositorio PetCare Frontend durante el Sprint 2" width="100%">
+
+Adicionalmente, se presenta la gráfica de Top Committers del repositorio, donde se observa la participación registrada mediante commits durante el Sprint. Esta evidencia permite identificar a los integrantes con mayor actividad técnica en GitHub y complementar el análisis de colaboración del equipo.
+
+<img src="Resources/Images/Sprint2/sprint2-github-top-committers.jpg" alt="Gráfica de top committers del repositorio PetCare Frontend durante el Sprint 2" width="100%">
+
+
 # Conclusiones
 # Bibliografía 
 # Anexos
