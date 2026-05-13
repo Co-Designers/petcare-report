@@ -1666,8 +1666,42 @@ Se desarrolló una vista inicial de monitoreo IoT, donde se visualizan datos sim
 
 <img src="Resources/Images/Sprint2/sprint2-vet-iot-thresholds-view.png" alt="Vista de configuración de umbrales IoT" width="100%">
 
-13. **Cambio de idioma y cierre de sesión:**  
-Se mantuvieron opciones de cambio de idioma ES/EN y botón de cierre de sesión dentro de las interfaces internas, permitiendo mejorar la navegación y control del usuario dentro de la Web Application.
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el alcance principal estuvo enfocado en la implementación inicial de la Web Application Frontend de PetCare. Para validar el funcionamiento de algunas vistas y flujos internos, se utilizó un servicio local basado en `json-server`, el cual permitió simular datos de prueba mediante el archivo `server/db.json`.
+
+Este servicio local fue utilizado como apoyo para validar el acceso de usuarios, la diferenciación de cuentas y la visualización inicial de información dentro de las interfaces de dueño de mascota y veterinaria. Sin embargo, en esta iteración todavía no se implementó un RESTful API definitivo ni documentación OpenAPI formal, debido a que el Sprint estuvo orientado principalmente al frontend y al uso de datos simulados.
+
+Para ejecutar el servicio local de datos se utilizó el siguiente comando:
+bash 
+npx json-server --watch server/db.json --port 3000
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se describe el proceso de despliegue de la Web Application Frontend de PetCare en un entorno accesible mediante GitHub Pages. Este proceso permitió validar la disponibilidad de la aplicación web, la correcta publicación del frontend y el acceso público a las vistas desarrolladas durante el Sprint 2.
+
+El despliegue de la Web Application representa un avance importante dentro del proyecto, ya que permite contar con una versión navegable de la plataforma, donde se pueden visualizar las interfaces de inicio de sesión, registro, panel del dueño de mascota, panel veterinario y demás secciones internas desarrolladas con datos de prueba.
+
+Para el despliegue de la Web Application, el equipo utilizó el repositorio `PetCare-Frontend`, en el cual se gestionaron los archivos correspondientes al frontend de la plataforma. Este repositorio contiene la estructura principal del proyecto, los recursos visuales, las vistas internas, la configuración del proyecto y los archivos necesarios para su ejecución y publicación.
+
+<img src="Resources/Images/Sprint2/sprint2-frontend-repository.png" alt="Repositorio PetCare Frontend en la organización Co-Designers" width="100%">
+
+Posteriormente, se verificó el contenido del repositorio, donde se evidencian carpetas y archivos principales como `src`, `public`, `server`, `package.json`, `angular.json` y archivos de configuración. Estos elementos forman parte de la estructura base utilizada para desarrollar y desplegar la Web Application.
+
+<img src="Resources/Images/Sprint2/sprint2-frontend-code-files.png" alt="Archivos principales del repositorio PetCare Frontend" width="100%">
+
+Luego, se configuró GitHub Pages desde la sección de configuración del repositorio. En esta vista se observa que el sitio fue publicado correctamente y que el despliegue se realizó desde la rama `gh-pages`, permitiendo generar una URL pública para acceder a la Web Application.
+
+<img src="Resources/Images/Sprint2/sprint2-frontend-github-pages-settings.png" alt="Configuración de GitHub Pages para PetCare Frontend" width="100%">
+
+Finalmente, se validó el enlace público generado por GitHub Pages, confirmando que la Web Application de PetCare se encuentra desplegada y accesible desde el navegador. Esta URL permite revisar las vistas implementadas durante el Sprint 2 y comprobar el avance del frontend de la plataforma.
+
+<img src="Resources/Images/Sprint2/sprint2-frontend-deployed-url.png" alt="URL pública desplegada de PetCare Frontend en GitHub Pages" width="100%">
+
+**URL de despliegue de la Web Application:**  
+https://co-designers.github.io/PetCare-Frontend/
+
+El resultado de este proceso es una primera versión desplegada de la Web Application Frontend de PetCare, accesible mediante un enlace público y preparada para validar la navegación inicial de usuarios, vistas diferenciadas por tipo de cuenta y secciones principales desarrolladas durante el Sprint 2.
 
 # Conclusiones
 # Bibliografía 
