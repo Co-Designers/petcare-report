@@ -1146,7 +1146,7 @@ Además, se incorporaron eventos del sistema y sistemas externos, como IoT, APIs
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-<img src="assets/Diagrama-Petcard.drawio.png" alt="Diagrama de Clases - PetCard"><br>
+<img src="assets/Diagrama-Petcard.jpeg" alt="Diagrama de Clases - PetCard"><br>
 
 ## 4.8. Database Design
 Para el diseño del sistema de la base de datos se usó un diagrama entidad-relación (ERD). En él se modela cómo un Usuario puede tener múltiples Mascotas, y cómo cada mascota puede estar asociada a citas veterinarias, historial clínico, vacunas, dispositivos IoT y alertas. También se incluye un Perfil con información adicional del usuario y una entidad de veterinarias para gestionar las clínicas. Además, el sistema incorpora el monitoreo en tiempo real mediante dispositivos IoT, que generan datos almacenados en Datos IoT, permitiendo registrar información y alertas sobre el estado de las mascotas.<br>
