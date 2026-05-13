@@ -1725,5 +1725,22 @@ Adicionalmente, se presenta la gráfica de colaboración del repositorio, donde 
 
 
 # Conclusiones
+
+- **Validación de la problemática y oportunidad de mercado:**  
+  A través de las entrevistas a profundidad y el análisis competitivo, se confirmó la existencia de una brecha significativa en el ecosistema veterinario digital. Los dueños de mascotas (Segmento 1) y las clínicas veterinarias (Segmento 2) enfrentan problemas de desorganización de historiales clínicos, comunicación ineficiente (WhatsApp/físico) y falta de herramientas de prevención. Esta validación justificó plenamente la propuesta de valor de PetCare como una plataforma unificada que integra IA e IoT para medicina preventiva.
+
+- **Eficacia del proceso Lean UX y DDD:**  
+  La aplicación del proceso Lean UX permitió al equipo formular hipótesis claras, definir assumptions y construir un Lean UX Canvas que alineó los outcomes de negocio con las soluciones tecnológicas. Complementariamente, el uso de Domain-Driven Design (DDD) y la técnica de Event Storming (Big Picture y Design-Level) facilitó la creación de un lenguaje ubicuo (*Ubiquitous Language*) y una arquitectura de software bien delimitada, reduciendo la complejidad comunicacional entre los stakeholders y el equipo técnico.
+
+- **Implementación funcional y despliegue continuo:**  
+  Se ejecutaron dos Sprints completos con resultados tangibles. El Sprint 1 entregó un Landing Page responsive, informativo y con soporte de internacionalización (ES/EN), desplegado exitosamente mediante GitHub Pages. El Sprint 2 avanzó significativamente al implementar una primera versión funcional de la Web Application, incluyendo vistas diferenciadas para dueños de mascotas y veterinarias, autenticación simulada con json-server, paneles de control, gestión de mascotas, historial médico, búsqueda de veterinarias, agenda y monitoreo IoT de prueba. Ambos componentes están accesibles públicamente.
+
+- **Cumplimiento del Student Outcome ABET – EAC - Criterio 3:**  
+  El equipo demostró una capacidad efectiva para comunicarse con diferentes rangos de audiencia. Durante las exposiciones orales (AV1, TB1), se utilizó un lenguaje claro y empático para los usuarios finales, mientras que en las coordinaciones técnicas se empleó terminología especializada (microservicios, DDD, IoT). En la comunicación escrita, se generó documentación técnica profesional (diagramas C4, User Stories, manuales de estilo) junto con artefactos visuales (wireframes, mockups) para audiencias no técnicas, evidenciando una sólida adaptación del mensaje según el contexto.
+
+- **Lecciones aprendidas y mejora continua:**  
+  A través de las retrospectivas de los Sprints, el equipo identificó áreas de mejora como la necesidad de una mayor trazabilidad entre historias de usuario y tareas técnicas. Esto llevó a una refinación del Sprint Backlog y a una mejor organización de los aspectos leaders y collaborators. Se concluye que la integración temprana de wireframes, mockups y user flows (desarrollados en Figma) fue crucial para alinear la visión del producto antes de la implementación, reduciendo retrabajos.
+
+
 # Bibliografía 
 # Anexos
