@@ -1452,6 +1452,278 @@ La colaboración del Sprint se evidencia mediante capturas de GitHub, donde se m
 
 <img src="assets/deployment-evidence/evidencia.jpg" alt="Evidencia de despliegue de PetCare" width="100%">
 
+### 5.2.2. Sprint 2
+
+El Sprint 2 tuvo como objetivo implementar una primera versión funcional de la Web Application de PetCare, permitiendo validar el acceso de usuarios mediante vistas de inicio de sesión y registro, así como la navegación diferenciada según el tipo de cuenta. Este Sprint incorporó interfaces iniciales para el dueño de mascota y para la veterinaria, mostrando funcionalidades relacionadas con mascotas registradas, próximas citas, alertas de salud, servicios veterinarios, búsqueda de veterinarias, historial médico, agenda médica, pacientes, monitoreo IoT y configuración del perfil veterinario.
+
+#### 5.2.2.1. Sprint Planning 2
+
+En esta sección se presenta la planificación del Sprint 2, indicando el alcance definido, los participantes, el objetivo del Sprint, las User Stories seleccionadas y la suma de Story Points considerada para esta iteración.
+
+<table>
+  <tr>
+    <th>Categoría</th>
+    <th>Detalle</th>
+  </tr>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td>Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Date</strong></td>
+    <td>2026-05-12</td>
+  </tr>
+  <tr>
+    <td><strong>Time</strong></td>
+    <td>8:00 PM - 12:00 AM</td>
+  </tr>
+  <tr>
+    <td><strong>Location</strong></td>
+    <td>Discord</td>
+  </tr>
+  <tr>
+    <td><strong>Prepared By</strong></td>
+    <td>Ghiou Justinn, Mauricio Silva</td>
+  </tr>
+  <tr>
+    <td><strong>Attendees (to planning meeting)</strong></td>
+    <td>
+      Diego Roberto, Campoblanco Guzman<br>
+      Ghiou Justinn, Mauricio Silva<br>
+      Ghorget Saul, Tuncar Vila<br>
+      Jean Pool, Huaman de la Cruz<br>
+      Katherine Maryory, Mejía Aliaga
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 1 Review Summary</strong></td>
+    <td>Durante el Sprint 1 se implementó y consolidó la primera versión funcional del Landing Page de PetCare. Se desarrollaron las secciones principales del sitio, incluyendo propuesta de valor, información institucional, beneficios, planes de suscripción, formulario de registro, navegación interna y cambio de idioma ES/EN.</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 1 Retrospective Summary</strong></td>
+    <td>El equipo identificó la necesidad de continuar con la conexión entre el Landing Page y la Web Application, especialmente en el acceso al inicio de sesión, registro de usuarios y diferenciación de vistas según tipo de cuenta. Además, se acordó trabajar con datos de prueba para validar la navegación inicial de los paneles de dueño de mascota y veterinaria.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 2 Goal</strong></td>
+    <td>
+      Nuestro enfoque es implementar una primera versión funcional de la Web Application de PetCare con acceso diferenciado para dueños de mascotas y veterinarias.<br><br>
+      Creemos que esto permite validar la experiencia interna de la plataforma, facilitando que los dueños de mascotas accedan a información inicial sobre mascotas, citas, alertas, servicios veterinarios e historial médico, mientras que las veterinarias puedan visualizar secciones de gestión como dashboard, agenda médica, pacientes, monitoreo IoT y configuración.<br><br>
+      Esto se confirmará cuando los usuarios puedan iniciar sesión con cuentas de prueba, acceder a una interfaz diferenciada según su tipo de cuenta y navegar por las principales secciones implementadas de la Web Application.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 2 Velocity</strong></td>
+    <td>42</td>
+  </tr>
+  <tr>
+    <td><strong>Sum of Story Points</strong></td>
+    <td>42</td>
+  </tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En el presente Sprint se priorizó el desarrollo inicial de la Web Application de PetCare, la cual permite a los usuarios acceder a una experiencia diferenciada según su tipo de cuenta. A diferencia del Sprint 1, centrado en el Landing Page, este Sprint se enfocó en la implementación de vistas internas para dueños de mascotas y veterinarias, incluyendo pantallas de inicio de sesión, registro, dashboards, navegación por secciones, visualización de información básica y despliegue del frontend.
+
+El Sprint se enfocó en la construcción de la interfaz principal de la Web Application, abarcando la estructura de navegación, vistas para el usuario dueño de mascota, vistas para el usuario veterinario, conexión con datos de prueba mediante `db.json`, validación inicial de credenciales y despliegue del proyecto frontend. Para optimizar la distribución del trabajo, se definió una Leadership and Collaboration Matrix (LACX), donde se establecen los roles de Leader y Collaborator por cada aspecto técnico trabajado durante el Sprint.
+
+A continuación, se presenta la matriz de liderazgo y colaboración del Sprint 2.
+
+**Leadership and Collaboration Matrix (LACX)**
+
+| Team Member (Last Name, First Name) | GitHub Username | Web App Frontend (L/C) | Authentication Flow (L/C) | Pet Owner Interface (L/C) | Veterinary Interface (L/C) | Deployment (L/C) | Documentation & Review (L/C) |
+|---|---|---|---|---|---|---|---|
+| Huaman de la Cruz, Jean Pool | JeanPool | L | L | L | L | L | C |
+| Mauricio Silva, Ghiou Justinn | Justinn2006 | C | C | C | C | C | L |
+| Campoblanco Guzman, Diego Roberto | DiegoCampoblanco | C | C | C | C | C | C |
+| Tuncar Vila, Ghorget Saul | Ghorghet | C | C | C | C | C | C |
+| Mejía Aliaga, Katherine Maryory | KathMJ | C | C | C | C | C | C |
+
+**Aspecto: Desarrollo y despliegue inicial de la Web Application de PetCare**
+
+| Aspecto | Descripción |
+|---|---|
+| Feature | Diseño, desarrollo, validación y despliegue inicial de la Web Application de PetCare. |
+| Objetivo Principal | Implementar una primera versión funcional del frontend de la Web Application, permitiendo validar el acceso de usuarios, la navegación diferenciada por tipo de cuenta y la visualización de vistas iniciales para dueños de mascotas y veterinarias. |
+| Elementos incluidos | • Vista de inicio de sesión.<br>• Vista de registro de usuario.<br>• Selección o diferenciación de tipo de cuenta.<br>• Dashboard inicial para dueño de mascota.<br>• Visualización de mascotas registradas, próximas citas y alertas de salud.<br>• Secciones de servicios veterinarios, veterinarias, citas, contacto e historial médico.<br>• Dashboard inicial para veterinaria.<br>• Secciones de agenda médica, pacientes, monitoreo IoT y configuración.<br>• Uso de datos de prueba mediante `db.json`.<br>• Validación inicial de credenciales de prueba.<br>• Despliegue inicial del frontend de la Web Application. |
+| Criterios de aceptación | • El usuario puede acceder a la vista de inicio de sesión.<br>• El sistema permite validar credenciales de prueba para dueño de mascota y veterinario.<br>• El usuario visualiza una interfaz diferenciada según el tipo de cuenta.<br>• El dueño de mascota puede navegar por las vistas principales de su panel.<br>• La veterinaria puede navegar por las vistas principales de su panel.<br>• Las vistas muestran información inicial utilizando datos de prueba.<br>• El frontend se encuentra desplegado y accesible desde una URL pública.<br>• Las pantallas principales mantienen coherencia visual y navegación funcional. |
+| Resultado esperado | Una primera versión navegable de la Web Application de PetCare, desplegada y validada con datos de prueba, que permita demostrar el acceso diferenciado para dueños de mascotas y veterinarias, así como la estructura base de las principales funcionalidades internas de la plataforma. |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 se organizó a partir de las User Stories seleccionadas para la implementación inicial de la Web Application de PetCare. Las tareas se enfocaron en desarrollar el flujo de acceso, la diferenciación de interfaces por tipo de usuario, el panel del dueño de mascota, el panel de veterinaria, la navegación interna, la visualización de información con datos de prueba y el despliegue inicial del frontend.
+
+| Sprint # | US ID | User Story Title | Task ID | Task Title | Description | Estimation | Assigned To | Status |
+|---|---|---|---|---|---|---|---|---|
+| Sprint 2 | US06 | Acceder al inicio de sesión | W-01 | Conectar acceso desde Landing Page | Habilitar la navegación desde el Landing Page hacia la vista de inicio de sesión de la Web Application. | 1 hora | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US09 | Seleccionar tipo de cuenta | W-02 | Implementar selección de tipo de usuario | Permitir que el usuario identifique si accederá como dueño de mascota o veterinaria dentro del flujo de acceso. | 1 hora | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US10 | Habilitar cuenta de dueño de mascota | W-03 | Crear flujo básico para dueño de mascota | Implementar una estructura inicial para el acceso de dueños de mascotas mediante credenciales de prueba. | 1 hora | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US11 | Registrar veterinaria en la plataforma | W-04 | Crear flujo básico para veterinaria | Implementar una estructura inicial para el acceso de veterinarias mediante credenciales de prueba. | 1 hora | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US12 | Iniciar sesión por tipo de cuenta | W-05 | Validar acceso diferenciado | Configurar el flujo de inicio de sesión para redirigir al usuario hacia la interfaz correspondiente según su tipo de cuenta. | 2 horas | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US13 | Visualizar resumen de mascotas | W-06 | Implementar home del dueño de mascota | Desarrollar la vista principal del dueño de mascota con información inicial sobre mascotas registradas, próximas citas y alertas. | 2 horas | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US14 | Priorizar alertas importantes | W-07 | Mostrar alertas de salud | Incorporar una sección visual de alertas relevantes para que el dueño identifique riesgos o recordatorios importantes. | 1 hora | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US17 | Consultar ficha médica de mascota | W-08 | Implementar vista de historial médico | Crear una vista inicial para mostrar información médica de la mascota, incluyendo datos clínicos disponibles mediante datos de prueba. | 2 horas | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US23 | Buscar veterinarias con criterios médicos | W-09 | Implementar vista de veterinarias | Desarrollar una vista inicial para mostrar servicios veterinarios y opciones de veterinarias disponibles para el dueño de mascota. | 2 horas | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US24 | Identificar atención inmediata | W-10 | Mostrar servicios veterinarios destacados | Incorporar tarjetas o secciones que permitan visualizar servicios veterinarios relevantes para futuras atenciones. | 1 hora | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US25 | Evaluar reputación médica | W-11 | Mostrar información básica de veterinarias | Presentar información inicial de veterinarias o servicios para apoyar la decisión del dueño de mascota. | 1 hora | Jean Pool, Huaman de la Cruz | In-Process |
+| Sprint 2 | US27 | Reservar atención veterinaria | W-12 | Crear vista inicial de citas | Implementar la sección de citas del dueño de mascota, permitiendo visualizar opciones relacionadas con reservas o atenciones programadas. | 2 horas | Jean Pool, Huaman de la Cruz | In-Process |
+| Sprint 2 | US29 | Reprogramar atención veterinaria | W-13 | Preparar acciones de gestión de citas | Añadir elementos visuales para futuras acciones de reprogramación de citas dentro de la vista correspondiente. | 1 hora | Jean Pool, Huaman de la Cruz | In-Process |
+| Sprint 2 | US30 | Cancelar cita veterinaria | W-14 | Preparar acciones de cancelación de citas | Añadir elementos visuales para futuras acciones de cancelación de citas, dejando pendiente la lógica completa de actualización. | 1 hora | Jean Pool, Huaman de la Cruz | In-Process |
+| Sprint 2 | US31 | Recibir recordatorios preventivos | W-15 | Mostrar recordatorios iniciales | Incorporar información visual relacionada con citas, controles o alertas preventivas dentro del panel del dueño. | 1 hora | Jean Pool, Huaman de la Cruz | In-Process |
+| Sprint 2 | US36 | Supervisar agenda diaria | W-16 | Implementar dashboard veterinario | Crear la vista principal para veterinaria, incluyendo acceso a agenda médica, pacientes, monitoreo IoT y configuración. | 2 horas | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | US37 | Analizar desempeño de citas | W-17 | Mostrar indicadores iniciales del dashboard | Incorporar tarjetas o datos resumidos en el dashboard veterinario para representar actividad o gestión inicial. | 1 hora | Jean Pool, Huaman de la Cruz | In-Process |
+| Sprint 2 | US38 | Consultar ingresos del negocio | W-18 | Preparar sección de gestión veterinaria | Añadir estructura visual inicial para futuras métricas administrativas o información de gestión del negocio veterinario. | 1 hora | Jean Pool, Huaman de la Cruz | In-Process |
+| Sprint 2 | TS01 | Gestionar registro por tipo de cuenta | W-19 | Configurar datos de prueba de usuarios | Preparar datos simulados en `db.json` para representar cuentas de dueño de mascota y veterinaria. | 1 hora | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 2 | TS02 | Validar autenticación por tipo de cuenta | W-20 | Conectar autenticación con datos mock | Validar credenciales de prueba mediante `json-server`, permitiendo simular el acceso diferenciado por tipo de usuario. | 2 horas | Jean Pool, Huaman de la Cruz | In-Process |
+| Sprint 2 | TS03 | Gestionar perfiles clínicos de mascotas | W-21 | Integrar datos iniciales de mascotas | Mostrar datos básicos de mascotas e información clínica mediante datos de prueba en las vistas del dueño. | 2 horas | Jean Pool, Huaman de la Cruz | In-Process |
+| Sprint 2 | TS07 | Filtrar veterinarias disponibles | W-22 | Preparar estructura de servicios veterinarios | Implementar la vista base para servicios o veterinarias, dejando pendiente el filtrado completo mediante API. | 1 hora | Jean Pool, Huaman de la Cruz | In-Process |
+| Sprint 2 | TS12 | Procesar monitoreo IoT y alertas críticas | W-23 | Implementar vista inicial de monitoreo IoT | Crear una vista visual inicial para monitoreo IoT dentro del panel veterinario, utilizando información simulada. | 2 horas | Jean Pool, Huaman de la Cruz | In-Process |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 2, específicamente en la implementación inicial de la Web Application Frontend de PetCare. Los avances realizados se enfocaron en la construcción de vistas internas para dueños de mascotas y veterinarias, la mejora de estilos visuales, la corrección de recursos gráficos, la integración de rutas principales y la preparación del frontend para su despliegue.
+
+Los commits registrados evidencian la consolidación de la Web Application, incluyendo ajustes en la interfaz de registro, mejoras visuales de componentes, cambios locales del frontend y actualización de recursos utilizados por el usuario veterinario. A continuación, se muestra la tabla con los commits más relevantes asociados al repositorio del proyecto.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Co-Designers/PetCare-Frontend | main | 8aa6fd8 | feat: local petcare frontend changes | Local frontend changes for the initial Web Application structure and navigation. | 12/05/2026 |
+| Co-Designers/PetCare-Frontend | main | 7e8d253 | Enhance CSS styles for layout and components | Improved visual styles, layout structure and frontend components for the Web Application. | 12/05/2026 |
+| Co-Designers/PetCare-Frontend | main | 5a57cf8 | Fix image source path in register-view.html | Fixed image source path used in the register view of the Web Application. | 12/05/2026 |
+| Co-Designers/PetCare-Frontend | main | bfde882 | Update avatar URL for vet user Pedro Gonzales | Updated avatar resource for the veterinary user profile used in the Web Application. | 12/05/2026 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el desarrollo del Sprint 2 se implementó una primera versión funcional de la Web Application de PetCare, cumpliendo con las User Stories priorizadas para la experiencia interna de los usuarios. Las evidencias muestran el flujo de inicio de sesión, registro, navegación diferenciada por tipo de cuenta, panel del dueño de mascota, panel de veterinaria y vistas principales desarrolladas con datos de prueba.
+
+1. **Vista de inicio de sesión:**  
+Se implementó la pantalla de inicio de sesión de la Web Application, permitiendo que el usuario ingrese sus credenciales para acceder a la plataforma. Esta vista representa el punto de entrada hacia las interfaces internas de PetCare.
+
+<img src="assets/sprint2-evidence/sprint2-login-view.jpeg" alt="Vista de inicio de sesión de PetCare" width="100%">
+
+2. **Vista de registro:**  
+Se desarrolló la pantalla de registro, donde el usuario puede ingresar datos básicos como nombres, apellidos, correo electrónico y contraseña. Además, se incluyó una opción para identificar si la cuenta corresponde a un usuario veterinario.
+
+<img src="assets/sprint2-evidence/sprint2-register-view.jpeg" alt="Vista de registro de usuario en PetCare" width="100%">
+
+3. **Home del dueño de mascota:**  
+Se implementó la vista principal para el dueño de mascota, donde se muestran mascotas registradas, accesos a historial, próximas citas y alertas de salud. Esta pantalla permite centralizar información relevante para el seguimiento preventivo de las mascotas desde una misma interfaz.
+
+<img src="assets/sprint2-evidence/sprint2-pet-owner-home-dashboard.jpeg" alt="Dashboard principal del dueño de mascota" width="100%">
+
+<img src="assets/sprint2-evidence/sprint2-pet-owner-appointments-alerts.jpeg" alt="Sección de próximas citas y alertas del dueño de mascota" width="100%">
+
+4. **Servicios veterinarios:**  
+Se añadió una sección de servicios veterinarios, donde el usuario puede visualizar opciones como consulta general, vacunación, emergencia 24h, odontología, laboratorio y peluquería, junto con precios referenciales y botones de agenda.
+
+<img src="assets/sprint2-evidence/sprint2-services-view.jpeg" alt="Vista de servicios veterinarios de PetCare" width="100%">
+
+5. **Búsqueda y visualización de veterinarias:**  
+Se implementó una vista de veterinarias cercanas con opciones de búsqueda y filtros por distrito o especialidad. La sección muestra información básica de veterinarias, reseñas, dirección, horario, teléfono y servicios ofrecidos.
+
+<img src="assets/sprint2-evidence/sprint2-veterinaries-search-view.jpeg" alt="Vista de búsqueda y visualización de veterinarias" width="100%">
+
+6. **Mis citas:**  
+Se desarrolló una sección para visualizar citas próximas, historial y citas canceladas. Además, se incorporaron botones visuales para futuras acciones como reprogramar o cancelar una cita.
+
+<img src="assets/sprint2-evidence/sprint2-my-appointments-view.jpeg" alt="Vista de mis citas veterinarias" width="100%">
+
+7. **Contacto:**  
+Se implementó una vista de contacto con información de dirección, teléfono, correo y horario de atención. También se incluyó un formulario para que el usuario pueda enviar un mensaje desde la plataforma.
+
+<img src="assets/sprint2-evidence/sprint2-contact-view.jpeg" alt="Vista de contacto de PetCare" width="100%">
+
+8. **Historial médico:**  
+Se desarrolló una vista inicial de historial médico, donde el usuario puede seleccionar una mascota y visualizar información clínica como vacunas, enfermedades, tratamientos, cirugías y controles.
+
+<img src="assets/sprint2-evidence/sprint2-medical-history-view.jpeg" alt="Vista de historial médico de mascota" width="100%">
+
+9. **Dashboard veterinario:**  
+Se implementó una vista principal para el usuario veterinario, mostrando indicadores iniciales como citas del día, alertas críticas, tratamientos pendientes y pacientes activos. Esta vista permite representar una primera aproximación al panel de gestión clínica.
+
+<img src="assets/sprint2-evidence/sprint2-vet-dashboard-view.jpeg" alt="Dashboard principal del usuario veterinario" width="100%">
+
+10. **Agenda médica:**  
+Se añadió una sección de agenda médica para veterinarias, con controles de navegación por día, semana o mes, además de filtros por estado. Esta vista servirá como base para la futura gestión de citas clínicas.
+
+<img src="assets/sprint2-evidence/sprint2-vet-medical-agenda-view.jpeg" alt="Vista de agenda médica veterinaria" width="100%">
+
+11. **Gestión de pacientes:**  
+Se implementó una vista de pacientes, donde se muestran tarjetas con información básica de mascotas atendidas, incluyendo nombre, especie, edad, propietario y accesos a edición o historial.
+
+<img src="assets/sprint2-evidence/sprint2-vet-patients-view.jpeg" alt="Vista de gestión de pacientes veterinarios" width="100%">
+
+12. **Monitoreo IoT:**  
+Se desarrolló una vista inicial de monitoreo IoT, donde se visualizan datos simulados como temperatura y frecuencia cardíaca. También se incluyó una sección para configurar umbrales normales y críticos.
+
+<img src="assets/sprint2-evidence/sprint2-vet-iot-monitoring-view.jpeg" alt="Vista de monitoreo IoT veterinario" width="100%">
+
+<img src="assets/sprint2-evidence/sprint2-vet-iot-thresholds-view.jpeg" alt="Vista de configuración de umbrales IoT" width="100%">
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el alcance principal estuvo enfocado en la implementación inicial de la Web Application Frontend de PetCare. Para validar el funcionamiento de algunas vistas y flujos internos, se utilizó un servicio local basado en `json-server`, el cual permitió simular datos de prueba mediante el archivo `server/db.json`.
+
+Este servicio local fue utilizado como apoyo para validar el acceso de usuarios, la diferenciación de cuentas y la visualización inicial de información dentro de las interfaces de dueño de mascota y veterinaria. Sin embargo, en esta iteración todavía no se implementó un RESTful API definitivo ni documentación OpenAPI formal, debido a que el Sprint estuvo orientado principalmente al frontend y al uso de datos simulados.
+
+Para ejecutar el servicio local de datos se utilizó el siguiente comando:
+
+```bash
+npx json-server --watch server/db.json --port 3000
+```
+
+Debido a que el servicio utilizado corresponde a una simulación local mediante `json-server`, no se adjuntan endpoints documentados con OpenAPI en este Sprint. La documentación formal de los endpoints del RESTful API será incorporada en los siguientes Sprints, cuando se implemente el backend definitivo.
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se describe el proceso de despliegue de la Web Application Frontend de PetCare en un entorno accesible mediante GitHub Pages. Este proceso permitió validar la disponibilidad de la aplicación web, la correcta publicación del frontend y el acceso público a las vistas desarrolladas durante el Sprint 2.
+
+El despliegue de la Web Application representa un avance importante dentro del proyecto, ya que permite contar con una versión navegable de la plataforma, donde se pueden visualizar las interfaces de inicio de sesión, registro, panel del dueño de mascota, panel veterinario y demás secciones internas desarrolladas con datos de prueba.
+
+Para el despliegue de la Web Application, el equipo utilizó el repositorio `PetCare-Frontend`, en el cual se gestionaron los archivos correspondientes al frontend de la plataforma. Este repositorio contiene la estructura principal del proyecto, los recursos visuales, las vistas internas, la configuración del proyecto y los archivos necesarios para su ejecución y publicación.
+
+<img src="assets/sprint2-evidence/sprint2-frontend-repository.png" alt="Repositorio PetCare Frontend en la organización Co-Designers" width="100%">
+
+Posteriormente, se verificó el contenido del repositorio, donde se evidencian carpetas y archivos principales como `src`, `public`, `server`, `package.json`, `angular.json` y archivos de configuración. Estos elementos forman parte de la estructura base utilizada para desarrollar y desplegar la Web Application.
+
+<img src="assets/sprint2-evidence/sprint2-frontend-code-files.png" alt="Archivos principales del repositorio PetCare Frontend" width="100%">
+
+Luego, se configuró GitHub Pages desde la sección de configuración del repositorio. En esta vista se observa que el sitio fue publicado correctamente y que el despliegue se realizó desde la rama `gh-pages`, permitiendo generar una URL pública para acceder a la Web Application.
+
+<img src="assets/sprint2-evidence/sprint2-frontend-github-pages-settings.png" alt="Configuración de GitHub Pages para PetCare Frontend" width="100%">
+
+Finalmente, se validó el enlace público generado por GitHub Pages, confirmando que la Web Application de PetCare se encuentra desplegada y accesible desde el navegador. Esta URL permite revisar las vistas implementadas durante el Sprint 2 y comprobar el avance del frontend de la plataforma.
+
+<img src="assets/sprint2-evidence/sprint2-frontend-deployed-url.png" alt="URL pública desplegada de PetCare Frontend en GitHub Pages" width="100%">
+
+**URL de despliegue de la Web Application:**  
+https://co-designers.github.io/PetCare-Frontend/
+
+El resultado de este proceso es una primera versión desplegada de la Web Application Frontend de PetCare, accesible mediante un enlace público y preparada para validar la navegación inicial de usuarios, vistas diferenciadas por tipo de cuenta y secciones principales desarrolladas durante el Sprint 2.
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+En esta sección se presenta una visión general de la colaboración del equipo durante el Sprint 2 del proyecto PetCare. Durante esta iteración, el trabajo se enfocó en la implementación inicial de la Web Application Frontend, por lo que las actividades principales estuvieron relacionadas con el desarrollo de vistas internas, configuración de rutas, validación de datos de prueba, mejora de estilos, despliegue en GitHub Pages y documentación de evidencias.
+
+La implementación técnica del frontend fue registrada principalmente mediante commits realizados por Jean Pool, Huaman de la Cruz en el repositorio `PetCare-Frontend`. Asimismo, los demás integrantes del equipo colaboraron en actividades complementarias como revisión de pantallas, validación de flujos, organización de evidencias, documentación del Sprint y verificación del despliegue de la Web Application.
+
+La colaboración del Sprint se evidencia mediante capturas de GitHub, donde se muestran los commits realizados en el repositorio del frontend, así como el avance técnico correspondiente a la implementación y consolidación de la Web Application. Esta evidencia permite relacionar las tareas planificadas en el Sprint Backlog con el entregable presentado para la revisión del Sprint.
+
+<img src="assets/sprint2-evidence/sprint2-github-commits-evidence.jpeg" alt="Evidencia de commits realizados en el repositorio PetCare Frontend durante el Sprint 2" width="100%">
+
+Adicionalmente, se presenta la gráfica de colaboración del repositorio, donde se observa la participación registrada mediante commits durante el Sprint. Esta evidencia permite identificar la actividad técnica registrada en GitHub y complementar el análisis de colaboración del equipo.
+
+<img src="assets/sprint2-evidence/sprint2-github-network-graph.jpeg" alt="Gráfica de colaboración del repositorio PetCare Frontend durante el Sprint 2" width="100%">
+
+
 # Conclusiones
 # Bibliografía 
 # Anexos
