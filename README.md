@@ -1742,5 +1742,29 @@ Adicionalmente, se presenta la gráfica de colaboración del repositorio, donde 
   A través de las retrospectivas de los Sprints, el equipo identificó áreas de mejora como la necesidad de una mayor trazabilidad entre historias de usuario y tareas técnicas. Esto llevó a una refinación del Sprint Backlog y a una mejor organización de los aspectos leaders y collaborators. Se concluye que la integración temprana de wireframes, mockups y user flows (desarrollados en Figma) fue crucial para alinear la visión del producto antes de la implementación, reduciendo retrabajos.
 
 
-# Bibliografía 
+# Bibliografía
+
+- Bourgault, F. (2022). *Guía de pasos para llevar a cabo su evento Big Picture Event Storming*. Recuperado de:  
+  https://www.eventstormingjournal.com/
+
+- Brandolini, A. (2021). *Strategic Monoliths and Microservices: Driving Innovation Using Purposeful Architecture*. Pearson Education.
+
+- Evans, E. (2004). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
+
+- Gothelf, J., & Seiden, J. (2016). *Lean UX: Designing Great Products with Agile Teams*. O'Reilly Media.
+
+- Norman, D. (2013). *The Design of Everyday Things*. Basic Books.
+
+- GitHub. (2026). *Documentación de GitHub Pages*. Recuperado de:  
+  https://docs.github.com/en/pages
+
+- Figma. (2026). *Guía de diseño colaborativo y prototipado*. Recuperado de:  
+  https://help.figma.com
+
+- Angular. (2026). *Documentación oficial de Angular*. Recuperado de:  
+  https://angular.io/docs
+
+- Spring Boot. (2026). *Referencia de arquitectura de microservicios*. Recuperado de:  
+  https://spring.io/projects/spring-boot
+  
 # Anexos
