@@ -1527,7 +1527,33 @@ En esta sección se presenta la planificación del Sprint 2, indicando el alcanc
   </tr>
 </table>
 
+#### 5.2.2.2. Aspect Leaders and Collaborators
 
+En el presente Sprint se priorizó el desarrollo inicial de la Web Application de PetCare, la cual permite a los usuarios acceder a una experiencia diferenciada según su tipo de cuenta. A diferencia del Sprint 1, centrado en el Landing Page, este Sprint se enfocó en la implementación de vistas internas para dueños de mascotas y veterinarias, incluyendo pantallas de inicio de sesión, registro, dashboards, navegación por secciones, visualización de información básica y despliegue del frontend.
+
+El Sprint se enfocó en la construcción de la interfaz principal de la Web Application, abarcando la estructura de navegación, vistas para el usuario dueño de mascota, vistas para el usuario veterinario, conexión con datos de prueba mediante `db.json`, validación inicial de credenciales y despliegue del proyecto frontend. Para optimizar la distribución del trabajo, se definió una Leadership and Collaboration Matrix (LACX), donde se establecen los roles de Leader y Collaborator por cada aspecto técnico trabajado durante el Sprint.
+
+A continuación, se presenta la matriz de liderazgo y colaboración del Sprint 2.
+
+**Leadership and Collaboration Matrix (LACX)**
+
+| Team Member (Last Name, First Name) | GitHub Username | Web App Frontend (L/C) | Authentication Flow (L/C) | Pet Owner Interface (L/C) | Veterinary Interface (L/C) | Deployment (L/C) | Documentation & Review (L/C) |
+|---|---|---|---|---|---|---|---|
+| Huaman de la Cruz, Jean Pool | JeanPool | L | L | L | L | L | C |
+| Mauricio Silva, Ghiou Justinn | Justinn2006 | C | C | C | C | C | L |
+| Campoblanco Guzman, Diego Roberto | DiegoCampoblanco | C | C | C | C | C | C |
+| Tuncar Vila, Ghorget Saul | Ghorghet | C | C | C | C | C | C |
+| Mejía Aliaga, Katherine Maryory | KathMJ | C | C | C | C | C | C |
+
+**Aspecto: Desarrollo y despliegue inicial de la Web Application de PetCare**
+
+| Aspecto | Descripción |
+|---|---|
+| Feature | Diseño, desarrollo, validación y despliegue inicial de la Web Application de PetCare. |
+| Objetivo Principal | Implementar una primera versión funcional del frontend de la Web Application, permitiendo validar el acceso de usuarios, la navegación diferenciada por tipo de cuenta y la visualización de vistas iniciales para dueños de mascotas y veterinarias. |
+| Elementos incluidos | • Vista de inicio de sesión.<br>• Vista de registro de usuario.<br>• Selección o diferenciación de tipo de cuenta.<br>• Dashboard inicial para dueño de mascota.<br>• Visualización de mascotas registradas, próximas citas y alertas de salud.<br>• Secciones de servicios veterinarios, veterinarias, citas, contacto e historial médico.<br>• Dashboard inicial para veterinaria.<br>• Secciones de agenda médica, pacientes, monitoreo IoT y configuración.<br>• Uso de datos de prueba mediante `db.json`.<br>• Validación inicial de credenciales de prueba.<br>• Despliegue inicial del frontend de la Web Application. |
+| Criterios de aceptación | • El usuario puede acceder a la vista de inicio de sesión.<br>• El sistema permite validar credenciales de prueba para dueño de mascota y veterinario.<br>• El usuario visualiza una interfaz diferenciada según el tipo de cuenta.<br>• El dueño de mascota puede navegar por las vistas principales de su panel.<br>• La veterinaria puede navegar por las vistas principales de su panel.<br>• Las vistas muestran información inicial utilizando datos de prueba.<br>• El frontend se encuentra desplegado y accesible desde una URL pública.<br>• Las pantallas principales mantienen coherencia visual y navegación funcional. |
+| Resultado esperado | Una primera versión navegable de la Web Application de PetCare, desplegada y validada con datos de prueba, que permita demostrar el acceso diferenciado para dueños de mascotas y veterinarias, así como la estructura base de las principales funcionalidades internas de la plataforma. |
 
 # Conclusiones
 # Bibliografía 
