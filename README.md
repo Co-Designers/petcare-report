@@ -1766,5 +1766,31 @@ Adicionalmente, se presenta la gráfica de colaboración del repositorio, donde 
 
 - Spring Boot. (2026). *Referencia de arquitectura de microservicios*. Recuperado de:  
   https://spring.io/projects/spring-boot
-  
+
+
 # Anexos
+
+Los siguientes anexos complementan la información presentada en el informe, proporcionando evidencia adicional y detalles técnicos del proyecto PetCare.
+
+### Organización GitHub del equipo Co-Designers
+[![Co-Designers Organization](https://img.shields.io/badge/GitHub-Co--Designers-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Co-Designers)
+
+Repositorio principal donde se gestionan los recursos, proyectos y colaboración del equipo desarrollador de PetCare.
+
+### Repositorio del Project Report
+[![Project Report](https://img.shields.io/badge/Project-Report-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Co-Designers/PetCare)
+
+Repositorio que contiene la documentación académica y técnica del proyecto, incluyendo reportes, diagramas, evidencias y entregables del curso.
+
+### Landing Page desplegada
+[![Landing Page](https://img.shields.io/badge/Visit-Landing%20Page-blue?style=for-the-badge&logo=githubpages&logoColor=white)](https://co-designers.github.io/petcare-landingpage/)
+
+Versión pública de la Landing Page de PetCare desplegada mediante GitHub Pages, diseñada para presentar la propuesta de valor, funcionalidades y beneficios de la plataforma.
+
+
+### Web Application Frontend desplegada
+[![Web Application](https://img.shields.io/badge/Web-Application-green?style=for-the-badge&logo=angular&logoColor=white)](https://co-designers.github.io/PetCare-Frontend/)
+
+Primera versión funcional del frontend de la Web Application de PetCare, desarrollada con Angular e integrada con funcionalidades de autenticación, gestión de mascotas, historial médico y monitoreo IoT de prueba.
+
+
