@@ -1605,66 +1605,67 @@ Durante el desarrollo del Sprint 2 se implementó una primera versión funcional
 1. **Vista de inicio de sesión:**  
 Se implementó la pantalla de inicio de sesión de la Web Application, permitiendo que el usuario ingrese sus credenciales para acceder a la plataforma. Esta vista representa el punto de entrada hacia las interfaces internas de PetCare.
 
-<img src="Resources/Images/Sprint2/sprint2-login-view.png" alt="Vista de inicio de sesión de PetCare" width="100%">
+<img src="assets/sprint2-evidence/sprint2-login-view.png" alt="Vista de inicio de sesión de PetCare" width="100%">
 
 2. **Vista de registro:**  
 Se desarrolló la pantalla de registro, donde el usuario puede ingresar datos básicos como nombres, apellidos, correo electrónico y contraseña. Además, se incluyó una opción para identificar si la cuenta corresponde a un usuario veterinario.
 
-<img src="Resources/Images/Sprint2/sprint2-register-view.png" alt="Vista de registro de usuario en PetCare" width="100%">
+<img src="assets/sprint2-evidence/sprint2-register-view.png" alt="Vista de registro de usuario en PetCare" width="100%">
 
 3. **Home del dueño de mascota:**  
 Se implementó la vista principal para el dueño de mascota, donde se muestran mascotas registradas, accesos a historial, próximas citas y alertas de salud. Esta pantalla permite centralizar información relevante para el seguimiento preventivo de las mascotas desde una misma interfaz.
 
-<img src="Resources/Images/Sprint2/sprint2-pet-owner-home-dashboard.png" alt="Dashboard principal del dueño de mascota" width="100%">
+<img src="assets/sprint2-evidence/sprint2-pet-owner-home-dashboard.png" alt="Dashboard principal del dueño de mascota" width="100%">
 
-<img src="Resources/Images/Sprint2/sprint2-pet-owner-appointments-alerts.png" alt="Sección de próximas citas y alertas del dueño de mascota" width="100%">
+<img src="assets/sprint2-evidence/sprint2-pet-owner-appointments-alerts.png" alt="Sección de próximas citas y alertas del dueño de mascota" width="100%">
 
 4. **Servicios veterinarios:**  
 Se añadió una sección de servicios veterinarios, donde el usuario puede visualizar opciones como consulta general, vacunación, emergencia 24h, odontología, laboratorio y peluquería, junto con precios referenciales y botones de agenda.
 
-<img src="Resources/Images/Sprint2/sprint2-services-view.png" alt="Vista de servicios veterinarios de PetCare" width="100%">
+<img src="assets/sprint2-evidence/sprint2-services-view.png" alt="Vista de servicios veterinarios de PetCare" width="100%">
 
 5. **Búsqueda y visualización de veterinarias:**  
 Se implementó una vista de veterinarias cercanas con opciones de búsqueda y filtros por distrito o especialidad. La sección muestra información básica de veterinarias, reseñas, dirección, horario, teléfono y servicios ofrecidos.
 
-<img src="Resources/Images/Sprint2/sprint2-veterinaries-search-view.png" alt="Vista de búsqueda y visualización de veterinarias" width="100%">
+<img src="assets/sprint2-evidence/sprint2-veterinaries-search-view.png" alt="Vista de búsqueda y visualización de veterinarias" width="100%">
 
 6. **Mis citas:**  
 Se desarrolló una sección para visualizar citas próximas, historial y citas canceladas. Además, se incorporaron botones visuales para futuras acciones como reprogramar o cancelar una cita.
 
-<img src="Resources/Images/Sprint2/sprint2-my-appointments-view.png" alt="Vista de mis citas veterinarias" width="100%">
+<img src="assets/sprint2-evidence/sprint2-my-appointments-view.png" alt="Vista de mis citas veterinarias" width="100%">
 
 7. **Contacto:**  
 Se implementó una vista de contacto con información de dirección, teléfono, correo y horario de atención. También se incluyó un formulario para que el usuario pueda enviar un mensaje desde la plataforma.
 
-<img src="Resources/Images/Sprint2/sprint2-contact-view.png" alt="Vista de contacto de PetCare" width="100%">
+<img src="assets/sprint2-evidence/sprint2-contact-view.png" alt="Vista de contacto de PetCare" width="100%">
 
 8. **Historial médico:**  
 Se desarrolló una vista inicial de historial médico, donde el usuario puede seleccionar una mascota y visualizar información clínica como vacunas, enfermedades, tratamientos, cirugías y controles.
 
-<img src="Resources/Images/Sprint2/sprint2-medical-history-view.png" alt="Vista de historial médico de mascota" width="100%">
+<img src="assets/sprint2-evidence/sprint2-medical-history-view.png" alt="Vista de historial médico de mascota" width="100%">
 
 9. **Dashboard veterinario:**  
 Se implementó una vista principal para el usuario veterinario, mostrando indicadores iniciales como citas del día, alertas críticas, tratamientos pendientes y pacientes activos. Esta vista permite representar una primera aproximación al panel de gestión clínica.
 
-<img src="Resources/Images/Sprint2/sprint2-vet-dashboard-view.png" alt="Dashboard principal del usuario veterinario" width="100%">
+<img src="assets/sprint2-evidence/sprint2-vet-dashboard-view.png" alt="Dashboard principal del usuario veterinario" width="100%">
 
 10. **Agenda médica:**  
 Se añadió una sección de agenda médica para veterinarias, con controles de navegación por día, semana o mes, además de filtros por estado. Esta vista servirá como base para la futura gestión de citas clínicas.
 
-<img src="Resources/Images/Sprint2/sprint2-vet-medical-agenda-view.png" alt="Vista de agenda médica veterinaria" width="100%">
+<img src="assets/sprint2-evidence/sprint2-vet-medical-agenda-view.png" alt="Vista de agenda médica veterinaria" width="100%">
 
 11. **Gestión de pacientes:**  
 Se implementó una vista de pacientes, donde se muestran tarjetas con información básica de mascotas atendidas, incluyendo nombre, especie, edad, propietario y accesos a edición o historial.
 
-<img src="Resources/Images/Sprint2/sprint2-vet-patients-view.png" alt="Vista de gestión de pacientes veterinarios" width="100%">
+<img src="assets/sprint2-evidence/sprint2-vet-patients-view.png" alt="Vista de gestión de pacientes veterinarios" width="100%">
 
 12. **Monitoreo IoT:**  
 Se desarrolló una vista inicial de monitoreo IoT, donde se visualizan datos simulados como temperatura y frecuencia cardíaca. También se incluyó una sección para configurar umbrales normales y críticos.
 
-<img src="Resources/Images/Sprint2/sprint2-vet-iot-monitoring-view.png" alt="Vista de monitoreo IoT veterinario" width="100%">
+<img src="assets/sprint2-evidence/sprint2-vet-iot-monitoring-view.png" alt="Vista de monitoreo IoT veterinario" width="100%">
 
-<img src="Resources/Images/Sprint2/sprint2-vet-iot-thresholds-view.png" alt="Vista de configuración de umbrales IoT" width="100%">
+<img src="assets/sprint2-evidence/sprint2-vet-iot-thresholds-view.png" alt="Vista de configuración de umbrales IoT" width="100%">
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -1673,8 +1674,13 @@ Durante el Sprint 2, el alcance principal estuvo enfocado en la implementación 
 Este servicio local fue utilizado como apoyo para validar el acceso de usuarios, la diferenciación de cuentas y la visualización inicial de información dentro de las interfaces de dueño de mascota y veterinaria. Sin embargo, en esta iteración todavía no se implementó un RESTful API definitivo ni documentación OpenAPI formal, debido a que el Sprint estuvo orientado principalmente al frontend y al uso de datos simulados.
 
 Para ejecutar el servicio local de datos se utilizó el siguiente comando:
-bash 
+
+```bash
 npx json-server --watch server/db.json --port 3000
+```
+
+Debido a que el servicio utilizado corresponde a una simulación local mediante `json-server`, no se adjuntan endpoints documentados con OpenAPI en este Sprint. La documentación formal de los endpoints del RESTful API será incorporada en los siguientes Sprints, cuando se implemente el backend definitivo.
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -1684,24 +1690,25 @@ El despliegue de la Web Application representa un avance importante dentro del p
 
 Para el despliegue de la Web Application, el equipo utilizó el repositorio `PetCare-Frontend`, en el cual se gestionaron los archivos correspondientes al frontend de la plataforma. Este repositorio contiene la estructura principal del proyecto, los recursos visuales, las vistas internas, la configuración del proyecto y los archivos necesarios para su ejecución y publicación.
 
-<img src="Resources/Images/Sprint2/sprint2-frontend-repository.png" alt="Repositorio PetCare Frontend en la organización Co-Designers" width="100%">
+<img src="assets/sprint2-evidence/sprint2-frontend-repository.png" alt="Repositorio PetCare Frontend en la organización Co-Designers" width="100%">
 
 Posteriormente, se verificó el contenido del repositorio, donde se evidencian carpetas y archivos principales como `src`, `public`, `server`, `package.json`, `angular.json` y archivos de configuración. Estos elementos forman parte de la estructura base utilizada para desarrollar y desplegar la Web Application.
 
-<img src="Resources/Images/Sprint2/sprint2-frontend-code-files.png" alt="Archivos principales del repositorio PetCare Frontend" width="100%">
+<img src="assets/sprint2-evidence/sprint2-frontend-code-files.png" alt="Archivos principales del repositorio PetCare Frontend" width="100%">
 
 Luego, se configuró GitHub Pages desde la sección de configuración del repositorio. En esta vista se observa que el sitio fue publicado correctamente y que el despliegue se realizó desde la rama `gh-pages`, permitiendo generar una URL pública para acceder a la Web Application.
 
-<img src="Resources/Images/Sprint2/sprint2-frontend-github-pages-settings.png" alt="Configuración de GitHub Pages para PetCare Frontend" width="100%">
+<img src="assets/sprint2-evidence/sprint2-frontend-github-pages-settings.png" alt="Configuración de GitHub Pages para PetCare Frontend" width="100%">
 
 Finalmente, se validó el enlace público generado por GitHub Pages, confirmando que la Web Application de PetCare se encuentra desplegada y accesible desde el navegador. Esta URL permite revisar las vistas implementadas durante el Sprint 2 y comprobar el avance del frontend de la plataforma.
 
-<img src="Resources/Images/Sprint2/sprint2-frontend-deployed-url.png" alt="URL pública desplegada de PetCare Frontend en GitHub Pages" width="100%">
+<img src="assets/sprint2-evidence/sprint2-frontend-deployed-url.png" alt="URL pública desplegada de PetCare Frontend en GitHub Pages" width="100%">
 
 **URL de despliegue de la Web Application:**  
 https://co-designers.github.io/PetCare-Frontend/
 
 El resultado de este proceso es una primera versión desplegada de la Web Application Frontend de PetCare, accesible mediante un enlace público y preparada para validar la navegación inicial de usuarios, vistas diferenciadas por tipo de cuenta y secciones principales desarrolladas durante el Sprint 2.
+
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -1711,11 +1718,11 @@ La implementación técnica del frontend fue registrada principalmente mediante 
 
 La colaboración del Sprint se evidencia mediante capturas de GitHub, donde se muestran los commits realizados en el repositorio del frontend, así como el avance técnico correspondiente a la implementación y consolidación de la Web Application. Esta evidencia permite relacionar las tareas planificadas en el Sprint Backlog con el entregable presentado para la revisión del Sprint.
 
-<img src="Resources/Images/Sprint2/sprint2-github-commits-evidence.jpg" alt="Evidencia de commits realizados en el repositorio PetCare Frontend durante el Sprint 2" width="100%">
+<img src="assets/sprint2-evidence/sprint2-github-commits-evidence.jpg" alt="Evidencia de commits realizados en el repositorio PetCare Frontend durante el Sprint 2" width="100%">
 
 Adicionalmente, se presenta la gráfica de Top Committers del repositorio, donde se observa la participación registrada mediante commits durante el Sprint. Esta evidencia permite identificar a los integrantes con mayor actividad técnica en GitHub y complementar el análisis de colaboración del equipo.
 
-<img src="Resources/Images/Sprint2/sprint2-github-top-committers.jpg" alt="Gráfica de top committers del repositorio PetCare Frontend durante el Sprint 2" width="100%">
+<img src="assets/sprint2-evidence/sprint2-github-top-committers.jpg" alt="Gráfica de top committers del repositorio PetCare Frontend durante el Sprint 2" width="100%">
 
 
 # Conclusiones
