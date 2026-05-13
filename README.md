@@ -1452,6 +1452,11 @@ La colaboración del Sprint se evidencia mediante capturas de GitHub, donde se m
 
 <img src="assets/deployment-evidence/evidencia.jpg" alt="Evidencia de despliegue de PetCare" width="100%">
 
+### 5.2.2. Sprint 2
+
+El Sprint 2 tuvo como objetivo implementar una primera versión funcional de la Web Application de PetCare, permitiendo validar el acceso de usuarios mediante vistas de inicio de sesión y registro, así como la navegación diferenciada según el tipo de cuenta. Este Sprint incorporó interfaces iniciales para el dueño de mascota y para la veterinaria, mostrando funcionalidades relacionadas con mascotas registradas, próximas citas, alertas de salud, servicios veterinarios, búsqueda de veterinarias, historial médico, agenda médica, pacientes, monitoreo IoT y configuración del perfil veterinario.
+
+
 # Conclusiones
 # Bibliografía 
 # Anexos
