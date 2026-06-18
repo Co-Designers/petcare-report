@@ -1822,6 +1822,13 @@ Los commits registrados evidencian la consolidación de la Web Service. A contin
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint. 
 
+En esta sección se presenta la evidencia de colaboración del equipo durante el Sprint 3, cuyo enfoque principal fue el desarrollo del Web Service Backend de PetCare. 
+
+La implementación técnica en el repositorio del backend se complementó con el esfuerzo conjunto del equipo en la revisión de arquitectura, validación de endpoints y documentación técnica del Sprint.
+
+Este avance se evidencia a continuación mediante el registro de commits en GitHub, vinculando directamente las tareas planificadas en el Sprint Backlog con el incremento del producto entregado  
+
+<img src="assets/sprint3/commitssprint3.png"></img><br>
 
 
 #### 5.3. Validation Interviews. 
