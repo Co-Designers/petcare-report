@@ -1724,6 +1724,164 @@ Adicionalmente, se presenta la gráfica de colaboración del repositorio, donde 
 
 <img src="assets/sprint2-evidence/sprint2-github-network-graph.jpeg" alt="Gráfica de colaboración del repositorio PetCare Frontend durante el Sprint 2" width="100%">
 
+#### 5.2.3. Sprint 3
+
+El Sprint 3 tuvo como objetivo principal implementar los servicios backend (RESTful API) y establecer la integración con el frontend de la Web Application de PetCare. Durante esta iteración, el equipo se enfocó en reemplazar los datos simulados del sprint anterior por un modelo de base de datos relacional real, habilitando funcionalidades críticas reales como la autenticación de usuarios, la gestión de perfiles de mascotas, el historial clínico, la búsqueda de veterinarias y el agendamiento de citas. Asimismo, este Sprint abarca el despliegue del backend en la nube y la preparación de la plataforma para las sesiones de validación con los segmentos objetivo. 
+
+#### 5.2.2.1. Sprint Planning 3
+
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting para el Sprint 3. Se establecen los objetivos que marcan la transición hacia el desarrollo del backend con Spring Boot y la integración de la base de datos real, dejando atrás los datos simulados. A continuación, se detalla el alcance, los asistentes, las conclusiones del sprint previo y el Sprint Goal trazado.
+
+| Categoría | Detalle |
+| :--- | :--- |
+| Sprint # | Sprint 3 |
+| **Sprint Planning Background** | |
+| Date | 2026-06-09 |
+| Time | 8:00 PM - 12:00 AM |
+| Location | Discord |
+| Prepared By | Ghiou Justinn, Mauricio Silva |
+| Attendees (to planning meeting) | Diego Roberto, Campoblanco Guzman<br>Ghiou Justinn, Mauricio Silva<br>Ghorget Saul, Tuncar Vila<br>Jean Pool, Huaman de la Cruz<br>Katherine Maryory, Mejía Aliaga |
+| Sprint 2 Review Summary | Durante el Sprint 2 se implementó con éxito la primera versión del frontend de la Web Application en Angular, logrando la navegación diferenciada entre dueños de mascotas y veterinarias utilizando datos simulados (json-server). Se validó visualmente el flujo de inicio de sesión, paneles de control y vistas de historial clínico. |
+| Sprint 2 Retrospective Summary | El equipo identificó que las interfaces ya están maduras visualmente, pero la dependencia de datos simulados limita la validación de procesos complejos como el agendamiento y la persistencia de datos. Se acordó que el siguiente paso crítico es desarrollar el RESTful API y la base de datos en SQL Server para integrar un backend real a las vistas ya construidas. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | Nuestro enfoque es implementar el backend RESTful API y conectarlo con el frontend de la Web Application.<br><br>Creemos que esto entrega una experiencia de gestión de datos real, segura y trazable para los dueños de mascotas y clínicas veterinarias.<br><br>Esto se confirmará cuando los usuarios puedan registrarse, iniciar sesión de forma segura, gestionar historiales médicos y buscar veterinarias utilizando datos persistidos en la base de datos relacional (SQL Server), y cuando los endpoints estén documentados formalmente con OpenAPI. |
+| Sprint 3 Velocity | 38 |
+| Sum of Story Points | 38 |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En el presente Sprint, el equipo centró sus esfuerzos en la arquitectura, desarrollo e integración del backend de la plataforma PetCare. A diferencia del Sprint 2, donde el enfoque estuvo en el diseño de interfaces y el uso de datos simulados (mock data), esta iteración exigió una organización orientada a la creación de los Web Services (RESTful API) utilizando Spring Boot, el modelado de la base de datos relacional en SQL Server y la integración directa con el frontend en Angular.
+
+Para gestionar de forma eficiente la complejidad técnica de esta transición, así como la documentación exigida mediante OpenAPI y el despliegue en la nube, se redefinieron los roles técnicos del equipo. La distribución del trabajo se ha estructurado en la Leadership and Collaboration Matrix (LACX), estableciendo claramente quién asume el rol de Leader (L) para guiar la implementación y quiénes actúan como Collaborators (C) en cada frente del desarrollo.
+
+A continuación, se presenta la matriz de liderazgo y colaboración del Sprint 3.
+
+Leadership and Collaboration Matrix (LACX)
+
+| Team Member (Last Name, First Name) | GitHub Username | Web App Frontend (L/C) | Authentication Flow (L/C) | Pet Owner Interface (L/C) | Veterinary Interface (L/C) | Deployment (L/C) | Documentation & Review (L/C) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Huaman de la Cruz, Jean Pool | JeanPool | C | C | C | C | C | C |
+| Mauricio Silva, Ghiou Justinn | Justinn2006 | L | L | L | L | L | L |
+| Campoblanco Guzman, Diego Roberto | DiegoCampoblanco | C | C | C | C | C | C |
+| Tuncar Vila, Ghorghet Saul | Ghorghet | C | C | C | C | C | C |
+| Mejía Aliaga, Katherine Maryory | KathMJ | C | C | C | C | C | C |
+
+**Aspecto: Implementación del Backend e Integración de la Web Application**
+
+| Aspecto | Descripción |
+|---|---|
+| Feature | Desarrollo del RESTful API, integración de la base de datos y conexión con la Web Application de PetCare. |
+| Objetivo Principal | Implementar los servicios backend reales en Java (Spring Boot) y reemplazar los datos simulados del frontend, permitiendo la autenticación, registro, gestión de historiales y búsqueda de veterinarias de forma funcional, persistente y segura. |
+| Elementos incluidos | • Desarrollo de Controladores, Servicios y Repositorios en Spring Boot.<br>• Creación y conexión con la base de datos relacional (SQL Server).<br>• Implementación de seguridad y autenticación (JWT).<br>• Documentación de todos los endpoints utilizando OpenAPI (Swagger).<br>• Integración de servicios (HttpClient) en el frontend (Angular).<br>• Despliegue del backend en la nube y actualización de GitHub Pages. |
+| Criterios de aceptación | • Los endpoints responden correctamente a las peticiones HTTP (GET, POST, PUT, DELETE).<br>• El inicio de sesión y registro interactúan con la base de datos real.<br>• El frontend consume y renderiza correctamente la información obtenida del backend.<br>• La documentación de Swagger es accesible y detalla la estructura de peticiones y respuestas.<br>• No existen dependencias del archivo `db.json` utilizado en el sprint anterior para las funciones integradas. |
+| Resultado esperado | Una Web Application funcional conectada a un backend estable, seguro y documentado, capaz de persistir los datos reales de los dueños de mascotas y clínicas veterinarias de la plataforma PetCare. |
+
+#### 5.2.2.3. Sprint Backlog 3
+
+El Sprint Backlog 3 se ha organizado priorizando las Technical Stories correspondientes al desarrollo del RESTful API y las User Stories necesarias para integrar el frontend con el nuevo backend. Las tareas abarcan la creación de controladores, servicios y repositorios en Spring Boot, la configuración de la base de datos relacional, la documentación con OpenAPI y la conexión de la Web Application en Angular. 
+
+| Sprint # | US ID | User Story Title | Task ID | Task Title | Description | Estimation | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Sprint 3 | TS01 | Gestionar registro por tipo de cuenta | W-01 | Implementar endpoints de registro | Crear los controladores en Spring Boot para registrar dueños de mascotas y clínicas en SQL Server, y documentarlos en Swagger. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | TS02 | Validar autenticación por tipo de cuenta | W-02 | Configurar Spring Security y JWT | Implementar la seguridad del API, validación de credenciales y generación de tokens JWT para el inicio de sesión seguro. | 4 horas | [Asignar miembro] | To-do |
+| Sprint 3 | TS03 | Gestionar perfiles clínicos de mascotas | W-03 | Desarrollar API de perfiles de mascotas | Crear los endpoints (GET, POST, PUT, DELETE) para la gestión de los perfiles de las mascotas en la base de datos. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | TS04 | Proteger consulta de historial clínico | W-04 | Desarrollar API de historial médico | Implementar los endpoints para recuperar el historial médico, validando que solo los usuarios autorizados tengan acceso. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | TS05 | Registrar evolución clínica | W-05 | Implementar registro de diagnósticos | Crear endpoints para que el veterinario pueda registrar nuevos diagnósticos y tratamientos en el historial clínico. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | TS07 | Filtrar veterinarias disponibles | W-06 | Desarrollar buscador de veterinarias | Implementar endpoints con filtros (ubicación y especialidad) consultando a la base de datos relacional. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | US10 | Habilitar cuenta de dueño de mascota | W-07 | Integrar registro en Angular | Reemplazar el mock del frontend conectando el formulario de registro con el nuevo endpoint del backend. | 2 horas | [Asignar miembro] | To-do |
+| Sprint 3 | US12 | Iniciar sesión por tipo de cuenta | W-08 | Integrar Login y manejo de Token | Conectar la vista de inicio de sesión con el API, guardar el JWT recibido y proteger las rutas privadas del frontend. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | US15 | Centralizar perfil clínico de mascota | W-09 | Integrar vista de mascotas | Conectar el dashboard del dueño de mascota para consumir la lista real de mascotas directamente desde el backend. | 2 horas | [Asignar miembro] | To-do |
+| Sprint 3 | US17 | Consultar ficha médica de mascota | W-10 | Integrar vista de historial clínico | Modificar el frontend para renderizar el historial médico y las vacunas obtenidos desde la base de datos. | 2 horas | [Asignar miembro] | To-do |
+| Sprint 3 | US23 | Buscar veterinarias con criterios médicos | W-11 | Integrar buscador en el frontend | Conectar la vista de búsqueda de veterinarias con el API, enviando los parámetros de filtrado reales implementados. | 2 horas | [Asignar miembro] | To-do |
+
+#### 5.2.3.4.Development Evidence for Sprint Review. 
+
+
+
+#### 5.2.3.5.Execution Evidence for Sprint Review. 
+
+
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review. 
+
+
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review. 
+
+
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint. 
+
+
+
+#### 5.3. Validation Interviews. 
+
+
+
+#### 5.3.1. Diseño de Entrevistas.
+
+Para el presente sprint, el objetivo de las entrevistas de validación es evaluar la usabilidad, eficiencia y satisfacción del usuario final tras haber interactuado con la primera versión funcional e integrada de la Web Application de PetCare. 
+
+**Metodología:** Los entrevistados tuvieron acceso previo a la plataforma con una serie de tareas asignadas (registro, gestión de perfiles, historiales médicos y búsqueda). La entrevista grabada se enfoca en recolectar su retroalimentación cualitativa sobre dicha experiencia de uso, identificando puntos de dolor y oportunidades de mejora a nivel de Interfaz (UI) y Experiencia de Usuario (UX).
+
+Se han elaborado dos guiones distintos adaptados a nuestros segmentos objetivo.
+
+---
+
+**Guion A: Segmento - Dueños de Mascotas**
+
+**Fase 1: Introducción**
+* "Hola, muchas gracias por tomarte el tiempo de probar la plataforma PetCare previamente. En esta breve entrevista, te haré algunas preguntas sobre tu experiencia navegando por la aplicación para entender qué funciona bien y qué podemos mejorar."
+
+**Fase 2: Preguntas sobre Tareas y Flujos**
+1. **(Registro y Autenticación):** ¿Qué te pareció el proceso para registrar tu cuenta e iniciar sesión por primera vez? ¿Te resultó claro y rápido?
+2. **(Gestión de Mascotas):** Cuando intentaste añadir los datos de tu mascota en el sistema, ¿sentiste que faltó algún campo importante o la información solicitada fue la adecuada?
+3. **(Historial Clínico):** Al revisar la sección del historial médico y las vacunas de tu mascota, ¿la información estaba organizada de una manera fácil de entender? 
+4. **(Búsqueda de Veterinarias):** Durante tu búsqueda de una clínica veterinaria, ¿los filtros proporcionados (especialidad, ubicación) te ayudaron a encontrar lo que necesitabas?
+
+5. ¿Hubo alguna pantalla o botón durante tu uso de la aplicación que te haya confundido o que no haya funcionado como esperabas?
+6. En una escala del 1 al 5, ¿qué tan intuitiva te pareció la navegación general de la plataforma? ¿Por qué?
+7. ¿Qué funcionalidad mejorarías o agregarías para sentirte más cómodo y seguro gestionando la salud de tu mascota con PetCare?
+
+---
+
+**Guion B: Segmento - Clínicas Veterinarias / Veterinarios**
+
+**Fase 1: Introducción**
+* "Hola, gracias por haber probado el panel de especialistas de PetCare. Nuestro objetivo hoy es conversar sobre tu experiencia registrando información clínica en el sistema, para asegurar que la herramienta se adapte realmente al día a día de una veterinaria."
+
+**Fase 2: Preguntas sobre Tareas y Flujos**
+1. **(Autenticación y Búsqueda):** ¿Cómo calificarías la rapidez y claridad al iniciar sesión y buscar el perfil de un paciente específico en la plataforma?
+2. **(Registro de Diagnósticos):** Al momento de simular el registro de un nuevo diagnóstico o evolución clínica, ¿consideras que los campos del formulario cubren la información esencial que tomas en una consulta real?
+3. **(Validación de Datos):** ¿Notaste algún problema, error o lentitud al momento de guardar la información del paciente en el sistema?
+4. **(Organización Visual):** ¿Qué te pareció la estructura de la línea de tiempo donde se muestran las atenciones pasadas del paciente? ¿Fue fácil de leer?
+5. ¿Hubo algún momento durante tu navegación en el que te sentiste perdido o no supiste cómo regresar a la pantalla anterior?
+6. Pensando en la operatividad de tu clínica, ¿qué tan viable ves reemplazar tu método actual (papel, Excel o tu software actual) por una plataforma como PetCare?
+7. ¿Qué cambio crítico le harías a la interfaz o a las funciones antes de implementarla formalmente en tu negocio?
+
+#### 5.3.2. Registro de Entrevistas.
+
+URL del video: https://drive.google.com/drive/folders/1YMjd51lNQAdM_DYEC-DyYMeVsmwdzVQ-?usp=sharing
+
+**Segmento 1: Dueños de Mascotas
+
+| N | Datos | Descripción | Imagen referencial |
+|---|---|---|---|
+| 1 | Nombre: Brisa Anthonella Supo Pianto <br>Edad: 18 <br>Distrito: San Juan De Lurigancho | | |
+| 2 | Nombre: <br>Edad: <br>Distrito: | | |
+| 3 | Nombre: <br>Edad: <br>Distrito: | | |
+
+**Segmento 2: Veterinarias y especialistas
+
+
+| N | Datos | Descripción | Imagen referencial |
+|---|---|---|---|
+| 1 | Nombre: <br>Apellido: <br>Edad: <br>Distrito: <br>Profesión: <br>Experiencia: <br>Negocio: | | |
+| 2 | Nombre: <br>Apellido: <br>Edad: <br>Distrito: <br>Profesión: <br>Experiencia: <br>Negocio: | | |
+| 3 | Nombre: <br>Apellido: <br>Edad: <br>Distrito: <br>Profesión: <br>Experiencia: <br>Negocio: | | |
+
+#### 5.3.3. Evaluaciones según heurísticas. 
+
 
 # Conclusiones
 
@@ -1741,6 +1899,7 @@ Adicionalmente, se presenta la gráfica de colaboración del repositorio, donde 
 
 - **Lecciones aprendidas y mejora continua:**  
   A través de las retrospectivas de los Sprints, el equipo identificó áreas de mejora como la necesidad de una mayor trazabilidad entre historias de usuario y tareas técnicas. Esto llevó a una refinación del Sprint Backlog y a una mejor organización de los aspectos leaders y collaborators. Se concluye que la integración temprana de wireframes, mockups y user flows (desarrollados en Figma) fue crucial para alinear la visión del producto antes de la implementación, reduciendo retrabajos.
+
 
 
 # Bibliografía
