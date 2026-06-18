@@ -1796,7 +1796,17 @@ El Sprint Backlog 3 se ha organizado priorizando las Technical Stories correspon
 
 #### 5.2.3.4.Development Evidence for Sprint Review. 
 
+En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 3, específicamente en la implementación del Web Service Backend de PetCare, implementando correctamente la exposición de la API y de una arquitectura escalable y segura. 
 
+Los commits registrados evidencian la consolidación de la Web Service. A continuación, se muestra la tabla con los commits más relevantes asociados al repositorio del proyecto, la resolución de requerimientos y la evolución de la infraestructura del backend durante este Sprint:
+
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Co-Designers/PetCare-Backend | main | d843525  | feat: add setup and API usage instructions | Add comprehensive documentation to the README file for the PetCare Platform Backend, detailing environment setup, architecture, and integration. | 15/06/2026 |
+| Co-Designers/PetCare-Backend | main | 9a27d0c  | feat(mobile-interfaces): add mobile REST endpoints | Introduce MobileAppointmentsController to expose REST endpoints for managing mobile professional appointments within the 'mobile' bounded context. | 15/06/2026 |
+| Co-Designers/PetCare-Backend | main | 19cdeb0 | feat(pet-management-interfaces): add pets REST endpoints | Introduce PetsController to expose REST endpoints for managing pets within the 'petmanagement' bounded context. | 15/06/2026 |
+| Co-Designers/PetCare-Backend | main | 3a583c1  | feat(medical-records-domain): add medical record domain model | Introduce the MedicalRecord aggregate root entity within the 'medicalrecords' bounded context to represent comprehensive clinical history data. | 15/06/2026 |
 
 #### 5.2.3.5.Execution Evidence for Sprint Review. 
 
