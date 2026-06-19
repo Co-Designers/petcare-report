@@ -1808,17 +1808,47 @@ Los commits registrados evidencian la consolidación de la Web Service. A contin
 | Co-Designers/PetCare-Backend | main | 19cdeb0 | feat(pet-management-interfaces): add pets REST endpoints | Introduce PetsController to expose REST endpoints for managing pets within the 'petmanagement' bounded context. | 15/06/2026 |
 | Co-Designers/PetCare-Backend | main | 3a583c1  | feat(medical-records-domain): add medical record domain model | Introduce the MedicalRecord aggregate root entity within the 'medicalrecords' bounded context to represent comprehensive clinical history data. | 15/06/2026 |
 
-#### 5.2.3.5.Execution Evidence for Sprint Review. 
+#### 5.2.3.5.Execution Evidence for Sprint Review.<br>
+En este tercer Sprint, el equipo logró con éxito la transición de una arquitectura basada en datos estáticos (mock data) a una arquitectura robusta basada en microservicios RESTful. Se completó la implementación del backend utilizando Spring Boot, estableciendo la persistencia de datos mediante Mysql y garantizando la seguridad de las operaciones mediante JSON Web Tokens (JWT). La integración entre el frontend de Angular y los servicios backend permite ahora un flujo de información real, cumpliendo con los criterios de aceptación de autenticación, gestión de perfiles y búsqueda de servicios veterinarios.<br>
+
+La plataforma ahora cuenta con una API documentada bajo el estándar OpenAPI (Swagger). Esto permite visualizar todos los servicios disponibles (endpoints) y realizar pruebas en tiempo real sin necesidad de herramientas externas.
+
+Evidencia: ingresar imagen http://localhost:0000/swagger-ui/index.html.
 
 
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review. 
 
+### Relación de Endpoints (Sprint 3)
 
+| Endpoint | Verbo | Acción | Descripción |
+| :--- | :--- | :--- | :--- |
+| `/api/v1/authentication/sign-in` | POST | Autenticación | Valida credenciales y genera token JWT. |
+| `/api/v1/authentication/sign-up` | POST | Registro | Crea un nuevo usuario en la plataforma. |
+| `/api/v1/users/me` | GET | Perfil | Obtiene los datos del usuario autenticado. |
+| `/api/v1/pets?ownerId=2` | GET | Listar Mascotas | Obtiene mascotas de un dueño específico. |
+| `/api/v1/appointments?ownerId=2` | GET | Citas (Dueño) | Consulta citas programadas de un dueño. |
+| `/api/v1/appointments?clinicId=1` | GET | Citas (Clínica) | Consulta citas programadas para una clínica. |
+| `/api/v1/service-providers?district=Miraflores` | GET | Buscar Clínicas | Filtra proveedores por distrito. |
+| `/api/v1/mobile-professionals?userId=3` | GET | Profesionales | Obtiene datos de un profesional móvil. |
+| `/api/v1/mobile-services?mobileId=1` | GET | Servicios Móviles | Lista servicios ofrecidos por un profesional. |
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review. 
 
+Durante este Sprint, el objetivo principal fue establecer un entorno de despliegue funcional en la nube para nuestra plataforma PetCare. Nos enfocamos en configurar una Máquina Virtual (VM) en Azure para alojar nuestros servicios, asegurando que tanto el frontend como el backend sean accesibles de forma estable. A diferencia de un entorno automatizado (CI/CD), en esta etapa hemos priorizado la configuración manual y controlada de los recursos para garantizar la correcta integración de nuestra base de datos MySQL con los servicios de backend.<br>
 
+Despliegue del Frontend: La aplicación web (Angular) se desplegó utilizando GitHub Pages. Esta configuración permite que los cambios en nuestra interfaz sean publicados de manera ágil, facilitando el acceso a la plataforma desde cualquier lugar.
+
+Configuración del Backend en Azure: Provisionamos una Máquina Virtual (VM) en Microsoft Azure para alojar el backend (Spring Boot). Se realizaron las configuraciones necesarias en el sistema operativo y el entorno de ejecución (Java) para asegurar que la API esté disponible de forma permanente.
+
+Gestión de Base de Datos (MySQL): Implementamos nuestra base de datos en MySQL, configurando las reglas de acceso necesarias dentro de la infraestructura de Azure. Esto permite que el backend pueda conectarse de forma segura y persistir la información real de nuestros usuarios y servicios veterinarios.
+
+
+#Captura de Azure: Muestra el panel de control de tu Azure VM donde se vea que el estado es "Running" (ejecutándose).#
+
+#Captura de GitHub Pages: Muestra la pestaña de Settings > Pages de tu repositorio para confirmar el enlace público del frontend.#
+
+#Captura de Conexión: Muestra una pequeña prueba (como un cliente de MySQL o el log de tu aplicación) donde se vea que el backend está logrando conectarse a la base de datos en la nube.#
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint. 
 
