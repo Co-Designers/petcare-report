@@ -1899,6 +1899,92 @@ URL del video: https://drive.google.com/drive/folders/1YMjd51lNQAdM_DYEC-DyYMeVs
 
 #### 5.3.3. Evaluaciones según heurísticas. 
 
+### 5.2.3.5. Evaluaciones según heurísticas
+La evaluación heurística permite identificar problemas de usabilidad en una interfaz mediante el análisis sistemático contra principios establecidos. Para el segmento de Clínicas Veterinarias / Veterinarios, se aplicó el método de evaluación de Jakob Nielsen con sus 10 principios de usabilidad, transformando el feedback recopilado durante las entrevistas de validación en métricas e indicaciones de ingeniería de software claras.
+
+**Aplicación de las 10 Heurísticas de Nielsen:**
+
+| # | Principio | Descripción |
+|---|-----------|-------------|
+| 1 | Visibilidad del estado del sistema | El sistema debe mantener al usuario informado sobre lo que está aconteciendo. |
+| 2 | Compatibilidad con el mundo real | El sistema debe hablar el lenguaje y seguir las convenciones del usuario. |
+| 3 | Control y libertad del usuario | Funciones de deshacer, rehacer y salidas fáciles disponibles. |
+| 4 | Consistencia y estándares | Uso consistente de convenciones en todos los elementos de la interfaz. |
+| 5 | Prevención de errores | Diseño limpio que evite proactivamente que ocurran equivocaciones. |
+| 6 | Reconocimiento antes que recuerdo | Minimizar la carga de memoria mostrando objetos, acciones y opciones visibles. |
+| 7 | Flexibilidad y eficiencia de uso | Presencia de aceleradores y automatizaciones para usuarios experimentados. |
+| 8 | Diseño estético y minimalista | Eliminar información irrelevante o raramente necesaria de los flujos. |
+| 9 | Recuperación de errores | Mensajes de error claros que indiquen el problema y aporten soluciones. |
+| 10 | Ayuda y documentación | Sistema intuitivo acompañado de documentación enfocada en tareas. |
+
+**Escala de Severidad:**
+* **0 - Sin problema:** No se detecta ningún problema de usabilidad.
+* **1 - Problema cosmético:** Detalle visual menor; no interfiere con el flujo ni requiere ser arreglado con urgencia.
+* **2 - Problema menor:** Afecta ligeramente la fluidez; debe ser arreglado en el siguiente ciclo.
+* **3 - Problema grave:** Interrupción molesta en el flujo o falta de datos críticos; alta prioridad de desarrollo.
+* **4 - Catástrofe:** Bloquea por completo la operatividad; debe arreglarse de forma inmediata antes del lanzamiento.
+
+---
+
+#### Resultados de la Evaluación Heurística - Clínicas Veterinarias
+
+**Entrevista N°1 - Dr. Alejandro Peralta Castro (Veterinario Clínico, Lince)**
+
+| Hallazgo | Heurística | Severidad | Descripción |
+|----------|------------|-----------|-------------|
+| Falta de campos para registrar signos vitales básicos | Compatibilidad con el mundo real | 3 | El formulario clínico no incluye espacios nativos e independientes para peso, temperatura o frecuencias cardíaca/respiratoria. |
+| El backend persiste y almacena datos de forma limpia | — | 0 | La creación y guardado de agregados clínicos (`MedicalRecord`) funciona velozmente y sin retrasos. |
+| Navegación profunda sin salida rápida | Control y libertad del usuario | 2 | Tras ingresar a los detalles del historial, obliga a usar el menú lateral en lugar de poseer un botón contextualizado de "Volver". |
+
+**Entrevista N°2 - Dra. Beatriz Mendoza Rey (Dueña de Clínica, Surco)**
+
+| Hallazgo | Heurística | Severidad | Descripción |
+|----------|------------|-----------|-------------|
+| Limitación en los criterios de búsqueda de pacientes | Flexibilidad y eficiencia de uso | 2 | Solo permite buscar por datos directos de la mascota, ralentizando la recepción si el cliente solo recuerda su DNI o teléfono. |
+| Flujo desconectado entre agenda y atención clínica | Flexibilidad y eficiencia de uso | 3 | El módulo de citas no cuenta con un acceso directo ("Atender") para instanciar automáticamente el formulario de historial médico. |
+| Edición del historial desprotegida en el frontend | Prevención de errores | 3 | Falta bloquear o restringir campos de diagnóstico y tratamiento en la interfaz para evitar modificaciones por personal no médico. |
+| La línea de tiempo cronológica es clara | Reconocimiento antes que recuerdo | 0 | La disposición secuencial de las atenciones pasadas facilita el diagnóstico colaborativo inmediatamente. |
+
+**Entrevista N°3 - Dr. Manuel Zegarra Vivanco (Veterinario Senior, San Borja)**
+
+| Hallazgo | Heurística | Severidad | Descripción |
+|----------|------------|-----------|-------------|
+| Interfaz carece de indicador de carga en transacciones | Visibilidad del estado del sistema | 3 | Al procesar la confirmación del guardado, la pantalla se mantiene fija sin un *spinner*, generando incertidumbre en el usuario. |
+| Elementos con problemas de legibilidad y accesibilidad | Diseño estético y minimalista | 2 | Cajas de texto, iconos de búsqueda y fuentes son muy pequeños para médicos de edad avanzada o con fatiga visual. |
+| Fechas de revacunación sin automatización de asistencia | Flexibilidad y eficiencia de uso | 2 | El usuario debe calcular y seleccionar manualmente en el calendario el campo `nextDueDate` en vez de recibir sugerencias por defecto. |
+| Captura repetitiva de textos clínicos comunes | Flexibilidad y eficiencia de uso | 2 | El sistema obliga a redactar desde cero diagnósticos o tratamientos idénticos de protocolos altamente recurrentes. |
+
+---
+
+#### Resumen Consolidado
+
+| Nivel de Severidad | Cantidad de Hallazgos | Porcentaje |
+|-------------------|----------------------|-------------|
+| Catástrofe (4) | 0 | 0% |
+| Grave (3) | 4 | 40% |
+| Menor (2) | 5 | 50% |
+| Cosmético (1) | 0 | 0% |
+| Sin problema (0) | 2 | 10% |
+
+**Total de incidencias analizadas: 11 hallazgos**
+
+---
+
+#### Hallazgos Prioritarios a Resolver
+
+| # | Hallazgo | Severidad | Recomendación de Ingeniería de Software |
+|---|----------|-----------|-----------------------------------------|
+| 1 | Pantalla estática sin indicador visual de guardado o procesamiento | 3 | Integrar animaciones de carga (*spinners*) y notificaciones emergentes de tipo *Toast* tras resolver las solicitudes HTTP POST/PUT. |
+| 2 | Ausencia de inputs para constantes y funciones biológicas básicas | 3 | Modificar la UI y extender la entidad del backend para capturar estructuradamente peso, temperatura y signos vitales antes del diagnóstico. |
+| 3 | Falta de botón de acción inmediata "Atender" en el listado de citas | 3 | Enlazar los contextos `appointmentmanagement` y `medicalrecords` en la UI mediante un desencadenador que autocomplete los IDs en el formulario. |
+| 4 | Ausencia de segregación de permisos de edición en la interfaz médica | 3 | Consumir el rol del token JWT (`iam` context) para deshabilitar las acciones de escritura en el historial clínico si el usuario no posee el rol `CLINIC`. |
+| 5 | Accesibilidad reducida por tamaño de fuentes y controles web | 2 | Optimizar las hojas de estilo (CSS) incrementando el contraste de color y aplicando variables proporcionales para mejorar la lectura. |
+
+---
+
+#### Conclusión
+
+El Web Service Backend de PetCare exhibe un comportamiento técnico robusto y estable en cuanto a la persistencia de datos. Sin embargo, la evaluación heurística orientada al segmento clínico expone la necesidad de sincronizar con mayor precisión la interfaz web con el flujo dinámico de una consulta veterinaria real. Resolver la visibilidad de los estados de carga, flexibilizar la búsqueda de historiales por dueño y estructurar las métricas de salud básica elevará la viabilidad del software para reemplazar por completo el uso de papel o plantillas locales de oficina en los negocios asociados.
 
 # Conclusiones
 
