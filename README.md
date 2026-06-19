@@ -1845,10 +1845,6 @@ Configuración del Backend en Azure: Provisionamos una Máquina Virtual (VM) en 
 
 Gestión de Base de Datos (MySQL): Implementamos nuestra base de datos en MySQL, configurando las reglas de acceso necesarias dentro de la infraestructura de Docker. Esto permite que el backend pueda conectarse de forma segura y persistir la información real de nuestros usuarios y servicios veterinarios.
 
-#Captura de Azure: Muestra el panel de control de tu Azure VM donde se vea que el estado es "Running" (ejecutándose).#
-
-#Captura de GitHub Pages: Muestra la pestaña de Settings > Pages de tu repositorio para confirmar el enlace público del frontend.#
-
 La siguiente imagen muestra el esquema de tablas en MySQL Workbench, el cual garantiza la persistencia de datos del sistema. El backend (alojado en Azure VM) se encuentra correctamente conectado a este motor de base de datos, permitiendo la gestión y almacenamiento seguro de la información de usuarios, mascotas y citas en tiempo real.<br><br>
 <img src = "assets/dbEvidencia1.jpg"><br><br>
 <img src = "assets/dbEvidencia2.jpg"><br><br>
