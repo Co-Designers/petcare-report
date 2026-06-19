@@ -1813,7 +1813,7 @@ En este tercer Sprint, el equipo logró con éxito la transición de una arquite
 
 La plataforma ahora cuenta con una API documentada bajo el estándar OpenAPI (Swagger). Esto permite visualizar todos los servicios disponibles (endpoints) y realizar pruebas en tiempo real sin necesidad de herramientas externas.
 
-Evidencia: <img src="assets/swaggerEvidencia1.jpg"><br><br>
+Evidencia: <img src="assets/swaggerEvidencia1.jpeg"><br><br>
 <img src="assets/swaggerEvidencia2.jpg"><br><br>
  https://docs.google.com/document/d/1j-y7yHdcBXKkSNk_jb5tRmIFZgX7Qo11NsIOVeYtS2g/edit?tab=t.0
 
