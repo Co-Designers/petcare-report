@@ -1815,7 +1815,7 @@ La plataforma ahora cuenta con una API documentada bajo el estándar OpenAPI (Sw
 
 Evidencia: <img src="assets/swaggerEvidencia1.jpg"><br><br>
 <img src="assets/swaggerEvidencia2.jpg"><br><br>
- http://localhost:0000/swagger-ui/index.html.
+ https://docs.google.com/document/d/1j-y7yHdcBXKkSNk_jb5tRmIFZgX7Qo11NsIOVeYtS2g/edit?tab=t.0
 
 
 
