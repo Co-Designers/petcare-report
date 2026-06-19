@@ -1813,7 +1813,9 @@ En este tercer Sprint, el equipo logró con éxito la transición de una arquite
 
 La plataforma ahora cuenta con una API documentada bajo el estándar OpenAPI (Swagger). Esto permite visualizar todos los servicios disponibles (endpoints) y realizar pruebas en tiempo real sin necesidad de herramientas externas.
 
-Evidencia: ingresar imagen http://localhost:0000/swagger-ui/index.html.
+Evidencia: <img src="assets/swaggerEvidencia1.jpg"><br><br>
+<img src="assets/swaggerEvidencia2.jpg"><br><br>
+ http://localhost:0000/swagger-ui/index.html.
 
 
 
@@ -1841,15 +1843,15 @@ Despliegue del Frontend: La aplicación web (Angular) se desplegó utilizando Gi
 
 Configuración del Backend en Azure: Provisionamos una Máquina Virtual (VM) en Microsoft Azure para alojar el backend (Spring Boot). Se realizaron las configuraciones necesarias en el sistema operativo y el entorno de ejecución (Java) para asegurar que la API esté disponible de forma permanente.
 
-Gestión de Base de Datos (MySQL): Implementamos nuestra base de datos en MySQL, configurando las reglas de acceso necesarias dentro de la infraestructura de Azure. Esto permite que el backend pueda conectarse de forma segura y persistir la información real de nuestros usuarios y servicios veterinarios.
-
+Gestión de Base de Datos (MySQL): Implementamos nuestra base de datos en MySQL, configurando las reglas de acceso necesarias dentro de la infraestructura de Docker. Esto permite que el backend pueda conectarse de forma segura y persistir la información real de nuestros usuarios y servicios veterinarios.
 
 #Captura de Azure: Muestra el panel de control de tu Azure VM donde se vea que el estado es "Running" (ejecutándose).#
 
 #Captura de GitHub Pages: Muestra la pestaña de Settings > Pages de tu repositorio para confirmar el enlace público del frontend.#
 
-#Captura de Conexión: Muestra una pequeña prueba (como un cliente de MySQL o el log de tu aplicación) donde se vea que el backend está logrando conectarse a la base de datos en la nube.#
-
+La siguiente imagen muestra el esquema de tablas en MySQL Workbench, el cual garantiza la persistencia de datos del sistema. El backend (alojado en Azure VM) se encuentra correctamente conectado a este motor de base de datos, permitiendo la gestión y almacenamiento seguro de la información de usuarios, mascotas y citas en tiempo real.<br><br>
+<img src = "assets/dbEvidencia1.jpg"><br><br>
+<img src = "assets/dbEvidencia2.jpg"><br><br>
 #### 5.2.3.8.Team Collaboration Insights during Sprint. 
 
 En esta sección se presenta la evidencia de colaboración del equipo durante el Sprint 3, cuyo enfoque principal fue el desarrollo del Web Service Backend de PetCare. 
