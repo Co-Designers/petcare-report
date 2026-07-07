@@ -1951,7 +1951,7 @@ Principales vistas implementadas:
 <img src="assets/dashboardVeterinaria.jpeg"><br>
 
 
--Gestion de Historial:Visualización de los datos del paciente y la opción de exportación a PDF.
+-Gestion de Historial:Visualización de los datos del paciente.
 <br>
 <img src="assets/GestionHistorialClinico.jpeg"><br>
 
