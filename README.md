@@ -1946,9 +1946,70 @@ Principales vistas implementadas:
 
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review.
 
+En el Sprint 4 se completó la documentación de los servicios RESTful API de PetCare utilizando **OpenAPI 3.1.0**, accesible a través de **Swagger UI**. Durante esta iteración final se consolidaron y documentaron los endpoints principales correspondientes a los diferentes bounded contexts del sistema, incluyendo autenticación, gestión de usuarios, mascotas, citas, historial médico, clínicas, veterinarios, servicios móviles y notificaciones.
+
+La documentación está desplegada en el entorno de producción de Azure y puede ser consultada en el siguiente enlace:
+
+🔗 **Swagger UI:** [https://petcare-platform-api-u20241e242.azurewebsites.net/swagger-ui/index.html](https://petcare-platform-api-u20241e242.azurewebsites.net/swagger-ui/index.html)
+
+
+##### Relación de Endpoints Documentados
+
+A continuación se presentan los endpoints más relevantes expuestos por el backend de PetCare, agrupados por controlador. Se incluyen aquellos que representan operaciones de negocio clave (registro, autenticación, gestión de perfiles, citas, historial clínico y servicios móviles). Para cada uno se detalla su método, descripción y parámetros principales.
+
+| Controlador | Endpoint | Método | Descripción | Parámetros/Documentación |
+|-------------|----------|--------|-------------|---------------------------|
+| **authentication-controller** | `/api/v1/authentication/sign-up/owner` | POST | Registra un nuevo dueño de mascota. | Body: `firstName`, `lastName`, `email`, `password`, `phone`. Email único. |
+| | `/api/v1/authentication/sign-up/clinic` | POST | Registra una nueva clínica veterinaria. | Body: `businessName`, `ruc`, `email`, `password`, `phone`, `address`. RUC y email únicos. |
+| | `/api/v1/authentication/sign-up/mobile-professional` | POST | Registra un profesional de servicios móviles. | Body: `firstName`, `lastName`, `email`, `password`, `phone`, `specialty`. Email único. |
+| | `/api/v1/authentication/sign-in` | POST | Autentica usuario y devuelve token JWT. | Body: `email`, `password`. Devuelve `token`, `userId`, `role`. |
+| | `/api/v1/authentication/change-password` | POST | Cambia la contraseña del usuario autenticado. | Header: Bearer token. Body: `oldPassword`, `newPassword`. |
+| **users-controller** | `/api/v1/users/me` | GET | Obtiene los datos del usuario autenticado. | Header: Bearer token. |
+| | `/api/v1/users/{userId}` | PATCH | Actualiza datos parciales de un usuario. | Path: `userId`. Header: Bearer token. Body: campos a actualizar. |
+| **pets-controller** | `/api/v1/pets` | POST | Registra una nueva mascota. | Header: Bearer token. Body: `name`, `species`, `breed`, `age`, `weight`, `allergies`. Valida límites por suscripción. |
+| | `/api/v1/pets/{petId}` | PUT | Actualiza todos los datos de una mascota. | Path: `petId`. Header: Bearer token. Body: datos completos. |
+| **medical-records-controller** | `/api/v1/medical-records` | POST | Añade un nuevo registro médico. | Header: Bearer token. Body: `petId`, `diagnosis`, `treatment`, `notes`. Solo veterinarios autorizados. |
+| **appointments-controller** | `/api/v1/appointments` | POST | Agenda una nueva cita veterinaria. | Header: Bearer token. Body: `petId`, `clinicId`, `serviceId`, `dateTime`. Valida disponibilidad real. |
+| | `/api/v1/appointments/{appointmentId}/start` | PATCH | Marca una cita como iniciada. | Path: `appointmentId`. Header: Bearer token. Solo veterinarios/clínica. |
+| | `/api/v1/appointments/{appointmentId}/complete` | PATCH | Marca una cita como completada. | Path: `appointmentId`. Header: Bearer token. Solo veterinarios/clínica. |
+| | `/api/v1/appointments/{appointmentId}/cancel` | PATCH | Cancela una cita. | Path: `appointmentId`. Header: Bearer token. Libera el horario. |
+| | `/api/v1/appointments/available-slots` | GET | Verifica horarios disponibles para una clínica. | Query: `clinicId`, `date` (yyyy-MM-dd). Header: Bearer token. |
+| **clinics-controller** | `/api/v1/clinics` | POST | Registra una nueva clínica (solo administradores). | Header: Bearer token. Body: datos de la clínica. |
+| | `/api/v1/clinics/{clinicId}` | PATCH | Actualiza datos parciales de una clínica. | Path: `clinicId`. Header: Bearer token. Body: campos a actualizar. |
+| **veterinarians-controller** | `/api/v1/veterinarians` | POST | Registra un nuevo veterinario. | Header: Bearer token. Body: `firstName`, `lastName`, `specialty`, `clinicId`. |
+| | `/api/v1/veterinarians/{veterinarianId}` | PUT | Actualiza todos los datos de un veterinario. | Path: `veterinarianId`. Header: Bearer token. Body: datos completos. |
+| **clinic-services-controller** | `/api/v1/services` | POST | Registra un nuevo servicio veterinario. | Header: Bearer token. Body: `name`, `description`, `price`, `clinicId`. |
+| | `/api/v1/services/{serviceId}` | PUT | Actualiza todos los datos de un servicio. | Path: `serviceId`. Header: Bearer token. Body: datos completos. |
+| **service-providers-controller** | `/api/v1/service-providers` | GET | Obtiene proveedores de servicios (clínicas o profesionales). | Query: `type` (CLINIC/MOBILE), `location`. Header: Bearer token (opcional). |
+| **mobile-professionals-controller** | `/api/v1/mobile-professionals` | POST | Registra un nuevo profesional móvil. | Header: Bearer token. Body: `firstName`, `lastName`, `email`, `phone`, `specialty`. |
+| | `/api/v1/mobile-professionals/{id}` | PUT | Actualiza todos los datos de un profesional móvil. | Path: `id`. Header: Bearer token. Body: datos completos. |
+| **mobile-services-controller** | `/api/v1/mobile-services` | POST | Registra un nuevo servicio móvil. | Header: Bearer token. Body: `professionalId`, `name`, `description`, `price`. |
+| | `/api/v1/mobile-services/{id}` | PUT | Actualiza todos los datos de un servicio móvil. | Path: `id`. Header: Bearer token. Body: datos completos. |
+| **mobile-availability-controller** | `/api/v1/mobile-availability` | POST | Registra un nuevo bloque de disponibilidad. | Header: Bearer token. Body: `professionalId`, `dayOfWeek`, `startTime`, `endTime`. |
+| | `/api/v1/mobile-availability/{id}` | PUT | Actualiza un bloque de disponibilidad. | Path: `id`. Header: Bearer token. Body: datos completos. |
+| **mobile-requests-controller** | `/api/v1/mobile-requests` | POST | Registra una nueva solicitud de servicio móvil. | Header: Bearer token. Body: `petId`, `professionalId`, `serviceId`, `dateTime`. |
+| | `/api/v1/mobile-requests/{id}/start` | PATCH | Marca una solicitud como iniciada. | Path: `id`. Header: Bearer token. Solo el profesional asignado. |
+| | `/api/v1/mobile-requests/{id}/complete` | PATCH | Marca una solicitud como completada. | Path: `id`. Header: Bearer token. Solo el profesional asignado. |
+| | `/api/v1/mobile-requests/{id}/cancel` | PATCH | Cancela una solicitud. | Path: `id`. Header: Bearer token. Libera el horario. |
+| | `/api/v1/mobile-requests/available-slots` | GET | Verifica horarios disponibles para solicitudes móviles. | Query: `professionalId`, `date` (yyyy-MM-dd). Header: Bearer token. |
+| **mobile-appointments-controller** | `/api/v1/mobile-appointments` | POST | Agenda una cita de servicio a domicilio. | Header: Bearer token. Body: `requestId`, `dateTime`. |
+| **notifications-controller** | `/api/v1/notifications/{id}/read` | PATCH | Marca una notificación como leída. | Path: `id`. Header: Bearer token. Solo el propietario. |
+| **patients-controller** | `/api/v1/patients` | GET | Obtiene todos los pacientes (mascotas) de una clínica. | Query: `clinicId`. Header: Bearer token. Solo personal de la clínica. |
+| **roles-controller** | `/api/v1/roles` | GET | Obtiene todos los roles disponibles. | Header: Bearer token. Solo administradores. |
+
+##### Observación sobre Endpoints de Pagos y Monitoreo IoT
+
+Tras la revisión exhaustiva de la documentación OpenAPI, **no se encontraron endpoints específicos para pagos digitales** (ej. `/api/v1/payments`) **ni para monitoreo IoT** (ej. `/api/v1/iot/devices` o `/api/v1/iot/readings`). Estas funcionalidades, si bien fueron consideradas en el diseño inicial y en las User Stories (US28, TS10, TS12), no han sido implementadas en la versión final del backend para el TB2.
+
+**Justificación:** El equipo priorizó la implementación del núcleo funcional de la plataforma (autenticación, gestión de mascotas, citas, historial clínico y servicios móviles) por encima de los módulos de pago e IoT, que quedan como **trabajo pendiente para futuras iteraciones** del producto. Se recomienda documentar estos servicios en próximos sprints, siguiendo el mismo estándar OpenAPI, y desplegarlos en el entorno de producción.
+
+
+
 #### 5.2.4.7.Software Deployment Evidence for Sprint Review.
 
 #### 5.2.4.8.Team Collaboration Insights during Sprint.
+
+
 
 #### 5.3. Validation Interviews. 
 
