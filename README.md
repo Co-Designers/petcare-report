@@ -1748,6 +1748,10 @@ Adicionalmente, se presenta la gráfica de colaboración del repositorio, donde 
 - **Lecciones aprendidas y mejora continua:**  
   A través de las retrospectivas de los Sprints, el equipo identificó áreas de mejora como la necesidad de una mayor trazabilidad entre historias de usuario y tareas técnicas. Esto llevó a una refinación del Sprint Backlog y a una mejor organización de los aspectos leaders y collaborators. Se concluye que la integración temprana de wireframes, mockups y user flows (desarrollados en Figma) fue crucial para alinear la visión del producto antes de la implementación, reduciendo retrabajos.
 
+  # Video About The Team
+<img src="assets/abouttheteam.png" width="100%">
+[Enlace al Video]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a118_upc_edu_pe/IQC-XDpYZbt3Q7gBgmh65OdnAXNK_PjEKsUfb1jkxm94XC0?e=NOVCbM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221a118_upc_edu_pe/IgBXVj9IfV2aRIaglGvBtEomAXz7abU0DTM_hsZQda6fyh0?e=BXqbjZ))
+
 
 # Bibliografía
 
