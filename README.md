@@ -2016,6 +2016,38 @@ Tras la revisión exhaustiva de la documentación OpenAPI, **no se encontraron e
 
 #### 5.2.4.7.Software Deployment Evidence for Sprint Review.
 
+Durante el Sprint 4, se consolidó el despliegue final de la plataforma PetCare en el entorno de producción en la nube de **Microsoft Azure**. El equipo configuró y desplegó los servicios backend (RESTful API) en una máquina virtual de Azure, asegurando que la aplicación esté accesible de forma estable y que la base de datos MySQL esté correctamente conectada y configurada para la persistencia de datos en producción.
+
+##### Despliegue del Backend en Azure
+
+A continuación se muestran las capturas del proceso de configuración y despliegue del backend en Azure durante el Sprint 4.
+
+
+![](assets/EvidenceSprint4/swagger0.1.jpeg)
+
+![](assets/EvidenceSprint4/swagger0.2.jpeg)
+
+![](assets/EvidenceSprint4/swagger0.3.jpeg)
+
+![](assets/EvidenceSprint4/swagger0.4.jpeg)
+
+##### Validación del Despliegue a través de Swagger UI
+
+Una vez completado el despliegue del backend en Azure, se procedió a verificar el correcto funcionamiento de la API a través de la documentación Swagger UI. Las siguientes capturas muestran la validación de los diferentes controladores y endpoints disponibles en la versión desplegada.
+![](assets/EvidenceSprint4/swagger1.png)
+
+![](assets/EvidenceSprint4/swagger2.png)
+
+![](assets/EvidenceSprint4/swagger3.png)
+
+![](assets/EvidenceSprint4/swagger4.png)
+
+![](assets/EvidenceSprint4/swagger5.png)
+
+![](assets/EvidenceSprint4/swagger6.png)
+
+![](assets/EvidenceSprint4/swagger7.png)
+
 #### 5.2.4.8.Team Collaboration Insights during Sprint.
 
 
