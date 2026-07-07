@@ -29,6 +29,10 @@
 
 <br><br>
 
+
+<div style="page-break-after: always;"></div>
+
+
 ## Registro de Versiones del Informe
 
 <div align="justify">
@@ -2218,27 +2222,93 @@ La evaluación heurística permite identificar problemas de usabilidad en una in
 | 5 | Accesibilidad reducida por tamaño de fuentes y controles web | 2 | Optimizar las hojas de estilo (CSS) incrementando el contraste de color y aplicando variables proporcionales para mejorar la lectura. |
 
 ---
+## Conclusiones
 
-#### Conclusión
+**Validación de la problemática y oportunidad de mercado**
 
-El Web Service Backend de PetCare exhibe un comportamiento técnico robusto y estable en cuanto a la persistencia de datos. Sin embargo, la evaluación heurística orientada al segmento clínico expone la necesidad de sincronizar con mayor precisión la interfaz web con el flujo dinámico de una consulta veterinaria real. Resolver la visibilidad de los estados de carga, flexibilizar la búsqueda de historiales por dueño y estructurar las métricas de salud básica elevará la viabilidad del software para reemplazar por completo el uso de papel o plantillas locales de oficina en los negocios asociados.
+A través de las entrevistas a profundidad y el análisis competitivo, se confirmó la existencia de una brecha significativa en el ecosistema veterinario digital. Los dueños de mascotas y las clínicas veterinarias enfrentan problemas de desorganización de historiales clínicos, comunicación ineficiente (WhatsApp/físico) y falta de herramientas de prevención. Esta validación justificó plenamente la propuesta de valor de PetCare como una plataforma unificada que integra IA e IoT para medicina preventiva.
 
-# Conclusiones
+**Eficacia del proceso Lean UX y DDD**
 
-- **Validación de la problemática y oportunidad de mercado:**  
-  A través de las entrevistas a profundidad y el análisis competitivo, se confirmó la existencia de una brecha significativa en el ecosistema veterinario digital. Los dueños de mascotas (Segmento 1) y las clínicas veterinarias (Segmento 2) enfrentan problemas de desorganización de historiales clínicos, comunicación ineficiente (WhatsApp/físico) y falta de herramientas de prevención. Esta validación justificó plenamente la propuesta de valor de PetCare como una plataforma unificada que integra IA e IoT para medicina preventiva.
+La aplicación del proceso Lean UX permitió al equipo formular hipótesis claras, definir assumptions y construir un Lean UX Canvas que alineó los outcomes de negocio con las soluciones tecnológicas. Complementariamente, el uso de Domain-Driven Design (DDD) y la técnica de Event Storming (Big Picture y Design-Level) facilitó la creación de un lenguaje ubicuo (Ubiquitous Language) y una arquitectura de software bien delimitada, reduciendo la complejidad comunicacional entre los stakeholders y el equipo técnico.
 
-- **Eficacia del proceso Lean UX y DDD:**  
-  La aplicación del proceso Lean UX permitió al equipo formular hipótesis claras, definir assumptions y construir un Lean UX Canvas que alineó los outcomes de negocio con las soluciones tecnológicas. Complementariamente, el uso de Domain-Driven Design (DDD) y la técnica de Event Storming (Big Picture y Design-Level) facilitó la creación de un lenguaje ubicuo (*Ubiquitous Language*) y una arquitectura de software bien delimitada, reduciendo la complejidad comunicacional entre los stakeholders y el equipo técnico.
+**Implementación de buenas prácticas en el desarrollo**
 
-- **Implementación funcional y despliegue continuo:**  
-  Se ejecutaron dos Sprints completos con resultados tangibles. El Sprint 1 entregó un Landing Page responsive, informativo y con soporte de internacionalización (ES/EN), desplegado exitosamente mediante GitHub Pages. El Sprint 2 avanzó significativamente al implementar una primera versión funcional de la Web Application, incluyendo vistas diferenciadas para dueños de mascotas y veterinarias, autenticación simulada con json-server, paneles de control, gestión de mascotas, historial médico, búsqueda de veterinarias, agenda y monitoreo IoT de prueba. Ambos componentes están accesibles públicamente.
+Durante el proyecto se mantuvo un enfoque riguroso en la calidad del código. Se respetaron los estándares de codificación definidos por el equipo (HTML, CSS, JavaScript, TypeScript y Java), se utilizó Git de forma estructurada aplicando GitFlow para el control de versiones, y se aplicaron convenciones claras en los mensajes de commit mediante Conventional Commits. Esto permitió construir una base de código modular, escalable y fácil de mantener, sentando las bases necesarias para el desarrollo de la solución.
+
+**Enfoque centrado en el usuario**
+
+Las decisiones de diseño y estructura se tomaron considerando las necesidades reales de los usuarios identificadas en las entrevistas. Se priorizó la claridad visual, la navegación intuitiva y la accesibilidad, con el objetivo de ofrecer una interfaz amigable y funcional. Las vistas fueron organizadas por contexto (dueños de mascotas y veterinarias) y se alinearon con los flujos definidos en los user stories, lo que permitió una integración coherente entre frontend y backend. La implementación de internacionalización (i18n) garantiza la accesibilidad para audiencias hispano e inglés.
+
+**Lecciones aprendidas durante el proceso**
+
+A lo largo del proceso se identificaron oportunidades de mejora en la planificación de tareas y en la sincronización entre miembros del equipo. Se evidenció la importancia de mantener una comunicación constante y de revisar los avances de forma iterativa a través de las retrospectivas de los Sprints. Estos aprendizajes fortalecen la capacidad del equipo para mejorar la eficiencia y asegurar el cumplimiento de los objetivos establecidos en ciclos futuros.
+
+**Integración técnica y modularidad**
+
+Se avanzó en la organización del proyecto por Contextos Funcionales (Bounded Contexts), separando componentes, servicios y recursos según su dominio (DDD): Authentication, Users, Pets, Medical Records, Appointments, Clinics, Veterinarians, Mobile Services y Notifications. Esta estructura permitió una mayor claridad en el flujo de datos, facilitó la reutilización de componentes y mejoró la mantenibilidad del código. Además, se aplicaron principios de arquitectura limpia y diseño orientado a componentes en el backend con Spring Boot.
+
+**Colaboración y revisión entre pares**
+
+Durante el proyecto se promovió la revisión cruzada de código entre integrantes del equipo a través de Pull Requests en GitHub, lo que permitió detectar errores tempranos, compartir buenas prácticas y fortalecer la cohesión técnica. La matriz de liderazgo y colaboración (LACX) establecida en cada Sprint permitió una distribución clara de responsabilidades, asegurando que todos los miembros contribuyeran activamente al desarrollo de los productos digitales.
+
+**Validación de la arquitectura y flujos principales**
+
+La integración de los módulos de autenticación, gestión de usuarios, mascotas, citas, historial médico, clínicas y servicios móviles permitió la validación completa de la arquitectura propuesta y los flujos principales de la plataforma. La documentación OpenAPI/Swagger facilitó la verificación temprana de los procesos clave, confirmando la viabilidad técnica de la solución. Las entrevistas de validación con usuarios reales confirmaron la usabilidad y efectividad de la plataforma.
+
+**Gestión ágil y trabajo colaborativo**
+
+El equipo aplicó metodologías ágiles (Scrum), organizando el trabajo en cuatro Sprints y utilizando herramientas como GitHub Projects y Trello para la gestión de tareas. Esto permitió una mejor visibilidad del avance, una rápida adaptación ante cambios o bloqueos, y la entrega incremental de valor a través de cada iteración.
+
+**Despliegue y automatización**
+
+El despliegue exitoso en Azure (Backend) y GitHub Pages (Landing Page y Frontend) garantiza accesibilidad y actualizaciones automáticas, lo que agiliza la entrega continua y la validación con usuarios reales, demostrando la viabilidad de la solución en un entorno de producción. La configuración de la base de datos MySQL en Azure asegura la persistencia y disponibilidad de los datos.
+
+**Documentación y trazabilidad**
+
+Se establecieron procesos claros de documentación en el informe del proyecto, incluyendo diagramas C4, User Stories, Impact Mapping, Wireframes, Mockups y diagramas de base de datos. Las convenciones en los mensajes de commit (Conventional Commits) y el uso de Semantic Versioning facilitan la trazabilidad y el mantenimiento del proyecto a largo plazo. La documentación OpenAPI de los servicios RESTful permite a los desarrolladores consumir la API de manera eficiente.
+
+**Fundamentos Técnicos Establecidos**
+
+- La arquitectura basada en Domain-Driven Design (DDD) facilita el desarrollo escalable de la solución.
+- El despliegue exitoso en Azure y GitHub Pages demuestra la viabilidad técnica del proyecto.
+- Se establecieron procesos claros de desarrollo, documentación y control de versiones para futuras entregas.
+- La integración entre frontend (Angular) y backend (Spring Boot) ha sido validada exitosamente.
+
+Esta entrega final ha sentado las bases necesarias para desarrollar una solución que responda efectivamente a las necesidades del sector veterinario, con un enfoque centrado en el usuario y una arquitectura sólida para el crecimiento futuro del producto PetCare.
 
 - **Cumplimiento del Student Outcome ABET – EAC - Criterio 3:**  
   El equipo demostró una capacidad efectiva para comunicarse con diferentes rangos de audiencia. Durante las exposiciones orales (AV1, TB1), se utilizó un lenguaje claro y empático para los usuarios finales, mientras que en las coordinaciones técnicas se empleó terminología especializada (microservicios, DDD, IoT). En la comunicación escrita, se generó documentación técnica profesional (diagramas C4, User Stories, manuales de estilo) junto con artefactos visuales (wireframes, mockups) para audiencias no técnicas, evidenciando una sólida adaptación del mensaje según el contexto.
 
 - **Lecciones aprendidas y mejora continua:**  
   A través de las retrospectivas de los Sprints, el equipo identificó áreas de mejora como la necesidad de una mayor trazabilidad entre historias de usuario y tareas técnicas. Esto llevó a una refinación del Sprint Backlog y a una mejor organización de los aspectos leaders y collaborators. Se concluye que la integración temprana de wireframes, mockups y user flows (desarrollados en Figma) fue crucial para alinear la visión del producto antes de la implementación, reduciendo retrabajos.
+
+## Recomendaciones
+
+**Implementación de módulos de pago y monitoreo IoT**
+
+Se recomienda desarrollar e integrar los módulos de pago digital y monitoreo IoT en futuras iteraciones, considerando que fueron identificados como funcionalidades clave en el diseño inicial pero no implementadas en la versión actual. Esto permitirá completar la propuesta de valor integral de PetCare.
+
+**Mejora continua de la experiencia de usuario**
+
+Con base en los hallazgos de la evaluación heurística, se sugiere implementar mejoras en la accesibilidad (tamaño de fuentes, contraste), añadir indicadores de carga (spinners) durante procesos asíncronos, y optimizar los flujos de navegación para reducir la carga cognitiva del usuario.
+
+**Expansión de cobertura y alianzas estratégicas**
+
+Se recomienda establecer alianzas con más clínicas veterinarias y profesionales móviles para ampliar la cobertura de servicios en Lima Metropolitana y otras ciudades del Perú, fortaleciendo el valor de la plataforma para los dueños de mascotas.
+
+**Automatización de pruebas**
+
+Se sugiere implementar un conjunto de pruebas automatizadas (unitarias, de integración y end-to-end) para garantizar la estabilidad y calidad del software en futuras iteraciones, reduciendo el riesgo de regresiones.
+
+**Monitoreo y análisis de uso**
+
+Se recomienda implementar herramientas de analítica para monitorear el comportamiento de los usuarios en la plataforma, identificando patrones de uso, funcionalidades más valoradas y oportunidades de mejora basadas en datos reales.
+
+**Escalabilidad y rendimiento**
+
+Se sugiere evaluar la arquitectura actual para identificar posibles cuellos de botella a medida que crezca la base de usuarios, considerando la implementación de estrategias de caching, balanceo de carga y optimización de consultas a la base de datos.
+
 
   # Video About The Team
 <img src="assets/abouttheteam.png" width="100%">
