@@ -1942,16 +1942,24 @@ Durante esta iteración, se consolidaron los flujos críticos de la plataforma: 
 
 Principales vistas implementadas:
 
--Panel de Agendamiento:Captura del formulario donde se visualiza la disponibilidad real de horarios tras la integración con el backend.
+-Panel de Agendamiento:
+<br>
+<img src="assets/panelAgendamiento.jpeg"><br>
 
 -Dashboard de Veterinaria:Vista del registro de diagnósticos, evolución médica y recetas digitales.
+<br>
+<img src="assets/dashboardVeterinaria.jpeg"><br>
+
 
 -Gestion de Historial:Visualización de los datos del paciente y la opción de exportación a PDF.
+<br>
+<img src="assets/GestionHistorialClinico.jpeg"><br>
 
--Dashboard IoT:Visualización de las métricas reales (temperatura y ritmo cardíaco) integradas al sistema.
 
 -Flujo de Autenticacion JWT:Pantalla de Login/Registro demostrando el manejo de sesiones mediante interceptores JWT.
-
+<br>
+<img src="assets/autenticacionTipos.jpeg"><br>
+<img src="assets/autenticacion1.jpeg"><br>
 
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review.
 
