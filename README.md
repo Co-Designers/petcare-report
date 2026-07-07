@@ -35,10 +35,10 @@
   
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :------: | :---: | :--- |
-| TB1 | 22/04/2026 | Todos | Avance del trabajo: elaboración inicial del informe, incluyendo carátula, registro de versiones, colaboración del equipo, Student Outcome, introducción, análisis de requerimientos, especificación de requerimientos, diseño del producto y primera evidencia de implementación. |
-| TP1 | 27/05/2026 | Todos | Actualización del informe: corrección y mejora de artefactos previamente presentados, avance del frontend web, evidencias del Sprint, documentación de servicios, despliegue y colaboración del equipo. |
-| TB2 | 17/06/2026 | Todos | Segundo avance del trabajo: incorporación de Web Services, actualización de la Web Application, evidencias de implementación, ejecución, documentación, despliegue, entrevistas de validación y videos del producto/equipo. |
-| TF1 | 01/07/2026 | Todos | Versión final del informe: revisión completa de capítulos, evidencias finales del Sprint 4, despliegue final de los productos digitales, conclusiones, bibliografía y anexos finales. |
+| AV1 | 22/04/2026 | Todos | Avance del trabajo: elaboración inicial del informe, incluyendo carátula, registro de versiones, colaboración del equipo, Student Outcome, introducción, análisis de requerimientos, especificación de requerimientos, diseño del producto y primera evidencia de implementación. |
+| TB1 | 27/05/2026 | Todos | Actualización del informe: corrección y mejora de artefactos previamente presentados, avance del frontend web, evidencias del Sprint, documentación de servicios, despliegue y colaboración del equipo. |
+| AV2 | 17/06/2026 | Todos | Segundo avance del trabajo: incorporación de Web Services, actualización de la Web Application, evidencias de implementación, ejecución, documentación, despliegue, entrevistas de validación y videos del producto/equipo. |
+| TB1 | 01/07/2026 | Todos | Versión final del informe: revisión completa de capítulos, evidencias finales del Sprint 4, despliegue final de los productos digitales, conclusiones, bibliografía y anexos finales. |
 
 <div style="page-break-after: always;"></div>
 
