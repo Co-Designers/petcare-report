@@ -1860,9 +1860,53 @@ Este avance se evidencia a continuación mediante el registro de commits en GitH
 
 #### 5.2.4. Sprint 4
 
+El Sprint 4 tuvo como objetivo principal culminar al 100% el desarrollo de la Web Application de PetCare, logrando la integración total y definitiva entre el frontend y el backend (RESTful API). Durante esta iteración final, el equipo se enfocó en conectar todas las interfaces de usuario con los endpoints reales desplegados en la nube, eliminando por completo cualquier dependencia de datos simulados de sprints anteriores. Este Sprint garantizó el correcto funcionamiento de los flujos críticos para ambos segmentos (dueños de mascotas y veterinarias), incluyendo la autenticación segura, la gestión completa del historial médico, el agendamiento de citas, los pagos digitales y el monitoreo IoT, asegurando un producto robusto, estable y listo para las validaciones finales.
+
 #### 5.2.4.1.Sprint Planning 4.
 
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting para el Sprint 4. Se establecen los objetivos finales que marcan la integración total del frontend y el backend, consolidando el 100% del desarrollo de la plataforma PetCare. A continuación, se detalla el alcance, los asistentes, las conclusiones del sprint previo y el Sprint Goal trazado.
+
+| Categoría | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 4 Sprint Planning |
+| **Background** | **Date:** 2026-07-06<br>**Time:** 8:00 PM - 12:00 AM<br>**Location:** Discord |
+| **Prepared By** | Diego Roberto, Campoblanco Guzman |
+| **Attendees (to planning meeting)** | Diego Roberto, Campoblanco Guzman<br>Ghiou Justinn, Mauricio Silva<br>Ghorghet Saul, Tuncar Vila<br>Jean Pool, Huaman de la Cruz<br>Katherine Maryory, Mejía Aliaga |
+| **Sprint 3 Review Summary** | Durante el Sprint 3 se implementó con éxito el backend RESTful API utilizando Spring Boot, se estableció la persistencia en la base de datos SQL Server y se protegió la plataforma mediante seguridad JWT. Además, se logró el despliegue inicial en la nube (Azure VM) y se documentaron los endpoints con Swagger. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó que, si bien el backend está desplegado y operativo, la Web Application en Angular aún requiere conectarse en su totalidad a los endpoints finales. Se acordó que el esfuerzo crítico del Sprint 4 debe centrarse exclusivamente en reemplazar cualquier rastro de datos simulados restantes y asegurar que el 100% de las interfaces operen fluidamente con el backend en la nube. |
+| **Sprint Goal & User Stories** | **Sprint 4 Goal:** Nuestro enfoque es completar la integración total entre el frontend (Angular) y el backend (RESTful API), culminando al 100% el desarrollo de la Web Application de PetCare. Creemos que esto garantizará una experiencia de usuario completamente funcional, segura y lista para producción. Esto se confirmará cuando todas las interacciones de los dueños de mascotas y veterinarios (agendamientos, historial médico, pagos y monitoreo IoT) se procesen sin errores y se reflejen en la base de datos real. |
+| **Sprint 4 Velocity** | 30 |
+| **Sum of Story Points** | 30 |
+
 #### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En el presente Sprint, el equipo centró todos sus esfuerzos en la integración total y definitiva del frontend (Angular) con el backend (Spring Boot y SQL Server). A diferencia de los sprints anteriores, donde el trabajo se dividió entre la maquetación visual y la construcción aislada de la API, esta iteración exigió un enfoque colaborativo orientado a consumir los endpoints reales, manejar el flujo de seguridad (JWT) desde el lado del cliente y realizar pruebas de extremo a extremo (*End-to-End*).
+
+Para gestionar de forma eficiente la complejidad de conectar al 100% la plataforma PetCare, eliminar cualquier dependencia de datos simulados y asegurar el correcto funcionamiento en el entorno de producción (nube), se redefinieron los roles técnicos del equipo. La distribución del trabajo se ha estructurado en la Leadership and Collaboration Matrix (LACX), estableciendo claramente quién asume el rol de Leader (L) y quiénes actúan como Collaborators (C) en cada frente de la integración.
+
+A continuación, se presenta la matriz de liderazgo y colaboración del Sprint 4.
+
+**Leadership and Collaboration Matrix (LACX)**
+
+| Team Member (Last Name, First Name) | GitHub Username | API Integration & Consumption (L/C) | Security & JWT Handling (L/C) | End-to-End Testing (L/C) | Final Deployment (L/C) | Documentation & Review (L/C) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Huaman de la Cruz, Jean Pool | JeanPool | C | C | C | C | L |
+| Mauricio Silva, Ghiou Justinn | Justinn2006 | C | L | C | C | C |
+| Campoblanco Guzman, Diego Roberto | DiegoCampoblanco | L | C | L | C | C |
+| Tuncar Vila, Ghorghet Saul | Ghorghet | C | C | C | L | C |
+| Mejía Aliaga, Katherine Maryory | KathMJ | L | C | C | C | C |
+
+<br>
+
+**Aspecto: Integración Total y Despliegue Final de la Web Application**
+
+| Aspecto | Descripción |
+| :--- | :--- |
+| **Feature** | Conexión definitiva entre el frontend y el RESTful API, pruebas funcionales y despliegue final de la plataforma PetCare. |
+| **Objetivo Principal** | Lograr la operatividad al 100% de la plataforma, garantizando que todas las acciones del usuario en las interfaces web interactúen correctamente, de forma segura y sin latencias con la base de datos relacional alojada en la nube. |
+| **Elementos incluidos** | • Implementación de servicios HTTP (`HttpClient`) en Angular para consumir los endpoints reales.<br>• Eliminación total de datos simulados (*mock data*) y configuraciones de `json-server`.<br>• Manejo de interceptores en el frontend para inyectar los tokens JWT en cada petición protegida.<br>• Integración de flujos completos: registro, login, gestión de mascotas, historial clínico, búsqueda de veterinarias y agendamiento.<br>• Despliegue de la versión final del frontend y backend en sus respectivos entornos de producción. |
+| **Criterios de aceptación** | • El 100% de las interfaces (paneles de dueños de mascotas y veterinarias) renderizan información real proveniente de la base de datos.<br>• El manejo de sesiones (Login/Logout) funciona correctamente con validación de tokens JWT.<br>• No existen errores de CORS (Cross-Origin Resource Sharing) entre el frontend y el backend desplegado.<br>• Las acciones CRUD (Crear, Leer, Actualizar, Eliminar) ejecutadas desde el frontend se reflejan exitosamente en SQL Server.<br>• La plataforma completa está desplegada, estable y es accesible públicamente sin interrupciones. |
+| **Resultado esperado** | La Web Application PetCare completamente finalizada, segura, integrada de extremo a extremo y lista para las entrevistas de validación con los segmentos objetivo (dueños de mascotas y clínicas veterinarias). |
 
 #### 5.2.4.3.Sprint Backlog 4.
 
