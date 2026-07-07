@@ -33,12 +33,12 @@
 
 <div align="justify">
   
-| Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
-| :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|   TB1   | 22/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
-|   TP1   |            |       |                                                            |
-|   TB2   |            |       |                                                            |
-|   TF1   |            |       |                                                            |
+| Versión | Fecha | Autor | Descripción de modificación |
+| :-----: | :------: | :---: | :--- |
+| TB1 | 22/04/2026 | Todos | Avance del trabajo: elaboración inicial del informe, incluyendo carátula, registro de versiones, colaboración del equipo, Student Outcome, introducción, análisis de requerimientos, especificación de requerimientos, diseño del producto y primera evidencia de implementación. |
+| TP1 | 27/05/2026 | Todos | Actualización del informe: corrección y mejora de artefactos previamente presentados, avance del frontend web, evidencias del Sprint, documentación de servicios, despliegue y colaboración del equipo. |
+| TB2 | 17/06/2026 | Todos | Segundo avance del trabajo: incorporación de Web Services, actualización de la Web Application, evidencias de implementación, ejecución, documentación, despliegue, entrevistas de validación y videos del producto/equipo. |
+| TF1 | 01/07/2026 | Todos | Versión final del informe: revisión completa de capítulos, evidencias finales del Sprint 4, despliegue final de los productos digitales, conclusiones, bibliografía y anexos finales. |
 
 <div style="page-break-after: always;"></div>
 
@@ -180,8 +180,9 @@ Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efe
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Diego Roberto <br>AV1: Realicé la entrevista con Carolina Guzman, en donde hice uso de un lenguaje sencillo y a la vez empático para entender sus frustraciones, mientras que en la coordinación técnica con los miembros de mi equipo, utilicé terminología de ingeniería como 'Arquitectura de Microservicios' e 'IoT'.<br>TB1: Sustenté los ajustes de los wireframes y mockups de la landing page web y mobile, en donde hice uso de un lenguaje claro, visual y centrado en el usuario para transmitir adecuadamente nuestra idea de negocio y corregir las redundancias conceptuales, mientras que en la coordinación técnica con los miembros de mi equipo para solventar los hallazgos del repositorio, utilicé terminología de ingeniería<br>AV2:<br>TB2:<br><br>Jean Pool <br>AV1: Participé en la realización de entrevistas a dueños de mascotas para la definición de los segmentos objetivo, donde utilicé un lenguaje claro y empático para comprender sus necesidades y problemas. Asimismo, durante las reuniones de equipo, comuniqué ideas relacionadas a Ubiquitous Language y Domain-Driven Design, adaptando mi forma de expresión según el nivel técnico de los integrantes. Además, participé en las sesiones de Event Storming, explicando los eventos del dominio y el flujo del sistema de manera comprensible para todo el equipo. <br>TB1: Presenté las interfaces del veterinario desarrolladas en frontend, explicando su flujo y funcionalidad al equipo. Asimismo, comuniqué los conceptos de Domain-Driven Design (DDD) y las mejoras en OO Design, adaptando mi lenguaje técnico para que todo el equipo comprendiera la arquitectura propuesta y las mejoras implementadas. <br>AV2:<br>TB2:<br><br>Ghiou Justinn <br>AV1: Participé en la realización de entrevistas a dueños de mascotas, donde utilicé un lenguaje claro y empático para comprender sus necesidades y experiencias. Asimismo, durante las reuniones de equipo, comuniqué ideas relacionadas a la definición de User Stories, Impact Mapping y Product Backlog, adaptando mi forma de expresión según el contexto, explicando los puntos de manera sencilla para el equipo y asegurando una correcta comprensión de la información obtenida.<br>TB1: Participé en las reuniones de coordinación del equipo para explicar las correcciones realizadas en las User Stories, Product Backlog y Sprint Backlog, comunicando de manera clara los cambios necesarios para mejorar la trazabilidad entre historias, tareas y entregables. Además, sustenté la organización del Sprint 2, explicando el enfoque de la Web Application, la relación entre las historias funcionales y técnicas, y el estado de avance de las funcionalidades implementadas o en proceso.<br>AV2: Participé en las reuniones de coordinación del equipo explicando los avances realizados en el backend del proyecto, así como el proceso de despliegue del frontend y backend. Para ello, utilicé un lenguaje claro al comunicar el funcionamiento de los endpoints, la conexión con la base de datos, la validación mediante Swagger y la ejecución de los servicios desplegados, adaptando mi explicación tanto para integrantes con conocimiento técnico como para aquellos que requerían una explicación más sencilla.<br>TB2: Sustenté los resultados finales del proyecto relacionados con la implementación del backend, el despliegue del frontend y backend, y la validación del funcionamiento de la aplicación. Además, participé en la explicación de los videos de sensibilización, usando un lenguaje simple, ordenado y orientado a estudiantes principiantes, con el objetivo de comunicar los contenidos de forma clara y comprensible para la audiencia.<br><br>Katherine Maryory <br>AV1: Participé en las entrevistas a profundidad con dueños de mascotas y especialistas (veterinarios), adaptando mi lenguaje para extraer necesidades críticas sin usar tecnicismos. Asimismo, colaboré en las sesiones de Event Storming, comunicando ideas técnicas de forma clara para consensuar el flujo del negocio con el equipo. <br>TB1:Participé activamente en las reuniones de sincronización del equipo (Daily meetings) para explicar los desafíos técnicos encontrados en la implementación del frontend, específicamente sobre el manejo de rutas absolutas en WebStorm y la integración de validaciones bilingües. Asimismo, colaboré en la sustentación del rediseño de la Landing Page ante el equipo, argumentando cómo los nuevos Wireframes y Mockups mejoran la experiencia de usuario (UX) basándose en los Style Guidelines definidos previamente, asegurando que tanto los perfiles técnicos como los orientados a negocio comprendieran las mejoras. <br>AV2:<br>TB2:<br><br>Ghorghet Saul <br>AV1:Realice una entrevista para el segmento uno, la entrevistada es Keidy Maquera, utilizando un lenguaje claro para facilitar una comunicación fluida. Además, participé en el Big Picture Event Storming, una actividad realizada en conjunto con el equipo, donde también se mantuvo un lenguaje claro y colaborativo. Finalmente, en la reunión grupal, se llegó a acuerdos importantes que ayudaron a la toma de decisiones del proyecto para el informe.<br>TB1: Se mejoraron las descripciones del dominio, el Event Storming y el proceso Lean UX para presentar de forma clara la arquitectura y funcionalidades del sistema.<br>AV2:<br>TB2: | **Conclusión AV1:** Durante la AV1, se fortalecieron las habilidades de exposición oral al comunicar hallazgos, análisis y diagramas con claridad, mostrando dominio del contenido y adaptación a distintos públicos.<br><br>**Conclusión TB1:** En las presentaciones del TB1, el equipo demostró confianza, claridad y cohesión al exponer resultados técnicos y de diseño, generando comprensión y retroalimentación efectiva entre docentes y compañeros.<br><br>**Conclusión AV2:** Durante la AV2, se fortaleció la comunicación oral mediante la explicación de avances técnicos relacionados con el backend, el despliegue del frontend y backend, y la validación de servicios, adaptando el lenguaje según el nivel de conocimiento de la audiencia.<br><br>**Conclusión TB2:** En el TB2, se consolidó una comunicación efectiva al presentar los resultados finales del sistema, explicar el proceso de despliegue y comunicar los videos de sensibilización con un lenguaje claro, educativo y adecuado para estudiantes principiantes. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Diego Roberto <br>AV1: Desarrolle el documento haciendo uso del lenguaje Markdown para una lectura clara en la web. De igual manera el desarrollo de los diagramas Empathy Maps y Matrices de Tareas complementan el texto escrito para facilitar la comprensión de audiencias no técnicas al buscar representar de forma simple a los usuarios ideales y las tareas que estos cumplen de manera que cualquier persona tenga una idea clara de nuestro segmento objetivo.<br>TB1:Desarrollé y reestructuré el documento corrigiendo errores ortográficos, redundancias conceptuales y problemas de redacción técnica para asegurar una lectura fluida y profesional. De igual manera, la integración de los wireframes y mockups de la landing page (web y mobile) complementan el texto escrito para facilitar la comprensión de audiencias no técnicas, al ilustrar de forma simple e intuitiva nuestra idea de negocio, mientras que la sección de configuración detalla de manera estructurada las convenciones técnicas.<br>AV2:<br>TB2:<br><br>Jean Pool <br>AV1: Elaboré documentación clave del proyecto, incluyendo los segmentos objetivo y el Ubiquitous Language, redactados de manera clara y estructurada para su comprensión por audiencias no técnicas. Además, desarrollé la documentación de la arquitectura de software basada en Domain-Driven Design, incluyendo diagramas de contexto, contenedores y componentes, utilizando un lenguaje organizado que permite tanto a stakeholders como al equipo técnico comprender el sistema. Asimismo, documenté los resultados del Event Storming y las evidencias del Sprint Review, asegurando una comunicación escrita clara y ordenada.   <br>TB1: Documenté el desarrollo de las interfaces del veterinario (frontend) con descripciones claras y estructuradas. Redacté la documentación de Domain-Driven Design (DDD) y las mejoras realizadas en OO Design, utilizando un lenguaje técnico preciso pero comprensible para diferentes rangos de audiencia dentro del equipo y stakeholders. <br>AV2:<br>TB2:<br><br>Ghiou Justinn <br>AV1: Elaboré diversos entregables clave del proyecto, incluyendo el análisis competitivo, estrategias frente a competidores y la propuesta de diferenciación del producto, redactados de manera estructurada y comprensible para audiencias no técnicas. Además, desarrollé el capítulo de requisitos funcionales, que incluye el Product Backlog, Impact Mapping, User Stories y el Diagrama de Clases, utilizando un lenguaje claro y organizado que permite tanto a stakeholders como al equipo técnico comprender fácilmente el funcionamiento y la propuesta del sistema.<br>TB1: Realicé la corrección y mejora de las User Stories del proyecto, incorporando un enfoque más orientado al negocio, criterios de aceptación más consistentes y una mejor relación con las épicas correspondientes. Asimismo, actualicé el Product Backlog y el Sprint Backlog para reflejar el valor de negocio, los Story Points y el estado de avance de las historias. También documenté el Sprint 2 de la Web Application, incluyendo Sprint Planning, Aspect Leaders and Collaborators, Sprint Backlog, evidencias de desarrollo, ejecución, servicios simulados con `json-server`, despliegue en GitHub Pages y colaboración del equipo mediante evidencias de GitHub.<br>AV2: Documenté los avances técnicos relacionados con el desarrollo del backend, incluyendo la organización de funcionalidades, servicios, endpoints y evidencias de ejecución. Asimismo, registré información sobre el despliegue del frontend y backend, explicando de manera estructurada los pasos realizados para validar el funcionamiento del sistema y facilitar la comprensión del proceso por parte del equipo.<br>TB2: Elaboré y actualicé documentación relacionada con los videos de sensibilización, el plan del curso, los guiones, los archivos de inicio, los ejemplos completos y la estructura del repositorio. Además, contribuí con la documentación del despliegue del frontend y backend, redactando la información de forma clara y ordenada para que pueda ser entendida tanto por una audiencia técnica como por personas sin experiencia previa en programación.<br><br>Katherine Maryory <br>AV1: Redacté la documentación técnica de la arquitectura (C4 y Context Mapping) y definí los User Stories, asegurando que los requerimientos fueran claros para el equipo de desarrollo. Además, elaboré los Style Guidelines y diseñé secciones de la Landing Page, comunicando visual y textualmente la identidad de la marca hacia los futuros usuarios.<br>TB1:Lideré el desarrollo técnico y la documentación del frontend para las pantallas de Login, Register y Perfil, asegurando una comunicación bilingüe impecable mediante la implementación de i18n para eliminar mensajes genéricos del navegador y reemplazarlos por validaciones personalizadas para el usuario final. Adicionalmente, realicé la actualización de los artefactos visuales (Wireframes y Mockups) en el reporte, y documenté el proceso de colaboración en GitHub mediante "Conventional Commits" claros y descriptivos, facilitando la trazabilidad del código para otros desarrolladores y el equipo de aseguramiento de calidad.<br>AV2:<br>TB2:<br><br>Ghorghet Saul <br>AV1: Me comuniqué por escrito de manera efectiva a lo largo del proyecto. Aplique el proceso de Lean UX y participe en el Big Picture Event Storming para el análisis colaborativo del sistema. Además, implementé wireframes para versión mobile, mockups de interfaz y el user flow diagram para desktop. También realicé la grabación del flujo del user flow y elaboré el diagrama entidad–relación (ERD) para la base de datos del sistema.<br>TB1: Se realizaron mejoras y correcciones en la documentación, diagramas y descripciones del proyecto PetCare para presentar la información de manera clara y organizada.<br>AV2:<br>TB2: | **Conclusión AV1:** Durante la AV1, se desarrolló una comunicación escrita sólida, organizada y coherente, que permitió documentar con claridad los análisis, diagramas y hallazgos del proyecto.<br><br>**Conclusión TB1:** En el TB1, los integrantes consolidaron un estilo de redacción técnica más profesional, adaptando su lenguaje a distintos públicos y generando documentación de calidad que respaldó las decisiones del equipo.<br><br>**Conclusión AV2:** Durante la AV2, se fortaleció la comunicación escrita mediante la documentación de avances técnicos del backend, evidencias de ejecución y procesos de despliegue, utilizando una redacción clara y organizada para facilitar la comprensión del equipo.<br><br>**Conclusión TB2:** En el TB2, se consolidó una documentación más completa y comprensible, integrando el desarrollo del backend, el despliegue del frontend y backend, y los materiales de sensibilización, permitiendo comunicar el trabajo realizado a audiencias técnicas y no técnicas. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Diego Roberto <br>AV1: Realicé la entrevista con Carolina Guzman, en donde hice uso de un lenguaje sencillo y a la vez empático para entender sus frustraciones, mientras que en la coordinación técnica con los miembros de mi equipo, utilicé terminología de ingeniería como 'Arquitectura de Microservicios' e 'IoT'.<br>TB1: Sustenté los ajustes de los wireframes y mockups de la landing page web y mobile, en donde hice uso de un lenguaje claro, visual y centrado en el usuario para transmitir adecuadamente nuestra idea de negocio y corregir las redundancias conceptuales, mientras que en la coordinación técnica con los miembros de mi equipo para solventar los hallazgos del repositorio, utilicé terminología de ingeniería<br>AV2: Participé en la sustentación del Sprint 3, donde expliqué la transición de datos simulados a una base de datos real. Utilicé terminología técnica (como Spring Boot, RESTful API y JWT) para coordinar la implementación con mi equipo, y un lenguaje claro, enfocado en las historias de usuario, para demostrar el correcto funcionamiento de los endpoints ante los evaluadores académicos.<br>TB2: Lideré la demostración de la integración final del sistema (Sprint 4) ante la audiencia evaluadora. Adapté mi discurso para explicar cómo las pruebas End-to-End y la conexión definitiva entre el frontend en Angular y el backend en la nube garantizan una experiencia segura y fluida, evitando tecnicismos innecesarios al resaltar el valor que la plataforma aporta a los dueños de mascotas y veterinarios.<br><br>Jean Pool <br>AV1: Participé en la realización de entrevistas a dueños de mascotas para la definición de los segmentos objetivo, donde utilicé un lenguaje claro y empático para comprender sus necesidades y problemas. Asimismo, durante las reuniones de equipo, comuniqué ideas relacionadas a Ubiquitous Language y Domain-Driven Design, adaptando mi forma de expresión según el nivel técnico de los integrantes. Además, participé en las sesiones de Event Storming, explicando los eventos del dominio y el flujo del sistema de manera comprensible para todo el equipo. <br>TB1: Presenté las interfaces del veterinario desarrolladas en frontend, explicando su flujo y funcionalidad al equipo. Asimismo, comuniqué los conceptos de Domain-Driven Design (DDD) y las mejoras en OO Design, adaptando mi lenguaje técnico para que todo el equipo comprendiera la arquitectura propuesta y las mejoras implementadas. <br>AV2:<br>TB2:<br><br>Ghiou Justinn <br>AV1: Participé en la realización de entrevistas a dueños de mascotas, donde utilicé un lenguaje claro y empático para comprender sus necesidades y experiencias. Asimismo, durante las reuniones de equipo, comuniqué ideas relacionadas a la definición de User Stories, Impact Mapping y Product Backlog, adaptando mi forma de expresión según el contexto, explicando los puntos de manera sencilla para el equipo y asegurando una correcta comprensión de la información obtenida.<br>TB1: Participé en las reuniones de coordinación del equipo para explicar las correcciones realizadas en las User Stories, Product Backlog y Sprint Backlog, comunicando de manera clara los cambios necesarios para mejorar la trazabilidad entre historias, tareas y entregables. Además, sustenté la organización del Sprint 2, explicando el enfoque de la Web Application, la relación entre las historias funcionales y técnicas, y el estado de avance de las funcionalidades implementadas o en proceso.<br>AV2: Participé en la coordinación y sustentación del avance técnico del Sprint 3, explicando la implementación del backend, las correcciones realizadas en el frontend y el despliegue de ambos componentes. Utilicé un lenguaje técnico con el equipo al tratar temas como API REST, integración frontend-backend y despliegue en Azure, y un lenguaje más claro para explicar ante la audiencia cómo estas mejoras permitieron que el sistema PetCare funcione de manera integrada.<br>TB2: Expliqué los ajustes finales realizados en el backend y frontend para lograr la conexión correcta entre ambos componentes. Además, comuniqué la incorporación de seguridad mediante IAM en el backend y las correcciones necesarias en el frontend para consumir los servicios protegidos, adaptando mi explicación para que tanto el equipo técnico como los evaluadores comprendieran la importancia de la autenticación, autorización e integración final del sistema.<br><br>Katherine Maryory <br>AV1: Participé en las entrevistas a profundidad con dueños de mascotas y especialistas (veterinarios), adaptando mi lenguaje para extraer necesidades críticas sin usar tecnicismos. Asimismo, colaboré en las sesiones de Event Storming, comunicando ideas técnicas de forma clara para consensuar el flujo del negocio con el equipo. <br>TB1: Participé activamente en las reuniones de sincronización del equipo (Daily meetings) para explicar los desafíos técnicos encontrados en la implementación del frontend, específicamente sobre el manejo de rutas absolutas en WebStorm y la integración de validaciones bilingües. Asimismo, colaboré en la sustentación del rediseño de la Landing Page ante el equipo, argumentando cómo los nuevos Wireframes y Mockups mejoran la experiencia de usuario (UX) basándose en los Style Guidelines definidos previamente, asegurando que tanto los perfiles técnicos como los orientados a negocio comprendieran las mejoras. <br>AV2:<br>TB2:<br><br>Ghorghet Saul <br>AV1: Realicé una entrevista para el segmento uno, la entrevistada es Keidy Maquera, utilizando un lenguaje claro para facilitar una comunicación fluida. Además, participé en el Big Picture Event Storming, una actividad realizada en conjunto con el equipo, donde también se mantuvo un lenguaje claro y colaborativo. Finalmente, en la reunión grupal, se llegó a acuerdos importantes que ayudaron a la toma de decisiones del proyecto para el informe.<br>TB1: Se mejoraron las descripciones del dominio, el Event Storming y el proceso Lean UX para presentar de forma clara la arquitectura y funcionalidades del sistema.<br>AV2: Durante la presentación técnica, comuniqué con efectividad los detalles sobre el despliegue del backend en Azure y la resolución de conflictos de configuración en el entorno de desarrollo, logrando adaptar conceptos complejos de infraestructura y gestión de dependencias a un lenguaje claro y comprensible, lo cual permitió demostrar dominio técnico al justificar las decisiones de implementación tomadas frente a la audiencia.<br>TB2: | **Conclusión AV1:** Durante la AV1, se fortalecieron las habilidades de exposición oral al comunicar hallazgos, análisis y diagramas con claridad, mostrando dominio del contenido y adaptación a distintos públicos.<br><br>**Conclusión TB1:** En las presentaciones del TB1, el equipo demostró confianza, claridad y cohesión al exponer resultados técnicos y de diseño, generando comprensión y retroalimentación efectiva entre docentes y compañeros. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Diego Roberto <br>AV1: Desarrollé el documento haciendo uso del lenguaje Markdown para una lectura clara en la web. De igual manera el desarrollo de los diagramas Empathy Maps y Matrices de Tareas complementan el texto escrito para facilitar la comprensión de audiencias no técnicas al buscar representar de forma simple a los usuarios ideales y las tareas que estos cumplen de manera que cualquier persona tenga una idea clara de nuestro segmento objetivo.<br>TB1: Desarrollé y reestructuré el documento corrigiendo errores ortográficos, redundancias conceptuales y problemas de redacción técnica para asegurar una lectura fluida y profesional. De igual manera, la integración de los wireframes y mockups de la landing page (web y mobile) complementan el texto escrito para facilitar la comprensión de audiencias no técnicas, al ilustrar de forma simple e intuitiva nuestra idea de negocio, mientras que la sección de configuración detalla de manera estructurada las convenciones técnicas.<br>AV2: Redacté y estructuré en Markdown la documentación técnica correspondiente al Sprint 3. Me enfoqué en detallar claramente el Sprint Planning y el Sprint Backlog, empleando un lenguaje preciso para describir la creación de la API y la configuración de seguridad, asegurando que el avance técnico fuera comprensible para la revisión académica sin perder rigor ingenieril.<br>TB2: Fui responsable de redactar la planificación del Sprint 4 y de documentar la evidencia técnica de la integración total y el despliegue del proyecto. Mantuve el liderazgo en la corrección de estilo, ortografía y formato de todo el informe final, garantizando que el reporte del producto PetCare fuera un documento profesional, coherente y de fácil lectura para cualquier perfil de stakeholder.<br><br>Jean Pool <br>AV1: Elaboré documentación clave del proyecto, incluyendo los segmentos objetivo y el Ubiquitous Language, redactados de manera clara y estructurada para su comprensión por audiencias no técnicas. Además, desarrollé la documentación de la arquitectura de software basada en Domain-Driven Design, incluyendo diagramas de contexto, contenedores y componentes, utilizando un lenguaje organizado que permite tanto a stakeholders como al equipo técnico comprender el sistema. Asimismo, documenté los resultados del Event Storming y las evidencias del Sprint Review, asegurando una comunicación escrita clara y ordenada. <br>TB1: Documenté el desarrollo de las interfaces del veterinario (frontend) con descripciones claras y estructuradas. Redacté la documentación de Domain-Driven Design (DDD) y las mejoras realizadas en OO Design, utilizando un lenguaje técnico preciso pero comprensible para diferentes rangos de audiencia dentro del equipo y stakeholders. <br>AV2:<br>TB2:<br><br>Ghiou Justinn <br>AV1: Elaboré diversos entregables clave del proyecto, incluyendo el análisis competitivo, estrategias frente a competidores y la propuesta de diferenciación del producto, redactados de manera estructurada y comprensible para audiencias no técnicas. Además, desarrollé el capítulo de requisitos funcionales, que incluye el Product Backlog, Impact Mapping, User Stories y el Diagrama de Clases, utilizando un lenguaje claro y organizado que permite tanto a stakeholders como al equipo técnico comprender fácilmente el funcionamiento y la propuesta del sistema.<br>TB1: Realicé la corrección y mejora de las User Stories del proyecto, incorporando un enfoque más orientado al negocio, criterios de aceptación más consistentes y una mejor relación con las épicas correspondientes. Asimismo, actualicé el Product Backlog y el Sprint Backlog para reflejar el valor de negocio, los Story Points y el estado de avance de las historias. También documenté el Sprint 2 de la Web Application, incluyendo Sprint Planning, Aspect Leaders and Collaborators, Sprint Backlog, evidencias de desarrollo, ejecución, servicios simulados con `json-server`, despliegue en GitHub Pages y colaboración del equipo mediante evidencias de GitHub.<br>AV2: Documenté el desarrollo del backend, las correcciones aplicadas en el frontend y el proceso de despliegue de ambos componentes, redactando la información de manera ordenada para evidenciar la integración inicial del sistema. Asimismo, describí las evidencias de implementación, ejecución y despliegue, permitiendo que el avance técnico del Sprint 3 sea comprensible para el equipo y los evaluadores.<br>TB2: Redacté la documentación correspondiente a la incorporación de seguridad IAM en el backend, así como las correcciones realizadas en el frontend para conectarse correctamente con los servicios del backend desplegado. También registré evidencias de configuración, integración y despliegue final, usando un lenguaje técnico claro que facilita la comprensión del flujo de autenticación, consumo de endpoints y funcionamiento integrado de PetCare.<br><br>Katherine Maryory <br>AV1: Redacté la documentación técnica de la arquitectura (C4 y Context Mapping) y definí los User Stories, asegurando que los requerimientos fueran claros para el equipo de desarrollo. Además, elaboré los Style Guidelines y diseñé secciones de la Landing Page, comunicando visual y textualmente la identidad de la marca hacia los futuros usuarios.<br>TB1: Lideré el desarrollo técnico y la documentación del frontend para las pantallas de Login, Register y Perfil, asegurando una comunicación bilingüe impecable mediante la implementación de i18n para eliminar mensajes genéricos del navegador y reemplazarlos por validaciones personalizadas para el usuario final. Adicionalmente, realicé la actualización de los artefactos visuales (Wireframes y Mockups) en el reporte, y documenté el proceso de colaboración en GitHub mediante Conventional Commits claros y descriptivos, facilitando la trazabilidad del código para otros desarrolladores y el equipo de aseguramiento de calidad.<br>AV2:<br>TB2:<br><br>Ghorghet Saul <br>AV1: Me comuniqué por escrito de manera efectiva a lo largo del proyecto. Apliqué el proceso de Lean UX y participé en el Big Picture Event Storming para el análisis colaborativo del sistema. Además, implementé wireframes para versión mobile, mockups de interfaz y el user flow diagram para desktop. También realicé la grabación del flujo del user flow y elaboré el diagrama entidad-relación (ERD) para la base de datos del sistema.<br>TB1: Se realizaron mejoras y correcciones en la documentación, diagramas y descripciones del proyecto PetCare para presentar la información de manera clara y organizada.<br>AV2: Redacté de manera estructurada y precisa la documentación técnica sobre el despliegue del backend en Azure y la resolución de errores de configuración en el entorno de desarrollo, utilizando un lenguaje técnico adecuado para asegurar la claridad y la correcta ejecución de los procedimientos por parte de otros miembros del equipo, logrando así que la documentación funcionara como un recurso eficiente para la gestión del conocimiento y la continuidad del proyecto.<br>TB2: | **Conclusión AV1:** Durante la AV1, se desarrolló una comunicación escrita sólida, organizada y coherente, que permitió documentar con claridad los análisis, diagramas y hallazgos del proyecto.<br><br>**Conclusión TB1:** En el TB1, los integrantes consolidaron un estilo de redacción técnica más profesional, adaptando su lenguaje a distintos públicos y generando documentación de calidad que respaldó las decisiones del equipo. |
+
 
 # Capitulo I: Introducción
 
@@ -1723,13 +1724,504 @@ Adicionalmente, se presenta la gráfica de colaboración del repositorio, donde 
 
 <img src="assets/sprint2-evidence/sprint2-github-network-graph.jpeg" alt="Gráfica de colaboración del repositorio PetCare Frontend durante el Sprint 2" width="100%">
 
-5.4. Video About-the-Product.
+#### 5.2.3. Sprint 3
 
-<img src="assets/abouttheproduct.png" width="100%">
+El Sprint 3 tuvo como objetivo principal implementar los servicios backend (RESTful API) y establecer la integración con el frontend de la Web Application de PetCare. Durante esta iteración, el equipo se enfocó en reemplazar los datos simulados del sprint anterior por un modelo de base de datos relacional real, habilitando funcionalidades críticas reales como la autenticación de usuarios, la gestión de perfiles de mascotas, el historial clínico, la búsqueda de veterinarias y el agendamiento de citas. Asimismo, este Sprint abarca el despliegue del backend en la nube y la preparación de la plataforma para las sesiones de validación con los segmentos objetivo. 
 
-[Enlace al Video en Microsoft Stream (Repositorio Institucional)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a118_upc_edu_pe/IQC-XDpYZbt3Q7gBgmh65OdnAXNK_PjEKsUfb1jkxm94XC0?e=NOVCbM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-[Enlace al Video en YouTube](https://youtu.be/9uX0LMm_oaU)
+#### 5.2.2.1. Sprint Planning 3
 
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting para el Sprint 3. Se establecen los objetivos que marcan la transición hacia el desarrollo del backend con Spring Boot y la integración de la base de datos real, dejando atrás los datos simulados. A continuación, se detalla el alcance, los asistentes, las conclusiones del sprint previo y el Sprint Goal trazado.
+
+| Categoría | Detalle |
+| :--- | :--- |
+| Sprint # | Sprint 3 |
+| **Sprint Planning Background** | |
+| Date | 2026-06-09 |
+| Time | 8:00 PM - 12:00 AM |
+| Location | Discord |
+| Prepared By | Ghiou Justinn, Mauricio Silva |
+| Attendees (to planning meeting) | Diego Roberto, Campoblanco Guzman<br>Ghiou Justinn, Mauricio Silva<br>Ghorget Saul, Tuncar Vila<br>Jean Pool, Huaman de la Cruz<br>Katherine Maryory, Mejía Aliaga |
+| Sprint 2 Review Summary | Durante el Sprint 2 se implementó con éxito la primera versión del frontend de la Web Application en Angular, logrando la navegación diferenciada entre dueños de mascotas y veterinarias utilizando datos simulados (json-server). Se validó visualmente el flujo de inicio de sesión, paneles de control y vistas de historial clínico. |
+| Sprint 2 Retrospective Summary | El equipo identificó que las interfaces ya están maduras visualmente, pero la dependencia de datos simulados limita la validación de procesos complejos como el agendamiento y la persistencia de datos. Se acordó que el siguiente paso crítico es desarrollar el RESTful API y la base de datos en SQL Server para integrar un backend real a las vistas ya construidas. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | Nuestro enfoque es implementar el backend RESTful API y conectarlo con el frontend de la Web Application.<br><br>Creemos que esto entrega una experiencia de gestión de datos real, segura y trazable para los dueños de mascotas y clínicas veterinarias.<br><br>Esto se confirmará cuando los usuarios puedan registrarse, iniciar sesión de forma segura, gestionar historiales médicos y buscar veterinarias utilizando datos persistidos en la base de datos relacional (SQL Server), y cuando los endpoints estén documentados formalmente con OpenAPI. |
+| Sprint 3 Velocity | 38 |
+| Sum of Story Points | 38 |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En el presente Sprint, el equipo centró sus esfuerzos en la arquitectura, desarrollo e integración del backend de la plataforma PetCare. A diferencia del Sprint 2, donde el enfoque estuvo en el diseño de interfaces y el uso de datos simulados (mock data), esta iteración exigió una organización orientada a la creación de los Web Services (RESTful API) utilizando Spring Boot, el modelado de la base de datos relacional en SQL Server y la integración directa con el frontend en Angular.
+
+Para gestionar de forma eficiente la complejidad técnica de esta transición, así como la documentación exigida mediante OpenAPI y el despliegue en la nube, se redefinieron los roles técnicos del equipo. La distribución del trabajo se ha estructurado en la Leadership and Collaboration Matrix (LACX), estableciendo claramente quién asume el rol de Leader (L) para guiar la implementación y quiénes actúan como Collaborators (C) en cada frente del desarrollo.
+
+A continuación, se presenta la matriz de liderazgo y colaboración del Sprint 3.
+
+Leadership and Collaboration Matrix (LACX)
+
+| Team Member (Last Name, First Name) | GitHub Username | Web App Frontend (L/C) | Authentication Flow (L/C) | Pet Owner Interface (L/C) | Veterinary Interface (L/C) | Deployment (L/C) | Documentation & Review (L/C) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Huaman de la Cruz, Jean Pool | JeanPool | C | C | C | C | C | C |
+| Mauricio Silva, Ghiou Justinn | Justinn2006 | L | L | L | L | L | L |
+| Campoblanco Guzman, Diego Roberto | DiegoCampoblanco | C | C | C | C | C | C |
+| Tuncar Vila, Ghorghet Saul | Ghorghet | C | C | C | C | C | C |
+| Mejía Aliaga, Katherine Maryory | KathMJ | C | C | C | C | C | C |
+
+**Aspecto: Implementación del Backend e Integración de la Web Application**
+
+| Aspecto | Descripción |
+|---|---|
+| Feature | Desarrollo del RESTful API, integración de la base de datos y conexión con la Web Application de PetCare. |
+| Objetivo Principal | Implementar los servicios backend reales en Java (Spring Boot) y reemplazar los datos simulados del frontend, permitiendo la autenticación, registro, gestión de historiales y búsqueda de veterinarias de forma funcional, persistente y segura. |
+| Elementos incluidos | • Desarrollo de Controladores, Servicios y Repositorios en Spring Boot.<br>• Creación y conexión con la base de datos relacional (SQL Server).<br>• Implementación de seguridad y autenticación (JWT).<br>• Documentación de todos los endpoints utilizando OpenAPI (Swagger).<br>• Integración de servicios (HttpClient) en el frontend (Angular).<br>• Despliegue del backend en la nube y actualización de GitHub Pages. |
+| Criterios de aceptación | • Los endpoints responden correctamente a las peticiones HTTP (GET, POST, PUT, DELETE).<br>• El inicio de sesión y registro interactúan con la base de datos real.<br>• El frontend consume y renderiza correctamente la información obtenida del backend.<br>• La documentación de Swagger es accesible y detalla la estructura de peticiones y respuestas.<br>• No existen dependencias del archivo `db.json` utilizado en el sprint anterior para las funciones integradas. |
+| Resultado esperado | Una Web Application funcional conectada a un backend estable, seguro y documentado, capaz de persistir los datos reales de los dueños de mascotas y clínicas veterinarias de la plataforma PetCare. |
+
+#### 5.2.2.3. Sprint Backlog 3
+
+El Sprint Backlog 3 se ha organizado priorizando las Technical Stories correspondientes al desarrollo del RESTful API y las User Stories necesarias para integrar el frontend con el nuevo backend. Las tareas abarcan la creación de controladores, servicios y repositorios en Spring Boot, la configuración de la base de datos relacional, la documentación con OpenAPI y la conexión de la Web Application en Angular. 
+
+| Sprint # | US ID | User Story Title | Task ID | Task Title | Description | Estimation | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Sprint 3 | TS01 | Gestionar registro por tipo de cuenta | W-01 | Implementar endpoints de registro | Crear los controladores en Spring Boot para registrar dueños de mascotas y clínicas en SQL Server, y documentarlos en Swagger. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | TS02 | Validar autenticación por tipo de cuenta | W-02 | Configurar Spring Security y JWT | Implementar la seguridad del API, validación de credenciales y generación de tokens JWT para el inicio de sesión seguro. | 4 horas | [Asignar miembro] | To-do |
+| Sprint 3 | TS03 | Gestionar perfiles clínicos de mascotas | W-03 | Desarrollar API de perfiles de mascotas | Crear los endpoints (GET, POST, PUT, DELETE) para la gestión de los perfiles de las mascotas en la base de datos. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | TS04 | Proteger consulta de historial clínico | W-04 | Desarrollar API de historial médico | Implementar los endpoints para recuperar el historial médico, validando que solo los usuarios autorizados tengan acceso. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | TS05 | Registrar evolución clínica | W-05 | Implementar registro de diagnósticos | Crear endpoints para que el veterinario pueda registrar nuevos diagnósticos y tratamientos en el historial clínico. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | TS07 | Filtrar veterinarias disponibles | W-06 | Desarrollar buscador de veterinarias | Implementar endpoints con filtros (ubicación y especialidad) consultando a la base de datos relacional. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | US10 | Habilitar cuenta de dueño de mascota | W-07 | Integrar registro en Angular | Reemplazar el mock del frontend conectando el formulario de registro con el nuevo endpoint del backend. | 2 horas | [Asignar miembro] | To-do |
+| Sprint 3 | US12 | Iniciar sesión por tipo de cuenta | W-08 | Integrar Login y manejo de Token | Conectar la vista de inicio de sesión con el API, guardar el JWT recibido y proteger las rutas privadas del frontend. | 3 horas | [Asignar miembro] | To-do |
+| Sprint 3 | US15 | Centralizar perfil clínico de mascota | W-09 | Integrar vista de mascotas | Conectar el dashboard del dueño de mascota para consumir la lista real de mascotas directamente desde el backend. | 2 horas | [Asignar miembro] | To-do |
+| Sprint 3 | US17 | Consultar ficha médica de mascota | W-10 | Integrar vista de historial clínico | Modificar el frontend para renderizar el historial médico y las vacunas obtenidos desde la base de datos. | 2 horas | [Asignar miembro] | To-do |
+| Sprint 3 | US23 | Buscar veterinarias con criterios médicos | W-11 | Integrar buscador en el frontend | Conectar la vista de búsqueda de veterinarias con el API, enviando los parámetros de filtrado reales implementados. | 2 horas | [Asignar miembro] | To-do |
+
+#### 5.2.3.4.Development Evidence for Sprint Review. 
+
+En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 3, específicamente en la implementación del Web Service Backend de PetCare, implementando correctamente la exposición de la API y de una arquitectura escalable y segura. 
+
+Los commits registrados evidencian la consolidación de la Web Service. A continuación, se muestra la tabla con los commits más relevantes asociados al repositorio del proyecto, la resolución de requerimientos y la evolución de la infraestructura del backend durante este Sprint:
+
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Co-Designers/PetCare-Backend | main | d843525  | feat: add setup and API usage instructions | Add comprehensive documentation to the README file for the PetCare Platform Backend, detailing environment setup, architecture, and integration. | 15/06/2026 |
+| Co-Designers/PetCare-Backend | main | 9a27d0c  | feat(mobile-interfaces): add mobile REST endpoints | Introduce MobileAppointmentsController to expose REST endpoints for managing mobile professional appointments within the 'mobile' bounded context. | 15/06/2026 |
+| Co-Designers/PetCare-Backend | main | 19cdeb0 | feat(pet-management-interfaces): add pets REST endpoints | Introduce PetsController to expose REST endpoints for managing pets within the 'petmanagement' bounded context. | 15/06/2026 |
+| Co-Designers/PetCare-Backend | main | 3a583c1  | feat(medical-records-domain): add medical record domain model | Introduce the MedicalRecord aggregate root entity within the 'medicalrecords' bounded context to represent comprehensive clinical history data. | 15/06/2026 |
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.<br>
+En este tercer Sprint, el equipo logró con éxito la transición de una arquitectura basada en datos estáticos (mock data) a una arquitectura robusta basada en microservicios RESTful. Se completó la implementación del backend utilizando Spring Boot, estableciendo la persistencia de datos mediante Mysql y garantizando la seguridad de las operaciones mediante JSON Web Tokens (JWT). La integración entre el frontend de Angular y los servicios backend permite ahora un flujo de información real, cumpliendo con los criterios de aceptación de autenticación, gestión de perfiles y búsqueda de servicios veterinarios.<br>
+
+La plataforma ahora cuenta con una API documentada bajo el estándar OpenAPI (Swagger). Esto permite visualizar todos los servicios disponibles (endpoints) y realizar pruebas en tiempo real sin necesidad de herramientas externas.
+
+Evidencia: <img src="assets/swaggerEvidencia1.jpeg"><br><br>
+<img src="assets/swaggerEvidencia2.jpg"><br><br>
+ https://docs.google.com/document/d/1j-y7yHdcBXKkSNk_jb5tRmIFZgX7Qo11NsIOVeYtS2g/edit?tab=t.0
+
+
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review. 
+
+### Relación de Endpoints (Sprint 3)
+
+| Endpoint | Verbo | Acción | Descripción |
+| :--- | :--- | :--- | :--- |
+| `/api/v1/authentication/sign-in` | POST | Autenticación | Valida credenciales y genera token JWT. |
+| `/api/v1/authentication/sign-up` | POST | Registro | Crea un nuevo usuario en la plataforma. |
+| `/api/v1/users/me` | GET | Perfil | Obtiene los datos del usuario autenticado. |
+| `/api/v1/pets?ownerId=2` | GET | Listar Mascotas | Obtiene mascotas de un dueño específico. |
+| `/api/v1/appointments?ownerId=2` | GET | Citas (Dueño) | Consulta citas programadas de un dueño. |
+| `/api/v1/appointments?clinicId=1` | GET | Citas (Clínica) | Consulta citas programadas para una clínica. |
+| `/api/v1/service-providers?district=Miraflores` | GET | Buscar Clínicas | Filtra proveedores por distrito. |
+| `/api/v1/mobile-professionals?userId=3` | GET | Profesionales | Obtiene datos de un profesional móvil. |
+| `/api/v1/mobile-services?mobileId=1` | GET | Servicios Móviles | Lista servicios ofrecidos por un profesional. |
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review. 
+
+Durante este Sprint, el objetivo principal fue establecer un entorno de despliegue funcional en la nube para nuestra plataforma PetCare. Nos enfocamos en configurar una Máquina Virtual (VM) en Azure para alojar nuestros servicios, asegurando que tanto el frontend como el backend sean accesibles de forma estable. A diferencia de un entorno automatizado (CI/CD), en esta etapa hemos priorizado la configuración manual y controlada de los recursos para garantizar la correcta integración de nuestra base de datos MySQL con los servicios de backend.<br>
+
+Despliegue del Frontend: La aplicación web (Angular) se desplegó utilizando GitHub Pages. Esta configuración permite que los cambios en nuestra interfaz sean publicados de manera ágil, facilitando el acceso a la plataforma desde cualquier lugar.
+
+Configuración del Backend en Azure: Provisionamos una Máquina Virtual (VM) en Microsoft Azure para alojar el backend (Spring Boot). Se realizaron las configuraciones necesarias en el sistema operativo y el entorno de ejecución (Java) para asegurar que la API esté disponible de forma permanente.
+
+Gestión de Base de Datos (MySQL): Implementamos nuestra base de datos en MySQL, configurando las reglas de acceso necesarias dentro de la infraestructura de Docker. Esto permite que el backend pueda conectarse de forma segura y persistir la información real de nuestros usuarios y servicios veterinarios.
+
+La siguiente imagen muestra el esquema de tablas en MySQL Workbench, el cual garantiza la persistencia de datos del sistema. El backend (alojado en Azure VM) se encuentra correctamente conectado a este motor de base de datos, permitiendo la gestión y almacenamiento seguro de la información de usuarios, mascotas y citas en tiempo real.<br><br>
+<img src = "assets/dbEvidencia1.jpg"><br><br>
+<img src = "assets/dbEvidencia2.jpg"><br><br>
+#### 5.2.3.8.Team Collaboration Insights during Sprint. 
+
+En esta sección se presenta la evidencia de colaboración del equipo durante el Sprint 3, cuyo enfoque principal fue el desarrollo del Web Service Backend de PetCare. 
+
+La implementación técnica en el repositorio del backend se complementó con el esfuerzo conjunto del equipo en la revisión de arquitectura, validación de endpoints y documentación técnica del Sprint.
+
+Este avance se evidencia a continuación mediante el registro de commits en GitHub, vinculando directamente las tareas planificadas en el Sprint Backlog con el incremento del producto entregado  
+
+<img src="assets/sprint3/commitssprint3.png"></img><br>
+
+#### 5.2.4. Sprint 4
+
+El Sprint 4 tuvo como objetivo principal culminar al 100% el desarrollo de la Web Application de PetCare, logrando la integración total y definitiva entre el frontend y el backend (RESTful API). Durante esta iteración final, el equipo se enfocó en conectar todas las interfaces de usuario con los endpoints reales desplegados en la nube, eliminando por completo cualquier dependencia de datos simulados de sprints anteriores. Este Sprint garantizó el correcto funcionamiento de los flujos críticos para ambos segmentos (dueños de mascotas y veterinarias), incluyendo la autenticación segura, la gestión completa del historial médico, el agendamiento de citas, los pagos digitales y el monitoreo IoT, asegurando un producto robusto, estable y listo para las validaciones finales.
+
+#### 5.2.4.1.Sprint Planning 4.
+
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting para el Sprint 4. Se establecen los objetivos finales que marcan la integración total del frontend y el backend, consolidando el 100% del desarrollo de la plataforma PetCare. A continuación, se detalla el alcance, los asistentes, las conclusiones del sprint previo y el Sprint Goal trazado.
+
+| Categoría | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 4 Sprint Planning |
+| **Background** | **Date:** 2026-07-06<br>**Time:** 8:00 PM - 12:00 AM<br>**Location:** Discord |
+| **Prepared By** | Diego Roberto, Campoblanco Guzman |
+| **Attendees (to planning meeting)** | Diego Roberto, Campoblanco Guzman<br>Ghiou Justinn, Mauricio Silva<br>Ghorghet Saul, Tuncar Vila<br>Jean Pool, Huaman de la Cruz<br>Katherine Maryory, Mejía Aliaga |
+| **Sprint 3 Review Summary** | Durante el Sprint 3 se implementó con éxito el backend RESTful API utilizando Spring Boot, se estableció la persistencia en la base de datos SQL Server y se protegió la plataforma mediante seguridad JWT. Además, se logró el despliegue inicial en la nube (Azure VM) y se documentaron los endpoints con Swagger. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó que, si bien el backend está desplegado y operativo, la Web Application en Angular aún requiere conectarse en su totalidad a los endpoints finales. Se acordó que el esfuerzo crítico del Sprint 4 debe centrarse exclusivamente en reemplazar cualquier rastro de datos simulados restantes y asegurar que el 100% de las interfaces operen fluidamente con el backend en la nube. |
+| **Sprint Goal & User Stories** | **Sprint 4 Goal:** Nuestro enfoque es completar la integración total entre el frontend (Angular) y el backend (RESTful API), culminando al 100% el desarrollo de la Web Application de PetCare. Creemos que esto garantizará una experiencia de usuario completamente funcional, segura y lista para producción. Esto se confirmará cuando todas las interacciones de los dueños de mascotas y veterinarios (agendamientos, historial médico, pagos y monitoreo IoT) se procesen sin errores y se reflejen en la base de datos real. |
+| **Sprint 4 Velocity** | 30 |
+| **Sum of Story Points** | 30 |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En el presente Sprint, el equipo centró todos sus esfuerzos en la integración total y definitiva del frontend (Angular) con el backend (Spring Boot y SQL Server). A diferencia de los sprints anteriores, donde el trabajo se dividió entre la maquetación visual y la construcción aislada de la API, esta iteración exigió un enfoque colaborativo orientado a consumir los endpoints reales, manejar el flujo de seguridad (JWT) desde el lado del cliente y realizar pruebas de extremo a extremo (*End-to-End*).
+
+Para gestionar de forma eficiente la complejidad de conectar al 100% la plataforma PetCare, eliminar cualquier dependencia de datos simulados y asegurar el correcto funcionamiento en el entorno de producción (nube), se redefinieron los roles técnicos del equipo. La distribución del trabajo se ha estructurado en la Leadership and Collaboration Matrix (LACX), estableciendo claramente quién asume el rol de Leader (L) y quiénes actúan como Collaborators (C) en cada frente de la integración.
+
+A continuación, se presenta la matriz de liderazgo y colaboración del Sprint 4.
+
+**Leadership and Collaboration Matrix (LACX)**
+
+| Team Member (Last Name, First Name) | GitHub Username | API Integration & Consumption (L/C) | Security & JWT Handling (L/C) | End-to-End Testing (L/C) | Final Deployment (L/C) | Documentation & Review (L/C) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Huaman de la Cruz, Jean Pool | JeanPool | C | C | C | C | L |
+| Mauricio Silva, Ghiou Justinn | Justinn2006 | C | L | C | C | C |
+| Campoblanco Guzman, Diego Roberto | DiegoCampoblanco | L | C | L | C | C |
+| Tuncar Vila, Ghorghet Saul | Ghorghet | C | C | C | L | C |
+| Mejía Aliaga, Katherine Maryory | KathMJ | L | C | C | C | C |
+
+<br>
+
+**Aspecto: Integración Total y Despliegue Final de la Web Application**
+
+| Aspecto | Descripción |
+| :--- | :--- |
+| **Feature** | Conexión definitiva entre el frontend y el RESTful API, pruebas funcionales y despliegue final de la plataforma PetCare. |
+| **Objetivo Principal** | Lograr la operatividad al 100% de la plataforma, garantizando que todas las acciones del usuario en las interfaces web interactúen correctamente, de forma segura y sin latencias con la base de datos relacional alojada en la nube. |
+| **Elementos incluidos** | • Implementación de servicios HTTP (`HttpClient`) en Angular para consumir los endpoints reales.<br>• Eliminación total de datos simulados (*mock data*) y configuraciones de `json-server`.<br>• Manejo de interceptores en el frontend para inyectar los tokens JWT en cada petición protegida.<br>• Integración de flujos completos: registro, login, gestión de mascotas, historial clínico, búsqueda de veterinarias y agendamiento.<br>• Despliegue de la versión final del frontend y backend en sus respectivos entornos de producción. |
+| **Criterios de aceptación** | • El 100% de las interfaces (paneles de dueños de mascotas y veterinarias) renderizan información real proveniente de la base de datos.<br>• El manejo de sesiones (Login/Logout) funciona correctamente con validación de tokens JWT.<br>• No existen errores de CORS (Cross-Origin Resource Sharing) entre el frontend y el backend desplegado.<br>• Las acciones CRUD (Crear, Leer, Actualizar, Eliminar) ejecutadas desde el frontend se reflejan exitosamente en SQL Server.<br>• La plataforma completa está desplegada, estable y es accesible públicamente sin interrupciones. |
+| **Resultado esperado** | La Web Application PetCare completamente finalizada, segura, integrada de extremo a extremo y lista para las entrevistas de validación con los segmentos objetivo (dueños de mascotas y clínicas veterinarias). |
+
+#### 5.2.4.3.Sprint Backlog 4.
+
+El Sprint Backlog 4 se estructuró con el objetivo de lograr la integración definitiva del 100% de la plataforma PetCare. Las tareas seleccionadas se enfocaron en conectar las vistas del frontend que aún utilizaban datos simulados con los endpoints finales del RESTful API. Se priorizó la funcionalidad completa de reservas con disponibilidad real, la integración de pagos digitales, la gestión clínica avanzada para los veterinarios (evolución, recetas y vacunas), la exportación del historial y la conexión final de los datos biométricos IoT.
+
+| Sprint # | US ID | User Story Title | Task ID | Task Title | Description | Estimation | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Sprint 4 | US27 | Reservar atención veterinaria | W-01 | Integrar agendamiento con disponibilidad real | Conectar el formulario de reserva en Angular con el endpoint del backend para validar y bloquear horarios reales en la base de datos. | 3 horas | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 4 | US28 | Confirmar cita con pago digital | W-02 | Integrar pasarela de pago simulada | Conectar el flujo de confirmación de citas con el procesamiento de pagos, asegurando que la cita pase a estado "Confirmada" tras el pago. | 4 horas | Ghiou Justinn, Mauricio Silva | Done |
+| Sprint 4 | TS09 | Gestionar cambios de citas | W-03 | Conectar reprogramación y cancelación | Implementar las llamadas HTTP (`PUT`/`DELETE`) desde el frontend para permitir a los usuarios modificar o cancelar sus citas, liberando los horarios. | 2 horas | Diego Roberto, Campoblanco | Done |
+| Sprint 4 | US19 | Registrar evolución médica | W-04 | Integrar registro de diagnóstico y evolución | Conectar el formulario del panel veterinario con el API para registrar nuevos síntomas, diagnósticos y tratamientos en el historial real de la mascota. | 3 horas | Katherine Maryory, Mejía | Done |
+| Sprint 4 | US20 | Generar receta médica digital | W-05 | Integrar emisión de recetas médicas | Configurar el endpoint para que, al finalizar una consulta, el veterinario pueda emitir y guardar indicaciones médicas trazables en el sistema. | 2 horas | Ghorghet Saul, Tuncar Vila | Done |
+| Sprint 4 | US32 | Registrar vacunas aplicadas | W-06 | Conectar actualización de vacunas | Implementar la integración para que el veterinario registre nuevas vacunas, impactando directamente en la base de datos y calculando el próximo control. | 2 horas | Katherine Maryory, Mejía | Done |
+| Sprint 4 | US21 | Exportar historial clínico | W-07 | Implementar descarga de historial en PDF | Conectar la vista del dueño de mascota con el servicio del backend encargado de generar y retornar el documento del historial clínico exportable. | 3 horas | Diego Roberto, Campoblanco | Done |
+| Sprint 4 | TS12 | Procesar monitoreo IoT y alertas | W-08 | Conectar dashboard IoT con datos reales | Reemplazar los datos estáticos de temperatura y ritmo cardíaco conectando el panel con los endpoints que procesan las lecturas biométricas y generan alertas. | 4 horas | Jean Pool, Huaman de la Cruz | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 4, el cual estuvo enfocado en la integración definitiva de la Web Application con el backend desplegado en la nube. 
+
+A diferencia de los sprints anteriores, el esfuerzo de desarrollo se centró en unificar el ecosistema de la plataforma. El commit registrado evidencia la eliminación completa de la dependencia de datos simulados (*mock data*), la resolución de políticas de seguridad para la comunicación entre aplicaciones y la conexión final de los endpoints de producción. 
+
+A continuación, se detalla el commit que consolida la versión final del sistema:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Co-Designers/PetCare-Backend | main | eedbac8 | Final PetCare frontend integration | Fully integrated REST API endpoints with the Angular frontend. Resolved CORS policies for the production environment, removed all remaining mock data dependencies (json-server), and successfully connected the modules for appointments, medical records, and IoT monitoring. | 06/07/2026 |
+
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+El Sprint 4 marcó el hito final en el desarrollo de la plataforma PetCare, logrando la integración total y definitiva entre el frontend (Angular) y el backend (RESTful API con Spring Boot). El objetivo central fue la eliminación absoluta de datos simulados, garantizando que toda la interfaz interactúe en tiempo real con la base de datos SQL Server alojada en Azure.
+
+Durante esta iteración, se consolidaron los flujos críticos de la plataforma: autenticación segura mediante tokens JWT, gestión integral de historiales médicos, sistema de citas con disponibilidad real, procesamiento de pagos digitales y visualización de datos biométricos provenientes de dispositivos IoT. El producto final se encuentra ahora estable, seguro y listo para su despliegue en el entorno de producción.
+
+Principales vistas implementadas:
+
+-Panel de Agendamiento:
+<br>
+<img src="assets/panelAgendamiento.jpeg"><br>
+
+-Dashboard de Veterinaria:Vista del registro de diagnósticos, evolución médica y recetas digitales.
+<br>
+<img src="assets/dashboardVeterinaria.jpeg"><br>
+
+
+-Gestion de Historial:Visualización de los datos del paciente.
+<br>
+<img src="assets/GestionHistorialClinico.jpeg"><br>
+
+
+-Flujo de Autenticacion JWT:Pantalla de Login/Registro demostrando el manejo de sesiones mediante interceptores JWT.
+<br>
+<img src="assets/autenticacionTipos.jpeg"><br>
+<img src="assets/autenticacion1.jpeg"><br>
+
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+
+En el Sprint 4 se completó la documentación de los servicios RESTful API de PetCare utilizando **OpenAPI 3.1.0**, accesible a través de **Swagger UI**. Durante esta iteración final se consolidaron y documentaron los endpoints principales correspondientes a los diferentes bounded contexts del sistema, incluyendo autenticación, gestión de usuarios, mascotas, citas, historial médico, clínicas, veterinarios, servicios móviles y notificaciones.
+
+La documentación está desplegada en el entorno de producción de Azure y puede ser consultada en el siguiente enlace:
+
+🔗 **Swagger UI:** [https://petcare-platform-api-u20241e242.azurewebsites.net/swagger-ui/index.html](https://petcare-platform-api-u20241e242.azurewebsites.net/swagger-ui/index.html)
+
+
+##### Relación de Endpoints Documentados
+
+A continuación se presentan los endpoints más relevantes expuestos por el backend de PetCare, agrupados por controlador. Se incluyen aquellos que representan operaciones de negocio clave (registro, autenticación, gestión de perfiles, citas, historial clínico y servicios móviles). Para cada uno se detalla su método, descripción y parámetros principales.
+
+| Controlador | Endpoint | Método | Descripción | Parámetros/Documentación |
+|-------------|----------|--------|-------------|---------------------------|
+| **authentication-controller** | `/api/v1/authentication/sign-up/owner` | POST | Registra un nuevo dueño de mascota. | Body: `firstName`, `lastName`, `email`, `password`, `phone`. Email único. |
+| | `/api/v1/authentication/sign-up/clinic` | POST | Registra una nueva clínica veterinaria. | Body: `businessName`, `ruc`, `email`, `password`, `phone`, `address`. RUC y email únicos. |
+| | `/api/v1/authentication/sign-up/mobile-professional` | POST | Registra un profesional de servicios móviles. | Body: `firstName`, `lastName`, `email`, `password`, `phone`, `specialty`. Email único. |
+| | `/api/v1/authentication/sign-in` | POST | Autentica usuario y devuelve token JWT. | Body: `email`, `password`. Devuelve `token`, `userId`, `role`. |
+| | `/api/v1/authentication/change-password` | POST | Cambia la contraseña del usuario autenticado. | Header: Bearer token. Body: `oldPassword`, `newPassword`. |
+| **users-controller** | `/api/v1/users/me` | GET | Obtiene los datos del usuario autenticado. | Header: Bearer token. |
+| | `/api/v1/users/{userId}` | PATCH | Actualiza datos parciales de un usuario. | Path: `userId`. Header: Bearer token. Body: campos a actualizar. |
+| **pets-controller** | `/api/v1/pets` | POST | Registra una nueva mascota. | Header: Bearer token. Body: `name`, `species`, `breed`, `age`, `weight`, `allergies`. Valida límites por suscripción. |
+| | `/api/v1/pets/{petId}` | PUT | Actualiza todos los datos de una mascota. | Path: `petId`. Header: Bearer token. Body: datos completos. |
+| **medical-records-controller** | `/api/v1/medical-records` | POST | Añade un nuevo registro médico. | Header: Bearer token. Body: `petId`, `diagnosis`, `treatment`, `notes`. Solo veterinarios autorizados. |
+| **appointments-controller** | `/api/v1/appointments` | POST | Agenda una nueva cita veterinaria. | Header: Bearer token. Body: `petId`, `clinicId`, `serviceId`, `dateTime`. Valida disponibilidad real. |
+| | `/api/v1/appointments/{appointmentId}/start` | PATCH | Marca una cita como iniciada. | Path: `appointmentId`. Header: Bearer token. Solo veterinarios/clínica. |
+| | `/api/v1/appointments/{appointmentId}/complete` | PATCH | Marca una cita como completada. | Path: `appointmentId`. Header: Bearer token. Solo veterinarios/clínica. |
+| | `/api/v1/appointments/{appointmentId}/cancel` | PATCH | Cancela una cita. | Path: `appointmentId`. Header: Bearer token. Libera el horario. |
+| | `/api/v1/appointments/available-slots` | GET | Verifica horarios disponibles para una clínica. | Query: `clinicId`, `date` (yyyy-MM-dd). Header: Bearer token. |
+| **clinics-controller** | `/api/v1/clinics` | POST | Registra una nueva clínica (solo administradores). | Header: Bearer token. Body: datos de la clínica. |
+| | `/api/v1/clinics/{clinicId}` | PATCH | Actualiza datos parciales de una clínica. | Path: `clinicId`. Header: Bearer token. Body: campos a actualizar. |
+| **veterinarians-controller** | `/api/v1/veterinarians` | POST | Registra un nuevo veterinario. | Header: Bearer token. Body: `firstName`, `lastName`, `specialty`, `clinicId`. |
+| | `/api/v1/veterinarians/{veterinarianId}` | PUT | Actualiza todos los datos de un veterinario. | Path: `veterinarianId`. Header: Bearer token. Body: datos completos. |
+| **clinic-services-controller** | `/api/v1/services` | POST | Registra un nuevo servicio veterinario. | Header: Bearer token. Body: `name`, `description`, `price`, `clinicId`. |
+| | `/api/v1/services/{serviceId}` | PUT | Actualiza todos los datos de un servicio. | Path: `serviceId`. Header: Bearer token. Body: datos completos. |
+| **service-providers-controller** | `/api/v1/service-providers` | GET | Obtiene proveedores de servicios (clínicas o profesionales). | Query: `type` (CLINIC/MOBILE), `location`. Header: Bearer token (opcional). |
+| **mobile-professionals-controller** | `/api/v1/mobile-professionals` | POST | Registra un nuevo profesional móvil. | Header: Bearer token. Body: `firstName`, `lastName`, `email`, `phone`, `specialty`. |
+| | `/api/v1/mobile-professionals/{id}` | PUT | Actualiza todos los datos de un profesional móvil. | Path: `id`. Header: Bearer token. Body: datos completos. |
+| **mobile-services-controller** | `/api/v1/mobile-services` | POST | Registra un nuevo servicio móvil. | Header: Bearer token. Body: `professionalId`, `name`, `description`, `price`. |
+| | `/api/v1/mobile-services/{id}` | PUT | Actualiza todos los datos de un servicio móvil. | Path: `id`. Header: Bearer token. Body: datos completos. |
+| **mobile-availability-controller** | `/api/v1/mobile-availability` | POST | Registra un nuevo bloque de disponibilidad. | Header: Bearer token. Body: `professionalId`, `dayOfWeek`, `startTime`, `endTime`. |
+| | `/api/v1/mobile-availability/{id}` | PUT | Actualiza un bloque de disponibilidad. | Path: `id`. Header: Bearer token. Body: datos completos. |
+| **mobile-requests-controller** | `/api/v1/mobile-requests` | POST | Registra una nueva solicitud de servicio móvil. | Header: Bearer token. Body: `petId`, `professionalId`, `serviceId`, `dateTime`. |
+| | `/api/v1/mobile-requests/{id}/start` | PATCH | Marca una solicitud como iniciada. | Path: `id`. Header: Bearer token. Solo el profesional asignado. |
+| | `/api/v1/mobile-requests/{id}/complete` | PATCH | Marca una solicitud como completada. | Path: `id`. Header: Bearer token. Solo el profesional asignado. |
+| | `/api/v1/mobile-requests/{id}/cancel` | PATCH | Cancela una solicitud. | Path: `id`. Header: Bearer token. Libera el horario. |
+| | `/api/v1/mobile-requests/available-slots` | GET | Verifica horarios disponibles para solicitudes móviles. | Query: `professionalId`, `date` (yyyy-MM-dd). Header: Bearer token. |
+| **mobile-appointments-controller** | `/api/v1/mobile-appointments` | POST | Agenda una cita de servicio a domicilio. | Header: Bearer token. Body: `requestId`, `dateTime`. |
+| **notifications-controller** | `/api/v1/notifications/{id}/read` | PATCH | Marca una notificación como leída. | Path: `id`. Header: Bearer token. Solo el propietario. |
+| **patients-controller** | `/api/v1/patients` | GET | Obtiene todos los pacientes (mascotas) de una clínica. | Query: `clinicId`. Header: Bearer token. Solo personal de la clínica. |
+| **roles-controller** | `/api/v1/roles` | GET | Obtiene todos los roles disponibles. | Header: Bearer token. Solo administradores. |
+
+##### Observación sobre Endpoints de Pagos y Monitoreo IoT
+
+Tras la revisión exhaustiva de la documentación OpenAPI, **no se encontraron endpoints específicos para pagos digitales** (ej. `/api/v1/payments`) **ni para monitoreo IoT** (ej. `/api/v1/iot/devices` o `/api/v1/iot/readings`). Estas funcionalidades, si bien fueron consideradas en el diseño inicial y en las User Stories (US28, TS10, TS12), no han sido implementadas en la versión final del backend para el TB2.
+
+**Justificación:** El equipo priorizó la implementación del núcleo funcional de la plataforma (autenticación, gestión de mascotas, citas, historial clínico y servicios móviles) por encima de los módulos de pago e IoT, que quedan como **trabajo pendiente para futuras iteraciones** del producto. Se recomienda documentar estos servicios en próximos sprints, siguiendo el mismo estándar OpenAPI, y desplegarlos en el entorno de producción.
+
+
+
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 4, se consolidó el despliegue final de la plataforma PetCare en el entorno de producción en la nube de **Microsoft Azure**. El equipo configuró y desplegó los servicios backend (RESTful API) en una máquina virtual de Azure, asegurando que la aplicación esté accesible de forma estable y que la base de datos MySQL esté correctamente conectada y configurada para la persistencia de datos en producción.
+
+##### Despliegue del Backend en Azure
+
+A continuación se muestran las capturas del proceso de configuración y despliegue del backend en Azure durante el Sprint 4.
+
+
+![](assets/EvidenceSprint4/swagger0.1.jpeg)
+
+![](assets/EvidenceSprint4/swagger0.2.jpeg)
+
+![](assets/EvidenceSprint4/swagger0.3.jpeg)
+
+![](assets/EvidenceSprint4/swagger0.4.jpeg)
+
+##### Validación del Despliegue a través de Swagger UI
+
+Una vez completado el despliegue del backend en Azure, se procedió a verificar el correcto funcionamiento de la API a través de la documentación Swagger UI. Las siguientes capturas muestran la validación de los diferentes controladores y endpoints disponibles en la versión desplegada.
+![](assets/EvidenceSprint4/swagger1.png)
+
+![](assets/EvidenceSprint4/swagger2.png)
+
+![](assets/EvidenceSprint4/swagger3.png)
+
+![](assets/EvidenceSprint4/swagger4.png)
+
+![](assets/EvidenceSprint4/swagger5.png)
+
+![](assets/EvidenceSprint4/swagger6.png)
+
+![](assets/EvidenceSprint4/swagger7.png)
+
+#### 5.2.4.8.Team Collaboration Insights during Sprint.
+En el Sprint 4, dejamos atrás el trabajo aislado para enfocarnos en la integración total. La dinámica de trabajo se centró en la colaboración cruzada: mientras algunos compañeros se enfocaron en la seguridad con JWT, otros aseguraron que los servicios HTTP (en Angular) y los endpoints en el backend funcionaran sin errores. Gracias a la matriz LACX, cada miembro asumió roles de Leader o Collaborator, permitiéndonos cubrir desde el despliegue en la nube hasta las pruebas finales.
+
+Evidencia del repositorio backend:<br>
+<img src="assets/contribuidoresBackend.jpeg"><br>
+
+<img src="assets/commitsBackend.jpeg">
+
+Evidencia del repositorio Frontend:
+<img src="assets/contribuidoresFrontend.jpeg"><br>
+
+<img src="assets/commitsFrontend.jpeg">
+
+
+#### 5.3. Validation Interviews. 
+
+#### 5.3.1. Diseño de Entrevistas.
+
+Para el presente sprint, el objetivo de las entrevistas de validación es evaluar la usabilidad, eficiencia y satisfacción del usuario final tras haber interactuado con la primera versión funcional e integrada de la Web Application de PetCare. 
+
+**Metodología:** Los entrevistados tuvieron acceso previo a la plataforma con una serie de tareas asignadas (registro, gestión de perfiles, historiales médicos y búsqueda). La entrevista grabada se enfoca en recolectar su retroalimentación cualitativa sobre dicha experiencia de uso, identificando puntos de dolor y oportunidades de mejora a nivel de Interfaz (UI) y Experiencia de Usuario (UX).
+
+Se han elaborado dos guiones distintos adaptados a nuestros segmentos objetivo.
+
+---
+
+**Guion A: Segmento - Dueños de Mascotas**
+
+**Fase 1: Introducción**
+* "Hola, muchas gracias por tomarte el tiempo de probar la plataforma PetCare previamente. En esta breve entrevista, te haré algunas preguntas sobre tu experiencia navegando por la aplicación para entender qué funciona bien y qué podemos mejorar."
+
+**Fase 2: Preguntas sobre Tareas y Flujos**
+1. **(Registro y Autenticación):** ¿Qué te pareció el proceso para registrar tu cuenta e iniciar sesión por primera vez? ¿Te resultó claro y rápido?
+2. **(Gestión de Mascotas):** Cuando intentaste añadir los datos de tu mascota en el sistema, ¿sentiste que faltó algún campo importante o la información solicitada fue la adecuada?
+3. **(Historial Clínico):** Al revisar la sección del historial médico y las vacunas de tu mascota, ¿la información estaba organizada de una manera fácil de entender? 
+4. **(Búsqueda de Veterinarias):** Durante tu búsqueda de una clínica veterinaria, ¿los filtros proporcionados (especialidad, ubicación) te ayudaron a encontrar lo que necesitabas?
+
+5. ¿Hubo alguna pantalla o botón durante tu uso de la aplicación que te haya confundido o que no haya funcionado como esperabas?
+6. En una escala del 1 al 5, ¿qué tan intuitiva te pareció la navegación general de la plataforma? ¿Por qué?
+7. ¿Qué funcionalidad mejorarías o agregarías para sentirte más cómodo y seguro gestionando la salud de tu mascota con PetCare?
+
+---
+
+**Guion B: Segmento - Clínicas Veterinarias / Veterinarios**
+
+**Fase 1: Introducción**
+* "Hola, gracias por haber probado el panel de especialistas de PetCare. Nuestro objetivo hoy es conversar sobre tu experiencia registrando información clínica en el sistema, para asegurar que la herramienta se adapte realmente al día a día de una veterinaria."
+
+**Fase 2: Preguntas sobre Tareas y Flujos**
+1. **(Autenticación y Búsqueda):** ¿Cómo calificarías la rapidez y claridad al iniciar sesión y buscar el perfil de un paciente específico en la plataforma?
+2. **(Registro de Diagnósticos):** Al momento de simular el registro de un nuevo diagnóstico o evolución clínica, ¿consideras que los campos del formulario cubren la información esencial que tomas en una consulta real?
+3. **(Validación de Datos):** ¿Notaste algún problema, error o lentitud al momento de guardar la información del paciente en el sistema?
+4. **(Organización Visual):** ¿Qué te pareció la estructura de la línea de tiempo donde se muestran las atenciones pasadas del paciente? ¿Fue fácil de leer?
+5. ¿Hubo algún momento durante tu navegación en el que te sentiste perdido o no supiste cómo regresar a la pantalla anterior?
+6. Pensando en la operatividad de tu clínica, ¿qué tan viable ves reemplazar tu método actual (papel, Excel o tu software actual) por una plataforma como PetCare?
+7. ¿Qué cambio crítico le harías a la interfaz o a las funciones antes de implementarla formalmente en tu negocio?
+
+#### 5.3.2. Registro de Entrevistas.
+
+URL del video: https://drive.google.com/drive/folders/1YMjd51lNQAdM_DYEC-DyYMeVsmwdzVQ-?usp=sharing
+
+**Segmento 1: Dueños de Mascotas
+
+| N | Datos | Descripción | Imagen referencial |
+|---|---|---|---|
+| 1 | Nombre: Camila Vega Ruiz <br>Edad: 23 años <br>Distrito: Santiago de Surco, Lima | La usuaria evaluó la plataforma enfocándose en el uso desde dispositivos móviles y el módulo de atención a domicilio. Destacó positivamente la adaptabilidad de la interfaz, la carga de URLs para documentos clínicos en el historial y la facilidad para encontrar profesionales móviles independientes. Como oportunidades de mejora, recomendó añadir un campo de microchip en el perfil de la mascota, dar mayor visibilidad al botón de cancelación de citas e integrar una pasarela de pagos nativa. Calificó la plataforma con una puntuación de 5/5. | |
+| 2 | Nombre: Mateo Silva Olavarría <br>Edad: 28 años <br>Distrito: Miraflores, Lima | El usuario evaluó el flujo completo del segmento "Dueños de Mascotas". Destacó positivamente la velocidad del proceso de autenticación y la utilidad del filtro por distrito para localizar veterinarias cercanas. Manifestó que la visualización del historial clínico es clara, valorando especialmente las alertas de próximas vacunas. Como puntos de mejora para los siguientes Sprints, sugirió optimizar la consistencia del menú lateral de navegación, añadir un campo de alergias en el registro de la mascota e implementar un sistema de recordatorios/notificaciones para las citas médicas. Calificó la usabilidad general de la plataforma con una puntuación de 4/5. | |
+| 3 | Nombre: Ricardo Flores <br>Edad: 32 años<br>Distrito: San Borja, Lima| El usuario evaluó la plataforma desde una perspectiva de accesibilidad y gestión clínica para mascotas de edad avanzada. Resaltó de forma muy positiva el filtro de búsqueda por especialidad médica y la separación clara entre diagnóstico y tratamiento en el historial clínico. Como recomendaciones de mejora para la experiencia de usuario, sugirió incrementar el tamaño y contraste de las fuentes en el login, añadir un indicador visual de carga (spinner) al procesar citas, habilitar un campo para el peso de la mascota e integrar recetas digitales automatizadas. Calificó la usabilidad general con un 4/5. | |
+
+**Segmento 2: Veterinarias y especialistas
+
+
+| N | Datos | Descripción | Imagen referencial |
+|---|---|---|---|
+| 1 | Nombre: Dr. Alejandro <br>Apellido:Peralta <br>Edad: 31 años <br>Distrito: Lince, Lima<br>Profesión: Veterinario clínico | El usuario evaluó la herramienta desde la perspectiva operativa del veterinario en consulta. Destacó de forma muy positiva la rapidez en la búsqueda de pacientes y la legibilidad de la línea de tiempo cronológica de las atenciones. Como retroalimentación crítica para el proyecto, recomendó añadir campos obligatorios para signos vitales (temperatura, peso, frecuencia cardíaca) en el formulario de diagnóstico, optimizar el flujo de retorno a la lista de pacientes con un botón de "Volver" e integrar un botón visible en la interfaz para la carga directa de archivos adjuntos (recetas/exámenes). | |
+| 2 | Nombre: Dra. Beatriz <br>Apellido: Mendoza <br>Edad: 45 años <br>Distrito: Santiago de Surco, Lima <br>Profesión: Veterinaria, dueña de clínica veterinaria | La usuaria aportó un enfoque administrativo y de gestión de clínicas. Valoró positivamente el rendimiento del backend al guardar datos y la utilidad de la línea de tiempo para el trabajo colaborativo entre médicos. Para la retroalimentación del proyecto, recomendó habilitar la búsqueda de pacientes mediante datos del propietario (DNI/Teléfono), enlazar directamente el flujo de "Citas" con la creación del "Historial Clínico" mediante un botón de acción inmediata ("Atender") y robustecer la gestión de accesos en el frontend según el rol del usuario (CLINIC vs personal administrativo). | |
+| 3 | Nombre:Dr. Manuel  <br>Apellido: Zegarra <br>Edad: 58 años <br>Distrito: San Borja, Lima <br>Profesión: Veterinario | El usuario analizó el sistema bajo criterios de ergonomía, accesibilidad para adultos mayores y optimización de tiempos en consulta. Validó la estabilidad y velocidad del backend al guardar datos crudos. Sus principales aportes para la retroalimentación del proyecto consisten en: incrementar el tamaño y contraste de los componentes visuales de búsqueda, programar redirecciones automáticas al panel principal tras guardar un registro clínico, automatizar el cálculo de la fecha de la próxima dosis de vacunas (Next Due Date) e incorporar texto predefinido (plantillas) para los diagnósticos y tratamientos más recurrentes. | |
+
+#### 5.3.3. Evaluaciones según heurísticas. 
+
+### 5.2.3.5. Evaluaciones según heurísticas
+La evaluación heurística permite identificar problemas de usabilidad en una interfaz mediante el análisis sistemático contra principios establecidos. Para el segmento de Clínicas Veterinarias / Veterinarios, se aplicó el método de evaluación de Jakob Nielsen con sus 10 principios de usabilidad, transformando el feedback recopilado durante las entrevistas de validación en métricas e indicaciones de ingeniería de software claras.
+
+**Aplicación de las 10 Heurísticas de Nielsen:**
+
+| # | Principio | Descripción |
+|---|-----------|-------------|
+| 1 | Visibilidad del estado del sistema | El sistema debe mantener al usuario informado sobre lo que está aconteciendo. |
+| 2 | Compatibilidad con el mundo real | El sistema debe hablar el lenguaje y seguir las convenciones del usuario. |
+| 3 | Control y libertad del usuario | Funciones de deshacer, rehacer y salidas fáciles disponibles. |
+| 4 | Consistencia y estándares | Uso consistente de convenciones en todos los elementos de la interfaz. |
+| 5 | Prevención de errores | Diseño limpio que evite proactivamente que ocurran equivocaciones. |
+| 6 | Reconocimiento antes que recuerdo | Minimizar la carga de memoria mostrando objetos, acciones y opciones visibles. |
+| 7 | Flexibilidad y eficiencia de uso | Presencia de aceleradores y automatizaciones para usuarios experimentados. |
+| 8 | Diseño estético y minimalista | Eliminar información irrelevante o raramente necesaria de los flujos. |
+| 9 | Recuperación de errores | Mensajes de error claros que indiquen el problema y aporten soluciones. |
+| 10 | Ayuda y documentación | Sistema intuitivo acompañado de documentación enfocada en tareas. |
+
+**Escala de Severidad:**
+* **0 - Sin problema:** No se detecta ningún problema de usabilidad.
+* **1 - Problema cosmético:** Detalle visual menor; no interfiere con el flujo ni requiere ser arreglado con urgencia.
+* **2 - Problema menor:** Afecta ligeramente la fluidez; debe ser arreglado en el siguiente ciclo.
+* **3 - Problema grave:** Interrupción molesta en el flujo o falta de datos críticos; alta prioridad de desarrollo.
+* **4 - Catástrofe:** Bloquea por completo la operatividad; debe arreglarse de forma inmediata antes del lanzamiento.
+
+---
+
+#### Resultados de la Evaluación Heurística - Clínicas Veterinarias
+
+**Entrevista N°1 - Dr. Alejandro Peralta Castro (Veterinario Clínico, Lince)**
+
+| Hallazgo | Heurística | Severidad | Descripción |
+|----------|------------|-----------|-------------|
+| Falta de campos para registrar signos vitales básicos | Compatibilidad con el mundo real | 3 | El formulario clínico no incluye espacios nativos e independientes para peso, temperatura o frecuencias cardíaca/respiratoria. |
+| El backend persiste y almacena datos de forma limpia | — | 0 | La creación y guardado de agregados clínicos (`MedicalRecord`) funciona velozmente y sin retrasos. |
+| Navegación profunda sin salida rápida | Control y libertad del usuario | 2 | Tras ingresar a los detalles del historial, obliga a usar el menú lateral en lugar de poseer un botón contextualizado de "Volver". |
+
+**Entrevista N°2 - Dra. Beatriz Mendoza Rey (Dueña de Clínica, Surco)**
+
+| Hallazgo | Heurística | Severidad | Descripción |
+|----------|------------|-----------|-------------|
+| Limitación en los criterios de búsqueda de pacientes | Flexibilidad y eficiencia de uso | 2 | Solo permite buscar por datos directos de la mascota, ralentizando la recepción si el cliente solo recuerda su DNI o teléfono. |
+| Flujo desconectado entre agenda y atención clínica | Flexibilidad y eficiencia de uso | 3 | El módulo de citas no cuenta con un acceso directo ("Atender") para instanciar automáticamente el formulario de historial médico. |
+| Edición del historial desprotegida en el frontend | Prevención de errores | 3 | Falta bloquear o restringir campos de diagnóstico y tratamiento en la interfaz para evitar modificaciones por personal no médico. |
+| La línea de tiempo cronológica es clara | Reconocimiento antes que recuerdo | 0 | La disposición secuencial de las atenciones pasadas facilita el diagnóstico colaborativo inmediatamente. |
+
+**Entrevista N°3 - Dr. Manuel Zegarra Vivanco (Veterinario Senior, San Borja)**
+
+| Hallazgo | Heurística | Severidad | Descripción |
+|----------|------------|-----------|-------------|
+| Interfaz carece de indicador de carga en transacciones | Visibilidad del estado del sistema | 3 | Al procesar la confirmación del guardado, la pantalla se mantiene fija sin un *spinner*, generando incertidumbre en el usuario. |
+| Elementos con problemas de legibilidad y accesibilidad | Diseño estético y minimalista | 2 | Cajas de texto, iconos de búsqueda y fuentes son muy pequeños para médicos de edad avanzada o con fatiga visual. |
+| Fechas de revacunación sin automatización de asistencia | Flexibilidad y eficiencia de uso | 2 | El usuario debe calcular y seleccionar manualmente en el calendario el campo `nextDueDate` en vez de recibir sugerencias por defecto. |
+| Captura repetitiva de textos clínicos comunes | Flexibilidad y eficiencia de uso | 2 | El sistema obliga a redactar desde cero diagnósticos o tratamientos idénticos de protocolos altamente recurrentes. |
+
+---
+
+#### Resumen Consolidado
+
+| Nivel de Severidad | Cantidad de Hallazgos | Porcentaje |
+|-------------------|----------------------|-------------|
+| Catástrofe (4) | 0 | 0% |
+| Grave (3) | 4 | 40% |
+| Menor (2) | 5 | 50% |
+| Cosmético (1) | 0 | 0% |
+| Sin problema (0) | 2 | 10% |
+
+**Total de incidencias analizadas: 11 hallazgos**
+
+---
+
+#### Hallazgos Prioritarios a Resolver
+
+| # | Hallazgo | Severidad | Recomendación de Ingeniería de Software |
+|---|----------|-----------|-----------------------------------------|
+| 1 | Pantalla estática sin indicador visual de guardado o procesamiento | 3 | Integrar animaciones de carga (*spinners*) y notificaciones emergentes de tipo *Toast* tras resolver las solicitudes HTTP POST/PUT. |
+| 2 | Ausencia de inputs para constantes y funciones biológicas básicas | 3 | Modificar la UI y extender la entidad del backend para capturar estructuradamente peso, temperatura y signos vitales antes del diagnóstico. |
+| 3 | Falta de botón de acción inmediata "Atender" en el listado de citas | 3 | Enlazar los contextos `appointmentmanagement` y `medicalrecords` en la UI mediante un desencadenador que autocomplete los IDs en el formulario. |
+| 4 | Ausencia de segregación de permisos de edición en la interfaz médica | 3 | Consumir el rol del token JWT (`iam` context) para deshabilitar las acciones de escritura en el historial clínico si el usuario no posee el rol `CLINIC`. |
+| 5 | Accesibilidad reducida por tamaño de fuentes y controles web | 2 | Optimizar las hojas de estilo (CSS) incrementando el contraste de color y aplicando variables proporcionales para mejorar la lectura. |
+
+---
+
+#### Conclusión
+
+El Web Service Backend de PetCare exhibe un comportamiento técnico robusto y estable en cuanto a la persistencia de datos. Sin embargo, la evaluación heurística orientada al segmento clínico expone la necesidad de sincronizar con mayor precisión la interfaz web con el flujo dinámico de una consulta veterinaria real. Resolver la visibilidad de los estados de carga, flexibilizar la búsqueda de historiales por dueño y estructurar las métricas de salud básica elevará la viabilidad del software para reemplazar por completo el uso de papel o plantillas locales de oficina en los negocios asociados.
 
 # Conclusiones
 
@@ -1751,6 +2243,7 @@ Adicionalmente, se presenta la gráfica de colaboración del repositorio, donde 
   # Video About The Team
 <img src="assets/abouttheteam.png" width="100%">
 [Enlace al Video]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a118_upc_edu_pe/IQC-XDpYZbt3Q7gBgmh65OdnAXNK_PjEKsUfb1jkxm94XC0?e=NOVCbM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221a118_upc_edu_pe/IgBXVj9IfV2aRIaglGvBtEomAXz7abU0DTM_hsZQda6fyh0?e=BXqbjZ))
+
 
 
 # Bibliografía
