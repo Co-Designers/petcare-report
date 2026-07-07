@@ -1723,6 +1723,13 @@ Adicionalmente, se presenta la gráfica de colaboración del repositorio, donde 
 
 <img src="assets/sprint2-evidence/sprint2-github-network-graph.jpeg" alt="Gráfica de colaboración del repositorio PetCare Frontend durante el Sprint 2" width="100%">
 
+5.4. Video About-the-Product.
+
+<img src="assets/abouttheproduct.png" width="100%">
+
+[Enlace al Video en Microsoft Stream (Repositorio Institucional)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a118_upc_edu_pe/IQC-XDpYZbt3Q7gBgmh65OdnAXNK_PjEKsUfb1jkxm94XC0?e=NOVCbM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[Enlace al Video en YouTube](https://youtu.be/9uX0LMm_oaU)
+
 
 # Conclusiones
 
