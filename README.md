@@ -2049,7 +2049,17 @@ Una vez completado el despliegue del backend en Azure, se procedió a verificar 
 ![](assets/EvidenceSprint4/swagger7.png)
 
 #### 5.2.4.8.Team Collaboration Insights during Sprint.
+En el Sprint 4, dejamos atrás el trabajo aislado para enfocarnos en la integración total. La dinámica de trabajo se centró en la colaboración cruzada: mientras algunos compañeros se enfocaron en la seguridad con JWT, otros aseguraron que los servicios HTTP (en Angular) y los endpoints en el backend funcionaran sin errores. Gracias a la matriz LACX, cada miembro asumió roles de Leader o Collaborator, permitiéndonos cubrir desde el despliegue en la nube hasta las pruebas finales.
 
+Evidencia del repositorio backend:<br>
+<img src="assets/contribuidoresBackend.JPEG"><br>
+
+<img src="assets/commitsBackend.JPEG">
+
+Evidencia del repositorio Frontend:
+<img src="assets/contribuidoresFrontend.JPEG"><br>
+
+<img src="assets/commitsFrontend.JPEG">
 
 
 #### 5.3. Validation Interviews. 
