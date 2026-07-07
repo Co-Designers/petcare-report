@@ -1923,8 +1923,17 @@ El Sprint Backlog 4 se estructuró con el objetivo de lograr la integración def
 | Sprint 4 | US21 | Exportar historial clínico | W-07 | Implementar descarga de historial en PDF | Conectar la vista del dueño de mascota con el servicio del backend encargado de generar y retornar el documento del historial clínico exportable. | 3 horas | Diego Roberto, Campoblanco | Done |
 | Sprint 4 | TS12 | Procesar monitoreo IoT y alertas | W-08 | Conectar dashboard IoT con datos reales | Reemplazar los datos estáticos de temperatura y ritmo cardíaco conectando el panel con los endpoints que procesan las lecturas biométricas y generan alertas. | 4 horas | Jean Pool, Huaman de la Cruz | Done |
 
-#### 5.2.4.4.Development Evidence for Sprint Review.
+#### 5.2.4.4. Development Evidence for Sprint Review
 
+En esta sección se presenta la evidencia del progreso alcanzado durante el desarrollo del Sprint 4, el cual estuvo enfocado en la integración definitiva de la Web Application con el backend desplegado en la nube. 
+
+A diferencia de los sprints anteriores, el esfuerzo de desarrollo se centró en unificar el ecosistema de la plataforma. El commit registrado evidencia la eliminación completa de la dependencia de datos simulados (*mock data*), la resolución de políticas de seguridad para la comunicación entre aplicaciones y la conexión final de los endpoints de producción. 
+
+A continuación, se detalla el commit que consolida la versión final del sistema:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Co-Designers/PetCare-Backend | main | eedbac8 | Final PetCare frontend integration | Fully integrated REST API endpoints with the Angular frontend. Resolved CORS policies for the production environment, removed all remaining mock data dependencies (json-server), and successfully connected the modules for appointments, medical records, and IoT monitoring. | 06/07/2026 |
 
 #### 5.2.4.5.Execution Evidence for Sprint Review.
 El Sprint 4 marcó el hito final en el desarrollo de la plataforma PetCare, logrando la integración total y definitiva entre el frontend (Angular) y el backend (RESTful API con Spring Boot). El objetivo central fue la eliminación absoluta de datos simulados, garantizando que toda la interfaz interactúe en tiempo real con la base de datos SQL Server alojada en Azure.
