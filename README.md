@@ -1925,7 +1925,24 @@ El Sprint Backlog 4 se estructuró con el objetivo de lograr la integración def
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
 
+
 #### 5.2.4.5.Execution Evidence for Sprint Review.
+El Sprint 4 marcó el hito final en el desarrollo de la plataforma PetCare, logrando la integración total y definitiva entre el frontend (Angular) y el backend (RESTful API con Spring Boot). El objetivo central fue la eliminación absoluta de datos simulados, garantizando que toda la interfaz interactúe en tiempo real con la base de datos SQL Server alojada en Azure.
+
+Durante esta iteración, se consolidaron los flujos críticos de la plataforma: autenticación segura mediante tokens JWT, gestión integral de historiales médicos, sistema de citas con disponibilidad real, procesamiento de pagos digitales y visualización de datos biométricos provenientes de dispositivos IoT. El producto final se encuentra ahora estable, seguro y listo para su despliegue en el entorno de producción.
+
+Principales vistas implementadas:
+
+-Panel de Agendamiento:Captura del formulario donde se visualiza la disponibilidad real de horarios tras la integración con el backend.
+
+-Dashboard de Veterinaria:Vista del registro de diagnósticos, evolución médica y recetas digitales.
+
+-Gestion de Historial:Visualización de los datos del paciente y la opción de exportación a PDF.
+
+-Dashboard IoT:Visualización de las métricas reales (temperatura y ritmo cardíaco) integradas al sistema.
+
+-Flujo de Autenticacion JWT:Pantalla de Login/Registro demostrando el manejo de sesiones mediante interceptores JWT.
+
 
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review.
 
