@@ -1910,6 +1910,19 @@ A continuación, se presenta la matriz de liderazgo y colaboración del Sprint 4
 
 #### 5.2.4.3.Sprint Backlog 4.
 
+El Sprint Backlog 4 se estructuró con el objetivo de lograr la integración definitiva del 100% de la plataforma PetCare. Las tareas seleccionadas se enfocaron en conectar las vistas del frontend que aún utilizaban datos simulados con los endpoints finales del RESTful API. Se priorizó la funcionalidad completa de reservas con disponibilidad real, la integración de pagos digitales, la gestión clínica avanzada para los veterinarios (evolución, recetas y vacunas), la exportación del historial y la conexión final de los datos biométricos IoT.
+
+| Sprint # | US ID | User Story Title | Task ID | Task Title | Description | Estimation | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Sprint 4 | US27 | Reservar atención veterinaria | W-01 | Integrar agendamiento con disponibilidad real | Conectar el formulario de reserva en Angular con el endpoint del backend para validar y bloquear horarios reales en la base de datos. | 3 horas | Jean Pool, Huaman de la Cruz | Done |
+| Sprint 4 | US28 | Confirmar cita con pago digital | W-02 | Integrar pasarela de pago simulada | Conectar el flujo de confirmación de citas con el procesamiento de pagos, asegurando que la cita pase a estado "Confirmada" tras el pago. | 4 horas | Ghiou Justinn, Mauricio Silva | Done |
+| Sprint 4 | TS09 | Gestionar cambios de citas | W-03 | Conectar reprogramación y cancelación | Implementar las llamadas HTTP (`PUT`/`DELETE`) desde el frontend para permitir a los usuarios modificar o cancelar sus citas, liberando los horarios. | 2 horas | Diego Roberto, Campoblanco | Done |
+| Sprint 4 | US19 | Registrar evolución médica | W-04 | Integrar registro de diagnóstico y evolución | Conectar el formulario del panel veterinario con el API para registrar nuevos síntomas, diagnósticos y tratamientos en el historial real de la mascota. | 3 horas | Katherine Maryory, Mejía | Done |
+| Sprint 4 | US20 | Generar receta médica digital | W-05 | Integrar emisión de recetas médicas | Configurar el endpoint para que, al finalizar una consulta, el veterinario pueda emitir y guardar indicaciones médicas trazables en el sistema. | 2 horas | Ghorghet Saul, Tuncar Vila | Done |
+| Sprint 4 | US32 | Registrar vacunas aplicadas | W-06 | Conectar actualización de vacunas | Implementar la integración para que el veterinario registre nuevas vacunas, impactando directamente en la base de datos y calculando el próximo control. | 2 horas | Katherine Maryory, Mejía | Done |
+| Sprint 4 | US21 | Exportar historial clínico | W-07 | Implementar descarga de historial en PDF | Conectar la vista del dueño de mascota con el servicio del backend encargado de generar y retornar el documento del historial clínico exportable. | 3 horas | Diego Roberto, Campoblanco | Done |
+| Sprint 4 | TS12 | Procesar monitoreo IoT y alertas | W-08 | Conectar dashboard IoT con datos reales | Reemplazar los datos estáticos de temperatura y ritmo cardíaco conectando el panel con los endpoints que procesan las lecturas biométricas y generan alertas. | 4 horas | Jean Pool, Huaman de la Cruz | Done |
+
 #### 5.2.4.4.Development Evidence for Sprint Review.
 
 #### 5.2.4.5.Execution Evidence for Sprint Review.
